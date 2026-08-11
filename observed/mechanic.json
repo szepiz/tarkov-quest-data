@@ -492,7 +492,8 @@
       "objectives": [
         "Eliminate PMC operatives while using an active headset without wearing any armor or helmet (10)",
         "Eliminate PMC operatives while wearing the TSh-4M-L soft tank crew helmet (10)"
-      ]
+      ],
+      "loyaltyNote": "BOTH SOURCES UNDERSTATE THE GATE, and an earlier verdict here was wrong. tarkov.dev and the wiki agree on Mechanic Loyalty Level 3 plus Peacekeeper Loyalty Level 4; the card sits in Mechanic's LL4 tab. This quest was previously written up as the ONE tarkov.dev gate that was correct, which came from comparing the observed LL4 against its PEACEKEEPER row instead of its Mechanic one. With that fixed, all three of tarkov.dev's testable gates are wrong, not two. It is the only one that understates rather than overstates, so a tracker following it offers this quest a level early."
     },
     {
       "name": "Shooter Born in Heaven",

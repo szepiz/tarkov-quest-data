@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T09:24:03.837Z",
+ "generatedAt": "2026-08-11T10:35:10.260Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -25,7 +25,7 @@
    "dating": "exact",
    "datingNote": "The day the quest was seen on screen.",
    "asOf": "2026-08-11",
-   "coverage": "299 quests",
+   "coverage": "300 quests",
    "profile": {
     "mode": "pve",
     "faction": "USEC",
@@ -65,7 +65,7 @@
  },
  "counts": {
   "quests": 538,
-  "confirmedInGame": 304,
+  "confirmedInGame": 305,
   "removedFromGame": 33,
   "unknownToEverySource": 5
  },
@@ -82045,6 +82045,12 @@
      "count": 30
     }
    ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ],
    "minPlayerLevel": null,
    "requires": [
     {
@@ -82077,28 +82083,34 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Worst_Job_in_the_World",
-   "asOf": "2026-08-05",
-   "confirmedInGame": false,
+   "asOf": "2026-08-10",
+   "confirmedInGame": true,
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "objectiveText": {
      "src": "wiki",
      "asOf": "2026-08-05",
-     "dating": "exact"
+     "dating": "exact",
+     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "loyalty": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "wiki",

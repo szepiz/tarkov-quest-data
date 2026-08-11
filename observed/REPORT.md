@@ -840,6 +840,12 @@ _every source agrees_
 _every source agrees_
 > in game: **Peacekeeper essential** · active · Shoreline
 
+### Worst Job in the World
+> in game: **Peacekeeper LL4** · active · Any location
+`63a9b229813bba58a50c9ee5` · matched on wiki title
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: Wet Job - Part 5 [complete], not observed yet; Revision - Streets of Tarkov [complete], seen in game at LL2
+
 ## Prapor
 _observed 2026-08-10, game version 1.1.0_
 
@@ -1894,12 +1900,12 @@ mark against a source, it is a gap someone else has to fill.
 
 | source | right | wrong | silent | accuracy where it speaks |
 |---|---|---|---|---|
-| tarkov.dev | 893 | 128 | 151 | 87% |
-| overlay | 2 | 1 | 301 | 67% |
-| wiki | 698 | 33 | 142 | 95% |
-| SPT | 458 | 88 | 52 | 84% |
+| tarkov.dev | 895 | 128 | 152 | 87% |
+| overlay | 2 | 1 | 302 | 67% |
+| wiki | 700 | 33 | 142 | 95% |
+| SPT | 460 | 88 | 52 | 84% |
 
-304 observed quest(s) checked, 5 matched no source at all.
+305 observed quest(s) checked, 5 matched no source at all.
 
 ## Claims this batch cannot settle
 
@@ -2029,6 +2035,7 @@ mark against a source, it is a gap someone else has to fill.
 - **Samples**, tarkov.dev claims minimum player level **21**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **TerraGroup Employee**, tarkov.dev claims minimum player level **23**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Wet Job - Part 1**, tarkov.dev claims minimum player level **14**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Worst Job in the World**, tarkov.dev claims minimum player level **25**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Luxurious Life**, tarkov.dev claims minimum player level **1**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Shootout Picnic**, tarkov.dev claims minimum player level **3**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Search Mission**, tarkov.dev claims minimum player level **5**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.

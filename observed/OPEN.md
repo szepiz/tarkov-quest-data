@@ -119,6 +119,7 @@ _none_
 
 - **BTR Driver**, 1 record(s). CANNOT BE COMPLETED BY THIS METHOD, and that is a structural fact rather than a gap in effort. The BTR Driver has NO TRADER TAB, there is no quest list to page through, so only the quest currently in progress is visible anywhere. Past and completed BTR quests cannot be read off the screen at all. tarkov.dev publishes 19 for this trader; we can only ever confirm the one that happens to be active.
 - **Lightkeeper**, 0 record(s). ZERO QUESTS, AND THAT IS THE OBSERVATION, not a missing batch. The Lightkeeper is not unlocked on this profile at all, so no quest of his is visible on any screen. tarkov.dev publishes 14 for him and none can be confirmed or contradicted from this profile. Recorded as an empty document on purpose: without it, a later reader would see Lightkeeper absent from observed/ and have no way to tell whether nobody looked or there was nothing to see.
+- **Peacekeeper**, 32 record(s). NOT complete since 2026-08-11. LL1-LL3 and the essential group were captured in full while Peacekeeper LL4 was still unreached, and LL4 has since been reached: "Worst Job in the World" arrived from it. The rest of the LL4 tab has not been read yet, so anything still in the published-but-never-seen pile for this trader is a question about that tab, not about the sources.
 - **Ragman**, 31 record(s). NOT complete, deliberately. LL1-LL3 and the essential group were all sent, but I have not reached Ragman LL4, the Collector unlock panel shows Ragman as one of two traders still short of LL4. Marking this complete would produce a straggler list accusing the sources of publishing quests that are simply not unlocked yet. It also means the two faction variants of 'Textile - Part 1', two of the three loyalty gates tarkov.dev publishes and the only ones left untested. CANNOT be settled from this profile until Ragman LL4 is reached.
 
 ## Removed from the game (tarkov.dev still publishes them)
@@ -128,7 +129,6 @@ _The wiki banners a removed quest's page with `{{Historical content}}` and keeps
 - **An Apple a Day Keeps the Doctor Away** (Therapist)
 - **Athlete** (Therapist)
 - **Capacity Check** (Mechanic)
-- **Cargo X - Part 3** (Peacekeeper)
 - **Closer to the People** (Therapist)
 - **Dangerous Road** (Therapist)
 - **Easy Job - Part 2** (Prapor)
@@ -141,7 +141,6 @@ _The wiki banners a removed quest's page with `{{Historical content}}` and keeps
 - **Insider** (Mechanic)
 - **Kind of Sabotage** (Skier)
 - **Loyalty Buyout** (Skier)
-- **Mentor** (Peacekeeper)
 - **Perfect Mediator** (Prapor)
 - **Pets Won't Need It - Part 2** (Therapist)
 - **Private Clinic** (Therapist)
@@ -150,8 +149,6 @@ _The wiki banners a removed quest's page with `{{Historical content}}` and keeps
 - **Shady Business** (Jaeger)
 - **Signal - Part 3** (Mechanic)
 - **Signal - Part 4** (Mechanic)
-- **Spa Tour - Part 2** (Peacekeeper)
-- **Spa Tour - Part 6** (Peacekeeper)
 - **The Bunker - Part 2** (Prapor)
 - **The Survivalist Path - Combat Medic** (Jaeger)
 
@@ -162,10 +159,8 @@ _Icebreaker is not in the normal map rotation, so its quests never appear outsid
 - **A Wedge Between Us** (Jaeger), the wiki gives its location as Icebreaker
 - **Biochemistry** (Therapist), the wiki gives its location as Icebreaker
 - **Oil Change** (Prapor), the wiki gives its location as Icebreaker
-- **Peaceful Atom** (Peacekeeper), the wiki gives its location as Icebreaker
 - **The Huntsman Path - Outcasts** (Jaeger), the wiki gives its location as Lighthouse, Icebreaker
 - **War Never Changes** (Therapist), the wiki gives its location as Icebreaker
-- **Wiring the Vessel** (Peacekeeper), the wiki gives its location as Icebreaker
 
 ## Published, but never seen on this profile
 
@@ -188,7 +183,6 @@ has four explanations, and all four are in evidence:
 - **Fence**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 11 more quest(s) under this trader: Compensation for Damage - Barkeep; Compensation for Damage - Collection; Compensation for Damage - Trust; Compensation for Damage - Wager; Compensation for Damage - Wergild; Friend Among Strangers; Immunity; Small Business - Part 1; Small Business - Part 2; Small Business - Part 3; The Choice.
 - **Jaeger**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 20 more quest(s) under this trader: Broadcast - Part 3; Broadcast - Part 4; Broadcast - Part 5; Claustrophobia; Forester's Duty; Hunting Trip; Nostalgia; The Huntsman Path - Eraser (tarkov.dev: The Huntsman Path - Eraser - Part 1); The Huntsman Path - Factory Chief; The Huntsman Path - Forest Cleaning; The Huntsman Path - Justice; The Huntsman Path - Liberation (tarkov.dev: The Huntsman Path - Eraser - Part 2); The Huntsman Path - Relentless; The Huntsman Path - Sadist; The Huntsman Path - Secured Perimeter; The Huntsman Path - Sellout; The Survivalist Path - Eagle-Owl; The Survivalist Path - Junkie; The Tarkov Shooter - Part 5; The Tarkov Shooter - Part 7 (tarkov.dev: The Tarkov Shooter - Part 8).
 - **Mechanic**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 28 more quest(s) under this trader: Airmail; Assessment - Part 1; Assessment - Part 2; Assessment - Part 3; Camera, Action!; Corporate Perks (tarkov.dev: Developer's Secrets - Part 1); Getting Acquainted; Goals and Means; Gunsmith Master - Part 10 (tarkov.dev: Gunsmith - Part 23); Gunsmith Master - Part 11 (tarkov.dev: Gunsmith - Part 24); Gunsmith Master - Part 9 (tarkov.dev: Gunsmith - Part 22); Hidden Layer; Hobby Club; Hypotheses Testing; Key to the Tower; Knock-Knock; Make Amends; Make Amends; Make Amends; Make Amends - Buyout; Make Amends - Equipment; Make Amends - Quarantine; Make Amends - Security; Make Amends - Software; Make Amends - Sweep Up; Network Provider - Part 1; Network Provider - Part 2; Offensive Reconnaissance.
-- **Peacekeeper**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 14 more quest(s) under this trader: Confidential Info; Counteraction; Gifts from Tarkov (tarkov.dev: Cargo X - Part 4); Insomnia; New Paths (tarkov.dev: New Day, New Paths); Special Equipment; The Cleaner; The Guide; Wet Job - Part 2; Wet Job - Part 3; Wet Job - Part 4; Wet Job - Part 5; Wet Job - Part 6; Worst Job in the World.
 - **Prapor**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 14 more quest(s) under this trader: Best Job in the World; Escort; Forge a Friendship; Half-Empty; Intimidator; Mall Cop (tarkov.dev: Gendarmerie - Mall Cop); Special Order (tarkov.dev: No Questions Asked); Stick in the Wheel; The Good Times - Part 2; The Punisher - Part 5; The Punisher - Part 6; Tickets, Please (tarkov.dev: Gendarmerie - Tickets, Please); Unique Experience (tarkov.dev: Test Drive - Part 6); Viewer.
 - **Ref**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 1 more quest(s) under this trader: Postponed Reward (tarkov.dev: Postponed Reward [PVE ZONE]).
 - **Skier**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 22 more quest(s) under this trader: A Life Lesson; Choose Your Friends Wisely; Connections Up North; Consolation Prize; Debtor; Fair Price - Part 1; Fair Price - Part 2; Get a Foothold; Hindsight 20/20; Indisputable Authority; Key Partner; Killer Argument; Minute of Fame; Never Too Late To Learn; Night Sweep; Profit Retention; Profitable Venture; Proper Comeback; Route Deviation; Safety Guarantee; Serious Allegations; The Higher They Fly.
@@ -200,7 +194,7 @@ has four explanations, and all four are in evidence:
 
 ## Level requirements nobody has had to meet
 
-295 observed quest(s) carry a tarkov.dev minimum player level that these
+296 observed quest(s) carry a tarkov.dev minimum player level that these
 observations can neither confirm nor deny, the profile was well above all of
 them, so reaching the quest proves nothing about the gate. Settling these needs
 a low-level profile, not more screenshots from this one.

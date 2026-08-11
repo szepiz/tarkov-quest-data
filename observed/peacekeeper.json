@@ -1,8 +1,8 @@
 {
   "trader": "Peacekeeper",
-  "allVisibleCaptured": true,
+  "allVisibleCaptured": false,
   "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
-  "allVisibleCapturedNote": "LL1-LL4 plus the essential group were all sent. The essential group holds a single quest.",
+  "allVisibleCapturedNote": "NOT complete since 2026-08-11. LL1-LL3 and the essential group were captured in full while Peacekeeper LL4 was still unreached, and LL4 has since been reached: \"Worst Job in the World\" arrived from it. The rest of the LL4 tab has not been read yet, so anything still in the published-but-never-seen pile for this trader is a question about that tab, not about the sources.",
   "observedAt": "2026-08-10",
   "gameVersion": "1.1.0",
   "profile": {
@@ -75,7 +75,8 @@
       "objectives": [
         "Locate and obtain the lab journal on Factory",
         "Stash the journal at the old sawmill on Woods"
-      ]
+      ],
+      "loyaltyNote": "THE FIRST WIKI-SOURCED LOYALTY GATE THE GAME CONTRADICTS. The wiki's Requirements section reads \"Must be Loyalty Level 2 to start this quest\" with no trader named, so it means the quest's own trader; the card is in Peacekeeper's LL1 tab. tarkov.dev publishes no gate at all here. Worth keeping in view because 46 of these wiki-read gates are now checkable against the game and this is the only one that fails, so the rule is sound and not perfect."
     },
     {
       "name": "Fuel Shortage",
@@ -410,6 +411,18 @@
       "objectives": [
         "Eliminate Scavs with an M4A1, M16, ADAR, or TX-15 on Shoreline (10)"
       ]
+    },
+    {
+      "name": "Worst Job in the World",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target with AR-15 weapons from over 100 meters away on Reserve, Lighthouse, Shoreline, or Ground Zero (30)"
+      ],
+      "confirmsLoyaltyGate": "CONFIRMS A WIKI-SOURCED LOYALTY GATE, the first one the game has agreed with. tarkov.dev publishes no trader requirement for this quest at all; the wiki's Requirements section says Peacekeeper LL4 and the card is filed under the LL4 tab. That is one independent confirmation of the rule behind 66 gates added on 2026-08-11, against tarkov.dev's own 5 (of which 3 were testable and 2 wrong).",
+      "verbatimNote": "The card carries a crown glyph next to the status, which no earlier capture recorded. tarkov.dev publishes kappaRequired=false for this quest, so either the glyph means something other than Kappa or that flag is wrong. Recorded rather than interpreted."
     }
   ]
 }
