@@ -13,7 +13,7 @@ Where a source disagrees with a record in here, the source is wrong.
 
 ## What's in it
 
-**304 records across all eleven traders**, captured on 2026-08-10 and -11, on
+**305 records across all eleven traders**, captured from 2026-08-10 onward, on
 game version 1.1.0, from a **PvE, USEC** profile.
 
 | trader | records | | trader | records |
@@ -23,10 +23,10 @@ game version 1.1.0, from a **PvE, USEC** profile.
 | Skier | 39 | | BTR Driver | 1 |
 | Therapist | 39 | | Lightkeeper | 0 |
 | Jaeger | 37 | | | |
-| Peacekeeper | 31 | | | |
+| Peacekeeper | 32 | | | |
 | Ragman | 31 | | | |
 
-Statuses: 193 completed, 106 active, 4 failed, 1 locked.
+Statuses: 193 completed, 107 active, 4 failed, 1 locked.
 
 The faction was never written down at capture time and never had to be asked
 for, because the collection settles it. Four quests are faction-exclusive with no
@@ -44,8 +44,9 @@ the id. Anything keyed by id was picking one of those at a coin flip.
 A quest gated behind an unfinished quest, or behind a loyalty level not yet
 reached, never appears on screen at all, so no trader here is complete in the
 absolute sense. The `allVisibleCaptured` flag only says that every tab the trader
-shows was captured. It's `false` for three traders, each with the reason recorded
-on the document.
+shows was captured. It's `false` for four traders, each with the reason recorded
+on the document. Peacekeeper joined them once its LL4 tab opened: the trader was
+captured while LL4 was unreached, so the tab it now shows has not been read.
 
 Two more limits, so nobody over-reads it:
 
@@ -94,8 +95,8 @@ It grades every collected source against these records and writes two files:
 
 ## What it found
 
-Against these 304 records: the **wiki is 698 of 731 (95%)**, tarkov.dev is
-**893 of 1021 (87%)**, SPT is 458 of 546 (84%), and the overlay is 2 of 3. The
+Against these 305 records: the **wiki is 700 of 733 (95%)**, tarkov.dev is
+**895 of 1023 (87%)**, SPT is 460 of 548 (84%), and the overlay is 2 of 3. The
 overlay is a correction layer of 13 tasks and says nothing about almost
 everything, which is by design.
 

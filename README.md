@@ -96,7 +96,7 @@ where raw has served a stale copy long after a push.
 ## Where the data comes from
 
 Four public sources, collected verbatim, plus one that isn't public anywhere
-else: 304 quests read off my own game screen and written down, which is what the
+else: 305 quests read off my own game screen and written down, which is what the
 other four get graded against.
 
 | source | what it is | worth knowing |
@@ -105,7 +105,7 @@ other four get graded against.
 | **wiki** (escapefromtarkov.fandom.com) | 495 pages covering 533 quest ids | tracks the game closely, because people edit it. Dated per page. CC BY-SA |
 | **tarkov-data-overlay** (tarkovtracker-org) | a community correction layer over tarkov.dev | small and targeted: 13 task entries. Carries JSON schemas worth reading |
 | **SPT** (`sp-tarkov/server`) | BSG's own condition schema | the quest JSON hasn't moved since March 2025. A schema reference, not current data |
-| **observed/** | 304 quests read off the in-game screen | mine, CC0. Not a fifth opinion, it's the thing the other four are describing |
+| **observed/** | 305 quests read off the in-game screen | mine, CC0. Not a fifth opinion, it's the thing the other four are describing |
 
 TarkovTracker isn't here on purpose. Its public API serves a user's own progress
 behind a token and publishes no quest data of its own; underneath it's tarkov.dev
@@ -203,19 +203,20 @@ id. Ragman's Drip-Out and Textile lines are the ones that catch people.
 
 ## What's in observed/
 
-Every quest a single PvE, USEC profile could see on 2026-08-10 and -11, across
-all eleven traders. 304 records: 193 completed, 106 active, 4 failed, 1 locked.
+Every quest a single PvE, USEC profile could see, across all eleven traders, from
+2026-08-10 onward. 305 records: 193 completed, 107 active, 4 failed, 1 locked.
 
 That's not the same as complete. A quest gated behind an unfinished quest, or
 behind a loyalty level not yet reached, never appears on screen at all, so no
-trader in there is complete in the absolute sense. Eight traders had their whole
-visible list captured. Three couldn't: Ragman (LL4 not reached), the BTR Driver
-(no trader tab exists, so only the active quest is ever visible), and the
-Lightkeeper (not unlocked, kept as an empty file on purpose so you can tell
-"nobody looked" from "there was nothing to see").
+trader in there is complete in the absolute sense. Seven traders had their whole
+visible list captured. Four couldn't: Ragman (LL4 not reached), the BTR Driver
+(no trader tab exists, so only the active quest is ever visible), the Lightkeeper
+(not unlocked, kept as an empty file on purpose so you can tell "nobody looked"
+from "there was nothing to see"), and Peacekeeper, whose LL4 tab opened after it
+was collected and has not been read since.
 
-Graded against those 304 records: **wiki 698 of 731 (95%)**, tarkov.dev 893 of
-1021 (87%), SPT 458 of 546 (84%), the overlay 2 of 3.
+Graded against those 305 records: **wiki 700 of 733 (95%)**, tarkov.dev 895 of
+1023 (87%), SPT 460 of 548 (84%), the overlay 2 of 3.
 
 Five quests exist in the game and in none of the four sources: Therapist's *Fall
 Ailment* and *The Tarkov Butcher*, and Peacekeeper's *Hiking*, *Secret Message*

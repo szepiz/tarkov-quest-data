@@ -1,7 +1,7 @@
 # Findings
 
 The long version. Everything below came out of comparing four published sources
-against 304 quests read off the in-game screen, and most of it is stuff no source
+against 305 quests read off the in-game screen, and most of it is stuff no source
 currently reflects.
 
 If you just want to use the data, [api/README.md](api/README.md) is enough. This
@@ -150,16 +150,30 @@ automatically.
 ### And the loyalty gates that replaced it are barely published
 
 tarkov.dev publishes **five** trader-loyalty requirements in the entire dataset.
-Three are testable from the observations, and two of those are wrong, both
-overstating the gate:
+Three are testable against the observations, and **all three are wrong**:
 
-- Mechanic's *Setting Priorities* (LL4). Correct.
 - Prapor's *Shaking Up the Teller*: published LL2, offered at **LL1**.
 - Jaeger's *Hunter*, which the game now calls *All This Filth...*: published LL4
   by tarkov.dev **and** the wiki, offered at **LL1**.
+- Mechanic's *Setting Priorities*: published Mechanic LL3, offered at **LL4**.
+  The only one that UNDERSTATES, so a tool following it offers the quest a level
+  early.
+
+That last line is a correction. *Setting Priorities* was written up here as the
+one tarkov.dev gate that was right, and it was not: the quest carries **two**
+gates, Mechanic LL3 and Peacekeeper LL4, and the observed LL4 had been compared
+against the Peacekeeper row instead of the Mechanic one. Matching the wrong row
+of the right quest is the same class of mistake as matching the wrong quest, and
+when a quest has several requirements it is worth naming which one you checked.
 
 The remaining two are the faction variants of Ragman's `Textile - Part 1` at
 Ragman LL4, which this profile can't reach.
+
+**Reading the gates off the wiki instead works, mostly.** 65 quests carry one in
+`api/quests.json` against tarkov.dev's 5, and checked against every observation
+that shows a loyalty tab: **45 right, 1 wrong**. The failure is Peacekeeper's
+*One Less Loose End*, where the wiki says "Must be Loyalty Level 2" and the card
+sits in the LL1 tab.
 
 For comparison: 62 wiki pages state a loyalty level, the overlay has 0, SPT has 4.
 
