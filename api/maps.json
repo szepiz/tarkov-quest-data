@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-11T10:35:10.356Z",
+ "generatedAt": "2026-08-11T17:04:56.468Z",
  "what": "Map-side data for Escape from Tarkov: hand-placed corrections and additions, BattlePass document locations, and the story campaign.",
  "pairsWith": "api/quests.json, joined by quest id and by map name.",
  "mergeContract": {
@@ -13,13 +13,13 @@
    "what": "Positions placed by hand in the tracker's map editor, checked against the game.",
    "dating": "exact",
    "datingNote": "The day the data was last baked.",
-   "asOf": "2026-08-10",
+   "asOf": "2026-08-11",
    "license": "CC0-1.0"
   },
   "overlay": {
    "what": "tarkov-data-overlay (tarkovtracker-org), the source of the story chapter list.",
    "dating": "snapshot",
-   "asOf": "2026-08-10",
+   "asOf": "2026-08-11",
    "note": "Chapters only. Their locations, and every hazard and interactable, are hand-placed."
   }
  },
@@ -651,7 +651,7 @@
   },
   "provenance": {
    "src": "placed by hand",
-   "asOf": "2026-08-10",
+   "asOf": "2026-08-11",
    "dating": "exact"
   }
  },
@@ -3158,7 +3158,7 @@
   ],
   "provenance": {
    "src": "placed by hand",
-   "asOf": "2026-08-10",
+   "asOf": "2026-08-11",
    "dating": "exact"
   }
  },
@@ -3836,12 +3836,12 @@
   "provenance": {
    "spots": {
     "src": "in game",
-    "asOf": "2026-08-10",
+    "asOf": "2026-08-11",
     "dating": "exact"
    },
    "pins": {
     "src": "placed by hand",
-    "asOf": "2026-08-10",
+    "asOf": "2026-08-11",
     "dating": "exact"
    }
   }
@@ -10415,7 +10415,21 @@
       "maps": [
        "Customs"
       ],
-      "synthetic": true
+      "synthetic": true,
+      "points": [
+       {
+        "map": "Customs",
+        "floor": -1,
+        "kind": "pin",
+        "color": "blue",
+        "pts": [
+         {
+          "x": 128.97,
+          "z": -153.08
+         }
+        ]
+       }
+      ]
      },
      {
       "id": "wiki-boreas-1f52l8y",
@@ -10425,7 +10439,21 @@
       "maps": [
        "Customs"
       ],
-      "synthetic": true
+      "synthetic": true,
+      "points": [
+       {
+        "map": "Customs",
+        "floor": -1,
+        "kind": "pin",
+        "color": "blue",
+        "pts": [
+         {
+          "x": 204.87,
+          "z": -121.16
+         }
+        ]
+       }
+      ]
      },
      {
       "id": "wiki-boreas-1kihn17",
@@ -10462,8 +10490,40 @@
       "type": "main",
       "description": "Eliminate any 10 targets at the smugglers' territories",
       "sourceQuestId": null,
-      "maps": [],
-      "synthetic": true
+      "maps": [
+       "Shoreline"
+      ],
+      "synthetic": true,
+      "points": [
+       {
+        "map": "Shoreline",
+        "floor": -1,
+        "kind": "area",
+        "color": "blue",
+        "pts": [
+         {
+          "x": -618.4,
+          "z": -261.24
+         },
+         {
+          "x": -585.76,
+          "z": -170.74
+         },
+         {
+          "x": -632.15,
+          "z": -155.28
+         },
+         {
+          "x": -665.36,
+          "z": -244.63
+         },
+         {
+          "x": -618.98,
+          "z": -262.96
+         }
+        ]
+       }
+      ]
      },
      {
       "id": "6a10769d3795c09172e840a2",
@@ -11417,8 +11477,24 @@
       "type": "main",
       "description": "Inform the scientist that everything is ready for his evacuation",
       "sourceQuestId": null,
-      "maps": [],
-      "synthetic": true
+      "maps": [
+       "Icebreaker"
+      ],
+      "synthetic": true,
+      "points": [
+       {
+        "map": "Icebreaker",
+        "floor": 5,
+        "kind": "pin",
+        "color": "blue",
+        "pts": [
+         {
+          "x": 7.4,
+          "z": 32.07
+         }
+        ]
+       }
+      ]
      },
      {
       "id": "wiki-boreas-y5frzb",
@@ -11434,7 +11510,7 @@
   ],
   "provenance": {
    "src": "tarkov-data-overlay",
-   "asOf": "2026-08-10",
+   "asOf": "2026-08-11",
    "dating": "snapshot"
   }
  }

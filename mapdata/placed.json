@@ -2,28 +2,9 @@
  "what": "Hand-placed map corrections and additions, made in the tracker's map editor.",
  "firstParty": true,
  "placedBy": "szepiz",
- "bakedAt": "2026-08-10",
+ "bakedAt": "2026-08-11",
  "license": "CC0-1.0",
  "note": "Coordinates are game units, matching tarkov.dev's coordinate space. `floor` is -1 when a map has no floors. Keys in the correction maps are \"<map>|<label>|<x>|<z>\" as the editor writes them.",
- "counts": {
-  "labels": 50,
-  "extracts": 15,
-  "objectives": 55,
-  "transits": 5,
-  "switches": 7,
-  "objectiveFloors": 3,
-  "extractFloors": 9,
-  "labelFloors": 1,
-  "transitFloors": 2,
-  "switchFloors": 0,
-  "hidden": 39,
-  "extractFactions": 0,
-  "extractNotes": 0,
-  "extractSwitches": 0,
-  "newLabels": 219,
-  "mapTexts": 87,
-  "newExtracts": 2
- },
  "labels": {
   "The Lab|Warehouse Gate|-170|-248": {
    "x": -168.6,
@@ -2880,5 +2861,24 @@
    "faction": 2,
    "floor": -1
   }
- ]
+ ],
+ "counts": {
+  "labels": 50,
+  "extracts": 15,
+  "objectives": 55,
+  "transits": 5,
+  "switches": 7,
+  "objectiveFloors": 3,
+  "extractFloors": 9,
+  "labelFloors": 1,
+  "transitFloors": 2,
+  "switchFloors": 0,
+  "hidden": 39,
+  "extractFactions": 0,
+  "extractNotes": 0,
+  "extractSwitches": 0,
+  "newLabels": 219,
+  "mapTexts": 87,
+  "newExtracts": 2
+ }
 }
