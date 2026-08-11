@@ -1,0 +1,440 @@
+{
+  "trader": "Jaeger",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "LL1-LL4 plus the essential group were all sent.",
+  "observedAt": "2026-08-11",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10; see the Fence batch, whose [PVE ZONE] cards carry ids that exist only in tarkov.dev's pve task list.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. Objective text is verbatim, including the (Optional) prefix.",
+  "quests": [
+    {
+      "name": "Rough Tarkov",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the heavily mined area at the USEC camp on Woods",
+        "Locate the Claymore mine on Ground Zero"
+      ]
+    },
+    {
+      "name": "The Huntsman Path - Trophy",
+      "location": "Customs",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Reshala",
+        "Hand over the found in raid Reshala's Golden TT-33 pistol"
+      ]
+    },
+    {
+      "name": "Work Smarter",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the secret exfil on Customs",
+        "(Optional) Obtain the special item to extract through the secret exfil"
+      ]
+    },
+    {
+      "name": "Swift",
+      "location": "Woods",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target without wearing any armor and helmets on Woods (10)"
+      ]
+    },
+    {
+      "name": "Acquaintance",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over any items from the Food category (10)"
+      ]
+    },
+    {
+      "name": "The Huntsman Path - Angry Watchman",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives in the Dorms area on Customs (3)"
+      ]
+    },
+    {
+      "name": "First Aid",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the items from the Medkits category in raid (4)",
+        "Hand over the items (4)",
+        "Find the items from the Injury treatment category in raid (4)",
+        "Hand over the items (4)"
+      ]
+    },
+    {
+      "name": "All This Filth...",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs on Interchange, Ground Zero, Woods, or Customs (20)"
+      ]
+    },
+    {
+      "name": "The Huntsman Path - Woods Keeper",
+      "location": "Woods",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Shturman",
+        "Search Shturman for his stash key"
+      ]
+    },
+    {
+      "name": "The Huntsman Path - Big Game",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Kaban"
+      ]
+    },
+    {
+      "name": "Every Hunter Knows This",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate a good tripwire installation spot in the breach room on Factory",
+        "Locate a good tripwire installation spot at the three-story dorm stairs on Customs"
+      ]
+    },
+    {
+      "name": "Cease Fire!",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "RSP-30 reactive signal cartridge (Green) (2)"
+      ],
+      "objectives": [
+        "Survive and extract from Streets of Tarkov through Klimov Street (Flare)"
+      ]
+    },
+    {
+      "name": "Courtesy Visit",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the chairman's house in the abandoned village on Shoreline",
+        "Locate the fisherman's house in the abandoned village on Shoreline",
+        "Locate the priest's house in the abandoned village on Shoreline"
+      ]
+    },
+    {
+      "name": "The Huntsman Path - Crooked Cop",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Kollontay",
+        "Hand over the found in raid Kollontay's police baton"
+      ]
+    },
+    {
+      "name": "The Delicious Sausage",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Scout the Shestyorochka store at Nikitskaya street",
+        "Scout the Sparja store at Primorsky ave",
+        "Scout the Sparja store in Pinewood hotel",
+        "Scout the Goshan store in Concordia",
+        "Hand over the found in raid item: Salty Dog beef sausage"
+      ]
+    },
+    {
+      "name": "Dragnet",
+      "location": "Factory",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the chemical container at the TerraGroup warehouse on Factory",
+        "Hand over the chemical container"
+      ]
+    },
+    {
+      "name": "Reserve",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the food warehouse on Reserve",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "The Huntsman Path - Administrator",
+      "location": "Lighthouse",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "itemChanged": "THREE SOURCES, THREE DIFFERENT MAPS, and the game wins. The map is LIGHTHOUSE, launch a yellow signal flare at the train station. Confirmed in game on 2026-08-11. tarkov.dev says Streets of Tarkov; the wiki says Reserve (\"Shoot a yellow signal flare in the Train depot\", \"Eliminate any target in the train depot on reserve\"). Both are wrong, and this is the only quest in the collection where all three sources name a different map.\n  The wiki's claim was invisible until the map scan was made case-insensitive: it writes \"on reserve\" in lowercase, so a case-sensitive scan found no map at all and graded the wiki `silent`.",
+      "objectives": [
+        "Launch a yellow signal flare at the train station on Lighthouse"
+      ],
+      "openQuestion": "OBJECTIVE COUNT STILL OPEN, deliberately. Both sources list 2 objectives (flare, then eliminate) against the 1 shown here, and the quest is ACTIVE, so under the progressive-reveal rule a second objective gated behind the flare would not be printed yet. This will be confirmed on completing it. Until then the map is settled and the count is not."
+    },
+    {
+      "name": "The Hermit",
+      "location": "Lighthouse",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the hideout of Jaeger's friend on Lighthouse"
+      ]
+    },
+    {
+      "name": "Fishing Place",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: TerraGroup Labs access keycard (2)",
+        "Hand over the items (2)"
+      ]
+    },
+    {
+      "name": "Pest Control",
+      "location": "Reserve",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs around the main barracks on Reserve (10)"
+      ]
+    },
+    {
+      "name": "Slaughterhouse",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "verbatimNote": "The first objective says 'daytime Factory', the game distinguishing the day variant in the objective text rather than as a separate map name. Sources collapse Night Factory and Factory into one map; this is the other half of that distinction, expressed in prose.",
+      "objectives": [
+        "Eliminate Scavs with melee weapons on daytime Factory (10)",
+        "Eliminate Scavs with melee weapons on Streets of Tarkov (10)",
+        "Eliminate Scavs with melee weapons on Lighthouse (10)",
+        "Eliminate Scavs with melee weapons on Shoreline (10)",
+        "Eliminate Scavs with melee weapons on Reserve (10)",
+        "Eliminate Scavs with melee weapons on Ground Zero (10)"
+      ]
+    },
+    {
+      "name": "Stray Dogs",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Knight (in one raid)",
+        "Locate and neutralize Big Pipe (in one raid)",
+        "Locate and neutralize Birdeye (in one raid)"
+      ]
+    },
+    {
+      "name": "The Huntsman Path - Control",
+      "location": "The Lab",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target in The Lab (in one raid) (10)"
+      ]
+    },
+    {
+      "name": "The Tarkov Shooter - Part 1",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Mosin 7.62x54R bolt-action rifle (Sniper) (2)",
+        "MP-18 7.62x54R single-shot rifle (2)"
+      ],
+      "objectives": [
+        "Eliminate Scavs from over 40 meters away with a bolt-action rifle with iron sights (5)"
+      ],
+      "questId": "5bc4776586f774512d07cf05",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. Unmoved, same number, same objective."
+    },
+    {
+      "name": "The Tarkov Shooter - Part 2",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Shoot any target in the legs from over 40 meters away with a bolt-action rifle (3)",
+        "Shoot any target in the head from over 40 meters away with a bolt-action rifle (2)"
+      ],
+      "questId": "5bc479e586f7747f376c7da3",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. Unmoved, same number, same two objectives."
+    },
+    {
+      "name": "The Tarkov Shooter - Part 3",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives from less than 25 meters away with a bolt-action rifle (3)"
+      ],
+      "questId": "5bc47dbf86f7741ee74e93b9",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. Unmoved, same number, same objective."
+    },
+    {
+      "name": "The Tarkov Shooter - Part 4",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "lineShattered": "THE LINE IS STABLE FOR THREE PARTS AND THEN THE SOURCE HAS TWO EXTRA, the second renumbering found, after The Punisher. Read off the full source line:\n  game 1,2,3 = source 1,2,3, word for word (only 'while using' became 'with').\n  game 4 'Eliminate any target with a bolt-action rifle' matches NO source part; source 4 is 'PMC operatives from over 80 meters away' and source 5 is 'Scavs 21:00-05:00 on Customs'. Both of those are gone from the game.\n  game 5 = source 6 (Sniper Scavs). game 6 = source 7 (suppressed).\n  So the game dropped two mid-line parts and renumbered the rest down by one. The wiki has partly followed: it titles source Part 8's page 'The Tarkov Shooter - Part 7'.\n  THE DETECTOR'S FLAG WAS RIGHT AND ITS SUGGESTION WAS WRONG. It proposed source Part 8 for game Part 6 (53% word overlap vs 36%), but the correct answer is Part 7, the distinctive token 'suppressed' is worth less to a Jaccard score than the filler words 'with' and 'a' that Part 8 happens to share. Trust the flag, verify the suggestion by reading the text. Third time a similarity heuristic has named the wrong quest while correctly noticing something was off.",
+      "objectives": [
+        "Eliminate any target with a bolt-action rifle (15)"
+      ],
+      "openQuestion": "THE ONLY PART OF THIS LINE CONTENT CANNOT PIN. Every other part matches a tarkov.dev record word for word once the renumbering is undone, but this card reads \"Eliminate any target with a bolt-action rifle (15)\" and NO source has that objective. tarkov.dev's Part 4 and the wiki's Part 4 both say \"5 PMC operatives from over 80 meters away\". By position it should be tarkov.dev id 5bc480a686f7741af0342e29, and the wiki is otherwise exactly right about this line, it renumbered 5, 6 and 7 to match the game and deleted the old Part 5 (night kills on Customs), which no longer exists anywhere. So either the wiki has not updated this one page's objective text, or the reading needs a second look. Left unpinned rather than guessed."
+    },
+    {
+      "name": "The Tarkov Shooter - Part 5",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Sniper Scavs with a bolt-action rifle (5)"
+      ],
+      "questId": "5bc4836986f7740c0152911c",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. tarkov.dev publishes this as Part 6, \"Eliminate Sniper Scavs while using a bolt-action rifle\". The wiki has already renumbered it to Part 5, matching the game."
+    },
+    {
+      "name": "The Tarkov Shooter - Part 6",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives with a suppressed bolt-action rifle (5)"
+      ],
+      "questId": "5bc4856986f77454c317bea7",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. tarkov.dev publishes this as Part 7, the SUPPRESSED bolt-action PMC kills. \"Suppressed\" is the decisive word; an earlier guess of Part 8 was wrong because filler words outweighed it. The wiki has renumbered this to Part 6, matching the game."
+    },
+    {
+      "name": "The Survivalist Path - Tough Guy",
+      "location": "Woods",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs in a single raid without using any medicine on Woods (3)"
+      ]
+    },
+    {
+      "name": "The Survivalist Path - Thrifty",
+      "location": "Woods",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Stash an Iskra ration pack in the ZB-016 bunker on Woods",
+        "Stash a Bottle of water (0.6L) in the ZB-016 bunker on Woods",
+        "Stash an Iskra ration pack in the ZB-014 bunker on Woods",
+        "Stash a Bottle of water (0.6L) in the ZB-014 bunker on Woods"
+      ]
+    },
+    {
+      "name": "The Survivalist Path - Zhivchik",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Gain the Dehydration status effect and maintain it for 5 minutes (On any location excluding Factory)",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "The Survivalist Path - Unprotected but Dangerous",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives without wearing any body armor or plate carriers (5)"
+      ]
+    },
+    {
+      "name": "The Survivalist Path - Wounded Beast",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs while suffering from the Pain status effect (3)"
+      ]
+    },
+    {
+      "name": "The Survivalist Path - Cold Blooded",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives with headshots while suffering from the Tremor status effect (2)"
+      ]
+    },
+    {
+      "name": "Thirsty - Hounds",
+      "location": "Shoreline",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "lineShattered": "THE 'THIRSTY' LINE IS SPLIT ACROSS AT LEAST THREE TRADERS. Skier has 'Thirsty - Delivery' and 'Thirsty - Breadwinner'; Therapist's straggler list holds 'Thirsty - Echo' and 'Thirsty - Secrets'; and this one is Jaeger's. Every other multi-part line in this collection belongs to a single trader, so a consumer grouping quests by line name will produce a group spanning three traders.",
+      "objectives": [
+        "Eliminate Scavs during 22:00-07:00 on Shoreline (12)"
+      ]
+    }
+  ]
+}

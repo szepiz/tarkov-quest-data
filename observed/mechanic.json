@@ -1,0 +1,688 @@
+{
+  "trader": "Mechanic",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "LL1-LL4 plus the essential group were all sent.",
+  "observedAt": "2026-08-10",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10; see the Fence batch, whose [PVE ZONE] cards carry ids that exist only in tarkov.dev's pve task list.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. Objective text is verbatim, including the (Optional) prefix.",
+  "quests": [
+    {
+      "name": "Bad Habit",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Wilston cigarettes"
+      ],
+      "objectives": [
+        "Find the item in raid: Malboro, Wilston, or Strike cigarettes (15)",
+        "Hand over the items (15)"
+      ]
+    },
+    {
+      "name": "Steady Signal",
+      "location": "Woods",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MS2000 Marker"
+      ],
+      "objectives": [
+        "Mark any of the weather stations with an MS2000 Marker on Woods"
+      ]
+    },
+    {
+      "name": "Saving the Mole",
+      "location": "Ground Zero",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Access the lab scientist's office on Ground Zero",
+        "(Optional) Locate the USEC group at the parking lot of the TerraGroup complex",
+        "(Optional) Locate the lab scientist in the TerraGroup complex",
+        "Locate and obtain the scientist's hard drive",
+        "Hand over the hard drive"
+      ]
+    },
+    {
+      "name": "Gunsmith - MP-133",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "lineShattered": "THE GUNSMITH LINE, MAPPED IN FULL FROM THE GAME, 13 renames, the largest single set in this collection. Part 1 -> MP-133, 2 -> AKS-74U, 3 -> HK MP5, 4 -> OP-SKS, 5 -> Model 870, 6 -> AKM, 7 -> M4A1, 8 -> AKS-74N, 9 -> P226R, 10 -> AK-105, 11 -> Vector 9x19, 12 -> MPX, and then 15 -> AS VAL. Note the JUMP: parts 1-12 map in strict numerical order and then it skips to 15, so the numbering is NOT a reliable index into the weapon list. tarkov.dev publishes Gunsmith parts up to 25 plus 'Old Friend's Request', so 13 more remain unseen, most likely at LL4 or behind the ones still active.",
+      "startingEquipment": [
+        "MP-133 12ga pump-action shotgun"
+      ],
+      "objectives": [
+        "Modify an MP-133 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "The Courier",
+      "location": "Customs",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Trijicon REAP-IR thermal scope"
+      ],
+      "objectives": [
+        "Stash a Trijicon REAP-IR scope behind the trash containers at the new gas station on Customs"
+      ]
+    },
+    {
+      "name": "Farming",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "lineShattered": "BREAKS THE PATTERN I HAD GENERALISED. Everywhere else the line HEAD keeps the base name. Operation Aquarius - Part 1 -> Operation Aquarius, Colleagues - Part 1 -> Colleagues, Vitamins - Part 1 -> Vitamins. Here the base name went to PART 3: tarkov.dev's 'Farming - Part 3' is the game's 'Farming', confirmed by content (the same three objectives, with the first two swapped in order) and by the wiki, whose page for that id is titled 'Farming'. The rest of the line scattered too: Part 1 -> 'Playing the Market', Part 4 -> 'Semiconductor Crisis', Part 2 not yet renamed on the wiki. So 'a - Part 1 in a source name means that quest kept the base name' is NOT a safe rule, check the content.",
+      "objectives": [
+        "Locate the warehouse of seized goods on Customs",
+        "Obtain the package of graphics cards",
+        "Hand over the package"
+      ]
+    },
+    {
+      "name": "Gunsmith - HK MP5",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+      ],
+      "objectives": [
+        "Modify an MP5 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Passion for Ergonomics",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the customized tool set at the garage complex on Customs",
+        "Hand over the found item"
+      ]
+    },
+    {
+      "name": "Gunsmith - AKS-74U",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Kalashnikov AKS-74U 5.45x39 assault rifle"
+      ],
+      "objectives": [
+        "Modify an AKS-74U to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Playing the Market",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Fix the first control board with a Toolset on Factory",
+        "Fix the second control board with a Toolset on Factory"
+      ]
+    },
+    {
+      "name": "Gunsmith - OP-SKS",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+      ],
+      "objectives": [
+        "Modify an OP-SKS to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Watching You",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the surveillance spot on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "The Secret to Productivity",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Unravel the secret of the IT firm's employees' high morale on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "Gunsmith - Model 870",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Remington Model 870 12ga pump-action shotgun"
+      ],
+      "objectives": [
+        "Modify a Remington Model 870 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Surveillance",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Obtain the data on vehicle movement at the Concordia residential complex parking lot on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "Scout",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the first Factory extraction",
+        "Locate the second Factory extraction",
+        "Locate the third Factory extraction",
+        "Locate the fourth Factory extraction",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Black Swan",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MS2000 Marker"
+      ],
+      "objectives": [
+        "Locate and mark any of the heat exchangers with an MS2000 Marker on Factory"
+      ]
+    },
+    {
+      "name": "Ill-Wisher",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Signal Jammer",
+        "Signal Jammer (2)"
+      ],
+      "objectives": [
+        "Locate the first signal source on Shoreline",
+        "Place a Signal jammer on the first signal source",
+        "Locate the second signal source on Shoreline",
+        "Place a Signal jammer on the second signal source"
+      ]
+    },
+    {
+      "name": "Chemistry Closet",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate Sanitar's office in the health resort on Shoreline",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Rat Hunting",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: PC CPU",
+        "Hand over the items",
+        "Find the item in raid: Rechargeable battery",
+        "Hand over the items",
+        "Find the item in raid: Printed circuit board",
+        "Hand over the items"
+      ]
+    },
+    {
+      "name": "Secrets of Polikhim",
+      "location": "Transition",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the precision tools package in the med lab on Customs",
+        "Use the transit from Customs to Factory (In one raid)",
+        "Stash the package at the laboratory storage room on Factory"
+      ]
+    },
+    {
+      "name": "Gunsmith - M4A1",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an M4A1 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith - P226R",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a P226R to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Semiconductor Crisis",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: Graphics card",
+        "Hand over the item",
+        "Find the item in raid: CPU Fan (8)",
+        "Hand over the items (8)"
+      ]
+    },
+    {
+      "name": "Corporate Secrets",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the data on the water pump operation on Lighthouse",
+        "Hand over the extracted data",
+        "Locate and obtain the data on the pumping station operation on Lighthouse",
+        "Hand over the extracted data"
+      ]
+    },
+    {
+      "name": "Gunsmith - AK-105",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an AK-105 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Surplus Goods",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Obtain the MBT Integrated Navigation System on Reserve",
+        "Hand over the navigation system"
+      ]
+    },
+    {
+      "name": "The Door",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "WI-FI Camera"
+      ],
+      "objectives": [
+        "Locate the cause of the signal interference on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "Gunsmith - MPX",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a SIG MPX to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Energy Crisis",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find and mark the group of fuel tanks with an MS2000 Marker on Lighthouse",
+        "Find and mark the first tanker truck with an MS2000 Marker on Lighthouse",
+        "Find and mark the second tanker truck with an MS2000 Marker on Lighthouse",
+        "Find and mark the third tanker truck with an MS2000 Marker on Lighthouse"
+      ]
+    },
+    {
+      "name": "Import",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "verbatimNote": "Both find lines print 'Find the item raid:' with the word 'in' MISSING. BSG's typo, kept as shown. Every other quest in this collection prints 'Find the item in raid:'.",
+      "objectives": [
+        "Find the item raid: UHF RFID Reader",
+        "Hand over the item",
+        "Find the item raid: VPX Flash Storage Module",
+        "Hand over the item"
+      ]
+    },
+    {
+      "name": "Gunsmith - AKS-74N",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an AKS-74N to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith - AKM",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an AKM to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith - Vector 9x19",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a KRISS Vector 9x19 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Back Door",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the secret underground bunker exit on Reserve",
+        "(Optional) Locate the switch that activates the exit",
+        "Survive and extract from the location through the secret exit"
+      ]
+    },
+    {
+      "name": "Gunsmith - AS VAL",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an AS VAL to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Fertilizers",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: Bundle of wires (10)",
+        "Hand over the items (10)",
+        "Find the item in raid: Capacitors (6)",
+        "Hand over the items (6)"
+      ]
+    },
+    {
+      "name": "Psycho Sniper",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target with a bolt-action rifle without dying (15)"
+      ]
+    },
+    {
+      "name": "Calibration",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives from over 100 meters away (20)"
+      ]
+    },
+    {
+      "name": "Setting Priorities",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "loyaltyGateTested": "ONE OF THE FIVE LOYALTY GATES TARKOV.DEV PUBLISHES AT ALL, AND IT IS RIGHT. It carries Mechanic LL4 (plus a redundant LL3) and the game lists this at LL4. That makes two of the five tested: this one correct, and Prapor's 'Shaking Up the Teller' wrong (published LL2, offered in game at LL1). The remaining three are Jaeger's 'Hunter' (LL4) and the two faction variants of Ragman's 'Textile - Part 1' (LL4), both traders still to be collected, so the whole of tarkov.dev's loyalty dataset can be settled.",
+      "objectives": [
+        "Eliminate PMC operatives while using an active headset without wearing any armor or helmet (10)",
+        "Eliminate PMC operatives while wearing the TSh-4M-L soft tank crew helmet (10)"
+      ]
+    },
+    {
+      "name": "Shooter Born in Heaven",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives with a bolt-action rifle headshot on Customs or Lighthouse (5)",
+        "Eliminate PMC operatives with a bolt-action rifle headshot on Streets of Tarkov or Shoreline (5)",
+        "Eliminate PMC operatives with a bolt-action rifle headshot on Interchange or Ground Zero (5)",
+        "Eliminate PMC operatives with a bolt-action rifle headshot on Woods or Reserve (5)"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 1",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "lineShattered": "THE GUNSMITH LINE WAS SPLIT IN TWO AND THE SECOND HALF RENUMBERED, and renaming runs in BOTH directions. Parts 1-12 and 15 became weapon names (see Gunsmith - MP-133); parts 13, 14 and 16-21, plus 25, became a new numbered line called GUNSMITH MASTER, and every mapping below was verified word-for-word against the source objective:\n  Part 14 -> Master 1 (HK 416A5), Part 13 -> Master 2 (R11 RSASS), note those two are SWAPPED. Part 16 -> Master 3 (DVL-10), 17 -> 4 (AK-102), 18 -> 5 (AKMN), 19 -> 6 (SVDS), 20 -> 7 (M1A), 21 -> 8 (M700 + M1911), 25 -> 13 (PKP).\n  And 'Gunsmith - Old Friend's Request' became 'Gunsmith Master - Part 12'. That is a NAMED quest turning into a NUMBERED one, the exact opposite of the 13 numbered-to-named renames in the same original line. So 1.1.0 did not simply move away from numbering.\n  The line-scoped content check cannot catch any of this: the game's name is in the 'gunsmith master' line while the source's is in 'gunsmith', so they are never compared. These matches rest on the wiki's page mapping, and the content agreement above is what confirms them.",
+      "objectives": [
+        "Modify an HK 416A5 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 2",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an R11 RSASS to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 3",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a DVL-10 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 4",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an AK-102 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 5",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an AKMN to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 6",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an SVDS to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 7",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an M1A to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 8",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an M700 to comply with the given specifications",
+        "Modify an M1911 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 12",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a T-5000M to comply with the given specifications",
+        "Modify a PP-19-01 to comply with the given specifications",
+        "Modify a Glock 17 to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Gunsmith Master - Part 13",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a PKP machine gun to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Needle in a Haystack",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Investigate the courtyard park by TerraGroup HQ on Ground Zero",
+        "Investigate the kart track on Interchange",
+        "Investigate the indoor children's playground on Interchange",
+        "Investigate the children's playground by Concordia on Streets of Tarkov",
+        "Investigate the coast-side construction site on Shoreline",
+        "Investigate the children's playground by the Health Resort on Shoreline"
+      ]
+    },
+    {
+      "name": "Shady Contractor",
+      "location": "Ground Zero",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the Knossos LLC senior manager's car on Ground Zero",
+        "Locate and obtain the manager's diary",
+        "Hand over the diary"
+      ]
+    },
+    {
+      "name": "Broadcast - Part 1",
+      "location": "Lighthouse",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the hidden recording studio on Lighthouse",
+        "Place a Signal Jammer inside the studio"
+      ]
+    },
+    {
+      "name": "Broadcast - Part 2",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the place of bloody broadcast inside the grocery store on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "A Helping Hand",
+      "location": "Woods",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectiveTypeNote": "Its third objective is 'Complete the task Shipping Delay - Part 1', an objective whose completion condition is ANOTHER QUEST. That is a prerequisite expressed as an objective rather than in taskRequirements, so a tool reading only taskRequirements will not see it, and a tool reading only objectives will not know it is a dependency.",
+      "objectives": [
+        "Locate and obtain Prapor's package on Woods",
+        "Survive and extract from the location",
+        "Complete the task Shipping Delay - Part 1"
+      ]
+    },
+    {
+      "name": "Introduction",
+      "location": "Woods",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Find Jaeger's camp at the specified spot on Woods",
+        "Obtain Jaeger's encrypted message",
+        "Hand over the message"
+      ]
+    }
+  ]
+}

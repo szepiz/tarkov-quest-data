@@ -1,0 +1,358 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Tarkov quest trees</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg:#0d0d0a; --line:#2a2a20; --ink:#c8c4b8; --dim:#6f6c62;
+    --gold:#c9a94a; --gold-dim:#8a7534; --hot:#c2502f; --cold:#4d7ea8; --ok:#7d8f4a;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg); color: var(--ink); overflow: hidden;
+    font: 13px/1.4 "Bender", "Oswald", "Segoe UI Semibold", "Segoe UI", system-ui, sans-serif;
+    letter-spacing: .01em;
+    background-image:
+      radial-gradient(ellipse at 50% 0%, rgba(120,110,80,.07), transparent 60%),
+      repeating-linear-gradient(0deg, rgba(255,255,255,.012) 0 1px, transparent 1px 3px);
+  }
+  header {
+    position: fixed; inset: 0 0 auto 0; z-index: 5; padding: 7px 14px 8px;
+    background: linear-gradient(180deg, #16160f, #101009);
+    border-bottom: 1px solid var(--line);
+  }
+  .top { display: flex; align-items: center; gap: 14px; margin-bottom: 7px; }
+  .brand { color: var(--gold); text-transform: uppercase; letter-spacing: .16em; font-size: 12px; }
+  .brand b { color: var(--dim); font-weight: 400; letter-spacing: .04em; text-transform: none; }
+  .hint { color: var(--dim); font-size: 11px; margin-left: auto; white-space: nowrap; }
+  /* the trader rows mirror the in-game trader screen: nine, then two */
+  .trow { display: flex; gap: 3px; margin-bottom: 3px; }
+  .tab {
+    padding: 4px 10px; font-size: 11px; text-transform: uppercase; letter-spacing: .09em;
+    color: var(--dim); background: #16160f; border: 1px solid var(--line);
+    cursor: pointer; white-space: nowrap;
+  }
+  .tab:hover { color: var(--ink); background: #1d1d14; }
+  .tab.on { color: #1a1608; background: var(--gold); border-color: var(--gold-dim); font-weight: 600; }
+  .tab .n { opacity: .55; margin-left: 6px; font-size: 10px; }
+  /* game mode picks the whole DATA SET, so it reads as bone rather than gold, a different kind of choice from which trader you are looking at */
+  .mtabs { display: flex; gap: 3px; }
+  .mtabs div {
+    padding: 3px 12px; font-size: 11px; text-transform: uppercase; letter-spacing: .12em;
+    color: var(--dim); background: #16160f; border: 1px solid var(--line); cursor: pointer; white-space: nowrap;
+  }
+  .mtabs div:hover { color: var(--ink); background: #1d1d14; }
+  .mtabs div.on { color: #0d0d0a; background: var(--ink); border-color: #8b8778; font-weight: 600; }
+  .mtabs div .n { opacity: .5; margin-left: 6px; font-size: 10px; }
+  /* dragging the canvas must not sweep-select every label on it */
+  #stage { position: fixed; inset: 0 0 0 0; cursor: grab;
+    user-select: none; -webkit-user-select: none; -moz-user-select: none; }
+  #stage.drag { cursor: grabbing; }
+  svg { display: block; width: 100%; height: 100%; }
+  text { font-family: inherit; }
+
+  .tplate { fill: #17170f; stroke: var(--gold-dim); stroke-width: 1.5; }
+  .tname { fill: var(--gold); font-size: 30px; letter-spacing: .14em; text-transform: uppercase; }
+  .tsub  { fill: var(--dim); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+  .navbox { fill: #16160f; stroke: var(--line); }
+  .navgrp { cursor: pointer; }
+  .navgrp:hover .navbox { fill: #23231a; stroke: var(--gold-dim); }
+  .navtext { fill: var(--ink); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; pointer-events: none; }
+  .navarrow { fill: var(--gold); pointer-events: none; }
+
+  .edge { stroke: #3d3a2c; stroke-width: 1.5; fill: none; }
+  .edge.hot { stroke: var(--gold); stroke-width: 2.5; }
+  .qbox { fill: #15150e; stroke: #3a3a2c; stroke-width: 1.5; }
+  .qbox.only { stroke: var(--cold); }
+  /* confirmed in game beats every other outline, it is the only one that is not a claim */
+  .qbox.confirmed { stroke: var(--ok); }
+  .qnode { cursor: pointer; }
+  .qnode:hover .qbox { stroke: var(--gold); fill: #1c1b12; }
+  .qnode.lit .qbox { stroke: var(--gold); fill: #221f13; }
+  .qname { fill: var(--ink); font-size: 14px; }
+  .qold  { fill: var(--dim); font-size: 10px; font-style: italic; }
+  .qmap  { fill: #9a968a; font-size: 11px; letter-spacing: .04em; }
+  .badge-ll  { fill: var(--cold); font-size: 11px; letter-spacing: .05em; }
+  .badge-obs { fill: var(--ok); font-size: 11px; letter-spacing: .05em; font-weight: 600; }
+  .badge-lvl { fill: var(--hot); font-size: 11px; letter-spacing: .05em; }
+  .obsnote { fill: var(--hot); font-size: 10px; letter-spacing: .04em; }
+  .kappa { fill: var(--ok); font-size: 10px; letter-spacing: .08em; }
+  .modeonly { fill: var(--cold); font-size: 10px; letter-spacing: .08em; }
+  .cont  { fill: #cfcbbf; font-size: 10px; letter-spacing: .04em; }
+  .cont-go { fill: var(--gold); font-size: 10px; letter-spacing: .06em; }
+  .rowrule { stroke: #201f18; stroke-width: 1; stroke-dasharray: 2 6; }
+  .rowlab { fill: #4a483f; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; }
+  #ruler { visibility: hidden; }
+</style>
+<header>
+  <div class="top">
+    <span class="brand">Quest trees <b id="src"></b></span>
+    <div class="mtabs" id="modes"></div>
+    <span class="hint">drag to pan · scroll to zoom · click a quest to trace its line</span>
+  </div>
+  <div id="tabs"></div>
+</header>
+<div id="stage"><svg id="svg"><g id="cam"></g><text id="ruler" class="qname"></text></svg></div>
+<script>
+const DATA = /*DATA*/;
+const NS = 'http://www.w3.org/2000/svg';
+const $ = (id) => document.getElementById(id);
+const el = (n, a = {}, kids = []) => {
+  const e = document.createElementNS(NS, n);
+  for (const [k, v] of Object.entries(a)) if (v != null) e.setAttribute(k, v);
+  for (const c of [].concat(kids)) e.appendChild(typeof c === 'string' ? document.createTextNode(c) : c);
+  return e;
+};
+const txt = (x, y, cls, s, extra = {}) => el('text', { x, y, class: cls, ...extra }, String(s));
+
+// Real rendered width, from the font actually in use. Character-count guesses
+// are what make a box that fits "Debut" and clips "Gunsmith - AS VAL".
+const ruler = $('ruler');
+const widthOf = (s, cls) => {
+  ruler.setAttribute('class', cls);
+  ruler.textContent = String(s);
+  return ruler.getComputedTextLength();
+};
+
+// The loyalty badge, in one place because layout has to measure exactly what
+// draw() will render. An OBSERVED level is shown even when it is LL1. LL1 means
+// "no gate", which is worth stating as a confirmed fact rather than as absence.
+const loyBadge = (n) => {
+  if (n.observed && n.observed.loyalty != null) return { text: 'LL' + n.observed.loyalty + ' ✓', cls: 'badge-obs' };
+  if (n.loyalty) return { text: 'LL' + n.loyalty, cls: 'badge-ll' };
+  return null;
+};
+
+const PADX = 14, HGAP = 26, VGAP = 92, PAD = 40;
+const NAME_H = 24, OLD_H = 14, META_H = 20, BOX_PADY = 12;
+let mode = DATA.modes[0];
+let idx = 0, lit = null;
+const cam = { x: 0, y: 0, k: 1 };
+let geom = null;
+
+// every trader list is per mode; nothing else in here needs to know that
+const TR = () => DATA.byMode[mode];
+const modeNames = (ms) => ms.map((m) => DATA.modeLabels[m]).join(' + ');
+
+function layout(t) {
+  // one width for the whole trader, set by its longest name plus whatever the
+  // meta row needs, a ragged grid is harder to read than a wide one
+  let w = 180;
+  let anyOld = false;
+  for (const n of t.nodes) {
+    w = Math.max(w, widthOf(n.name, 'qname') + PADX * 2);
+    if (n.devName) {
+      anyOld = true;
+      w = Math.max(w, widthOf('was ' + n.devName, 'qold') + PADX * 2);
+    }
+    const lb = loyBadge(n);
+    const meta = (n.map ? widthOf(n.map, 'qmap') : 0)
+      + (lb ? widthOf(lb.text, lb.cls) + 10 : 0)
+      + (n.level ? widthOf('LVL ' + n.level, 'badge-lvl') + 10 : 0);
+    w = Math.max(w, meta + PADX * 2 + 18);
+  }
+  w = Math.ceil(w);
+  const h = BOX_PADY + NAME_H + (anyOld ? OLD_H : 0) + META_H;
+  const headerY = 214;
+  const boardW = t.widest * w + (t.widest - 1) * HGAP;
+  const at = new Map();
+  for (const n of t.nodes) {
+    const rowN = t.layerSizes[n.layer];
+    const rowW = rowN * w + (rowN - 1) * HGAP;
+    const x = PAD + (boardW - rowW) / 2 + n.slot * (w + HGAP);
+    const y = headerY + n.layer * (h + VGAP);
+    at.set(n.id, { ...n, x, y });
+  }
+  return { w, h, anyOld, headerY,
+    width: boardW + PAD * 2, height: headerY + t.rows * (h + VGAP) + PAD, at };
+}
+
+function draw() {
+  const list = TR();
+  const t = list[idx];
+  geom = layout(t);
+  const { w, h, at } = geom;
+  const g = $('cam');
+  g.innerHTML = '';
+
+  for (let r = 0; r < t.rows; r++) {
+    const y = geom.headerY + r * (h + VGAP) - 22;
+    g.appendChild(el('line', { x1: 8, y1: y, x2: geom.width - 8, y2: y, class: 'rowrule' }));
+    g.appendChild(txt(12, y - 6, 'rowlab', r === 0 ? 'available first' : 'after ' + r));
+  }
+
+  for (const e of t.edges) {
+    const a = at.get(e.from), b = at.get(e.to);
+    if (!a || !b) continue;
+    const x1 = a.x + w / 2, y1 = a.y + h, x2 = b.x + w / 2, y2 = b.y;
+    const mid = (y1 + y2) / 2;
+    const hot = lit && (lit === e.from || lit === e.to);
+    g.appendChild(el('path', { class: 'edge' + (hot ? ' hot' : ''),
+      d: `M${x1},${y1} C${x1},${mid} ${x2},${mid} ${x2},${y2}` }));
+  }
+
+  // ---- trader plate, with its neighbours immediately either side
+  const PW = 360, PH = 150, NAV_W = 132, NAV_GAP = 12;
+  const cx = geom.width / 2, py = 22;
+  const px = cx - PW / 2;
+  const portrait = DATA.portraits[t.id];
+  g.appendChild(el('rect', { x: px, y: py, width: PW, height: PH, rx: 2, class: 'tplate' }));
+  if (portrait) {
+    g.appendChild(el('image', { href: portrait, x: px + 12, y: py + 12, width: 108, height: 108,
+      preserveAspectRatio: 'xMidYMid slice' }));
+    g.appendChild(el('rect', { x: px + 12, y: py + 12, width: 108, height: 108, fill: 'none', stroke: '#3a3a2c' }));
+  }
+  const tx = px + (portrait ? 136 : 24);
+  g.appendChild(txt(tx, py + 58, 'tname', t.name));
+  g.appendChild(txt(tx, py + 82, 'tsub', t.count + (t.count === 1 ? ' quest · ' : ' quests · ') + DATA.modeLabels[mode]));
+  g.appendChild(txt(tx, py + 102, 'tsub', t.rows + ' steps deep'));
+
+  const nav = (x, label, dir, to) => {
+    const grp = el('g', { class: 'navgrp' });
+    grp.appendChild(el('rect', { x, y: py + PH / 2 - 19, width: NAV_W, height: 38, rx: 2, class: 'navbox' }));
+    const ay = py + PH / 2;
+    grp.appendChild(el('path', { class: 'navarrow',
+      d: dir < 0 ? `M${x + 14},${ay} l13,-8 v16 z` : `M${x + NAV_W - 14},${ay} l-13,-8 v16 z` }));
+    grp.appendChild(txt(x + NAV_W / 2 + (dir < 0 ? 7 : -7), ay + 4, 'navtext', label, { 'text-anchor': 'middle' }));
+    grp.addEventListener('click', () => go(to));
+    return grp;
+  };
+  const prev = (idx - 1 + list.length) % list.length;
+  const next = (idx + 1) % list.length;
+  g.appendChild(nav(px - NAV_GAP - NAV_W, list[prev].name, -1, prev));
+  g.appendChild(nav(px + PW + NAV_GAP, list[next].name, 1, next));
+
+  // ---- quest nodes
+  for (const n of t.nodes) {
+    const p = at.get(n.id);
+    const grp = el('g', { class: 'qnode' + (lit === n.id ? ' lit' : '') });
+    grp.appendChild(el('rect', { x: p.x, y: p.y, width: w, height: h, rx: 2,
+      class: 'qbox' + (n.only ? ' only' : '') + (n.observed ? ' confirmed' : '') }));
+    let ty = p.y + BOX_PADY + 12;
+    grp.appendChild(txt(p.x + PADX, ty, 'qname', n.name));
+    if (n.devName) { ty += OLD_H; grp.appendChild(txt(p.x + PADX, ty, 'qold', 'was ' + n.devName)); }
+    ty += META_H;
+    if (n.map) grp.appendChild(txt(p.x + PADX, ty, 'qmap', n.map));
+    let bx = p.x + w - PADX;
+    if (n.level) { grp.appendChild(txt(bx, ty, 'badge-lvl', 'LVL ' + n.level, { 'text-anchor': 'end' })); bx -= widthOf('LVL ' + n.level, 'badge-lvl') + 10; }
+    const lb = loyBadge(n);
+    if (lb) grp.appendChild(txt(bx, ty, lb.cls, lb.text, { 'text-anchor': 'end' }));
+    // where the game contradicted what the sources publish, say so on the box
+    if (n.observed && n.observed.contradicts) {
+      grp.appendChild(txt(p.x + w - PADX, p.y - 7, 'obsnote', n.observed.contradicts, { 'text-anchor': 'end' }));
+    }
+    if (n.kappa) grp.appendChild(txt(p.x + PADX, p.y - 7, 'kappa', 'KAPPA'));
+    // a quest no other mode has, the thing the mode switch is here to show
+    if (n.only) grp.appendChild(txt(p.x + w - PADX, p.y - 7, 'modeonly',
+      modeNames(n.only) + ' only', { 'text-anchor': 'end' }));
+    if (n.continues) {
+      grp.appendChild(txt(p.x + w / 2, p.y + h + 16, 'cont', 'continues at ' + n.continues.join(', '), { 'text-anchor': 'middle' }));
+      grp.appendChild(txt(p.x + w / 2, p.y + h + 28, 'cont-go', 'click to switch', { 'text-anchor': 'middle' }));
+    }
+    grp.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      if (n.continues && lit === n.id) {
+        const to = TR().findIndex((x) => x.name === n.continues[0]);
+        if (to >= 0) return go(to);
+      }
+      lit = lit === n.id ? null : n.id;
+      draw();
+    });
+    g.appendChild(grp);
+  }
+  const confirmed = t.nodes.filter((n) => n.observed).length;
+  $('src').textContent = `, edges are tarkov.dev prerequisites, badges from the wiki`
+    + (confirmed ? ` · ${confirmed} confirmed in game (green)` : '');
+  document.querySelectorAll('.tab').forEach((c) => c.classList.toggle('on', c.dataset.name === t.name));
+  document.querySelectorAll('.mtabs div').forEach((c) => c.classList.toggle('on', c.dataset.mode === mode));
+}
+
+const go = (i) => { idx = i; lit = null; draw(); fit(); };
+function apply() { $('cam').setAttribute('transform', `translate(${cam.x},${cam.y}) scale(${cam.k})`); }
+function fit() {
+  const s = $('stage').getBoundingClientRect();
+  const top = document.querySelector('header').getBoundingClientRect().height + 10;
+  cam.k = Math.min(s.width / geom.width, (s.height - top) / geom.height, 1) * 0.95;
+  cam.x = (s.width - geom.width * cam.k) / 2;
+  cam.y = top;
+  apply();
+}
+
+// ---- mode, then trader. Switching mode keeps the trader you were looking at,
+// by NAME: the index is a position in a list whose length changes with the mode.
+function setMode(m) {
+  if (m === mode) return;
+  const name = (TR()[idx] || {}).name;
+  mode = m;
+  buildTabs();
+  const i = TR().findIndex((t) => t.name === name);
+  idx = i >= 0 ? i : 0;
+  lit = null;
+  draw(); fit();
+}
+
+$('modes').innerHTML = DATA.modes.map((m) => {
+  const n = (DATA.byMode[m] || []).reduce((s, t) => s + t.count, 0);
+  return `<div data-mode="${m}">${DATA.modeLabels[m]}<span class="n">${n}</span></div>`;
+}).join('');
+[...$('modes').children].forEach((b) => b.addEventListener('click', () => setMode(b.dataset.mode)));
+
+// tabs, laid out in the game's own two rows
+function buildTabs() {
+  const tabHost = $('tabs');
+  tabHost.innerHTML = '';
+  for (const row of DATA.traderRows) {
+    const div = document.createElement('div');
+    div.className = 'trow';
+    for (const name of row) {
+      const i = TR().findIndex((t) => t.name === name);
+      if (i < 0) continue;
+      const b = document.createElement('div');
+      b.className = 'tab';
+      b.dataset.name = name;
+      b.innerHTML = `${name}<span class="n">${TR()[i].count}</span>`;
+      b.addEventListener('click', () => go(TR().findIndex((t) => t.name === name)));
+      div.appendChild(b);
+    }
+    tabHost.appendChild(div);
+  }
+}
+buildTabs();
+
+const stage = $('stage');
+let dragging = false, sx = 0, sy = 0;
+stage.addEventListener('mousedown', (e) => {
+  e.preventDefault();        // belt and braces: the CSS stops the highlight, this stops the drag-select gesture starting at all
+  dragging = true; sx = e.clientX - cam.x; sy = e.clientY - cam.y; stage.classList.add('drag');
+});
+addEventListener('mousemove', (e) => { if (!dragging) return; cam.x = e.clientX - sx; cam.y = e.clientY - sy; apply(); });
+addEventListener('mouseup', () => { dragging = false; stage.classList.remove('drag'); });
+stage.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  const r = stage.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+  const f = e.deltaY < 0 ? 1.12 : 1 / 1.12, k = Math.max(0.06, Math.min(3, cam.k * f));
+  cam.x = mx - (mx - cam.x) * (k / cam.k); cam.y = my - (my - cam.y) * (k / cam.k); cam.k = k;
+  apply();
+}, { passive: false });
+stage.addEventListener('click', () => { if (lit) { lit = null; draw(); } });
+addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') go((idx + 1) % TR().length);
+  if (e.key === 'ArrowLeft') go((idx - 1 + TR().length) % TR().length);
+  const mi = DATA.modes.indexOf(mode);
+  if (e.key === 'ArrowUp') setMode(DATA.modes[(mi - 1 + DATA.modes.length) % DATA.modes.length]);
+  if (e.key === 'ArrowDown') setMode(DATA.modes[(mi + 1) % DATA.modes.length]);
+});
+addEventListener('resize', fit);
+draw(); fit();
+</script>
+<footer>
+  Quest text from the <a href="https://escapefromtarkov.fandom.com">Escape from Tarkov Wiki</a>
+  (contributors, CC BY-SA 3.0), <a href="https://tarkov.dev">tarkov.dev</a>,
+  tarkov-data-overlay and SPT, plus first-party in-game observations.
+  Unofficial; Escape from Tarkov is a trademark of Battlestate Games.
+</footer>
+<style>
+  footer { border-top: 1px solid #2a2a20; padding: 10px 16px; color: #6f6c65; font-size: 11px; }
+  footer a { color: #8a8676; }
+</style>

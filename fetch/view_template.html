@@ -1,0 +1,321 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Tarkov quest data: what each source says</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #14140f; color: #d8d5cd;
+         font: 13px/1.5 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  header { padding: 10px 16px; border-bottom: 1px solid #2a2a20; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+  h1 { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; margin: 0; color: #c9a94a; }
+  .sub { color: #7d7a72; font-size: 11px; }
+  input[type=search] { background: #1c1c14; border: 1px solid #3a3a2c; color: #d8d5cd;
+    padding: 5px 9px; border-radius: 3px; font: inherit; min-width: 240px; }
+  label.chk { color: #a5a29a; font-size: 12px; display: flex; gap: 5px; align-items: center; cursor: pointer; }
+  .modes { display: flex; gap: 3px; }
+  .modes button { font: inherit; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+    background: #1c1c14; border: 1px solid #3a3a2c; color: #7d7a72; padding: 4px 11px; cursor: pointer; border-radius: 2px; }
+  .modes button:hover { color: #d8d5cd; background: #26261a; }
+  .modes button.on { background: #c9a94a; border-color: #8a7534; color: #1a1608; font-weight: 600; }
+  .modes button .n { opacity: .55; margin-left: 6px; font-size: 10px; }
+  main { display: grid; grid-template-columns: 320px 1fr; height: calc(100vh - 49px); }
+  #list { overflow-y: auto; border-right: 1px solid #2a2a20; }
+  #list div { padding: 6px 12px; cursor: pointer; border-bottom: 1px solid #1e1e17; }
+  #list div:hover { background: #1e1e17; }
+  #list div.on { background: #2a2618; }
+  #list .qn { color: #d8d5cd; }
+  #list .qt { color: #7d7a72; font-size: 11px; }
+  #list .flag { color: #e0603f; font-weight: 700; margin-left: 5px; }
+  #list .mflag { color: #4d7ea8; font-size: 10px; letter-spacing: .05em; margin-left: 5px; }
+  #detail { overflow-y: auto; padding: 16px 20px 60px; }
+  h2 { font-size: 17px; margin: 0 0 2px; color: #fff; }
+  .qid { color: #6f6c65; font-size: 11px; font-family: ui-monospace, monospace; margin-bottom: 14px; }
+  table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+  th, td { text-align: left; vertical-align: top; padding: 5px 9px; border-bottom: 1px solid #22221a; }
+  th { color: #7d7a72; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; }
+  td.f { color: #a5a29a; width: 130px; white-space: nowrap; }
+  .disagree td:not(.f) { background: #2a1c14; }
+  .disagree td.f { color: #e0603f; }
+  .modebox { border: 1px solid #2a3a48; background: #131b21; padding: 10px 12px; margin-bottom: 18px; }
+  .modebox h3 { margin: 0 0 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #4d7ea8; }
+  .modebox table { margin: 0; }
+  .modebox td, .modebox th { border-bottom: 1px solid #1b262e; }
+  .modebox td.f { color: #7d9ab0; }
+  /* the in-game record sits ABOVE the four sources, not beside them */
+  .obsbox { border: 1px solid #3d4a26; background: #171c11; padding: 10px 12px; margin-bottom: 18px; }
+  .obsbox h3 { margin: 0 0 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: #9cb356; }
+  .obsbox table { margin: 0; }
+  .obsbox td, .obsbox th { border-bottom: 1px solid #23291a; }
+  .obsbox td.f { color: #8b9a63; }
+  .obsbox .warn { color: #e0603f; }
+  #list .cflag { color: #9cb356; font-weight: 700; margin-left: 5px; }
+  .none { color: #55524c; font-style: italic; }
+  ul { margin: 0; padding-left: 16px; }
+  li { margin: 1px 0; }
+  .legend { color: #7d7a72; font-size: 11px; margin: 0 0 14px; }
+  .pill { display: inline-block; background: #2a1c14; color: #e0603f; padding: 0 5px; border-radius: 3px; }
+  .pill.m { background: #16232c; color: #4d7ea8; }
+  .fac { display: inline-flex; align-items: center; gap: 4px; margin-left: 10px; }
+  .fac label { color: #7d7a72; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+  .fac button { background: #16150f; border: 1px solid #2e2b22; color: #9a9689; font: inherit;
+    font-size: 11px; padding: 1px 7px; border-radius: 3px; cursor: pointer; }
+  .fac button.on { background: #2a2416; border-color: #6b5a2a; color: #d9c98a; }
+  .verdict { border-left: 3px solid #3a5a3a; background: #141a14; padding: 7px 10px; margin: 0 0 12px; border-radius: 3px; }
+  .verdict b { display: block; color: #8fbf8f; font-size: 12px; letter-spacing: .03em; }
+  .verdict span { color: #8a8879; font-size: 12px; }
+  .verdict.wiki { border-color: #3a4f6a; background: #12171d; }
+  .verdict.wiki b { color: #86adcf; }
+  .verdict.tarkov-dev, .verdict.unsettled { border-color: #5a4f2a; background: #191710; }
+  .verdict.unsettled b { color: #c9b473; }
+  .verdict.gone { border-color: #7a2f22; background: #1d1210; }
+  .verdict.gone b { color: #e0603f; }
+</style>
+<header>
+  <h1>Every source, side by side</h1>
+  <div class="modes" id="modes"></div>
+  <input type="search" id="q" placeholder="search quest or trader…" autocomplete="off">
+  <label class="chk"><input type="checkbox" id="onlyDiff"> only source disagreements</label>
+  <label class="chk"><input type="checkbox" id="onlyMode"> only mode differences</label>
+  <label class="chk"><input type="checkbox" id="onlyObs"> only confirmed in game</label>
+  <label class="chk"><input type="checkbox" id="onlyGone"> only removed from the game</label>
+  <span class="fac" id="fac"></span>
+  <span class="sub" id="stat"></span>
+</header>
+<main>
+  <div id="list"></div>
+  <div id="detail"><p class="legend">Pick a quest. Rows where the sources disagree are <span class="pill">highlighted</span>;
+    anything that changes with the game mode is <span class="pill m">marked in blue</span>.
+    Nothing here is corrected or merged, this is the raw evidence.</p></div>
+</main>
+<script>
+const DATA = /*DATA*/;
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const norm = (v) => Array.isArray(v) ? v.map((x) => String(x).trim().toLowerCase()).sort().join('|')
+  : (v == null || v === '' ? '' : String(v).trim().toLowerCase());
+
+let MODE = DATA.modes[0];
+
+// A row stores tarkov.dev's values once, plus overrides for the modes that say
+// something else. Resolving is the whole of the mode switch.
+const devOf = (r, mode = MODE) => Object.assign({}, r.dev, (r.devByMode && r.devByMode[mode]) || {});
+const inMode = (r, mode = MODE) => r.modes.includes(mode);
+const modeNames = (ms) => ms.map((m) => DATA.modeLabels[m]).join(' + ');
+
+// a row disagrees when two sources that BOTH said something said different things
+function disagrees(vals) {
+  const said = Object.values(vals).map(norm).filter((v) => v !== '');
+  return said.length > 1 && new Set(said).size > 1;
+}
+const cell = (v) => {
+  if (v == null || (Array.isArray(v) && !v.length) || v === '') return '<span class="none">, </span>';
+  if (Array.isArray(v)) return '<ul>' + v.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>';
+  return esc(v);
+};
+
+// Flags are computed against the SELECTED mode, because the values being
+// compared are the selected mode's. A level that differs by mode would
+// otherwise be judged against whichever mode happened to build the file.
+function questFlags(r) {
+  const d = devOf(r);
+  const f = [];
+  if (disagrees({ td: d.name, ovr: r.name.ovr, wiki: r.name.wiki, spt: r.name.spt })) f.push('name');
+  if (disagrees({ td: d.trader, spt: r.trader.spt })) f.push('trader');
+  const devMaps = [...new Set([d.map, ...(d.objMaps || [])].filter(Boolean))];
+  if (disagrees({ td: devMaps, wiki: r.map.wiki })) f.push('map');
+  if (disagrees({ td: d.level, spt: r.level.spt })) f.push('level');
+  if (disagrees({ td: d.loyalty, wiki: r.loyalty.wiki, spt: r.loyalty.spt })) f.push('loyalty');
+  if (d.objectives.length !== r.objectives.wiki.length && r.objectives.wiki.length) f.push('objectives');
+  return f;
+}
+
+// tabs
+$('modes').innerHTML = DATA.modes.map((m) =>
+  `<button data-mode="${m}">${esc(DATA.modeLabels[m])}<span class="n">${DATA.modeCounts[m]}</span></button>`).join('');
+[...$('modes').children].forEach((b) => b.addEventListener('click', () => {
+  MODE = b.dataset.mode;
+  render();
+  if (sel && DATA.rows.some((r) => r.id === sel && inMode(r))) show(sel);
+  else $('detail').innerHTML = '<p class="legend">Pick a quest.</p>';
+}));
+
+// FACTION. Some quests are published once per faction under the SAME name,
+// identical in every field but the id. Ragman's Drip-Out and Textile lines. A
+// viewer that shows both makes a line look duplicated; one that silently shows
+// the first makes the choice for the reader. So it is a switch.
+let FACTION = localStorage.getItem('faction') || 'any';
+$('fac').innerHTML = '<label>faction</label>'
+  + ['any', 'BEAR', 'USEC'].map((f) => `<button data-fac="${f}">${f}</button>`).join('');
+[...$('fac').querySelectorAll('button')].forEach((b) => b.addEventListener('click', () => {
+  FACTION = b.dataset.fac;
+  localStorage.setItem('faction', FACTION);
+  render();
+}));
+const factionOf = (r) => devOf(r).faction || null;
+const inFaction = (r) => {
+  const f = factionOf(r);
+  return FACTION === 'any' || !f || f.toUpperCase() === FACTION;
+};
+
+let sel = null;
+function render() {
+  [...$('modes').children].forEach((b) => b.classList.toggle('on', b.dataset.mode === MODE));
+  [...$('fac').querySelectorAll('button')].forEach((b) => b.classList.toggle('on', b.dataset.fac === FACTION));
+  const term = $('q').value.trim().toLowerCase();
+  const diffOnly = $('onlyDiff').checked;
+  const modeOnly = $('onlyMode').checked;
+  const obsOnly = $('onlyObs').checked;
+  const goneOnly = $('onlyGone').checked;
+  const mine = DATA.rows.filter((r) => inMode(r) && inFaction(r));
+  mine.forEach((r) => { r._flags = questFlags(r); });
+  const rows = mine.filter((r) => {
+    const d = devOf(r);
+    return (!diffOnly || r._flags.length)
+      && (!obsOnly || r.observed)
+      && (!goneOnly || (r.verdict && r.verdict.removed))
+      && (!modeOnly || r.modes.length < DATA.modes.length || r.modeDiff)
+      && (!term || String(d.name || '').toLowerCase().includes(term)
+        || String((r.observed && r.observed.name) || '').toLowerCase().includes(term)
+        || String(r.name.wiki || '').toLowerCase().includes(term)
+        || String(d.trader || (r.observed && r.observed.trader) || '').toLowerCase().includes(term));
+  });
+  $('list').innerHTML = rows.map((r) => {
+    const d = devOf(r);
+    const onlyHere = r.modes.length === 1;
+    // Where the game has been read, show the name the GAME uses, tarkov.dev's
+    // stale one is still in the table below, so nothing is hidden by this.
+    const shown = r.observed ? r.observed.name : d.name;
+    // the confirmed badge goes on the second line: beside the red disagreement
+    // count it reads as one number ("✓ LL1" + "2" looks like LL12)
+    return `<div data-id="${esc(r.id)}"><div class="qn">${esc(shown)}`
+      + (r._flags.length ? `<span class="flag">${r._flags.length}</span>` : '')
+      + (onlyHere ? `<span class="mflag">${esc(DATA.modeLabels[r.modes[0]])} only</span>`
+        : r.modes.length < DATA.modes.length ? `<span class="mflag">${esc(modeNames(r.modes))}</span>`
+          : r.modeDiff ? '<span class="mflag">mode∆</span>' : '')
+      + (r.sourceless ? '<span class="mflag">no source has it</span>' : '')
+      + `</div><div class="qt">${esc(d.trader || (r.observed && r.observed.trader) || '')}`
+      + (r.observed ? `<span class="cflag">✓ in game${r.observed.availableAtLoyalty != null ? ' · LL' + r.observed.availableAtLoyalty : ''}</span>` : '')
+      + `</div></div>`;
+  }).join('');
+  const flagged = mine.filter((r) => r._flags.length).length;
+  const modeOdd = mine.filter((r) => r.modes.length < DATA.modes.length || r.modeDiff).length;
+  $('stat').textContent = `${rows.length} shown · ${flagged} of ${mine.length} disagree somewhere`
+    + ` · ${modeOdd} differ by mode · collected ${DATA.generated.slice(0, 10)}`;
+  [...$('list').children].forEach((el) => el.addEventListener('click', () => show(el.dataset.id)));
+}
+
+function show(id) {
+  sel = id;
+  [...$('list').children].forEach((c) => c.classList.toggle('on', c.dataset.id === id));
+  const r = DATA.rows.find((x) => x.id === id);
+  const d = devOf(r);
+  const row = (label, vals, cols) => {
+    const bad = disagrees(vals);
+    return `<tr class="${bad ? 'disagree' : ''}"><td class="f">${label}</td>`
+      + cols.map((c) => `<td>${cell(vals[c])}</td>`).join('') + '</tr>';
+  };
+  const four = ['td', 'ovr', 'wiki', 'spt'];
+
+  // WHO TO BELIEVE. Laying four sources side by side and saying nothing leaves
+  // the reader to guess, and the rule here is not a guess: a first-party
+  // observation first, then whichever source is more recent. Stated once, at the
+  // top, with the reason. A verdict with no reason is just another opinion.
+  let verdictBox = '';
+  if (r.verdict) {
+    const v = r.verdict;
+    const label = { observed: 'the game', wiki: 'the wiki', 'tarkov.dev': 'tarkov.dev', unsettled: 'unsettled' }[v.by] || v.by;
+    // "tarkov.dev" as a CSS class needs escaped dots, slug it instead
+    verdictBox = `<div class="verdict ${v.by.replace(/\./g, '-')}${v.removed ? ' gone' : ''}">`
+      + `<b>${v.removed ? 'REMOVED FROM THE GAME' : 'Believe ' + esc(label)}</b>`
+      + `<span>${esc(v.why)}</span></div>`;
+  }
+
+  // what the game mode changes, stated only when it changes something
+  let modeBox = '';
+  const absent = DATA.modes.filter((m) => !r.modes.includes(m));
+  if (absent.length || r.modeDiff) {
+    const bits = [];
+    if (absent.length) bits.push(`<tr><td class="f">exists in</td><td>${esc(modeNames(r.modes))}`
+      + ` <span class="none">, absent from ${esc(modeNames(absent))}</span></td></tr>`);
+    for (const f of r.modeDiff || []) {
+      bits.push(`<tr><td class="f">${esc(f)}</td><td>` + r.modes.map((m) =>
+        `<b>${esc(DATA.modeLabels[m])}:</b> ${cell(devOf(r, m)[f])}`).join('<br>') + '</td></tr>');
+    }
+    modeBox = `<div class="modebox"><h3>Differs by game mode</h3><table>${bits.join('')}</table></div>`;
+  }
+
+  // the in-game record, shown above the sources because it outranks them
+  let obsBox = '';
+  if (r.observed) {
+    const o = r.observed;
+    const devMaps = [...new Set([d.map, ...(d.objMaps || [])].filter(Boolean))];
+    const rows = [];
+    rows.push(`<tr><td class="f">name</td><td>${esc(o.name)}</td></tr>`);
+    if (o.availableAtLoyalty != null) {
+      const pub = (d.loyalty || []).map((l) => (/LL(\d+)/.exec(l) || [])[1]).filter(Boolean).map(Number);
+      const clash = pub.length && Math.max(...pub) > o.availableAtLoyalty;
+      rows.push(`<tr><td class="f">loyalty</td><td><b>${esc(o.trader)} LL${o.availableAtLoyalty}</b>`
+        + (o.availableAtLoyalty === 1 ? ' <span class="none">, the baseline, so no loyalty gate</span>' : '')
+        + (clash ? ` <span class="warn">, tarkov.dev requires LL${Math.max(...pub)}</span>` : '') + '</td></tr>');
+    }
+    rows.push(`<tr><td class="f">location</td><td>${esc(o.location)}`
+      + (o.location !== 'Any location' && devMaps.length && !devMaps.includes(o.location)
+        ? ` <span class="warn">, tarkov.dev says ${esc(devMaps.join(', '))}</span>` : '') + '</td></tr>');
+    rows.push(`<tr><td class="f">objectives</td><td>${cell(o.objectives)}`
+      + (o.objectives.length !== d.objectives.length
+        ? `<span class="warn">tarkov.dev lists ${d.objectives.length}</span>` : '') + '</td></tr>');
+    if (o.startingEquipment) rows.push(`<tr><td class="f">given</td><td>${cell(o.startingEquipment)}</td></tr>`);
+    obsBox = `<div class="obsbox"><h3>✓ Read off the game, ${esc(o.status)}, ${esc(o.observedAt)}, game ${esc(o.gameVersion)}</h3>`
+      + `<table>${rows.join('')}</table></div>`;
+  }
+
+  // a quest the game has and no source does, say so instead of showing four
+  // empty columns, which reads as a broken row rather than as the finding it is
+  const sourceless = r.sourceless
+    ? `<div class="obsbox"><h3>⛔ In the game, in none of the sources</h3>`
+      + `<table><tr><td class="f">searched</td><td>tarkov.dev, overlay, wiki, SPT, under this name and every`
+      + ` name they publish. Nothing matches.</td></tr></table></div>`
+    : '';
+
+  $('detail').innerHTML = `<h2>${esc((r.observed && r.observed.name) || r.name.wiki || d.name)}</h2>
+    <div class="qid">${esc(r.id)}${r.sourceless ? '' : (r.hasWiki ? '' : ' · no wiki page')} · ${esc(DATA.modeLabels[MODE])}</div>
+    ${verdictBox}
+    ${sourceless}
+    ${obsBox}
+    ${modeBox}
+    <table>
+      <tr><th>field</th><th>tarkov.dev</th><th>overlay</th><th>wiki</th><th>SPT <span class="sub">(Mar 2025)</span></th></tr>
+      ${row('name', { td: d.name, ovr: r.name.ovr, wiki: r.name.wiki, spt: r.name.spt }, four)}
+      ${row('trader', { td: d.trader, ovr: null, wiki: null, spt: r.trader.spt }, four)}
+      ${row('map', { td: [...new Set([d.map, ...(d.objMaps || [])].filter(Boolean))],
+        ovr: null, wiki: r.map.wiki, spt: null }, four)}
+      ${row('player level', { td: d.level, ovr: null, wiki: r.level.wiki, spt: r.level.spt }, four)}
+      ${row('loyalty gate', { td: d.loyalty, ovr: null, wiki: r.loyalty.wiki, spt: r.loyalty.spt }, four)}
+      ${row('prerequisites', { td: d.chain, ovr: null, wiki: null, spt: r.chain.spt ? r.chain.spt + ' condition(s)' : null }, four)}
+    </table>
+    <table>
+      <tr><th>objectives, tarkov.dev (${d.objectives.length})</th><th>objectives, wiki (${r.objectives.wiki.length})</th></tr>
+      <tr class="${r.objectives.wiki.length && d.objectives.length !== r.objectives.wiki.length ? 'disagree' : ''}">
+        <td>${cell(d.objectives)}</td><td>${cell(r.objectives.wiki)}</td></tr>
+    </table>`;
+}
+
+$('q').addEventListener('input', render);
+$('onlyDiff').addEventListener('change', render);
+$('onlyMode').addEventListener('change', render);
+$('onlyObs').addEventListener('change', render);
+$('onlyGone').addEventListener('change', render);
+render();
+</script>
+<!-- Attribution travels with the page, not just with the repo: this file is
+     self-contained and gets shared on its own. -->
+<footer>
+  Quest text from the <a href="https://escapefromtarkov.fandom.com">Escape from Tarkov Wiki</a>
+  (contributors, CC BY-SA 3.0), <a href="https://tarkov.dev">tarkov.dev</a>,
+  tarkov-data-overlay and SPT, plus first-party in-game observations.
+  Unofficial; Escape from Tarkov is a trademark of Battlestate Games.
+</footer>
+<style>
+  footer { border-top: 1px solid #2a2a20; padding: 10px 16px; color: #6f6c65; font-size: 11px; }
+  footer a { color: #8a8676; }
+</style>

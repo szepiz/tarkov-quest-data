@@ -1,0 +1,415 @@
+{
+  "trader": "Peacekeeper",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "LL1-LL4 plus the essential group were all sent. The essential group holds a single quest.",
+  "observedAt": "2026-08-10",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10; see the Fence batch, whose [PVE ZONE] cards carry ids that exist only in tarkov.dev's pve task list.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. Objective text is verbatim, including the (Optional) prefix.",
+  "quests": [
+    {
+      "name": "Seizing the Initiative",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Use the transit from Customs to Shoreline",
+        "Survive and extract from Shoreline"
+      ]
+    },
+    {
+      "name": "Tigr Safari",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark any UN Tigr vehicle with an MS2000 Marker on Customs"
+      ]
+    },
+    {
+      "name": "Chemical Experiments",
+      "location": "Customs",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Stash a Corrugated hose in the med lab on Customs"
+      ]
+    },
+    {
+      "name": "Master Key",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the key to the closed premises of the Health Resort on Shoreline",
+        "Hand over the key"
+      ]
+    },
+    {
+      "name": "Hiking",
+      "location": "Woods",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "unknownToEverySource": "NO SOURCE HAS THIS QUEST. Not by name, no Peacekeeper quest in any source is called anything like it, and not by content: searching every source for an objective naming the USEC camp, Scav camp, sawmill or abandoned village on Woods returns ten quests, all belonging to other traders and none of them a Scav-elimination task. The third such case, after Therapist's Fall Ailment and The Tarkov Butcher.",
+      "objectives": [
+        "Eliminate Scavs at USEC camp, Scav camp, sawmill, or abandoned village on Woods (10)"
+      ]
+    },
+    {
+      "name": "One Less Loose End",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the lab journal on Factory",
+        "Stash the journal at the old sawmill on Woods"
+      ]
+    },
+    {
+      "name": "Fuel Shortage",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "lineShattered": "THE SPA TOUR LINE WAS BROKEN UP INTO UNRELATED QUESTS. Three of its parts turn up in this one Peacekeeper tab under names that share nothing with each other or with the original: 'Spa Tour - Part 3' is now Fuel Shortage, 'Part 5' is Master Key, 'Part 7' is Chemical Experiments. That is a different pattern from the line-head renames (Part 1 keeps the base name, later parts get standalone titles), here the whole line dissolved. Every part was also cut down: 4 objectives to 2 here, 8 to 1 for Chemical Experiments. The wiki has all three right; tarkov.dev and SPT have none of them.",
+      "objectives": [
+        "Hand over the found in raid items from the Household goods category (5)",
+        "Hand over the found in raid items from the Flammable materials category (3)"
+      ]
+    },
+    {
+      "name": "Metal Birds",
+      "location": "Woods",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "traderMoved": "RESOLVES A SKIER STRAGGLER, AND IN THE OPPOSITE DIRECTION TO THE OTHERS. tarkov.dev files this under SKIER as 'Lend-Lease - Part 1'; the game lists it under PEACEKEEPER at LL1. It was sitting in the 'published for Skier but absent from my complete Skier list' pile, so that pile shrinks by one and nothing was deleted. Note the line was split ACROSS traders: its sibling 'Lend-Lease - Part 2' is now Skier's 'From Hand to Hand', which moved the other way, Peacekeeper -> Skier.",
+      "objectives": [
+        "Locate and obtain the motor controller on Woods",
+        "Hand over the found item",
+        "Locate and obtain the single-axis fiber optic gyroscope on Woods",
+        "Hand over the found item"
+      ]
+    },
+    {
+      "name": "Secret Message",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "unknownToEverySource": "NO SOURCE HAS THIS QUEST, and it sets a trap for content matching. The only quest in any source with a 12ga-shotgun headshot objective is tarkov.dev's 'Spa Tour - Part 1' (Scavs, 12ga shotgun, SHORELINE), which superficially resembles this one. It is not the same quest: that id's wiki page is 'One-Way Ticket', whose current content is an AUG on Factory, and the game lists One-Way Ticket separately in this very tab with exactly that. So tarkov.dev's STALE description of one quest happens to look like a DIFFERENT, newer quest, a matcher keying on content alone would have merged them. The fourth quest no source has.",
+      "objectives": [
+        "Eliminate any target with headshots using a 12ga shotgun on Streets of Tarkov (15)"
+      ]
+    },
+    {
+      "name": "Eagle Eye",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the first UAV crash site on Shoreline",
+        "Obtain the SAS disk from the first crashed drone",
+        "Hand over the first SAS disk",
+        "Locate the second UAV crash site on Shoreline",
+        "Obtain the SAS disk from the second crashed drone",
+        "Hand over the second SAS disk"
+      ]
+    },
+    {
+      "name": "Fishing Gear",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Leatherman Multitool",
+        "MF-UNTAR body armor"
+      ],
+      "objectives": [
+        "Locate the boat hidden next to the breakwater on Shoreline",
+        "Stash an MF-UNTAR body armor in the boat",
+        "Stash a Leatherman Multitool in the boat"
+      ]
+    },
+    {
+      "name": "I Need More Power",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the generators in the east wing of the Health Resort on Shoreline",
+        "Locate the generators in the west wing of the Health Resort on Shoreline",
+        "Hand over the found in raid item: Metal fuel tank or Expeditionary fuel tank (3)"
+      ]
+    },
+    {
+      "name": "One-Way Ticket",
+      "location": "Factory",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "itemChanged": "RENAMED, REARMED AND RELOCATED, tarkov.dev is wrong on all three. It publishes this as 'Spa Tour - Part 1': eliminate Scavs with headshots using a 12ga SHOTGUN on SHORELINE. The game asks for headshots with a Steyr AUG on FACTORY. The wiki has caught up on every part ('Eliminate 15 targets with headshots while using an AUG on Factory'), so the map disagreement resolves in favour of Factory.",
+      "objectives": [
+        "Eliminate any target with headshots using a Steyr AUG on Factory (15)"
+      ]
+    },
+    {
+      "name": "Weapons Circulation",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark the first ritual spot with an MS2000 Marker on Woods",
+        "Locate and mark the second ritual spot with an MS2000 Marker on Woods",
+        "Locate and mark the ritual spot with an MS2000 Marker on Shoreline"
+      ]
+    },
+    {
+      "name": "Road Closed",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the cargo convoy on Streets of Tarkov",
+        "Determine the ambush spot"
+      ],
+      "questId": "639282134ed9512be67647ed",
+      "questIdReason": "FACTION VARIANT, now pinned rather than guessed. Every source publishes this twice under one name, BEAR and USEC, identical in every field but the id, so content cannot choose and the matcher was taking whichever it met first. This profile is USEC (see profile.factionNote), so the USEC id is the right one. Grading was never affected, because the twins agree; a correction layer keyed BY ID was."
+    },
+    {
+      "name": "Humanitarian Supplies",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark the first UN truck with an MS2000 Marker",
+        "(Optional) Locate the first truck that was holding the lost UN cargo on Shoreline",
+        "Locate and mark the second UN truck with an MS2000 Marker",
+        "(Optional) Locate the second truck that was holding the lost UN cargo on Shoreline",
+        "Obtain the item: MRE ration pack (5)",
+        "Hand over the items (5)"
+      ]
+    },
+    {
+      "name": "The Cult",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the missing informant on Shoreline",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Revision - Streets of Tarkov",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark the first LAV III with an MS2000 Marker on Streets of Tarkov",
+        "Locate and mark the Stryker with an MS2000 Marker on Streets of Tarkov",
+        "Locate and mark the second LAV III with an MS2000 Marker on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "Your Car Needs a Service",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Car dealership director's office room key"
+      ],
+      "objectives": [
+        "Obtain the digital storage device from the car dealership manager's office on Streets of Tarkov",
+        "Hand over the storage device"
+      ]
+    },
+    {
+      "name": "Scrap Metal",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark the first T-90 tank with an MS2000 Marker on Shoreline",
+        "Locate and mark the second T-90 tank with an MS2000 Marker on Shoreline",
+        "Locate and mark the third T-90 tank with an MS2000 Marker on Shoreline"
+      ]
+    },
+    {
+      "name": "Tracker",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the room with reservoirs in the Health Resort on Shoreline",
+        "Obtain any information about the second part of the cargo shipment",
+        "Hand over the retrieved information",
+        "Locate the hidden TerraGroup cargo in the Health Resort on Shoreline"
+      ]
+    },
+    {
+      "name": "Demonstration Model",
+      "location": "Reserve",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "unknownToEverySource": "NO SOURCE HAS THIS QUEST. Not by name, and not by content: the only quest in any source mentioning 7.62x51 or a DMR is Ragman's 'Break the Deal', which is a stash task on Customs. The fifth such case, after Fall Ailment, The Tarkov Butcher, Hiking and Secret Message.",
+      "objectives": [
+        "Eliminate any target with headshots with 7.62x51 assault rifles or DMRs on Reserve (15)"
+      ]
+    },
+    {
+      "name": "Cargo X",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the data in Health Resort east wing computer room on Shoreline"
+      ]
+    },
+    {
+      "name": "Revision - Lighthouse",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark the first BRDM with an MS2000 Marker on Lighthouse",
+        "Locate and mark the second BRDM with an MS2000 Marker on Lighthouse",
+        "Locate and mark the first Stryker with an MS2000 Marker on Lighthouse",
+        "Locate and mark the second Stryker with an MS2000 Marker on Lighthouse"
+      ]
+    },
+    {
+      "name": "Revision - Reserve",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled out of frame so the whole objective list would fit; the green corner triangle marks that scroll, not a truncated list.",
+      "notTruncated": "8 objectives against 12 in BOTH sources, on a scrolled card, exactly the shape a partial capture would take, so it is worth saying why it is not one. THE ORDER RULES IT OUT. The sources list four BMP-2 locates, then a LAV III locate, then the marks; the game interleaves locate-and-mark per vehicle (locate first, mark first, locate second, mark second...) and contains no LAV III or T-90 line at all. A truncated capture would show the source's first eight lines in the source's order, which would include the LAV III. This is a rewrite: reordered into pairs, with the LAV III and T-90 objectives dropped.",
+      "objectives": [
+        "Locate and inspect the first BMP-2 on Reserve",
+        "Mark the first BMP-2 with an MS2000 Marker",
+        "Locate and inspect the second BMP-2 on Reserve",
+        "Mark the second BMP-2 with an MS2000 Marker",
+        "Locate and inspect the third BMP-2 on Reserve",
+        "Mark the third BMP-2 with an MS2000 Marker",
+        "Locate and inspect the fourth BMP-2 on Reserve",
+        "Mark the fourth BMP-2 with an MS2000 Marker"
+      ]
+    },
+    {
+      "name": "Overpopulation",
+      "location": "Lighthouse",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target around the chalets on Lighthouse (10)",
+        "Hand over the found in raid item: Topographic survey maps, Intelligence folder, or TerraGroup \"Blue Folders\" materials (5)"
+      ]
+    },
+    {
+      "name": "Peacekeeping Mission",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "UNTAR helmet",
+        "MF-UNTAR body armor",
+        "Colt M4A1 5.56x45 assault rifle",
+        "AR-15 5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine (3)"
+      ],
+      "objectives": [
+        "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Woods or Reserve (12)",
+        "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Customs or Lighthouse (12)",
+        "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Shoreline or Streets of Tarkov (12)",
+        "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Ground Zero or Interchange (12)"
+      ]
+    },
+    {
+      "name": "Trophies",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "mechanicNote": "Both objectives require dogtags of 'Prestige 1 or higher', a PRESTIGE tier on the killed player, not a level or a rarity. No source in raw/ carries a prestige qualifier on any objective, so this is a gating concept the collected data has no field for.",
+      "objectives": [
+        "Hand over the found in raid item: Dogtag BEAR (Prestige 1 or higher) (10)",
+        "Hand over the found in raid item: Dogtag USEC (Prestige 1 or higher) (10)"
+      ]
+    },
+    {
+      "name": "Samples",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "captureNote": "Captured across two screenshots because the list does not fit one frame; I checked. 14 objectives, in order.",
+      "objectives": [
+        "Find the item in raid: M.U.L.E. stimulant injector",
+        "Hand over the injector",
+        "Find the item in raid: \"Obdolbos\" cocktail injector",
+        "Hand over the injector",
+        "Find the item in raid: Meldonin stimulant injector",
+        "Hand over the injector",
+        "Find the item in raid: AHF1-M stimulant injector",
+        "Hand over the injector",
+        "Find the item in raid: P22 stimulant injector",
+        "Hand over the injector",
+        "Find the item in raid: L1 (Norepinephrine) stimulant injector",
+        "Hand over the injector",
+        "Find the item in raid: 3-(b-TG) stimulant injector",
+        "Hand over the injector"
+      ]
+    },
+    {
+      "name": "TerraGroup Employee",
+      "location": "The Lab",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate Sanitar's workplace in The Lab",
+        "Locate and obtain any information about Sanitar's work"
+      ]
+    },
+    {
+      "name": "Wet Job - Part 1",
+      "location": "Shoreline",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled; the objective list is a single line.",
+      "objectives": [
+        "Eliminate Scavs with an M4A1, M16, ADAR, or TX-15 on Shoreline (10)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "trader": "Ragman",
+  "observedAt": "2026-08-10",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10; see the Fence batch, whose [PVE ZONE] cards carry ids that exist only in tarkov.dev's pve task list.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. Objective text is verbatim, including the (Optional) prefix.",
+  "allVisibleCaptured": false,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "NOT complete, deliberately. LL1-LL3 and the essential group were all sent, but I have not reached Ragman LL4, the Collector unlock panel shows Ragman as one of two traders still short of LL4. Marking this complete would produce a straggler list accusing the sources of publishing quests that are simply not unlocked yet. It also means the two faction variants of 'Textile - Part 1', two of the three loyalty gates tarkov.dev publishes and the only ones left untested. CANNOT be settled from this profile until Ragman LL4 is reached.",
+  "quests": [
+    {
+      "name": "Long Line",
+      "location": "Interchange",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives on Interchange (4)"
+      ]
+    },
+    {
+      "name": "Make ULTRA Great Again",
+      "location": "Interchange",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target on Interchange (10)"
+      ]
+    },
+    {
+      "name": "Fuel Crisis",
+      "location": "Interchange",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MS2000 Marker (2)"
+      ],
+      "objectives": [
+        "Locate and mark any fuel tank near the power station with an MS2000 Marker on Interchange",
+        "Locate and mark any fuel tank in the northern territory with an MS2000 Marker on Interchange"
+      ]
+    },
+    {
+      "name": "Pathfinder",
+      "location": "Interchange",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Visit the Railway Exfil exit on Interchange",
+        "Visit the Emercom Checkpoint exit on Interchange",
+        "Visit the Power Station V-Ex exit on Interchange"
+      ]
+    },
+    {
+      "name": "Inventory Files",
+      "location": "Interchange",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the Goshan cargo manifests on Interchange",
+        "Hand over the Goshan cargo manifests",
+        "Locate and obtain the OLI cargo manifests on Interchange",
+        "Hand over the OLI cargo manifests",
+        "Locate and obtain the IDEA cargo manifests on Interchange",
+        "Hand over the IDEA cargo manifests"
+      ]
+    },
+    {
+      "name": "Gratitude",
+      "location": "Woods",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Shemagh (Green)",
+        "RayBench Hipster Reserve sunglasses"
+      ],
+      "objectives": [
+        "Stash a Shemagh (Green) at the sawmill docks on Woods",
+        "Stash RayBench Hipster Reserve sunglasses at the sawmill docks on Woods"
+      ]
+    },
+    {
+      "name": "Small Things, Big Help",
+      "location": "Woods",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MS2000 Marker (3)"
+      ],
+      "objectives": [
+        "Locate and mark the first fuel stash with an MS2000 Marker on Woods",
+        "Locate and mark the second fuel stash with an MS2000 Marker on Woods",
+        "Locate and mark the third fuel stash with an MS2000 Marker on Woods"
+      ]
+    },
+    {
+      "name": "A Big Loss",
+      "location": "Interchange",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the OLI cargo route documents on Interchange",
+        "Hand over the documents"
+      ]
+    },
+    {
+      "name": "Dressed to Kill",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: Kinda Cowboy hat (2)",
+        "Hand over the items (2)",
+        "Find the item in raid: any Ushanka hat (2)",
+        "Hand over the items (2)"
+      ]
+    },
+    {
+      "name": "The Key to Success",
+      "location": "Interchange",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the first book of clothes design on Interchange",
+        "Locate and obtain the second book of clothes design on Interchange"
+      ]
+    },
+    {
+      "name": "Break the Deal",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle Urbana",
+        "7.62x51mm BCP FMJ ammo pack (20 pcs)",
+        "ELCAN SpecterDR 1x/4x scope"
+      ],
+      "objectives": [
+        "Stash a DVL-10 sniper rifle at the specified spot on Customs",
+        "Stash a DVL-10 magazine at the specified spot on Customs",
+        "Stash an ELCAN SpecterDR scope at the specified spot on Customs",
+        "Stash a pack of any 7.62x51 ammo at the specified spot on Customs"
+      ]
+    },
+    {
+      "name": "Ballet Lover",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the balletmeister's apartment on Streets of Tarkov",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Audit",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Obtain the financial records on Streets of Tarkov",
+        "Hand over the journal"
+      ]
+    },
+    {
+      "name": "Big Sale",
+      "location": "Interchange",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the AVOKADO store on Interchange",
+        "Locate the KOSTIN store on Interchange",
+        "Locate the tRend store on Interchange",
+        "Locate the DINO CLOTHES store on Interchange",
+        "Locate the TOP BRAND store on Interchange"
+      ]
+    },
+    {
+      "name": "Minibus",
+      "location": "Interchange",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectiveAdded": "The game has a fourth objective both sources lack: 'Hand over any found in raid items from the Tools category (10)'. The three minibus marks are unchanged.",
+      "objectives": [
+        "Locate and mark the first yellow minibus with an MS2000 Marker on Interchange",
+        "Locate and mark the second yellow minibus with an MS2000 Marker on Interchange",
+        "Locate and mark the third yellow minibus with an MS2000 Marker on Interchange",
+        "Hand over any found in raid items from the Tools category (10)"
+      ]
+    },
+    {
+      "name": "Nothing Fishy About This",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate Ragman's SUV on Shoreline",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Dandies",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Bomber beanie"
+      ],
+      "objectives": [
+        "Eliminate any target while wearing a Bomber beanie and RayBench Hipster Reserve sunglasses on Streets of Tarkov (15)",
+        "Stash a Bomber beanie inside the barber shop on Streets of Tarkov",
+        "Stash RayBench Hipster Reserve sunglasses inside the barber shop on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "Supervisor",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "itemChanged": "REBUILT FROM 2 OBJECTIVES INTO 6, AND IT ADDS MAP LOCATIONS NOBODY PUBLISHES. tarkov.dev has 'Obtain the Goshan cash register key' + 'Hand over the key'; the wiki has 3. The game asks for THREE keys (Goshan, IDEA, OLI) and, instead of handing them over, STASHING each at a named Interchange spot: the BIZARRO store fitting rooms, Register #9, and Register #7-8, with the three obtains demoted to (Optional). Those three stash points are new map data: no source has a location for them, so nothing downstream can place a pin.",
+      "objectives": [
+        "Stash the Goshan cash register key at the BIZARRO store fitting rooms on Interchange",
+        "(Optional) Obtain the Goshan cash register key",
+        "Stash the IDEA cash register key at Register #9 on Interchange",
+        "(Optional) Obtain the IDEA cash register key",
+        "Stash the OLI cash register key at Register #7-8 on Interchange",
+        "(Optional) Obtain the OLI cash register key"
+      ]
+    },
+    {
+      "name": "Hot Delivery",
+      "location": "Interchange",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Stash a ComTac II headset in the specified place on Interchange",
+        "Stash a 6B47 helmet (Olive Drab) in the specified place on Interchange",
+        "Stash a Gzhel-K body armor in the specified place on Interchange"
+      ]
+    },
+    {
+      "name": "Reserve Expert",
+      "location": "Reserve",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled so the objective list would fit.",
+      "objectives": [
+        "Check the first armory in the eastern barracks (Black Pawn) on Reserve",
+        "Check the duty room in the eastern barracks (Black Pawn) on Reserve",
+        "Check the second armory in the eastern barracks (Black Pawn) on Reserve",
+        "Check the first armory in the southern barracks (White Pawn) on Reserve",
+        "Check the second armory in the southern barracks (White Pawn) on Reserve",
+        "Hand over the gear found in the rooms (3)",
+        "(Optional) Locate and obtain any Russian gear in the armory rooms (3)"
+      ]
+    },
+    {
+      "name": "Living High is Not a Crime",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled so the objective list would fit.",
+      "objectives": [
+        "Hand over the found in raid item: Bronze lion figurine (2)",
+        "Hand over the found in raid item: Horse figurine (2)",
+        "Hand over the found in raid item: Golden rooster figurine (2)",
+        "Hand over the found in raid item: Cat figurine (2)",
+        "Hand over the found in raid item: Golden egg (2)",
+        "Hand over the found in raid item: Roler Submariner gold wrist watch (2)"
+      ]
+    },
+    {
+      "name": "Audiophile",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the musician gathering spot on Streets of Tarkov",
+        "Locate and obtain the engraved guitar pick",
+        "Hand over the guitar pick"
+      ]
+    },
+    {
+      "name": "A Fuel Matter",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Mark the first group of fuel tanks with an MS2000 Marker on Reserve",
+        "Mark the second group of fuel tanks with an MS2000 Marker on Reserve"
+      ]
+    },
+    {
+      "name": "Booze",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled so the objective list would fit; the green corner triangle marks that scroll, not a truncated list.",
+      "objectives": [
+        "Find the item in raid: Bottle of Tarkovskaya vodka (10)",
+        "Find the item in raid: Bottle of Dan Jackiel whiskey (10)",
+        "Find the item in raid: Canister with purified water (3)",
+        "Find the item in raid: Bottle of Pevko Light beer (20)",
+        "Hand over the items (10)",
+        "Hand over the items (10)",
+        "Hand over the items (3)",
+        "Hand over the items (20)"
+      ]
+    },
+    {
+      "name": "Know Your Place!",
+      "location": "Transition",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target on Streets of Tarkov (In one raid) (5)",
+        "Use the transit from Streets of Tarkov to Interchange (In one raid)",
+        "Eliminate any target on Interchange (In one raid) (5)"
+      ]
+    },
+    {
+      "name": "Scavenger",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over any found in raid items from the Facecovers category (15)",
+        "Hand over any found in raid items from the Headgear category (15)",
+        "Hand over any found in raid items from the Headsets category (15)",
+        "Hand over any found in raid items from the Eyewear category (15)",
+        "Hand over any found in raid items from the Body Armor category (15)"
+      ]
+    },
+    {
+      "name": "Sew it Good - Part 1",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: Ski hat with holes for eyes",
+        "Hand over the item",
+        "Find the item in raid: Pilgrim tourist backpack",
+        "Hand over the item"
+      ]
+    },
+    {
+      "name": "Drip-Out - Part 1",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "openQuestion": "FACTION VARIANT, MATCHED ARBITRARILY. Sources publish this twice, once for BEAR and once for USEC, under the same name, and the two records are identical in every field except the id and factionName (same objectives, same minimum level). The screenshots do not show the profile's PMC faction, so the matcher takes whichever id it meets first. That costs nothing for grading, because the content is the same either way, but a correction layer keyed BY ID would be attaching its fix to a coin flip. Applies to Drip-Out Parts 1 and 2 and both Textile lines. Resolvable with one look at the profile's faction.",
+      "objectives": [
+        "Eliminate Raiders (100)",
+        "Hand over the found in raid WARTECH brand equipment (50)"
+      ],
+      "questId": "66151401efb0539ae10875ae",
+      "questIdReason": "FACTION VARIANT, now pinned rather than guessed. Every source publishes this twice under one name, BEAR and USEC, identical in every field but the id, so content cannot choose and the matcher was taking whichever it met first. This profile is USEC (see profile.factionNote), so the USEC id is the right one. Grading was never affected, because the twins agree; a correction layer keyed BY ID was."
+    },
+    {
+      "name": "Drip-Out - Part 2",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Rogues (100)",
+        "Hand over the found in raid LBT brand equipment (50)"
+      ],
+      "questId": "6615141bfda04449120269a7",
+      "questIdReason": "FACTION VARIANT, now pinned rather than guessed. Every source publishes this twice under one name, BEAR and USEC, identical in every field but the id, so content cannot choose and the matcher was taking whichever it met first. This profile is USEC (see profile.factionNote), so the USEC id is the right one. Grading was never affected, because the twins agree; a correction layer keyed BY ID was."
+    },
+    {
+      "name": "Circulate",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectiveTypeNote": "A SELL objective, 'Sell Ragman any backpacks or tactical rigs (250)'. Progress comes from trading WITH the trader, not from anything done in a raid. No other quest in 247 records has one, and it is a condition no map pin or item lookup can represent.",
+      "objectives": [
+        "Sell Ragman any backpacks or tactical rigs (250)"
+      ]
+    },
+    {
+      "name": "The Invisible Hand",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target that is using a 20+ container size backpack (15)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "trader": "Therapist",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "LL1-LL4 plus the essential group were all sent.",
+  "observedAt": "2026-08-10",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10, and corroborated by the Fence batch, whose '[PVE ZONE]' cards carry ids that exist only in tarkov.dev's pve task list. Earlier batches were recorded as unconfirmed rather than guessed. It changes nothing in the comparisons, the three modes are identical on every field across the 483 quests they share, but provenance should say what is known.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. `location` is the single map the game prints in the header, which is NOT the union of the objective maps. Objective text is verbatim, including the (Optional) prefix. `availableAtLoyalty` is the loyalty tab the quest was listed under.",
+  "quests": [
+    {
+      "name": "Pharmacist",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the suitcase with the device on Customs",
+        "(Optional) Locate the paramedic's car on Customs",
+        "(Optional) Find a way inside the two-story dorm room 114 on Customs",
+        "Hand over the suitcase"
+      ]
+    },
+    {
+      "name": "Operation Aquarius",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the water stockpile hidden inside one of the dorm rooms on Customs",
+        "Hand over any found in raid drinking water items (3)"
+      ]
+    },
+    {
+      "name": "First in Line",
+      "location": "Ground Zero",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the Emercom station on Ground Zero",
+        "Hand over any found in raid medicine items (3)"
+      ]
+    },
+    {
+      "name": "Shipment Tracking",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the TerraGroup shipment lists on Customs",
+        "Hand over the found information"
+      ]
+    },
+    {
+      "name": "Blood in the Water",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs on Customs (15)"
+      ]
+    },
+    {
+      "name": "Shortage",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Salewa first aid kit"
+      ],
+      "objectives": [
+        "Find the item in raid: Salewa first aid kit (3)",
+        "Hand over the items (3)"
+      ]
+    },
+    {
+      "name": "Fall Ailment",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "unknownToEverySource": "NO SOURCE HAS THIS QUEST. Not under this name, and not under any other: the only quest in any source with a syringe objective is Skier's 'Chemical - Part 3' (a chemical syringe on Factory), which is a different trader and a different item. So this is not a rename we failed to follow, it is a quest that exists in the game and in none of tarkov.dev, the overlay, the wiki or SPT. The first such case in this collection.",
+      "objectives": [
+        "Find the item in raid: Disposable syringe (5)",
+        "Hand over the items (5)"
+      ]
+    },
+    {
+      "name": "Supply Plans",
+      "location": "Woods",
+      "status": "failed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain Secure Folder 0052 in the sawmill cabin on Woods"
+      ],
+      "objectivesHidden": [
+        "Hand over the folder"
+      ],
+      "objectivesNote": "THE GAME REVEALS OBJECTIVES PROGRESSIVELY, settled in game on 2026-08-11 and this is the general rule, not a fact about one quest. A step that depends on an earlier one is not printed until the earlier one is done: the hand-over line appears only once the item is picked up. So a SHORT objective list on an active or failed quest is the screen working normally, and is NOT evidence that a source invented steps. Only a COMPLETED quest's list can be graded for length. check_observed.js enforces this. Here the missing line is \"Hand over the folder\", confirmed in game. The quest is FAILED, so it can never be revealed. Prapor's Big Customer showed both of its objectives while also failed because neither of them depends on the other, mark-the-vehicle does not wait on locate-the-vehicle."
+    },
+    {
+      "name": "Abandoned Cargo",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "captureNote": "The DESCRIPTION was scrolled out of frame so the whole objective list would fit. The objectives are complete; only the briefing text is partial.",
+      "startingEquipment": [
+        "MS2000 Marker"
+      ],
+      "objectives": [
+        "Mark any of the special TerraGroup cargo boxes with an MS2000 Marker on Customs",
+        "(Optional) Locate the first special TerraGroup cargo on Customs",
+        "(Optional) Locate the second special TerraGroup cargo on Customs",
+        "(Optional) Locate the third special TerraGroup cargo on Customs",
+        "(Optional) Locate the fourth special TerraGroup cargo on Customs",
+        "(Optional) Locate the fifth special TerraGroup cargo on Customs",
+        "(Optional) Locate the sixth special TerraGroup cargo on Customs",
+        "(Optional) Locate the seventh special TerraGroup cargo on Customs"
+      ]
+    },
+    {
+      "name": "Aid Stations",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled out of frame so the whole objective list would fit, as with Abandoned Cargo.",
+      "objectives": [
+        "Obtain the item: Dorm room 303 key",
+        "Obtain the item: ZB-014 key",
+        "Obtain the item: Military checkpoint key",
+        "Obtain the item: Gas station storage room key",
+        "Hand over the item",
+        "Hand over the item",
+        "Hand over the item",
+        "Hand over the item"
+      ],
+      "triangleResolved": "RESOLVED. The green corner triangle does NOT mean objectives are missing, it marks a page that is scrolled, which is exactly what happens when the description is scrolled out of frame to fit the list. Every card that carried it has its objective count corroborated independently: Abandoned Cargo 8 (wiki agrees), Pyramid Scheme 11 (wiki agrees, against tarkov.dev's 15), and Crisis, Aid Stations and Beneath The Streets all match tarkov.dev exactly. These captures were whole, and it shows."
+    },
+    {
+      "name": "All Is Revealed",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Take a sample of the chemicals from the damaged tank container on Factory",
+        "Hand over the collected sample"
+      ]
+    },
+    {
+      "name": "The Tarkov Butcher",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "unknownToEverySource": "NO SOURCE HAS THIS QUEST. Not by name, and not by content: the only quests in any source with a 'chemical container' objective are Jaeger's 'Dragnet' (TerraGroup warehouse on Factory) and Skier's 'Vitamins' (Shoreline and Interchange). Neither is Therapist's, neither involves Ground Zero or the Streets police station. The second such case in this collection, after Fall Ailment.",
+      "objectives": [
+        "Locate and obtain the chemical container on Ground Zero",
+        "Stash the container by the police station on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "General Wares",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Can of beef stew (Small)"
+      ],
+      "objectives": [
+        "Find the item in raid: Can of beef stew (Small) (15)",
+        "Hand over the items (15)"
+      ]
+    },
+    {
+      "name": "Sanitary Standards",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "openQuestion": "NOT the merge pattern, despite the '- Part 1' rename. Part 1 and Part 2 are both 'find gas analyzers in raid / hand over' pairs, while the game's version collapses that into one hand-over line and adds two objectives nobody publishes: an optional locate of the gas-analyzer room and a stash in the med lab. So the quest was rewritten rather than merged, and 'Sanitary Standards - Part 2' still exists in every source. Whether it still exists in game is unknown, it was not in Therapist's LL1 or LL2 tabs.",
+      "objectives": [
+        "Hand over the found in raid item: Gas analyzer (2)",
+        "(Optional) Locate the room with gas analyzers on Factory",
+        "Stash a Gas analyzer in the med lab on Factory"
+      ]
+    },
+    {
+      "name": "Population Census",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Obtain the journal containing resident details on Streets of Tarkov",
+        "Hand over the journal"
+      ]
+    },
+    {
+      "name": "Urban Medicine",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the chemical laboratory on Streets of Tarkov",
+        "Obtain the container with drug samples",
+        "Hand over the container",
+        "Eliminate Scavs on Streets of Tarkov (10)"
+      ]
+    },
+    {
+      "name": "Paramedic",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the ambulance paramedic's smartphone on Streets of Tarkov",
+        "Extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex"
+      ],
+      "objectivesHidden": [
+        "Hand over the smartphone"
+      ],
+      "objectivesNote": "THE GAME REVEALS OBJECTIVES PROGRESSIVELY, settled in game on 2026-08-11 and this is the general rule, not a fact about one quest. A step that depends on an earlier one is not printed until the earlier one is done: the hand-over line appears only once the item is picked up. So a SHORT objective list on an active or failed quest is the screen working normally, and is NOT evidence that a source invented steps. Only a COMPLETED quest's list can be graded for length. check_observed.js enforces this. This quest is the clean example: the third objective, \"Hand over the smartphone\", sits behind an extract I have not done. Three statistical tests failed to settle this from the data alone (status did not predict shortness, a positional-prefix test split evenly, and grading against the wiki only leaned the right way). The game answered it directly instead."
+    },
+    {
+      "name": "Pets Won't Need It",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "verbatimNote": "Three objectives print 'Streets of tarkov' with a lowercase t. BSG's own typo, kept exactly as shown. Transcribing verbatim is the point of this folder; silently tidying it would hide a real detail about the game's text.",
+      "merged": "CONFIRMED BY CONTENT. These 6 objectives are 'Pets Won't Need It - Part 1' objectives 1-2 (vet clinic, x-ray technician's room) plus 'Part 2' objectives 1-3 (the two Primorsky pharmacies and the Cardinal one, reworded from 'the third pharmacy at Cardinal apartment complex' to 'the pharmacy near Cardinal apartment complex'), with both parts' 'Survive and extract' dropped and a new hand-over added. Part 2 still exists separately in every source. The fourth merge found.",
+      "objectives": [
+        "Locate and scout the vet clinic on Streets of Tarkov",
+        "Locate and scout the x-ray technician's room on Streets of Tarkov",
+        "Locate the first pharmacy on Primorsky Ave on Streets of tarkov",
+        "Locate the second pharmacy on Primorsky Ave on Streets of tarkov",
+        "Locate the pharmacy near Cardinal apartment complex on Streets of tarkov",
+        "Hand over any found in raid medicine items (5)"
+      ]
+    },
+    {
+      "name": "Disease History",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Obtain Medical record #1 on Reserve",
+        "Obtain Medical record #2 on Reserve",
+        "Hand over the first journal",
+        "Hand over the second journal"
+      ]
+    },
+    {
+      "name": "Car Repair",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Car battery"
+      ],
+      "objectives": [
+        "Find the item in raid: Car battery (4)",
+        "Find the item in raid: Spark plug (8)",
+        "Hand over the items (4)",
+        "Hand over the items (8)"
+      ]
+    },
+    {
+      "name": "Drug Trafficking",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "WI-FI Camera"
+      ],
+      "objectives": [
+        "Locate the hidden drug lab on Lighthouse",
+        "Stash a WI-FI Camera in the drug lab"
+      ]
+    },
+    {
+      "name": "Tarkov-Style Diplomacy",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain Sanitar's surgery kit on Shoreline",
+        "Hand over the item",
+        "Locate and obtain Sanitar's ophthalmoscope on Shoreline",
+        "Hand over the item"
+      ]
+    },
+    {
+      "name": "Colleagues",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the group that was sent to the Health Resort on Shoreline",
+        "Locate the group that was sent to the pier on Shoreline",
+        "Locate the group that was sent to the cottages on Shoreline",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Charity",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "itemChanged": "MORE THAN A RENAME. Every source publishes this as 'Painkiller', find and hand over 5 MORPHINE injectors. The game asks for 5 ADRENALINE injectors. Same shape, same count, different item, so a tool that follows the rename but keeps the source's item list sends the player after the wrong thing. Objective counts match, which is exactly why a count-based check would not have caught it.",
+      "objectives": [
+        "Find the item in raid: Adrenaline injector (5)",
+        "Hand over the items (5)"
+      ]
+    },
+    {
+      "name": "Lost Contact",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the lost group in the chalet area on Lighthouse",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Seaside Vacation",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the informant's briefcase on Lighthouse",
+        "Hand over the found package"
+      ]
+    },
+    {
+      "name": "Beneath The Streets",
+      "location": "Transition",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "openQuestion": "THE MERGES BREAK THE PREREQUISITE GRAPH. tarkov.dev gates this live quest behind 'Pets Won't Need It - Part 2', a quest we have confirmed by content was absorbed into 'Pets Won't Need It' and no longer exists separately in game. So the published chain points at a record that cannot be completed on its own terms. Anything that walks tarkov.dev's taskRequirements will treat this quest as permanently locked. Worth checking how many other edges point at an absorbed half once every trader is collected.",
+      "startingEquipment": [
+        "TerraGroup Labs access keycard"
+      ],
+      "objectives": [
+        "Use the transit from Streets of Tarkov to The Lab (In one raid)",
+        "(Optional) Locate the passage leading to The Lab on Streets of Tarkov (In one raid)",
+        "(Optional) Locate the passage leading to Streets of Tarkov in The Lab (In one raid)",
+        "Scout the server room in The Lab (In one raid)",
+        "Scout the hazard dome in The Lab (In one raid)",
+        "Scout the control room in The Lab (In one raid)"
+      ],
+      "triangleResolved": "RESOLVED. The green corner triangle does NOT mean objectives are missing, it marks a page that is scrolled, which is exactly what happens when the description is scrolled out of frame to fit the list. Every card that carried it has its objective count corroborated independently: Abandoned Cargo 8 (wiki agrees), Pyramid Scheme 11 (wiki agrees, against tarkov.dev's 15), and Crisis, Aid Stations and Beneath The Streets all match tarkov.dev exactly. These captures were whole, and it shows."
+    },
+    {
+      "name": "Crisis",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled out of frame so the whole objective list would fit.",
+      "objectives": [
+        "Find the item in raid: Portable defibrillator (3)",
+        "Find the item in raid: Ophthalmoscope (3)",
+        "Find the item in raid: LEDX Skin Transilluminator (2)",
+        "Find the item in raid: Pile of meds (20)",
+        "Find the item in raid: Bottle of OLOLO Multivitamins (10)",
+        "Hand over the items (3)",
+        "Hand over the items (3)",
+        "Hand over the items (2)",
+        "Hand over the items (20)",
+        "Hand over the items (10)"
+      ],
+      "triangleResolved": "RESOLVED. The green corner triangle does NOT mean objectives are missing, it marks a page that is scrolled, which is exactly what happens when the description is scrolled out of frame to fit the list. Every card that carried it has its objective count corroborated independently: Abandoned Cargo 8 (wiki agrees), Pyramid Scheme 11 (wiki agrees, against tarkov.dev's 15), and Crisis, Aid Stations and Beneath The Streets all match tarkov.dev exactly. These captures were whole, and it shows."
+    },
+    {
+      "name": "Decontamination Service",
+      "location": "The Lab",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target from less than 60 meters away while wearing a gas mask or respirator in The Lab (40)"
+      ]
+    },
+    {
+      "name": "Quality Standard",
+      "location": "The Lab",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "TerraGroup Labs access keycard"
+      ],
+      "objectives": [
+        "Locate and obtain the special version of the LEDX Skin Transilluminator in The Lab",
+        "Hand over the found item"
+      ]
+    },
+    {
+      "name": "Out of Curiosity",
+      "location": "Customs",
+      "status": "failed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "mutuallyExclusive": "A THREE-WAY EXCLUSIVE CHOICE, and the sources DO record it, in a field nothing here was reading. Skier's 'Chemical - Part 4', Therapist's 'Out of Curiosity' and Prapor's 'Big Customer' carry identical objectives (locate the chemical transport on Customs, mark it), and each one's `failConditions` fails it when EITHER of the other two completes. SPT encodes the same under conditions.Fail. So the observation matches the published data exactly: this profile has both Out of Curiosity and Big Customer failed, which is what happens once Skier's version is completed. Recorded because the correction layer must not treat these as ordinary incomplete quests, they are permanently failed by design.",
+      "objectives": [
+        "Locate the transport with the chemicals on Customs",
+        "Mark the vehicle with an MS2000 Marker"
+      ]
+    },
+    {
+      "name": "Health Care Privacy - Part 1",
+      "location": "Shoreline",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark the first ambulance with an MS2000 Marker on Shoreline",
+        "Locate and mark the second ambulance with an MS2000 Marker on Shoreline",
+        "Locate and mark the third ambulance with an MS2000 Marker on Shoreline",
+        "Locate and mark the fourth ambulance with an MS2000 Marker on Shoreline"
+      ]
+    },
+    {
+      "name": "Health Care Privacy - Part 2",
+      "location": "Shoreline",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain any info about TerraGroup's research in Health Resort west wing on Shoreline",
+        "Hand over the retrieved information",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Health Care Privacy - Part 3",
+      "location": "Woods",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the van of the Health Resort medical services director on Woods",
+        "Take a sample of the blood",
+        "Hand over the blood sample"
+      ]
+    },
+    {
+      "name": "Health Care Privacy - Part 4",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Gain the Fatigue status effect and maintain it for 8 minutes"
+      ]
+    },
+    {
+      "name": "Health Care Privacy - Part 5",
+      "location": "Factory",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the drop spot on night-time Factory",
+        "Stash any Gunpowder in the designated spot (3)"
+      ]
+    },
+    {
+      "name": "Health Care Privacy - Part 6",
+      "location": "Factory",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the dead worker and take their blood sample on Factory",
+        "Hand over the found in raid item: LEDX Skin Transilluminator",
+        "Stash the blood sample in Sanitar's office in The Lab"
+      ]
+    },
+    {
+      "name": "Postman Pat - Part 2",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over the letter from Prapor's messenger"
+      ]
+    },
+    {
+      "name": "A Healthy Alternative",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over the lab journal"
+      ]
+    }
+  ]
+}

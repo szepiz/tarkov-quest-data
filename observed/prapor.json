@@ -1,0 +1,609 @@
+{
+  "trader": "Prapor",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "Every Prapor tab is covered: LL1-LL4 plus the essential group.",
+  "observedAt": "2026-08-10",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10, and corroborated by the Fence batch, whose '[PVE ZONE]' cards carry ids that exist only in tarkov.dev's pve task list. Earlier batches were recorded as unconfirmed rather than guessed. It changes nothing in the comparisons, the three modes are identical on every field across the 483 quests they share, but provenance should say what is known.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. `location` is the single map the game prints in the header, which is NOT the union of the objective maps and is not always consistent with them (see Debut vs Shootout Picnic). Objective text is verbatim, including the (Optional) prefix. `availableAtLoyalty` is the loyalty tab the quest was listed under, the roman numeral in the top-right of the quest card.",
+  "categoryMeaning": "The trader's quests are not all filed under a loyalty level. Prapor also has an ESSENTIAL group, marked with a list glyph instead of a roman numeral, holding the numbered story lines (The Punisher, Hell on Earth, The Good Times, Shipping Delay) plus Big Customer. Those records carry `category` and NO `availableAtLoyalty`, the two are alternatives, and inventing a loyalty level for them would put false rows in the chain-break table.",
+  "statusValues": "completed | active | failed. `failed` is real and observed (Big Customer), a quest can be permanently failed and still sit in the list.",
+  "objectivesCompleteMeaning": "false = the screenshot was cut off before the end of the objective list, so the COUNT is a lower bound and must not be graded. Every record here is true: I confirmed the cards were captured whole, including the ones whose last row sits at the image edge. Set it to false only when a capture is KNOWN to be partial.",
+  "quests": [
+    {
+      "name": "Luxurious Life",
+      "location": "Ground Zero",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the liquor store on Ground Zero",
+        "Locate and obtain the wine bottle in the store",
+        "Hand over the wine bottle"
+      ],
+      "rewards": {
+        "exp": 3000,
+        "traderRep": 0.1,
+        "roubles": 93440
+      }
+    },
+    {
+      "name": "Shootout Picnic",
+      "location": "Woods",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target on Woods, Ground Zero, Customs, or Interchange (15)"
+      ],
+      "rewards": {
+        "exp": 3000,
+        "traderRep": 0.1,
+        "roubles": 93440
+      }
+    },
+    {
+      "name": "Search Mission",
+      "location": "Woods",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "EYE MK2 professional hand-held compass"
+      ],
+      "objectives": [
+        "Locate Prapor's missing convoy on Woods",
+        "Locate the temporary USEC camp on Woods"
+      ],
+      "rewards": {
+        "exp": 3000,
+        "traderRep": 0.1,
+        "roubles": 93440
+      }
+    },
+    {
+      "name": "Bad Rep Evidence",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Portable bunkhouse key"
+      ],
+      "objectives": [
+        "Locate and obtain Secure Folder 0031 in one of the bunkhouses on Customs",
+        "(Optional) Gain access to the locked room in the office hallway on the third floor on Factory",
+        "(Optional) Obtain the Portable bunkhouse key",
+        "Hand over the folder",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Shaking Up the Teller",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Dorm room 203 key"
+      ],
+      "objectives": [
+        "Locate and obtain the valuable item in dorm room 203 on Customs",
+        "(Optional) Gain access to dorm room 214 on Customs",
+        "Hand over the valuable item"
+      ]
+    },
+    {
+      "name": "Background Check",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the bronze pocket watch on Customs",
+        "(Optional) Obtain the key to the fuel tanker truck",
+        "Hand over the found item"
+      ]
+    },
+    {
+      "name": "Belka and Strelka",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "RSP-30 reactive signal cartridge (Green)"
+      ],
+      "objectives": [
+        "Survive and extract from Customs through Railroad Passage (Flare)"
+      ]
+    },
+    {
+      "name": "Oil Run",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MS2000 Marker"
+      ],
+      "objectives": [
+        "Locate and mark any of the fuel tank trucks with an MS2000 Marker on Customs"
+      ]
+    },
+    {
+      "name": "Debut",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs on Woods, Ground Zero, Interchange, or Customs (5)"
+      ]
+    },
+    {
+      "name": "Power of Persuasion",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "HK MP5 9x19 submachine gun (Navy 3 Round Burst) SD"
+      ],
+      "objectives": [
+        "Eliminate PMC operatives with an MP5SD on Woods, Ground Zero, Interchange, or Customs (5)"
+      ]
+    },
+    {
+      "name": "Shooting Cans",
+      "location": "Ground Zero",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the Utyos machine gun on Ground Zero",
+        "Locate the AGS grenade launcher on Ground Zero",
+        "Eliminate any target on Ground Zero (5)"
+      ]
+    },
+    {
+      "name": "Properties All Around",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the real estate fund on Streets of Tarkov",
+        "Locate and obtain the Tarkov real estate transactions document",
+        "Hand over the obtained information"
+      ]
+    },
+    {
+      "name": "Grenadier",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "VOG-25 Khattabka improvised hand grenade (3)",
+        "VOG-17 Khattabka improvised hand grenade (3)",
+        "RGN hand grenade (3)"
+      ],
+      "objectives": [
+        "Eliminate any target with hand grenades or grenade launchers (5)"
+      ]
+    },
+    {
+      "name": "You've Got Mail",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the registered mail on Streets of Tarkov",
+        "Hand over the letter"
+      ]
+    },
+    {
+      "name": "District Patrol",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target with Assault rifles or Assault carbines on Streets of Tarkov (20)"
+      ]
+    },
+    {
+      "name": "Kings of the Rooftops",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Sniper Scavs on Streets of Tarkov (8)"
+      ]
+    },
+    {
+      "name": "Anesthesia",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and mark the first trading post with an MS2000 Marker on Shoreline",
+        "Locate and mark the second trading post with an MS2000 Marker on Shoreline",
+        "Locate and mark the third trading post with an MS2000 Marker on Shoreline"
+      ]
+    },
+    {
+      "name": "Postman Pat - Part 1",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the dead messenger and obtain his letter on Factory",
+        "Survive and extract from the location",
+        "Hand over the letter to Therapist"
+      ]
+    },
+    {
+      "name": "Capturing Outposts",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives at the specified Scav bases on Customs, Shoreline, or Woods (12)"
+      ]
+    },
+    {
+      "name": "Ice Cream Cones",
+      "location": "Woods",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "AK-74 5.45x39 6L31 60-round magazine"
+      ],
+      "objectives": [
+        "Find the item in raid: AK-74 5.45x39 6L31 60-round magazine (3)",
+        "(Optional) Obtain the key to the bunker in the TerraGroup employee's dorm room",
+        "(Optional) Locate the locked bunker on Woods",
+        "Hand over the items (3)"
+      ]
+    },
+    {
+      "name": "Glory to CPSU",
+      "questId": "64f5aac4b63b74469b6c14c2",
+      "questIdReason": "CORRECTED. The wiki DOES title this id's page 'Glory to CPSU', matching the game exactly, but our fetcher had cached it as 'Glory to CPSU - Part 1' because its move-chain follower ran to the end of a chain and landed on the wrong page (the same bug that filed a SKILL page under Jaeger's 'First Aid'). With the chain fix the wiki title now corroborates this pin independently. The pin is kept because it is still ambiguous by NAME: every source publishes two quests, 'Glory to CPSU - Part 1' (639135b04ed9512be67647d7) and '- Part 2' (64f5aac4b63b74469b6c14c2), and the observed name is a substring of both. Pinned to Part 2 because the observed first objective is Part 2's first objective verbatim, while Part 1's only real objective now appears here as an (Optional) line. The reading is that 1.1.0 MERGED the two into one quest named 'Glory to CPSU', the same pattern later confirmed by content for Easy Job, The Bunker and Pets Won't Need It. Corroborated three ways: the wiki redirects its Part 2 page to the Part 1 page, so its editors merged them too; and 'Glory to CPSU - Part 1' is one of the 22 Prapor quests tarkov.dev publishes that are absent from my own complete list, exactly as an absorbed half should be.",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the place of work of Prapor's friend on Streets of Tarkov",
+        "(Optional) Locate the apartment of Prapor's friend on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "Delivery From the Past",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the valuable folder in Tarcone director's office on Customs",
+        "Stash the package in the break room on the 2nd floor near Gate 3 on Factory"
+      ]
+    },
+    {
+      "name": "Possessor",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the helicopter logbook on Factory",
+        "Hand over the found information"
+      ]
+    },
+    {
+      "name": "Job for a Patriot",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Kalashnikov AK-12 5.45x39 assault rifle"
+      ],
+      "objectives": [
+        "Eliminate PMCs with AK-12 with proprietary suppressor and PS-320 scope on Streets of Tarkov, Shoreline, or Ground Zero (10)"
+      ]
+    },
+    {
+      "name": "The Tarkov Import",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+      ],
+      "objectives": [
+        "Eliminate PMCs with SR-25 with Hybrid 46 suppressor and S&B PM II 1-8x24 scope on Lighthouse or Reserve (6)"
+      ]
+    },
+    {
+      "name": "Easy-Breezy",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "SR-2M Veresk 9x21 submachine gun FSB"
+      ],
+      "objectives": [
+        "Eliminate any target with SR-2M with suppressor and KP-SR2 sight on Reserve or Lighthouse (30)"
+      ]
+    },
+    {
+      "name": "No Place for Renegades",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Raiders in the command bunker on Reserve (5)"
+      ]
+    },
+    {
+      "name": "Easy Job",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "merged": "CONFIRMED BY CONTENT, not just by count. These 3 objectives are 'Easy Job - Part 1' (locate the helicopter, mark it) followed by the whole of 'Easy Job - Part 2', whose single objective reads 'Eliminate any target around the helicopter area at the water treatment plant on Lighthouse'. 1.1.0 merged the two into one quest called 'Easy Job'. The wiki has caught up, its Easy Job page lists 3, but tarkov.dev still publishes both parts separately.",
+      "objectives": [
+        "Locate the helicopter at the water treatment plant on Lighthouse",
+        "Mark the helicopter with an MS2000 Marker",
+        "Eliminate any target around the helicopter area (10)"
+      ]
+    },
+    {
+      "name": "Special Comms",
+      "location": "Transition",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Bulbex cable cutter",
+        "Military cable"
+      ],
+      "objectives": [
+        "Stash a Military cable at the boulder next to RUAF gate on Woods",
+        "Use the transit from Woods to Reserve",
+        "Stash a Bulbex cable cutter at the sandbags next to LAV III above the storage warehouse on Reserve"
+      ]
+    },
+    {
+      "name": "Reconnaissance",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Investigate the roof of any water treatment plant facility on Lighthouse",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Documents",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Obtain the first folder with military documents in the command bunker offices on Reserve",
+        "Obtain the second folder with military documents in the command bunker offices on Reserve",
+        "Obtain the third folder with military documents in the command bunker offices on Reserve",
+        "Hand over the first documents",
+        "Hand over the second documents",
+        "Hand over the third documents"
+      ]
+    },
+    {
+      "name": "The Bunker",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "merged": "CONFIRMED BY CONTENT. These 7 objectives are 'The Bunker - Part 1' objectives 1-2 (locate the bunker, locate the control room) followed by 'The Bunker - Part 2' objectives 1-5, the five hermetic doors, word for word. Both parts' trailing 'Survive and extract from the location' is gone, which is why 7 and not 9. Neither tarkov.dev nor the wiki reflects this: both still describe Part 1 alone, at 3 objectives.",
+      "objectives": [
+        "Locate the underground bunker on Reserve",
+        "Locate the control room in the underground bunker on Reserve",
+        "Locate the hermetic door leading to the hospital (White Bishop) on Reserve",
+        "Locate one of the two hermetic doors leading to the academy building (Black Bishop) on Reserve",
+        "Locate one of the two hermetic doors leading to barracks #1 (Black Pawn) on Reserve",
+        "Locate one of the two hermetic doors leading to barracks #2 (White Pawn) on Reserve",
+        "Locate the hermetic door leading to the air control center building (King) on Reserve"
+      ],
+      "questId": "5ede55112c95834b583f052a",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. The surviving id of the two merged halves, tarkov.dev's \"The Bunker - Part 1\", whose first two objectives open this card. The wiki agrees the page is now just \"The Bunker\" but still prints Part 1's three objectives, so on this quest both sources are stale."
+    },
+    {
+      "name": "Ironclad Proof",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "GP-25 Kostyor 40mm underbarrel grenade launcher",
+        "40mm VOG-25 grenade"
+      ],
+      "objectives": [
+        "Hand over any found in raid Russian grenades (10)",
+        "Eliminate any target with a GP-25 grenade launcher (10)"
+      ]
+    },
+    {
+      "name": "The Art of Explosion",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives with grenades or grenade launchers (20)"
+      ]
+    },
+    {
+      "name": "Regulated Materials",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: 6-STEN-140-M military battery",
+        "Hand over the item",
+        "Find the item in raid: OFZ 30x165mm shell (3)",
+        "Hand over the items (3)"
+      ]
+    },
+    {
+      "name": "Getting Some Air",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Degtyarev RPDN 7.62x39 machine gun"
+      ],
+      "objectives": [
+        "Eliminate any target with an RPDN with EKP-1S-03 sight on Shoreline, Lighthouse, or Reserve (40)"
+      ]
+    },
+    {
+      "name": "The Punisher - Part 1",
+      "location": "Customs",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs with AKS-74U on Customs (25)"
+      ],
+      "questId": "59c512ad86f7741f0d09de9b",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. tarkov.dev publishes this as Part 3, \"Eliminate Scavs while using an AKS-74U on Customs\", which is this card word for word."
+    },
+    {
+      "name": "The Punisher - Part 2",
+      "location": "Shoreline",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs with AKM series weapons on Shoreline (15)"
+      ],
+      "questId": "59c50a9e86f7745fef66f4ff",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. tarkov.dev publishes this as Part 1, \"Eliminate Scavs while using an AKM series weapon on Shoreline\"."
+    },
+    {
+      "name": "The Punisher - Part 3",
+      "location": "Reserve",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "KBP VSK-94 9x39 rifle"
+      ],
+      "objectives": [
+        "Eliminate Scavs with 9x39 caliber weapons on Reserve (12)",
+        "Find the item in raid: Lower half-mask (7)",
+        "Hand over the items (7)"
+      ],
+      "renumbered": "THE LINE WAS RESHUFFLED, and this card is what proves the shuffle is a reshuffle rather than a rewrite. Its content, 9x39 weapons on Reserve, seven Lower half-masks, is what tarkov.dev publishes as 'The Punisher - Part 2'. So the game's Part 3 is the source's Part 2, the game's Part 1 is the source's Part 3, and the game's Part 2 is the source's Part 1. Match this line by OBJECTIVE TEXT, never by part number.",
+      "questId": "59c50c8886f7745fed3193bf",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. tarkov.dev publishes this as Part 2, same Reserve kills, same 7 Lower half-masks, same hand-over. The weapon spec changed with the renumber: tarkov.dev says \"a suppressed weapon\", the game says \"9x39 caliber weapons\"."
+    },
+    {
+      "name": "The Punisher - Part 4",
+      "location": "Lighthouse",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs with an SVDS or TKPD on Lighthouse (10)",
+        "Eliminate Scavs while wearing a Scav vest on Lighthouse (10)",
+        "Find the item in raid: Bars A-2607 95Kh18 knive (5)",
+        "Hand over the items (5)"
+      ],
+      "questId": "59ca264786f77445a80ed044",
+      "questIdReason": "PINNED BY CONTENT, NOT BY NAME. 1.1.0 reshuffled this line, so the part numbers no longer line up between the game and tarkov.dev. The one part of this line that kept its number. Same Lighthouse kills, same Scav vest, same 5 Bars A-2607 knives, but the weapon changed from a 12ga shotgun to an SVDS or TKPD, and the balaclava requirement is gone."
+    },
+    {
+      "name": "Hell on Earth - Part 1",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an MP-43-1C shotgun to comply with the given specifications"
+      ]
+    },
+    {
+      "name": "Hell on Earth - Part 2",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MP-43-1C 12ga double-barrel shotgun"
+      ],
+      "objectives": [
+        "Eliminate the hooded men with the double barrel shotgun (2)"
+      ]
+    },
+    {
+      "name": "The Good Times - Part 1",
+      "location": "Factory",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "6B43 Zabralo-Sh body armor (EMR)",
+        "FORT Kiver-M bulletproof helmet"
+      ],
+      "objectives": [
+        "Eliminate PMC operatives while wearing 6B43 body armor and Kiver-M helmet on Factory (5)"
+      ]
+    },
+    {
+      "name": "Big Customer",
+      "location": "Customs",
+      "status": "failed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "mutuallyExclusive": "One of a three-way exclusive choice with Skier's 'Chemical - Part 4' and Therapist's 'Out of Curiosity', identical objectives, and each one's `failConditions` fails it when either of the others completes. Failed here by design, not by mistake. See the fuller note on Out of Curiosity in therapist.json.",
+      "objectives": [
+        "Locate the transport with the chemicals on Customs",
+        "Mark the vehicle with an MS2000 Marker"
+      ]
+    },
+    {
+      "name": "Shipping Delay - Part 1",
+      "location": "Woods",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over the package from the depot on Woods"
+      ]
+    }
+  ]
+}

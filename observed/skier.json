@@ -1,0 +1,508 @@
+{
+  "trader": "Skier",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "LL1-LL4 plus the essential group were all sent.",
+  "observedAt": "2026-08-10",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10; see the Fence batch, whose [PVE ZONE] cards carry ids that exist only in tarkov.dev's pve task list.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. Objective text is verbatim, including the (Optional) prefix.",
+  "quests": [
+    {
+      "name": "Supplier",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over the item: BNTI Module-3M body armor",
+        "Hand over the item: TOZ-106 20ga bolt-action shotgun"
+      ]
+    },
+    {
+      "name": "Burning Rubber",
+      "location": "Ground Zero",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Roubles (23 360)"
+      ],
+      "objectives": [
+        "Use the paid vehicle extraction on Ground Zero"
+      ]
+    },
+    {
+      "name": "Golden Swag",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the golden Zibbo lighter from Dorm room 303 on Customs",
+        "Hand over the found item",
+        "Stash a regular Zibbo lighter at Dorm room 303 on Customs"
+      ]
+    },
+    {
+      "name": "Informed Means Armed",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "WI-FI Camera"
+      ],
+      "objectives": [
+        "Install a WI-FI Camera to watch the sawmill dock on Woods",
+        "Install a WI-FI Camera to watch the Kiba Arms store entrance on Interchange"
+      ]
+    },
+    {
+      "name": "The Extortionist",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the hidden valuable cargo on Customs",
+        "(Optional) Locate the messenger's body on Customs",
+        "(Optional) Locate the place where the messenger hid the cargo on Customs",
+        "Hand over the valuable cargo"
+      ]
+    },
+    {
+      "name": "Private Club",
+      "location": "Customs",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain Skier's wallet on Customs",
+        "Hand over the found item"
+      ]
+    },
+    {
+      "name": "No Swiping",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target at the smuggler bases on Shoreline or Interchange (10)"
+      ]
+    },
+    {
+      "name": "What's on the Flash Drive?",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: Secure Flash drive (2)",
+        "Hand over the items (2)"
+      ]
+    },
+    {
+      "name": "Polikhim Hobo",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 1,
+      "objectivesComplete": true,
+      "traderMoved": "tarkov.dev files this under PRAPOR at minimum level 10; the game lists it under SKIER at loyalty level 1. It was one of the 22 quests tarkov.dev publishes for Prapor that are absent from my complete Prapor list, so at least one of those 22 is not a removed quest at all, it changed trader. Worth re-checking the rest of that list against the traders they actually belong to before concluding anything was deleted.",
+      "objectives": [
+        "Eliminate Scavs on Interchange, Ground Zero, or Woods (25)"
+      ]
+    },
+    {
+      "name": "Beyond the Red Meat",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain information on culinary secrets at the Beluga restaurant on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "Chumming",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Golden neck chain (4)"
+      ],
+      "objectives": [
+        "Stash Golden neck chains in the microwave on the 3rd floor of the dorm on Customs (3)",
+        "Stash Golden neck chains in the middle wooden cabin at the sawmill on Woods (3)"
+      ]
+    },
+    {
+      "name": "Setup",
+      "location": "Customs",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives with common Scav weapons while wearing the specified gear on Customs (8)"
+      ]
+    },
+    {
+      "name": "Supplements",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "verbatimNote": "Objective 3 prints 'Find the item in raid Medical bloodset' with NO colon, while the same line in Vitamins prints 'Find the item in raid: Medical bloodset' with one. BSG's own inconsistency, kept as shown.",
+      "objectives": [
+        "Hand over the items (4)",
+        "Find the item in raid: Respirator (4)",
+        "Find the item in raid Medical bloodset (3)",
+        "Hand over the items (3)",
+        "Locate and obtain the chemical vial on Customs",
+        "Hand over the vial"
+      ]
+    },
+    {
+      "name": "Vitamins",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "openQuestion": "THE VITAMINS LINE WAS RESTRUCTURED, NOT JUST RENAMED, and the counts hide it. tarkov.dev's 'Vitamins - Part 1' is three chemical containers on Shoreline and Interchange (6 objectives); the game's 'Vitamins' is ONE container on Factory plus the respirator-and-bloodset block (also 6). Its sibling, the game's 'Supplements' (tarkov.dev 'Vitamins - Part 2', 4 objectives), is a chemical vial on CUSTOMS plus the same respirator-and-bloodset block. So the line became two parallel quests that share an item block and differ by map, and matching 6 against 6 reports agreement where the content is almost entirely different. Matched on the wiki's own page mapping (Part 1 -> Vitamins, Part 2 -> Supplements), which is the best evidence available, but the ids cannot be confirmed from a screenshot.",
+      "objectives": [
+        "Locate and obtain the chemical container on Factory",
+        "Hand over the container",
+        "Hand over the items (4)",
+        "Hand over the items (3)",
+        "Find the item in raid: Respirator (4)",
+        "Find the item in raid: Medical bloodset (3)"
+      ]
+    },
+    {
+      "name": "The Secret Recipe",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "itemChanged": "The target item is named differently. tarkov.dev and the wiki both say 'Locate and obtain the SECRET INGREDIENT at the TerraGroup office on Streets of Tarkov'; the game says 'the RED VIAL', and the briefing text backs it up ('The notes keep mentioning some kind of red vial'). Same place, same quest, different item name, the second case after Charity, and again invisible to a count check.",
+      "objectives": [
+        "Locate and obtain the red vial at the TerraGroup office on Streets of Tarkov"
+      ]
+    },
+    {
+      "name": "The Walls Have Eyes",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "WI-FI Camera (3)"
+      ],
+      "objectives": [
+        "Install a WI-FI Camera in the first crane's cockpit on Factory",
+        "Install a WI-FI Camera in the second crane's cockpit on Factory",
+        "Install a WI-FI Camera in the third crane's cockpit on Factory"
+      ]
+    },
+    {
+      "name": "Exit Here",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Survive and extract from Factory through the Courtyard Gate"
+      ]
+    },
+    {
+      "name": "Friend From the West",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives (5)"
+      ]
+    },
+    {
+      "name": "Stirrup",
+      "location": "Factory",
+      "status": "completed",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target with pistols on Factory (10)"
+      ]
+    },
+    {
+      "name": "House Arrest",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 2,
+      "objectivesComplete": true,
+      "verbatimNote": "Objective 2 prints 'Streets of tarkov' with a lowercase t, the same BSG typo seen in Therapist's 'Pets Won't Need It'. Two traders, so it is a shared string bug rather than a one-off.",
+      "startingEquipment": [
+        "Iron gate key"
+      ],
+      "objectives": [
+        "Locate where the missing group was held captive on Streets of Tarkov",
+        "Locate the debtor on Streets of tarkov",
+        "Hand over the item: Chekannaya 15 apartment key"
+      ]
+    },
+    {
+      "name": "Safe Corridor",
+      "location": "Reserve",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs in the underground storage warehouse on Reserve (5)",
+        "Hand over any found in raid keys for the underground storage warehouse (RB-PSP and RB-PSV) (3)"
+      ]
+    },
+    {
+      "name": "Missing Cargo",
+      "location": "Lighthouse",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the crashed helicopter on Lighthouse",
+        "Locate and obtain the informant's intelligence folder",
+        "Hand over the folder"
+      ]
+    },
+    {
+      "name": "Rigged Game",
+      "location": "Shoreline",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MS2000 Marker (3)"
+      ],
+      "objectives": [
+        "Mark the medical container at the Health Resort with an MS2000 Marker on Shoreline",
+        "Mark the medical container by cottages with an MS2000 Marker on Shoreline",
+        "Mark the medical container at the river pier with an MS2000 Marker on Shoreline"
+      ]
+    },
+    {
+      "name": "Pyramid Scheme",
+      "location": "Streets of Tarkov",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "captureNote": "Description scrolled out of frame so the objectives would fit.",
+      "objectives": [
+        "Mark any ATM on Klimov Street with an MS2000 Marker on Streets of Tarkov",
+        "(Optional) Locate the first group of ATMs on Klimov Street on Streets of Tarkov",
+        "(Optional) Locate the first ATM inside Klimov Shopping Mall on Streets of Tarkov",
+        "(Optional) Locate the first ATM on Klimov Street on Streets of Tarkov",
+        "(Optional) Locate the third ATM on Klimov Street on Streets of Tarkov",
+        "(Optional) Locate the second ATM inside Klimov Shopping Mall on Streets of Tarkov",
+        "(Optional) Locate the third ATM inside Klimov Shopping Mall on Streets of Tarkov",
+        "(Optional) Locate the first group of ATMs inside Klimov Shopping Mall on Streets of Tarkov",
+        "(Optional) Locate the second ATM on Klimov Street on Streets of Tarkov",
+        "(Optional) Locate the second group of ATMs inside Klimov Shopping Mall on Streets of Tarkov",
+        "(Optional) Locate the third group of ATMs inside Klimov Shopping Mall on Streets of Tarkov"
+      ],
+      "triangleResolved": "RESOLVED. The green corner triangle does NOT mean objectives are missing, it marks a page that is scrolled, which is exactly what happens when the description is scrolled out of frame to fit the list. Every card that carried it has its objective count corroborated independently: Abandoned Cargo 8 (wiki agrees), Pyramid Scheme 11 (wiki agrees, against tarkov.dev's 15), and Crisis, Aid Stations and Beneath The Streets all match tarkov.dev exactly. These captures were whole, and it shows."
+    },
+    {
+      "name": "Top Secret",
+      "location": "Lighthouse",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the radar station commandant's office on Lighthouse",
+        "Locate and obtain the HDD with archived flight routes inside the room",
+        "Hand over the drive"
+      ]
+    },
+    {
+      "name": "Classified Technologies",
+      "location": "Reserve",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Obtain the package with T-90M Commander control panel on Reserve",
+        "Hand over the package"
+      ]
+    },
+    {
+      "name": "From Hand to Hand",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "traderMoved": "THIRD AND FOURTH TRADER MOVES, BOTH THE SAME DIRECTION. tarkov.dev files this under PEACEKEEPER as 'Lend-Lease - Part 2'; the game lists it under SKIER at LL3. Its neighbour 'Classified Technologies' is the same story, published under Peacekeeper, listed under Skier. With Polikhim Hobo (Prapor -> Skier) that is three quests that have moved INTO Skier, so quests changing hands is a routine part of 1.1.0 rather than a one-off. Every 'published for a trader whose list we hold in full, but absent from it' entry has to be read with that in mind.",
+      "objectives": [
+        "Stash a Virtex programmable processor inside the makeshift lab on Lighthouse",
+        "Stash a Military COFDM Wireless Signal Transmitter inside the makeshift lab on Lighthouse"
+      ]
+    },
+    {
+      "name": "Long Road",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 3,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline (7)"
+      ]
+    },
+    {
+      "name": "Silent Caliber",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate any target with a suppressed 12ga shotgun on Reserve, Lighthouse, Ground Zero, or The Lab (30)"
+      ]
+    },
+    {
+      "name": "Bullshit",
+      "location": "Lighthouse",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "objectivesComplete": true,
+      "verbatimNote": "'Roler Submariner' is the game's own in-universe brand spelling, not a transcription slip.",
+      "itemChanged": "RELOCATED AND REWRITTEN, and this is the FIRST case where tarkov.dev and the wiki are BOTH wrong about the map. Both describe the pre-1.1.0 quest: on CUSTOMS, stash an SV-98 sniper rifle, a Roler Submariner watch and a False flash drive in the trash by the stairs on the 3rd floor of the dorm, after first obtaining the drive, plus, per the wiki, killing no Scavs while it is active. The game's version is on LIGHTHOUSE, at the chalet tennis court, and asks for an AXMC sniper rifle, the same watch, and a MILITARY flash drive, with the obtain step and the no-kill condition gone. Map, two of three items, the drop spot and the structure all changed. A tool following either source sends the player to the wrong map with the wrong guns.",
+      "objectives": [
+        "Stash an AXMC sniper rifle in the trash bags at the chalet tennis court on Lighthouse",
+        "Stash a Roler Submariner gold wrist watch in the trash bags at the chalet tennis court on Lighthouse",
+        "Stash a Military flash drive in the trash bags at the chalet tennis court on Lighthouse"
+      ]
+    },
+    {
+      "name": "Chemical - Part 1",
+      "location": "Customs",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain any information about the deputy chief's past life on Customs",
+        "(Optional) Locate the sleeping place of the former deputy chief of security on Customs",
+        "Hand over the information",
+        "Locate and obtain any item that could help with the investigation",
+        "Hand over the item"
+      ]
+    },
+    {
+      "name": "Chemical - Part 2",
+      "location": "Customs",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Dorm room 220 key"
+      ],
+      "objectives": [
+        "Locate and obtain any evidence that could help with the investigation on Customs",
+        "Hand over the evidence",
+        "Locate and obtain any information that could help with the investigation on Customs",
+        "Hand over the info"
+      ]
+    },
+    {
+      "name": "Chemical - Part 3",
+      "location": "Factory",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the chemical syringe on Factory",
+        "Hand over the syringe"
+      ]
+    },
+    {
+      "name": "Chemical - Part 4",
+      "location": "Customs",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "mutuallyExclusive": "THE THIRD ARM OF THE EXCLUSIVE CHOICE, AND IT CLOSES THE CASE. Prapor's 'Big Customer' and Therapist's 'Out of Curiosity' are both FAILED on this profile, and each of the three carries `failConditions` that fail it when either of the others completes. This one is COMPLETED, so the two failures are not a bug, not a missed quest, but the direct consequence of taking Skier's side. Inferred from the two failures two batches ago; now confirmed from the winning arm.",
+      "startingEquipment": [
+        "MS2000 Marker"
+      ],
+      "objectives": [
+        "Locate the transport with the chemicals on Customs",
+        "Mark the vehicle with an MS2000 Marker"
+      ]
+    },
+    {
+      "name": "Thirsty - Delivery",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Propane tank (5L) (2)"
+      ],
+      "objectives": [
+        "Locate the specified stash spot on Woods",
+        "Locate the specified stash spot on Customs"
+      ]
+    },
+    {
+      "name": "Thirsty - Breadwinner",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: Propane tank (5L) (2)",
+        "Hand over the items (2)"
+      ]
+    },
+    {
+      "name": "Dangerous Props",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "MPS Auto Assault-12 Gen 1 12ga automatic shotgun"
+      ],
+      "objectives": [
+        "Eliminate any target with an AA-12 shotgun (20)"
+      ]
+    },
+    {
+      "name": "Irresistible",
+      "location": "Interchange",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and obtain the lost weapon crate on Interchange",
+        "Hand over the retrieved cargo"
+      ]
+    },
+    {
+      "name": "Easy Money - Part 1 [PVE ZONE]",
+      "location": "Customs",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Arena advertisement poster (3)"
+      ],
+      "objectives": [
+        "Plant the Bison vs Undertaker poster in the living quarters at the Scav base on Customs"
+      ]
+    }
+  ]
+}

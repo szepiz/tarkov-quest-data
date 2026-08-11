@@ -1,0 +1,21 @@
+# raw/ is a VERBATIM CACHE OF OTHER PEOPLE'S DATA — ~14 MB of tarkov.dev, the
+# wiki, tarkov-data-overlay and SPT, kept byte-for-byte so provenance is never in
+# doubt. It is deliberately NOT committed:
+#
+#   - committing it would redistribute four projects' data under licences that
+#     are theirs to set, not ours;
+#   - it is a snapshot, so it is wrong the moment upstream changes, and a stale
+#     mirror in a public repo is worse than no mirror;
+#   - `node fetch/fetch_all.js` rebuilds it in about a minute.
+#
+# raw/MANIFEST.json is the exception and IS committed: it is our own record of
+# what was fetched, from where, when, and how big — provenance without
+# redistribution.
+raw/*
+!raw/MANIFEST.json
+!raw/SUMMARY.md
+
+node_modules/
+*.log
+.DS_Store
+Thumbs.db

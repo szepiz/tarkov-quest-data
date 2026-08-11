@@ -1,0 +1,232 @@
+{
+  "trader": "Ref",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "Ref has ONLY an essential group, no loyalty tabs, like Fence. All 19 were sent.",
+  "observedAt": "2026-08-11",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "CONFIRMED PvE, and this trader is the proof in its strongest form: 18 of these 19 cards carry the [PVE ZONE] tag, and those ids exist only in tarkov.dev's pve task list.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. Objective text is verbatim, including the (Optional) prefix and the [PVE ZONE] tag in the title.",
+  "quests": [
+    {
+      "name": "Provide Viewership",
+      "location": "Customs",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "modeNote": "THE ONLY REF QUEST WITHOUT A [PVE ZONE] TAG, and the only one of the 19 that exists in all three game modes. It is also the single quest in the entire dataset whose FIELD VALUES differ between modes: tarkov.dev gives it minimum level 10 and one prerequisite in regular, and neither in pve or seasonal. Seasonal's Ref tree is this quest and nothing else.",
+      "startingEquipment": [
+        "WI-FI Camera (4)"
+      ],
+      "objectives": [
+        "Install the first WI-FI Camera inside the industrial plant on Customs",
+        "Install the second WI-FI Camera inside the industrial plant on Customs",
+        "Install the third WI-FI Camera inside the industrial plant on Customs",
+        "Install the fourth WI-FI Camera inside the industrial plant on Customs",
+        "Eliminate any target inside the industrial plant on Customs (15)"
+      ]
+    },
+    {
+      "name": "Arena Business [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectiveTypeNote": "ALL THREE objectives are other quests, 'Complete the task X'. The second case after Mechanic's 'A Helping Hand', and the first where a quest consists ENTIRELY of quest-completion conditions. Those are prerequisites expressed as objectives, invisible to anything reading taskRequirements.",
+      "objectives": [
+        "Complete the task Professional Fitness - Part 2",
+        "Complete the task To Great Heights! - Part 6",
+        "Complete the task Hold the Lead"
+      ]
+    },
+    {
+      "name": "Professional Fitness - Part 1 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Play a match in CheckPoint or Last Hero mode"
+      ]
+    },
+    {
+      "name": "Professional Fitness - Part 2 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate enemies in Arena (20)"
+      ]
+    },
+    {
+      "name": "Hold the Lead [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate enemies in Arena (75)"
+      ]
+    },
+    {
+      "name": "To Great Heights! - Part 1 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "verbatimNote": "Prints 'LastHero' as one word, while Professional Fitness - Part 1 prints 'Last Hero' with a space. BSG's own inconsistency, kept as shown.",
+      "objectives": [
+        "Win a match in CheckPoint or LastHero mode in Arena"
+      ]
+    },
+    {
+      "name": "To Great Heights! - Part 2 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Win a match in TeamFight, BlastGang, or CheckPoint mode in Arena"
+      ]
+    },
+    {
+      "name": "To Great Heights! - Part 3 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Win a match while claiming at least 3rd place in TeamFight, BlastGang, or CheckPoint mode in Arena (2)"
+      ]
+    },
+    {
+      "name": "To Great Heights! - Part 4 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectiveTypeNote": "Carries an explicit FAILURE CONDITION as an objective row: '(Optional) Failure Condition: Lose 4 matches'. Nothing else in 300+ records states a failure condition on the card itself, elsewhere failure is only visible as a quest's status, or in tarkov.dev's failConditions field.",
+      "objectives": [
+        "Hand over Roubles (1 000 000)",
+        "Win three out of six matches in TeamFight, BlastGang, or CheckPoint mode in Arena (3)",
+        "(Optional) Failure Condition: Lose 4 matches (4)"
+      ]
+    },
+    {
+      "name": "To Great Heights! - Part 5 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Win a match claiming at least 2nd place in the team in TeamFight, BlastGang, or CheckPoint mode"
+      ]
+    },
+    {
+      "name": "To Great Heights! - Part 6 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Win two matches in a row in TeamFight, BlastGang, or CheckPoint mode (2)"
+      ]
+    },
+    {
+      "name": "Surprise [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over the found in raid items: Class 4 or higher ballistic plates (3)"
+      ]
+    },
+    {
+      "name": "Balancing - Part 1 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "Steyr AUG A1 5.56x45 assault rifle (2)",
+        "Steyr AUG 5.56x45 30-round magazine (4)",
+        "5.56x45mm M856 ammo pack (100 pcs) (2)"
+      ],
+      "objectives": [
+        "Eliminate Scavs while using a Steyr AUG on any location (5)"
+      ]
+    },
+    {
+      "name": "Balancing - Part 2 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "startingEquipment": [
+        "PACA Soft Armor (2)"
+      ],
+      "objectives": [
+        "Eliminate PMC operatives while wearing a PACA Soft Armor on any location (2)"
+      ]
+    },
+    {
+      "name": "Decisions, Decisions [PVE ZONE]",
+      "location": "Any location",
+      "status": "failed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "mutuallyExclusive": "A SECOND EXCLUSIVE PAIR, and this one is visible from both sides in the collection. Its objective, 'Locate and obtain the compromising information on Ref', is word for word the second objective of Fence's 'Between Two Fires [PVE ZONE]', which is COMPLETED on this profile while this is FAILED. Ref asks the player to bring him the dirt; Fence asks the player to keep it. Taking Fence's side failed Ref's quest.",
+      "objectives": [
+        "Locate and obtain the compromising information on Ref"
+      ]
+    },
+    {
+      "name": "Easy Money - Part 2 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over the found in raid items from the Drinks category (5)",
+        "Hand over the found in raid items from the Food category (5)"
+      ]
+    },
+    {
+      "name": "Against the Conscience - Part 2 [PVE ZONE]",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate enemies in any game mode in Arena (100)"
+      ]
+    },
+    {
+      "name": "Create a Distraction - Part 1 [PVE ZONE]",
+      "location": "Ground Zero",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero (3)"
+      ]
+    },
+    {
+      "name": "Create a Distraction - Part 2 [PVE ZONE]",
+      "location": "Streets of Tarkov",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Kaban's or Kollontay's guards on Streets of Tarkov (2)"
+      ]
+    }
+  ]
+}

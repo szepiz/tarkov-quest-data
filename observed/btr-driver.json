@@ -1,0 +1,29 @@
+{
+  "trader": "BTR Driver",
+  "allVisibleCaptured": false,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "CANNOT BE COMPLETED BY THIS METHOD, and that is a structural fact rather than a gap in effort. The BTR Driver has NO TRADER TAB, there is no quest list to page through, so only the quest currently in progress is visible anywhere. Past and completed BTR quests cannot be read off the screen at all. tarkov.dev publishes 19 for this trader; we can only ever confirm the one that happens to be active.",
+  "observedAt": "2026-08-11",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10; see the Fence batch, whose [PVE ZONE] cards carry ids that exist only in tarkov.dev's pve task list.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. The BTR Driver's card has a DIFFERENT layout from every other trader's: a portrait strip on the left, a percentage progress bar on the right (0% here), and no loyalty numeral at all. The list glyph that marks the essential group elsewhere is present, so the category is recorded as essential, but with no loyalty tab to read it from that is an inference from the icon rather than from a tab heading.",
+  "quests": [
+    {
+      "name": "Swift Retribution",
+      "location": "Woods",
+      "status": "active",
+      "category": "essential",
+      "categoryUncertain": true,
+      "progressPercent": 0,
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate Scavs on Woods (10)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "trader": "Fence",
+  "allVisibleCaptured": true,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "Fence has NO other tabs, no loyalty levels, only the essential group. So these five are the whole of Fence.",
+  "observedAt": "2026-08-10",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE, and independently by the data: two of these cards are '[PVE ZONE]' variants, and those ids exist ONLY in tarkov.dev's pve task list. The regular list carries the same quests under '[PVP ZONE]' with different ids.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Read off the in-game quest screen. Objective text is verbatim, including the (Optional) prefix and the [PVE ZONE] tag in the title.",
+  "quests": [
+    {
+      "name": "Establish Contact",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Reach 5.0 reputation with Fence"
+      ]
+    },
+    {
+      "name": "Between Two Fires [PVE ZONE]",
+      "location": "Customs",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Return to the old champion's hideout on Customs",
+        "Locate and obtain the compromising information on Ref",
+        "Hand over the found info"
+      ]
+    },
+    {
+      "name": "Against the Conscience - Part 1 [PVE ZONE]",
+      "location": "Customs",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate the old champion's room on Customs",
+        "(Optional) Locate and obtain the key at the smugglers' base on Shoreline",
+        "Find out what happened to the champion",
+        "Survive and extract from the location"
+      ]
+    },
+    {
+      "name": "Collector",
+      "location": "Any location",
+      "status": "locked",
+      "category": "essential",
+      "objectivesComplete": false,
+      "objectives": [],
+      "cardShowsRequirementsNotObjectives": "A LOCKED quest shows a TASK UNLOCK REQUIREMENTS panel in place of its objectives, the game's own statement of what gates it, and the single most valuable thing this collection can capture. The empty `objectives` array is therefore CORRECT and not a gap: a locked quest prints no objectives at all. Confirmed on 2026-08-11 that the seven requirements below are the WHOLE list, not a scrolled fragment, which is consistent, because seven is exactly the number of traders that have a loyalty level to reach. Fence, Ref, the BTR Driver and the Lightkeeper have no LL4 to require.",
+      "unlockRequirementsPartial": false,
+      "unlockRequirements": [
+        {
+          "type": "loyalty",
+          "trader": "Therapist",
+          "level": 4,
+          "met": true
+        },
+        {
+          "type": "loyalty",
+          "trader": "Prapor",
+          "level": 4,
+          "met": true
+        },
+        {
+          "type": "loyalty",
+          "trader": "Peacekeeper",
+          "level": 4,
+          "met": false
+        },
+        {
+          "type": "loyalty",
+          "trader": "Mechanic",
+          "level": 4,
+          "met": true
+        },
+        {
+          "type": "loyalty",
+          "trader": "Jaeger",
+          "level": 4,
+          "met": true
+        },
+        {
+          "type": "loyalty",
+          "trader": "Skier",
+          "level": 4,
+          "met": true
+        },
+        {
+          "type": "loyalty",
+          "trader": "Ragman",
+          "level": 4,
+          "met": false
+        }
+      ],
+      "profileLoyaltySnapshot": "The ticks double as a snapshot of my loyalty on 2026-08-10: LL4 reached with Therapist, Prapor, Mechanic, Jaeger and Skier; not yet with Peacekeeper or Ragman."
+    },
+    {
+      "name": "Is This a Reference?",
+      "location": "Any location",
+      "status": "completed",
+      "category": "essential",
+      "objectivesComplete": true,
+      "captureNote": "Captured across three screenshots because the list does not fit one frame; I checked. 27 objectives, in order.",
+      "objectives": [
+        "Install a WI-FI Camera at the amphibian pizza lovers' hideout on Streets of Tarkov",
+        "Install a WI-FI Camera at the burned girl's sickroom on Streets of Tarkov",
+        "Install a WI-FI Camera at the barbed wire body on Streets of Tarkov",
+        "Install a WI-FI Camera at the really scary hole in the wall on Streets of Tarkov",
+        "Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero",
+        "Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero",
+        "Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero",
+        "Install a WI-FI Camera by your friend Wilson on Lighthouse",
+        "Install a WI-FI Camera at the kindled rest place on Lighthouse",
+        "Install a WI-FI Camera at the ominous welcome sign on Lighthouse",
+        "Install a WI-FI Camera at the megagenius scientist's seat on Lighthouse",
+        "Install a WI-FI Camera at the place where conscripts did a very important task on Reserve",
+        "Install a WI-FI Camera at the two chair riddle on Reserve",
+        "Install a WI-FI Camera at every tank driver's first videogame on Reserve",
+        "Install a WI-FI Camera at the bucket-head villain on Customs",
+        "Install a WI-FI Camera at Anvil 3-4 crew member's execution site on Customs",
+        "Install a WI-FI Camera at every indie developer's worst nightmare on Customs",
+        "Install a WI-FI Camera in the room where the firefighter burned the books to become happy on Factory",
+        "Install a WI-FI Camera at the place where some valve technicians couldn't finish their third project on Factory",
+        "Install a WI-FI Camera at the dangerous Russian chocolate beauty on Factory",
+        "Install a WI-FI Camera in the conspiracy theorist's room on Factory",
+        "Install a WI-FI Camera near where someone thought he'd get transported to the magic school on Factory",
+        "Install a WI-FI Camera at the mother of all strategy games on Factory",
+        "Install a WI-FI Camera at the stairway to the skies on Factory",
+        "Install a WI-FI Camera at the bear who sat into a flaming car on Woods",
+        "Install a WI-FI Camera at the upside-down chair on Shoreline",
+        "Install a WI-FI Camera at the not-so-lonely bathroom on Shoreline"
+      ]
+    }
+  ]
+}

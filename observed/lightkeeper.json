@@ -1,0 +1,16 @@
+{
+  "trader": "Lightkeeper",
+  "allVisibleCaptured": false,
+  "allVisibleCapturedMeaning": "true = every quest VISIBLE to this profile was captured, completed, active, failed, or listed-but-locked, across every tab the trader shows. It does NOT mean every quest the trader has: anything still gated behind an unfinished quest or an unreached loyalty level is not on screen and is therefore not here. No trader in this collection is complete in the absolute sense.",
+  "allVisibleCapturedNote": "ZERO QUESTS, AND THAT IS THE OBSERVATION, not a missing batch. The Lightkeeper is not unlocked on this profile at all, so no quest of his is visible on any screen. tarkov.dev publishes 14 for him and none can be confirmed or contradicted from this profile. Recorded as an empty document on purpose: without it, a later reader would see Lightkeeper absent from observed/ and have no way to tell whether nobody looked or there was nothing to see.",
+  "observedAt": "2026-08-11",
+  "gameVersion": "1.1.0",
+  "profile": {
+    "mode": "pve",
+    "note": "Confirmed PvE on 2026-08-10.",
+    "faction": "USEC",
+    "factionNote": "USEC. DETERMINED FROM THE COLLECTION ITSELF, not something written down at capture time. Four quests are faction-exclusive with no counterpart id: Road Closed (USEC), Green Corridor (BEAR), Our Own Land (BEAR) and Counteraction (USEC). \"Road Closed\" is ACTIVE on this profile, and the wiki says outright that it is \"only obtainable by USEC PMCs\" with Green Corridor as its BEAR counterpart. Both BEAR-only quests are absent from Prapor's list, which was captured in full. A BEAR profile could not show Road Closed and would have to show the other two, so the reading is unambiguous."
+  },
+  "reading": "Nothing to read, the trader is locked.",
+  "quests": []
+}

@@ -1,0 +1,308 @@
+{
+ "generated": "2026-08-11T07:30:17.836Z",
+ "sources": {
+  "tarkovdev": {
+   "files": [
+    {
+     "file": "regular.tasks.json",
+     "bytes": 2206588,
+     "fetchedAt": "2026-08-11T07:30:18.124Z",
+     "url": "https://json.tarkov.dev/regular/tasks",
+     "records": 510
+    },
+    {
+     "file": "regular.tasks_en.json",
+     "bytes": 251190,
+     "fetchedAt": "2026-08-11T07:30:18.146Z",
+     "url": "https://json.tarkov.dev/regular/tasks_en",
+     "records": 1
+    },
+    {
+     "file": "regular.maps_en.json",
+     "bytes": 22910,
+     "fetchedAt": "2026-08-11T07:30:18.163Z",
+     "url": "https://json.tarkov.dev/regular/maps_en",
+     "records": 1
+    },
+    {
+     "file": "regular.traders_en.json",
+     "bytes": 3537,
+     "fetchedAt": "2026-08-11T07:30:18.285Z",
+     "url": "https://json.tarkov.dev/regular/traders_en",
+     "records": 1
+    },
+    {
+     "file": "pve.tasks.json",
+     "bytes": 2139682,
+     "fetchedAt": "2026-08-11T07:30:18.727Z",
+     "url": "https://json.tarkov.dev/pve/tasks",
+     "records": 506
+    },
+    {
+     "file": "pve.tasks_en.json",
+     "bytes": 256581,
+     "fetchedAt": "2026-08-11T07:30:18.868Z",
+     "url": "https://json.tarkov.dev/pve/tasks_en",
+     "records": 1
+    },
+    {
+     "file": "pve.maps_en.json",
+     "bytes": 22978,
+     "fetchedAt": "2026-08-11T07:30:18.995Z",
+     "url": "https://json.tarkov.dev/pve/maps_en",
+     "records": 1
+    },
+    {
+     "file": "pve.traders_en.json",
+     "bytes": 3537,
+     "fetchedAt": "2026-08-11T07:30:19.138Z",
+     "url": "https://json.tarkov.dev/pve/traders_en",
+     "records": 1
+    },
+    {
+     "file": "pvp-season.tasks.json",
+     "bytes": 2087017,
+     "fetchedAt": "2026-08-11T07:30:19.814Z",
+     "url": "https://json.tarkov.dev/pvp-season/tasks",
+     "records": 483
+    },
+    {
+     "file": "pvp-season.tasks_en.json",
+     "bytes": 256581,
+     "fetchedAt": "2026-08-11T07:30:19.951Z",
+     "url": "https://json.tarkov.dev/pvp-season/tasks_en",
+     "records": 1
+    },
+    {
+     "file": "pvp-season.maps_en.json",
+     "bytes": 23023,
+     "fetchedAt": "2026-08-11T07:30:20.082Z",
+     "url": "https://json.tarkov.dev/pvp-season/maps_en",
+     "records": 1
+    },
+    {
+     "file": "pvp-season.traders_en.json",
+     "bytes": 3537,
+     "fetchedAt": "2026-08-11T07:30:20.204Z",
+     "url": "https://json.tarkov.dev/pvp-season/traders_en",
+     "records": 1
+    },
+    {
+     "file": "trader_portraits.json",
+     "bytes": 278241,
+     "fetchedAt": "2026-08-11T07:30:20.547Z",
+     "url": "https://assets.tarkov.dev/<traderId>.webp",
+     "records": 16
+    },
+    {
+     "file": "maps.json",
+     "bytes": 39146,
+     "fetchedAt": "2026-08-11T07:30:20.813Z",
+     "url": "https://raw.githubusercontent.com/the-hideout/tarkov-dev/main/src/data/maps.json",
+     "records": 15
+    }
+   ]
+  },
+  "overlay": {
+   "files": [
+    {
+     "file": "dist.overlay.json",
+     "bytes": 84984,
+     "fetchedAt": "2026-08-11T07:30:20.989Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/dist/overlay.json",
+     "records": 13,
+     "note": "built 2026-08-04T00:38:15.168Z — the SOURCE below runs ahead of this"
+    },
+    {
+     "file": "src.additions.editions.json5",
+     "bytes": 6794,
+     "fetchedAt": "2026-08-11T07:30:21.664Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/additions/editions.json5"
+    },
+    {
+     "file": "src.additions.itemsAdd.json5",
+     "bytes": 3,
+     "fetchedAt": "2026-08-11T07:30:22.029Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/additions/itemsAdd.json5"
+    },
+    {
+     "file": "src.additions.storyChapters.json5",
+     "bytes": 98844,
+     "fetchedAt": "2026-08-11T07:30:22.551Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/additions/storyChapters.json5"
+    },
+    {
+     "file": "src.additions.tasksAdd.json5",
+     "bytes": 57183,
+     "fetchedAt": "2026-08-11T07:30:22.939Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/additions/tasksAdd.json5"
+    },
+    {
+     "file": "src.divergences.tasks.json5",
+     "bytes": 9950,
+     "fetchedAt": "2026-08-11T07:30:23.293Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/divergences/tasks.json5"
+    },
+    {
+     "file": "src.overrides.hideout.json5",
+     "bytes": 195,
+     "fetchedAt": "2026-08-11T07:30:23.690Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/hideout.json5"
+    },
+    {
+     "file": "src.overrides.items.json5",
+     "bytes": 186,
+     "fetchedAt": "2026-08-11T07:30:24.062Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/items.json5"
+    },
+    {
+     "file": "src.overrides.locales.en.json5",
+     "bytes": 2353,
+     "fetchedAt": "2026-08-11T07:30:24.412Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/locales/en.json5"
+    },
+    {
+     "file": "src.overrides.modes.pve.tasks.json5",
+     "bytes": 10045,
+     "fetchedAt": "2026-08-11T07:30:24.828Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/modes/pve/tasks.json5"
+    },
+    {
+     "file": "src.overrides.modes.regular.tasks.json5",
+     "bytes": 4869,
+     "fetchedAt": "2026-08-11T07:30:25.202Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/modes/regular/tasks.json5"
+    },
+    {
+     "file": "src.overrides.prestige.json5",
+     "bytes": 5489,
+     "fetchedAt": "2026-08-11T07:30:25.543Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/prestige.json5"
+    },
+    {
+     "file": "src.overrides.tasks.json5",
+     "bytes": 14066,
+     "fetchedAt": "2026-08-11T07:30:25.955Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/tasks.json5"
+    },
+    {
+     "file": "src.overrides.traders.json5",
+     "bytes": 192,
+     "fetchedAt": "2026-08-11T07:30:26.297Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/overrides/traders.json5"
+    },
+    {
+     "file": "src.schemas.edition.schema.json",
+     "bytes": 1803,
+     "fetchedAt": "2026-08-11T07:30:26.675Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/edition.schema.json"
+    },
+    {
+     "file": "src.schemas.item-additions.schema.json",
+     "bytes": 721,
+     "fetchedAt": "2026-08-11T07:30:27.034Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/item-additions.schema.json"
+    },
+    {
+     "file": "src.schemas.locale-override.schema.json",
+     "bytes": 4573,
+     "fetchedAt": "2026-08-11T07:30:27.394Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/locale-override.schema.json"
+    },
+    {
+     "file": "src.schemas.overlay.schema.json",
+     "bytes": 2453,
+     "fetchedAt": "2026-08-11T07:30:27.735Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/overlay.schema.json"
+    },
+    {
+     "file": "src.schemas.prestige-override.schema.json",
+     "bytes": 4451,
+     "fetchedAt": "2026-08-11T07:30:28.105Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/prestige-override.schema.json"
+    },
+    {
+     "file": "src.schemas.story-chapter.schema.json",
+     "bytes": 12811,
+     "fetchedAt": "2026-08-11T07:30:28.497Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/story-chapter.schema.json"
+    },
+    {
+     "file": "src.schemas.task-additions.schema.json",
+     "bytes": 26995,
+     "fetchedAt": "2026-08-11T07:30:28.903Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/task-additions.schema.json"
+    },
+    {
+     "file": "src.schemas.task-divergence.schema.json",
+     "bytes": 1661,
+     "fetchedAt": "2026-08-11T07:30:29.282Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/task-divergence.schema.json"
+    },
+    {
+     "file": "src.schemas.task-override.schema.json",
+     "bytes": 35983,
+     "fetchedAt": "2026-08-11T07:30:29.699Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/task-override.schema.json"
+    },
+    {
+     "file": "src.schemas.task-suppressions.schema.json",
+     "bytes": 1589,
+     "fetchedAt": "2026-08-11T07:30:30.065Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/schemas/task-suppressions.schema.json"
+    },
+    {
+     "file": "src.suppressions.tasks.json5",
+     "bytes": 330,
+     "fetchedAt": "2026-08-11T07:30:30.421Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/suppressions/tasks.json5"
+    },
+    {
+     "file": "src.suppressions.wiki-incorrect.json5",
+     "bytes": 518,
+     "fetchedAt": "2026-08-11T07:30:30.759Z",
+     "url": "https://raw.githubusercontent.com/tarkovtracker-org/tarkov-data-overlay/main/src/suppressions/wiki-incorrect.json5"
+    },
+    {
+     "file": "commits.json",
+     "bytes": 4339,
+     "fetchedAt": "2026-08-11T07:30:31.343Z",
+     "url": "github api: commits",
+     "records": 30
+    }
+   ]
+  },
+  "spt": {
+   "files": [
+    {
+     "file": "quests.json",
+     "bytes": 3096700,
+     "fetchedAt": "2026-08-11T07:30:31.877Z",
+     "url": "https://raw.githubusercontent.com/sp-tarkov/server/master/project/assets/database/templates/quests.json",
+     "records": 504
+    },
+    {
+     "file": "commits.json",
+     "bytes": 394,
+     "fetchedAt": "2026-08-11T07:30:32.332Z",
+     "url": "github api: commits for quests.json",
+     "records": 5,
+     "note": "last touched 2025-03-17T15:42:32Z — treat as a schema reference, not current data"
+    }
+   ]
+  },
+  "wiki": {
+   "files": [
+    {
+     "file": "index.json",
+     "bytes": 78166,
+     "fetchedAt": "2026-08-11T07:30:44.619Z",
+     "url": "https://escapefromtarkov.fandom.com/api.php",
+     "records": 495,
+     "note": "3 title(s) have no page at all"
+    }
+   ]
+  }
+ },
+ "failures": []
+}
