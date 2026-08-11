@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T10:35:10.260Z",
+ "generatedAt": "2026-08-11T11:12:07.939Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -1959,6 +1959,7 @@
      ]
     }
    ],
+   "onlyAfterFailure": true,
    "modes": [
     "pvp",
     "pve",
@@ -2005,8 +2006,24 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Chemical - Part 4, Big Customer. tarkov.dev's `requires` cannot express a choice and names 1 of them."
+    },
+    "onlyAfterFailure": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none",
+     "note": "Derived from `requires`: offered only once Out of Curiosity has been FAILED. Completing it does not open this quest; nothing does."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "597a0f5686f774273b74f676",
+    "597a171586f77405ba6887d3"
+   ]
   },
   {
    "id": "666314b8312343839d032d24",
@@ -4993,8 +5010,27 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Stick in the Wheel, Stabilize Business. tarkov.dev's `requires` cannot express a choice and names 1 of them."
+    },
+    "sameQuestAs": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "One quest published as 2 ids, one per branch arm, identical objectives. The player is offered exactly one; the others are unreachable. Held together by the wiki's own \"or\" over the same arms."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "6740a3f4eca8acb2d2055159",
+    "6744a4717e3818d5bb0680bb"
+   ],
+   "sameQuestAs": [
+    "6744a9dfef61d56e020b5c4a"
+   ]
   },
   {
    "id": "6744a9dfef61d56e020b5c4a",
@@ -5072,8 +5108,27 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Stick in the Wheel, Stabilize Business. tarkov.dev's `requires` cannot express a choice and names 1 of them."
+    },
+    "sameQuestAs": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "One quest published as 2 ids, one per branch arm, identical objectives. The player is offered exactly one; the others are unreachable. Held together by the wiki's own \"or\" over the same arms."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "6740a3f4eca8acb2d2055159",
+    "6744a4717e3818d5bb0680bb"
+   ],
+   "sameQuestAs": [
+    "6744a728352b4da8e003eda9"
+   ]
   },
   {
    "id": "675c3507a06634b5110e3c18",
@@ -17759,8 +17814,18 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Swift Retribution, Inevitable Response. tarkov.dev's `requires` cannot express a choice and names 1 of them."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "6745fcded0fbbc74ca0f721d",
+    "673f6027352b4da8e00322d2"
+   ]
   },
   {
    "id": "5c0bbaa886f7746941031d82",
@@ -26146,8 +26211,18 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: One Less Loose End, A Healthy Alternative. tarkov.dev's `requires` cannot express a choice and names 1 of them."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "669fa38fad7f1eac2607ed46",
+    "669fa3910c828825de06d69f"
+   ]
   },
   {
    "id": "5ae4490786f7744ca822adcc",
@@ -37393,6 +37468,7 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "onlyAfterFailure": true,
    "modes": [
     "pvp",
     "pve",
@@ -37439,6 +37515,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "onlyAfterFailure": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none",
+     "note": "Derived from `requires`: offered only once Hot Wheels has been FAILED. Completing it does not open this quest; nothing does."
     }
    }
   },
@@ -39933,6 +40015,7 @@
      ]
     }
    ],
+   "onlyAfterFailure": true,
    "modes": [
     "pvp",
     "pve",
@@ -39979,8 +40062,24 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Chemical - Part 4, Out of Curiosity. tarkov.dev's `requires` cannot express a choice and names 1 of them."
+    },
+    "onlyAfterFailure": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none",
+     "note": "Derived from `requires`: offered only once Big Customer has been FAILED. Completing it does not open this quest; nothing does."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "597a0f5686f774273b74f676",
+    "597a160786f77477531d39d2"
+   ]
   },
   {
    "id": "671a49f77d49aea42c029b5f",
@@ -46162,6 +46261,7 @@
      ]
     }
    ],
+   "onlyAfterFailure": true,
    "modes": [
     "pvp",
     "pve",
@@ -46205,6 +46305,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "onlyAfterFailure": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none",
+     "note": "Derived from `requires`: offered only once Chemical - Part 4 has been FAILED. Completing it does not open this quest; nothing does."
     }
    }
   },
@@ -46676,8 +46782,29 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Make Amends - Equipment, Make Amends - Sweep Up, Make Amends - Quarantine. tarkov.dev's `requires` cannot express a choice and names 1 of them."
+    },
+    "sameQuestAs": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "One quest published as 3 ids, one per branch arm, identical objectives. The player is offered exactly one; the others are unreachable. Held together by the wiki's own \"or\" over the same arms."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "6261482fa4eb80027c4f2e11",
+    "62614836f7308432be1d44cc",
+    "6261483dc4874104f230c0cd"
+   ],
+   "sameQuestAs": [
+    "6391d912f8e5dd32bf4e3ab2",
+    "6391d9144b15ca31f76bc323"
+   ]
   },
   {
    "id": "6391d912f8e5dd32bf4e3ab2",
@@ -46905,8 +47032,29 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Make Amends - Equipment, Make Amends - Sweep Up, Make Amends - Quarantine. tarkov.dev's `requires` cannot express a choice and names 1 of them."
+    },
+    "sameQuestAs": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "One quest published as 3 ids, one per branch arm, identical objectives. The player is offered exactly one; the others are unreachable. Held together by the wiki's own \"or\" over the same arms."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "6261482fa4eb80027c4f2e11",
+    "62614836f7308432be1d44cc",
+    "6261483dc4874104f230c0cd"
+   ],
+   "sameQuestAs": [
+    "6391d90f4ed9512be67647df",
+    "6391d9144b15ca31f76bc323"
+   ]
   },
   {
    "id": "6391d9144b15ca31f76bc323",
@@ -47134,8 +47282,29 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Make Amends - Equipment, Make Amends - Sweep Up, Make Amends - Quarantine. tarkov.dev's `requires` cannot express a choice and names 1 of them."
+    },
+    "sameQuestAs": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "One quest published as 3 ids, one per branch arm, identical objectives. The player is offered exactly one; the others are unreachable. Held together by the wiki's own \"or\" over the same arms."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "6261482fa4eb80027c4f2e11",
+    "62614836f7308432be1d44cc",
+    "6261483dc4874104f230c0cd"
+   ],
+   "sameQuestAs": [
+    "6391d90f4ed9512be67647df",
+    "6391d912f8e5dd32bf4e3ab2"
+   ]
   },
   {
    "id": "626148251ed3bb5bcc5bd9ed",
@@ -59860,8 +60029,19 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Chemical - Part 4, Out of Curiosity, Big Customer. tarkov.dev's `requires` cannot express a choice and names 1 of them."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "597a0f5686f774273b74f676",
+    "597a160786f77477531d39d2",
+    "597a171586f77405ba6887d3"
+   ]
   },
   {
    "id": "67af4c169d95ad16e004fd86",
@@ -72003,8 +72183,18 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: Swift Retribution, Inevitable Response. tarkov.dev's `requires` cannot express a choice and names 1 of them."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "6745fcded0fbbc74ca0f721d",
+    "673f6027352b4da8e00322d2"
+   ]
   },
   {
    "id": "639136df4b15ca31f76bc31f",

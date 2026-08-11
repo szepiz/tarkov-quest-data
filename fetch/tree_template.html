@@ -62,7 +62,17 @@
   .navarrow { fill: var(--gold); pointer-events: none; }
 
   .edge { stroke: #3d3a2c; stroke-width: 1.5; fill: none; }
+  /* WHAT THE PREREQUISITE ASKS FOR. Solid is the ordinary case, complete it and
+     move on. The other three are not variations on it: one wants the quest
+     FAILED and nothing else, one takes either outcome, and one is a choice
+     between several quests. Drawn apart because reading them as the same line
+     is how a tracker ends up listing a retry quest for a player who succeeded. */
+  .edge.failure { stroke: var(--hot); stroke-dasharray: 7 5; }
+  .edge.either  { stroke: #4a4636; stroke-dasharray: 1 4; stroke-linecap: round; }
+  .edge.any     { stroke: var(--cold); stroke-dasharray: 3 4; }
   .edge.hot { stroke: var(--gold); stroke-width: 2.5; }
+  .edge.failure.hot { stroke: var(--hot); stroke-width: 3; }
+  .edge.any.hot { stroke: var(--cold); stroke-width: 3; }
   .qbox { fill: #15150e; stroke: #3a3a2c; stroke-width: 1.5; }
   .qbox.only { stroke: var(--cold); }
   /* confirmed in game beats every other outline, it is the only one that is not a claim */
@@ -81,6 +91,17 @@
   .modeonly { fill: var(--cold); font-size: 10px; letter-spacing: .08em; }
   .cont  { fill: #cfcbbf; font-size: 10px; letter-spacing: .04em; }
   .cont-go { fill: var(--gold); font-size: 10px; letter-spacing: .06em; }
+  .failnote { fill: var(--hot); font-size: 10px; letter-spacing: .06em; }
+  .ornote   { fill: var(--cold); font-size: 10px; letter-spacing: .04em; }
+  .armnote  { fill: var(--dim); font-size: 10px; letter-spacing: .04em; font-style: italic; }
+  .qbox.failgate { stroke: var(--hot); stroke-dasharray: 6 4; }
+  .legend { display: flex; gap: 15px; align-items: center; color: var(--dim); font-size: 10px;
+    text-transform: uppercase; letter-spacing: .09em; margin-top: 6px; }
+  .legend i { display: inline-block; width: 26px; height: 0; vertical-align: middle;
+    margin-right: 6px; border-top: 2px solid #3d3a2c; }
+  .legend .f { border-top: 2px dashed var(--hot); }
+  .legend .e { border-top: 2px dotted #6a6552; }
+  .legend .a { border-top: 2px dashed var(--cold); }
   .rowrule { stroke: #201f18; stroke-width: 1; stroke-dasharray: 2 6; }
   .rowlab { fill: #4a483f; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; }
   #ruler { visibility: hidden; }
@@ -92,6 +113,12 @@
     <span class="hint">drag to pan · scroll to zoom · click a quest to trace its line</span>
   </div>
   <div id="tabs"></div>
+  <div class="legend">
+    <span><i></i>after completing</span>
+    <span><i class="e"></i>completed or failed, either way</span>
+    <span><i class="f"></i>only if failed</span>
+    <span><i class="a"></i>either of these</span>
+  </div>
 </header>
 <div id="stage"><svg id="svg"><g id="cam"></g><text id="ruler" class="qname"></text></svg></div>
 <script>
@@ -188,7 +215,7 @@ function draw() {
     const x1 = a.x + w / 2, y1 = a.y + h, x2 = b.x + w / 2, y2 = b.y;
     const mid = (y1 + y2) / 2;
     const hot = lit && (lit === e.from || lit === e.to);
-    g.appendChild(el('path', { class: 'edge' + (hot ? ' hot' : ''),
+    g.appendChild(el('path', { class: 'edge' + (e.kind && e.kind !== 'complete' ? ' ' + e.kind : '') + (hot ? ' hot' : ''),
       d: `M${x1},${y1} C${x1},${mid} ${x2},${mid} ${x2},${y2}` }));
   }
 
@@ -228,7 +255,8 @@ function draw() {
     const p = at.get(n.id);
     const grp = el('g', { class: 'qnode' + (lit === n.id ? ' lit' : '') });
     grp.appendChild(el('rect', { x: p.x, y: p.y, width: w, height: h, rx: 2,
-      class: 'qbox' + (n.only ? ' only' : '') + (n.observed ? ' confirmed' : '') }));
+      class: 'qbox' + (n.only ? ' only' : '') + ((n.failAfterNames || []).length ? ' failgate' : '')
+        + (n.observed ? ' confirmed' : '') }));
     let ty = p.y + BOX_PADY + 12;
     grp.appendChild(txt(p.x + PADX, ty, 'qname', n.name));
     if (n.devName) { ty += OLD_H; grp.appendChild(txt(p.x + PADX, ty, 'qold', 'was ' + n.devName)); }
@@ -246,9 +274,34 @@ function draw() {
     // a quest no other mode has, the thing the mode switch is here to show
     if (n.only) grp.appendChild(txt(p.x + w - PADX, p.y - 7, 'modeonly',
       modeNames(n.only) + ' only', { 'text-anchor': 'end' }));
+    // Stacked under the box, in the gap between rows. Order matters: the
+    // failure gate first, because it is the one that decides whether the quest
+    // is offered at all.
+    let by = p.y + h + 16;
+    // A note may be wider than the box it belongs to, and the boxes either side
+    // are only HGAP away, so a long one runs straight into its neighbour's.
+    // Broken at the separators it was written with, and only cut when a single
+    // piece still will not fit; the full string stays on the tooltip.
+    const ROOM = w + HGAP - 6;
+    const under = (cls, text) => {
+      const pieces = widthOf(text, cls) <= ROOM ? [text] : String(text).split(/ (?=\/ |or |and )/);
+      for (let piece of pieces) {
+        if (widthOf(piece, cls) > ROOM) {
+          while (piece.length > 4 && widthOf(piece + '…', cls) > ROOM) piece = piece.slice(0, -1);
+          piece += '…';
+        }
+        const t = txt(p.x + w / 2, by, cls, piece, { 'text-anchor': 'middle' });
+        t.appendChild(el('title', {}, String(text)));
+        grp.appendChild(t);
+        by += 12;
+      }
+    };
+    if ((n.failAfterNames || []).length) under('failnote', 'only if you FAILED ' + n.failAfterNames.join(' and '));
+    if ((n.orAfter || []).length) under('ornote', 'or after ' + n.orAfter.join(' / '));
+    if (n.armOf) under('armnote', `one of ${n.armOf} versions, you are offered the one for your branch`);
     if (n.continues) {
-      grp.appendChild(txt(p.x + w / 2, p.y + h + 16, 'cont', 'continues at ' + n.continues.join(', '), { 'text-anchor': 'middle' }));
-      grp.appendChild(txt(p.x + w / 2, p.y + h + 28, 'cont-go', 'click to switch', { 'text-anchor': 'middle' }));
+      under('cont', 'continues at ' + n.continues.join(', '));
+      under('cont-go', 'click to switch');
     }
     grp.addEventListener('click', (ev) => {
       ev.stopPropagation();
@@ -262,7 +315,11 @@ function draw() {
     g.appendChild(grp);
   }
   const confirmed = t.nodes.filter((n) => n.observed).length;
-  $('src').textContent = `, edges are tarkov.dev prerequisites, badges from the wiki`
+  const gated = t.nodes.filter((n) => (n.failAfterNames || []).length).length;
+  const branch = t.nodes.filter((n) => (n.orAfter || []).length || (n.anyOf || []).length).length;
+  $('src').textContent = `, edges are tarkov.dev prerequisites, badges and branches from the wiki`
+    + (gated ? ` · ${gated} open only after a failure` : '')
+    + (branch ? ` · ${branch} with a choice of prerequisite` : '')
     + (confirmed ? ` · ${confirmed} confirmed in game (green)` : '');
   document.querySelectorAll('.tab').forEach((c) => c.classList.toggle('on', c.dataset.name === t.name));
   document.querySelectorAll('.mtabs div').forEach((c) => c.classList.toggle('on', c.dataset.mode === mode));

@@ -26,6 +26,7 @@ const byQuest = wikiIdx.quests.reduce((a, q) => (a[q.id] = q, a), {});
 // In-game records. Where one exists it OUTRANKS both other sources, it is not a
 // third opinion, it is what they are describing.
 const { loadObserved } = require('./observed_lib.js');
+const { orPrevious, failOnly, edgeKind } = require('./branches.js');
 require('./raw_ready.js')(ROOT);
 const observed = loadObserved(ROOT);
 if (observed.unmatched.length) {
@@ -187,9 +188,54 @@ function questsFor(mode) {
       } : null,
       kappa: !!t.kappaRequired, lightkeeper: !!t.lightkeeperRequired,
       prereq: (t.taskRequirements || []).map((r) => r.task).filter(Boolean),
+      // The SAME list with the status kept, which is the difference between
+      // "do this first" and "this only exists if you failed that". Layout still
+      // reads `prereq`; only the edges read this.
+      prereqStatus: (t.taskRequirements || []).filter((r) => r.task)
+        .map((r) => ({ task: r.task, kind: edgeKind(r.status) })),
+      // A quest that appears only after a FAILURE. Named on the box, because a
+      // player looking at the tree has no other way to know it is not simply
+      // the next step.
+      failAfter: failOnly(t.taskRequirements).map((r) => r.task),
+      // "Complete either of these", which only the wiki says. Titles here,
+      // resolved to ids once every name in the mode is known.
+      orTitles: orPrevious(w),
       // only recorded when it is not in every mode, most quests are
       only: mine.length < MODES.length ? mine : null,
     });
+  }
+  // ---- the wiki's alternatives, from page titles to ids
+  //
+  // By the name the box will SHOW first, because that is what the wiki writes
+  // and what the tree renders; the published name is the fallback for a quest
+  // the wiki has not renamed. Anything that resolves to nothing is dropped
+  // rather than drawn as a dead end.
+  const keyOf = (t) => String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const idByName = new Map();
+  for (const q of quests.values()) {
+    for (const k of [keyOf(q.name), keyOf(q.devName)]) if (k && !idByName.has(k)) idByName.set(k, q.id);
+  }
+  for (const q of quests.values()) {
+    const ids = (q.orTitles || []).map((t) => idByName.get(keyOf(t))).filter((x) => x && x !== q.id);
+    q.anyOf = [...new Set(ids)];
+    delete q.orTitles;
+  }
+  // One quest published once per branch arm — Make Amends is three ids with
+  // identical objectives, one per arm — so the tree would otherwise draw three
+  // quests where the player is offered one. Same name, same alternatives.
+  const byName = new Map();
+  for (const q of quests.values()) {
+    if (!q.anyOf.length) continue;
+    const k = keyOf(q.name);
+    if (!byName.has(k)) byName.set(k, []);
+    byName.get(k).push(q);
+  }
+  for (const group of byName.values()) {
+    if (group.length < 2) continue;
+    const arms = group.flatMap((q) => q.prereq).sort().join('+');
+    const said = [...new Set(group.flatMap((q) => q.anyOf))].sort().join('+');
+    if (arms !== said) continue;
+    for (const q of group) q.armOf = group.length;
   }
   return quests;
 }
@@ -260,8 +306,24 @@ function treesFor(quests) {
     const at = new Map(nodes.map((n) => [n.id, n]));
     const edges = [];
     for (const n of nodes) {
-      for (const p of n.prereq || []) {
-        if (at.has(p)) edges.push({ from: p, to: n.id });
+      for (const r of n.prereqStatus || []) {
+        if (at.has(r.task)) edges.push({ from: r.task, to: n.id, kind: r.kind });
+      }
+      // an alternative in THIS trader's tree, and above it — drawn as an edge.
+      // One that sits level or below would be a line going backwards, which
+      // reads as a prerequisite that comes afterwards; those are named on the
+      // box instead, along with every alternative belonging to another trader.
+      const named = [];
+      for (const p of n.anyOf || []) {
+        const other = at.get(p);
+        if (other && other.layer < n.layer) edges.push({ from: p, to: n.id, kind: 'any' });
+        else named.push(quests.get(p));
+      }
+      if (named.length) {
+        n.orAfter = named.filter(Boolean).map((q) => (q.trader === tr.name ? q.name : `${q.name} (${q.trader})`));
+      }
+      if ((n.failAfter || []).length) {
+        n.failAfterNames = n.failAfter.map((p) => (quests.get(p) || {}).name).filter(Boolean);
       }
     }
     // where a quest of THIS trader unlocks one belonging to another

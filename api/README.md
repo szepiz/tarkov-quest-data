@@ -99,7 +99,10 @@ when it was downloaded, which is a fact about this repo and not about the data.
 | `modes` | `pvp`, `pve` or `seasonal`. The modes differ by membership, almost never by field value |
 | `objectives` | taken from an in-game capture **only when the quest was completed**. The game reveals a step once the step it depends on is done, so an unfinished quest's list is a lower bound. Where that applied, `provenance.objectives.note` says so |
 | `wikiLink` | resolved by the quest's **current** name, not by its id. The wiki renumbered several lines in place, so an id-to-page lookup links to the wrong quest |
-| `requires` | tarkov.dev's `taskRequirements`, `status` array included. Read it: 58 of the 607 edges aren't a plain `complete`, and 11 need the prerequisite to be *in progress* |
+| `requires` | tarkov.dev's `taskRequirements`, `status` array included. Read it: 62 of the 631 edges aren't a plain `complete` — 37 need the prerequisite *in progress*, 21 take either outcome, and 4 want it **failed** |
+| `onlyAfterFailure` | the quest exists **only once another has been failed**, and completing that one does not open it. Four quests: Hot Wheels - Let's Try Again, and the make-amends quests a trader offers after you side with a rival. It's derived from `requires`, and stated separately because a `status` of `["failed"]` reads like an ordinary prerequisite to anything that doesn't check |
+| `requiresAnyOf` | complete **any one** of these. tarkov.dev's requirement list is flat, so it can only mean AND — where the game branches it keeps one arm and drops the rest, and a tracker built on it locks the quest for everyone who took the other. From the wiki's `|previous` field, which writes the choice out. **Requirement rows naming a quest in this list are superseded by it** |
+| `sameQuestAs` | the same quest published under several ids, one per branch arm, identical objectives — Make Amends is three, Battery Change two. You are offered exactly one, so listing them by id lists one quest three times. Only where the wiki's own "or" splits along the same lines |
 
 ## Rebuild it
 

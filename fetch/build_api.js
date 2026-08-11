@@ -27,6 +27,8 @@ const ROOT = path.join(__dirname, '..');
 const RAW = path.join(ROOT, 'raw');
 const OUT = path.join(ROOT, 'api');
 const { loadObserved } = require('./observed_lib.js');
+// where a branch is written down, and in whose words — see fetch/branches.js
+const { orPrevious, failOnly } = require('./branches.js');
 require('./raw_ready.js')(ROOT);
 
 const J = (p) => JSON.parse(fs.readFileSync(path.join(RAW, p), 'utf8'));
@@ -281,6 +283,11 @@ const quests = [];
 let removedCount = 0;
 let wikiGates = 0;
 let droppedLevels = 0;
+let failGated = 0;
+// { id, titles, at } — resolved after the loop, when every published name is
+// known. The wiki names an alternative by its CURRENT title, and the current
+// title of a renamed quest is only settled once its own record has been built.
+const pendingAnyOf = [];
 
 // Trader names, longest first, so "Prapor" cannot claim a line naming someone
 // whose name contains it.
@@ -436,6 +443,23 @@ for (const id of allIds) {
 
   if (dev.failedBy.length) put('failedBy', pick([src.dev('failedBy', dev.failedBy)]));
 
+  // A SECOND CHANCE, NOT A NEXT STEP. Four quests exist only once another has
+  // been FAILED — Hot Wheels - Let's Try Again after Hot Wheels, and the three
+  // make-amends quests a trader offers once you have taken a rival's side. Their
+  // requirement row says so, in a `status` field almost nothing reads, so they
+  // publish as ordinary follow-ups and every tracker lists them for players who
+  // will never be offered them. Stated outright so a consumer can hide them
+  // without having to know the rule.
+  if (failOnly(fields.requires).length) {
+    fields.onlyAfterFailure = true;
+    failGated++;
+  }
+
+  // "Complete either of these", which only the wiki can say. Held for the
+  // post-pass below: these are page TITLES and have to become ids.
+  const alts = wikiSays ? orPrevious(wpage) : null;
+  if (alts) pendingAnyOf.push({ id, titles: alts, at: wikiAt });
+
   // The three modes are near-identical, but "near" is not "identical": one quest
   // carries a different level and a different prerequisite in PvP than in the
   // other two. Publishing the first mode's values for all three would be right
@@ -507,6 +531,100 @@ for (const u of observed.unmatched) {
     // in the record describes nothing, and the guard below rejects it.
     provenance: Object.fromEntries(Object.keys(f).map((k) => [k, { src: 'observed', asOf: at, dating: 'exact' }])),
   });
+}
+
+// ---- resolve the OR-groups, and name the failure each retry quest waits on
+//
+// By title first, because that is what the wiki wrote, then by the name we
+// published (an observation may have renamed the quest since), then by the
+// index. A title that resolves to nothing is REPORTED AND DROPPED: publishing a
+// group with a hole in it would read as "these are the alternatives" while
+// naming fewer than there are, which is worse than not publishing it.
+{
+  const key = (t) => String(t || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const byKey = new Map();
+  for (const q of quests) {
+    for (const k of [key(q.name)]) if (k && !byKey.has(k)) byKey.set(k, q.id);
+  }
+  for (const r of wikiIdx.quests) {
+    const k = key(r.page);
+    if (k && r.id && !byKey.has(k)) byKey.set(k, r.id);
+  }
+  const byId = new Map(quests.map((q) => [q.id, q]));
+  const nameOf = (qid) => (byId.get(qid) ? byId.get(qid).name : qid);
+
+  let groups = 0;
+  const unresolved = [];
+  for (const p of pendingAnyOf) {
+    const q = byId.get(p.id);
+    if (!q) continue;
+    const ids = [];
+    for (const t of p.titles) {
+      const hit = byKey.get(key(t));
+      if (hit && hit !== p.id && !ids.includes(hit)) ids.push(hit);
+      else if (!hit) unresolved.push(`${q.name}: "${t}"`);
+    }
+    if (ids.length < 2) continue;
+    q.requiresAnyOf = ids;
+    q.provenance.requiresAnyOf = { src: 'wiki', asOf: p.at, dating: 'exact',
+      note: `Any ONE of these opens it: ${ids.map(nameOf).join(', ')}. `
+        + `tarkov.dev's \`requires\` cannot express a choice and names ${(q.requires || []).length} of them.` };
+    groups++;
+  }
+
+  // and the retry quests, now that the prerequisite has a name
+  for (const q of quests) {
+    if (!q.onlyAfterFailure) continue;
+    const after = failOnly(q.requires).map((r) => nameOf(r.task));
+    q.provenance.onlyAfterFailure = { src: 'tarkov.dev', asOf: null, dating: 'none',
+      note: `Derived from \`requires\`: offered only once ${after.join(' and ')} has been FAILED. `
+        + 'Completing it does not open this quest; nothing does.' };
+  }
+  // ---- the same quest, published once per arm
+  //
+  // "Either A or B" is not a shape tarkov.dev's schema has, and BSG's own data
+  // does not have it either. What both actually hold is N SEPARATE QUESTS with
+  // the same name and identical objectives, one per arm, each requiring its own
+  // arm: Make Amends is three ids, Battery Change two. The player is offered
+  // exactly one, and anything listing them by id lists one quest three times.
+  //
+  // Only where the wiki INDEPENDENTLY writes the same split as an "or" and the
+  // arms it names are exactly the group's prerequisites. Same name and the same
+  // objectives is not enough on its own: The Tarkov Shooter - Part 5 is two ids
+  // with identical objectives too, and that is tarkov.dev's stale numbering
+  // against the wiki's renumbering, a different thing entirely.
+  let sibSets = 0;
+  {
+    const byName = new Map();
+    for (const q of quests) {
+      if (!q.name || !(q.requires || []).length) continue;
+      if (!byName.has(q.name)) byName.set(q.name, []);
+      byName.get(q.name).push(q);
+    }
+    for (const [, group] of byName) {
+      if (group.length < 2) continue;
+      if (new Set(group.map((q) => JSON.stringify(q.objectiveText || []))).size !== 1) continue;
+      const sets = group.map((q) => q.requires.map((r) => r.task).sort().join('+'));
+      if (new Set(sets).size !== group.length) continue;              // arms must differ
+      const union = [...new Set(group.flatMap((q) => q.requires.map((r) => r.task)))].sort();
+      // the wiki's own "or", from whichever member carries it
+      const said = group.map((q) => q.requiresAnyOf).find(Boolean);
+      if (!said || [...said].sort().join('+') !== union.join('+')) continue;
+      for (const q of group) {
+        q.sameQuestAs = group.filter((o) => o.id !== q.id).map((o) => o.id);
+        q.provenance.sameQuestAs = { src: 'wiki', asOf: q.provenance.requiresAnyOf ? q.provenance.requiresAnyOf.asOf : null,
+          dating: q.provenance.requiresAnyOf ? 'exact' : 'none',
+          note: `One quest published as ${group.length} ids, one per branch arm, identical objectives. `
+            + 'The player is offered exactly one; the others are unreachable. '
+            + "Held together by the wiki's own \"or\" over the same arms." };
+      }
+      sibSets++;
+    }
+  }
+
+  console.log(`   ${failGated} quest(s) open only after a FAILURE; ${groups} opened by ANY ONE of several`
+    + `; ${sibSets} quest(s) published once per arm`);
+  if (unresolved.length) console.log(`   alternative(s) the wiki names that no source has: ${unresolved.join('; ')}`);
 }
 
 quests.sort((a, b) => String(a.name).localeCompare(String(b.name)));
