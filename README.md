@@ -26,6 +26,9 @@ just about what those four publish.
 | **305 quests read off the game screen** | Names, objectives, trader, loyalty tab and status, with the date each was seen |
 | **33 quests flagged as removed** | The wiki says so on the page; nobody publishes it as data, so tools keep listing quests BSG deleted |
 | **Loyalty gates on 65 quests** | tarkov.dev publishes them for 5. The rest are read out of the wiki's prose and checked against the game where possible |
+| **4 quests that open only on a FAILURE** | It is in tarkov.dev's data, in a `status` field almost nothing reads, so they publish as ordinary follow-ups and get listed for every player. Completing the prerequisite does not open them |
+| **11 quests unlocked by ANY ONE of several** | A flat requirement list can only mean AND, so where the game branches tarkov.dev keeps one arm and drops the rest, which locks the quest for everyone who took the other |
+| **5 records that are one quest published per arm** | Make Amends is three ids, Battery Change two, identical objectives. You are offered exactly one, so listing them by id lists one quest three times |
 | **5 quests no source has at all** | In the game, in none of the four, checked by name and by content |
 
 ---

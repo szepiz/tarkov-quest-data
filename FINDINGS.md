@@ -258,6 +258,60 @@ player to bring him compromising information about himself, and its objective is
 word for word the second objective of Fence's *Between Two Fires*. Taking Fence's
 side fails Ref's quest.
 
+### And four quests exist only because something failed
+
+The other end of the same mechanism. A requirement row carries a `status`, and on
+four of the 631 edges that status is `["failed"]` — not "do this first" but
+**"this quest does not exist unless you failed that one"**. Completing the
+prerequisite doesn't open it. Nothing does.
+
+| quest | trader | appears once you have failed |
+|---|---|---|
+| Hot Wheels - Let's Try Again | BTR Driver | Hot Wheels |
+| Ironclad Proof | Prapor | Big Customer |
+| Aid Stations | Therapist | Out of Curiosity |
+| Loyalty Buyout | Skier | Chemical - Part 4 |
+
+Three of those are the three-way choice above, seen from the losing side: the
+trader whose version you failed offers you a way to make it up to them. Which
+also means the *winning* trader has nothing to make amends for — take Skier's
+arm and Loyalty Buyout never appears, which is what the observed profile shows.
+
+The reason this is worth stating separately rather than leaving in the `status`
+array: it reads as an ordinary prerequisite to anything that doesn't check, so
+every one of these gets listed for every player, and three of the four are quests
+most players will never be offered. `onlyAfterFailure` says it outright.
+
+---
+
+## "Either of these" is not a shape the data has
+
+tarkov.dev's `taskRequirements` is a flat list, and a flat list can only mean
+AND. BSG's own schema is no better: SPT's `conditions.AvailableForStart` is also
+flat. So where the game branches, tarkov.dev keeps **one arm and drops the rest**.
+
+*Battery Change* opens after Prapor's *Stick in the Wheel* or Ragman's
+*Stabilize Business*. tarkov.dev publishes the first. A tracker built on it locks
+the quest for everyone who took the other.
+
+The wiki writes the choice out, in the infobox, as `|previous =[[A]]<br/>or<br/>[[B]]`.
+Eleven quests carry one, and it is published as `requiresAnyOf`.
+
+### What the game does instead is publish the quest several times
+
+Chasing that turned up the actual mechanism, and it is not an OR at all.
+*Make Amends* is **three separate quest ids**, same name, identical objectives,
+one prerequisite each — one per arm. *Battery Change* is two. You are offered
+exactly one, and anything listing quests by id lists one quest three times.
+
+That is what the wiki's "or" is describing from the outside.
+
+Recorded as `sameQuestAs`, and only where the wiki's own "or" names exactly the
+arms the ids split along — two independent sources agreeing. Same name and the
+same objectives is not enough on its own: *The Tarkov Shooter - Part 5* is two
+ids with identical objectives too, and that is tarkov.dev's stale numbering
+against the wiki's renumbering, a different thing entirely.
+
 ---
 
 ## The overlay does more than it looks like it does
