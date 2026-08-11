@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T08:50:51.006Z",
+ "generatedAt": "2026-08-11T09:24:03.837Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -74718,9 +74718,7 @@
    "trader": "Prapor",
    "map": "Customs",
    "objectiveText": [
-    "Eliminate 12 Scavs with 9x39mm caliber weapons on Reserve",
-    "Find 7 Lower half-masks in raid",
-    "Hand over the 7 half-masks"
+    "Eliminate 25 Scavs while using an AKS-74U series assault rifle on Customs"
    ],
    "objectives": [
     {
@@ -77053,7 +77051,7 @@
    "name": "The Tarkov Shooter - Part 5",
    "trader": "Jaeger",
    "objectiveText": [
-    "Eliminate 5 PMCs while using a suppressed bolt-action rifle"
+    "Eliminate 5 Sniper Scavs while using a bolt-action rifle"
    ],
    "objectives": [
     {
@@ -77134,7 +77132,7 @@
    "name": "The Tarkov Shooter - Part 6",
    "trader": "Jaeger",
    "objectiveText": [
-    "Eliminate 3 PMCs with a headshot and without dying while using a bolt-action rifle"
+    "Eliminate 5 PMCs while using a suppressed bolt-action rifle"
    ],
    "objectives": [
     {

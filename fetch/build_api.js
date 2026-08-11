@@ -291,8 +291,28 @@ for (const id of allIds) {
   const modes = MODES.filter((m) => M[m].has(id));
   const dev = M[modes[0]].get(id);
   const wq = wikiRec[id] || null;
-  const wpage = wq && wq.page ? wikiPage(wq.page) : null;
-  const wikiAt = wq ? day(wq.edited) : null;
+
+  // WHICH WIKI PAGE DESCRIBES THIS QUEST, which is not the same question as
+  // which page the index filed under its id.
+  //
+  // The index resolves by the name tarkov.dev publishes, and the wiki RENUMBERED
+  // its pages in place. So for a reshuffled line the id-mapped page is a
+  // different quest: the id tarkov.dev calls "The Tarkov Shooter - Part 6" is
+  // the game's Part 5, and taking its id-mapped page published Part 6's
+  // objectives under Part 5's name. `wikiLink` was already resolved by the
+  // current name for exactly this reason; the TEXT was not, which is worse,
+  // because a wrong link is visibly wrong and wrong objectives are not.
+  //
+  // So when an observation gives the current name and a page exists under it,
+  // that page wins. Only for observed records: without one there is nothing
+  // better than the index.
+  const obsName = observed.byId.get(id) ? observed.byId.get(id).name : null;
+  const byCurrentName = obsName && storedPages.has(pageKey(obsName)) ? obsName : null;
+  const wikiTitle = byCurrentName || (wq && wq.page) || null;
+  const wpage = wikiTitle ? wikiPage(wikiTitle) : null;
+  const wikiAt = byCurrentName
+    ? day((wikiIdx.quests.find((r) => r.page === byCurrentName) || {}).edited) || (wq ? day(wq.edited) : null)
+    : (wq ? day(wq.edited) : null);
   const wObj = section(wpage, 'Objectives') || [];
   const obs = observed.byId.get(id) || null;
   const obsAt = obs ? day(obs.observedAt) : null;
