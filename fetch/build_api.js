@@ -378,16 +378,40 @@ for (const id of allIds) {
   // different objective COUNTS, so pairing by index would attach one quest's
   // coordinates to another quest's sentence. A consumer ticks against
   // `objectives` and displays `objectiveText`.
-  const obsObjUsable = obs && obs.status === 'completed' && (obs.objectives || []).length;
+  //
+  // PROGRESSIVE REVEAL IS ABOUT THE COUNT, NOT THE WORDING, and conflating the
+  // two threw the game's own words away for 57 quests. The game hides a STEP
+  // until the step it depends on is done; the steps it does show are printed
+  // exactly. So the test is not "was the quest finished" but "did the game show
+  // at least as many steps as the next source lists":
+  //
+  //   showed as many or more   nothing is hidden. Publish the game's wording.
+  //   showed fewer             a step is genuinely behind another. Keep the
+  //                            source's list, and say why on the record.
+  //
+  // It is not a formatting preference. The wiki writes "Stash 2 ComTac II
+  // headsets" where the game says "Stash a ComTac II headset" (Hot Delivery,
+  // halved by 1.1.0), sends Job for a Patriot to three maps the quest no longer
+  // uses, and lists Pyramid Scheme's ten steps in an order the game does not.
+  const obsObj = (obs && obs.objectives) || [];
+  const otherText = (wikiSays && wObj.length) ? wObj : (dev.objectiveText || []);
+  const obsComplete = !!(obs && obs.status === 'completed');
+  const obsObjUsable = obsObj.length && (obsComplete || obsObj.length >= otherText.length);
   put('objectiveText', pick([
     obsObjUsable ? src.obs('objectiveText', obs.objectives) : null,
     wikiSays && wObj.length ? src.wiki('objectiveText', wObj) : null,
     src.dev('objectiveText', dev.objectiveText),
   ].filter(Boolean)));
-  if (obs && !obsObjUsable && (obs.objectives || []).length) {
+  // Only ever a note ON a published field: a provenance entry for a field that
+  // was never written describes nothing, and the guard at the end rejects it.
+  if (obsObj.length && !obsComplete && fields.objectiveText !== undefined) {
     provenance.objectiveText = provenance.objectiveText || {};
-    provenance.objectiveText.note = `The in-game capture shows ${obs.objectives.length} objective(s), but the quest was `
-      + `${obs.status} when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list.`;
+    provenance.objectiveText.note = obsObjUsable
+      ? `Read off the screen while the quest was ${obs.status}. The game hides a step until the step `
+        + `it depends on is done, but it showed ${obsObj.length} where the next source lists `
+        + `${otherText.length}, so nothing is being held back and the wording is the game's own.`
+      : `The in-game capture shows ${obsObj.length} objective(s), but the quest was `
+        + `${obs.status} when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list.`;
   }
   put('objectives', pick([src.dev('objectives', dev.objectives)]));
 

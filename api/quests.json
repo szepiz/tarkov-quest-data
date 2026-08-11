@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T11:12:07.939Z",
+ "generatedAt": "2026-08-11T11:57:11.002Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -697,10 +697,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -5235,10 +5235,10 @@
    "objectiveText": [
     "Use the transit from Streets of Tarkov to The Lab (In one raid)",
     "(Optional) Locate the passage leading to The Lab on Streets of Tarkov (In one raid)",
+    "(Optional) Locate the passage leading to Streets of Tarkov in The Lab (In one raid)",
     "Scout the server room in The Lab (In one raid)",
     "Scout the hazard dome in The Lab (In one raid)",
-    "Scout the control room in The Lab (In one raid)",
-    "Locate the passage leading to Streets of Tarkov in The Lab (In one raid)"
+    "Scout the control room in The Lab (In one raid)"
    ],
    "objectives": [
     {
@@ -5377,10 +5377,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 6 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 6, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -6049,10 +6049,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-08",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was failed when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was failed. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -6632,14 +6632,14 @@
    "name": "Booze",
    "trader": "Ragman",
    "objectiveText": [
-    "Find 10 Bottles of Tarkovskaya vodka in raid",
-    "Find 10 Bottles of Dan Jackiel whiskey in raid",
-    "Find 3 Canister with purified water in raid",
-    "Find 20 Bottles of Pevko Light beer in raid",
-    "Hand over 10 Bottles of Tarkovskaya vodka to Ragman",
-    "Hand over 10 Bottles of Dan Jackiel whiskey to Ragman",
-    "Hand over 3 Canister with purified water to Ragman",
-    "Hand over 20 Bottles of Pevko Light beer to Ragman"
+    "Find the item in raid: Bottle of Tarkovskaya vodka (10)",
+    "Find the item in raid: Bottle of Dan Jackiel whiskey (10)",
+    "Find the item in raid: Canister with purified water (3)",
+    "Find the item in raid: Bottle of Pevko Light beer (20)",
+    "Hand over the items (10)",
+    "Hand over the items (10)",
+    "Hand over the items (3)",
+    "Hand over the items (20)"
    ],
    "objectives": [
     {
@@ -6785,10 +6785,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 8 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 8 where the next source lists 8, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -18100,7 +18100,7 @@
    "name": "Calibration",
    "trader": "Mechanic",
    "objectiveText": [
-    "Eliminate 20 PMC operatives from over 100 meters away"
+    "Eliminate PMC operatives from over 100 meters away (20)"
    ],
    "objectives": [
     {
@@ -18150,10 +18150,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -18582,7 +18582,7 @@
    "name": "Capturing Outposts",
    "trader": "Prapor",
    "objectiveText": [
-    "Eliminate 12 PMC operatives at any Scav base on Customs,Woods, or Shoreline"
+    "Eliminate PMC operatives at the specified Scav bases on Customs, Shoreline, or Woods (12)"
    ],
    "objectives": [
     {
@@ -18697,10 +18697,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -20144,10 +20144,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -20275,10 +20275,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -20612,7 +20612,7 @@
    "name": "Circulate",
    "trader": "Ragman",
    "objectiveText": [
-    "Sell Ragman any 250 backpacks or tactical rigs"
+    "Sell Ragman any backpacks or tactical rigs (250)"
    ],
    "objectives": [
     {
@@ -20763,10 +20763,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -21310,10 +21310,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -24161,16 +24161,16 @@
    "name": "Crisis",
    "trader": "Therapist",
    "objectiveText": [
-    "Find 3 Portable defibrillators in raid",
-    "Find 3 Ophthalmoscopes in raid",
-    "Find 2 LEDX Skin Transilluminators in raid",
-    "Find 20 Piles of meds in raid",
-    "Find 10 Bottles of OLOLO Multivitamins in raid",
-    "Hand over the 3 ophthalmoscopes",
-    "Hand over the 3 defibrillators",
-    "Hand over the 2 LEDX",
-    "Hand over the 20 Piles of meds",
-    "Hand over the 10 multivitamins"
+    "Find the item in raid: Portable defibrillator (3)",
+    "Find the item in raid: Ophthalmoscope (3)",
+    "Find the item in raid: LEDX Skin Transilluminator (2)",
+    "Find the item in raid: Pile of meds (20)",
+    "Find the item in raid: Bottle of OLOLO Multivitamins (10)",
+    "Hand over the items (3)",
+    "Hand over the items (3)",
+    "Hand over the items (2)",
+    "Hand over the items (20)",
+    "Hand over the items (10)"
    ],
    "objectives": [
     {
@@ -24332,10 +24332,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 10 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 10 where the next source lists 10, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -24509,7 +24509,7 @@
    "name": "Dangerous Props",
    "trader": "Skier",
    "objectiveText": [
-    "Eliminate any 20 targets while using the MPS Auto Assault-12 shotgun"
+    "Eliminate any target with an AA-12 shotgun (20)"
    ],
    "objectives": [
     {
@@ -24553,10 +24553,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -25136,7 +25136,7 @@
    "trader": "Therapist",
    "map": "The Lab",
    "objectiveText": [
-    "Eliminate 40 any target from less than 60 meters away while wearing a gas mask or respirator on The Lab"
+    "Eliminate any target from less than 60 meters away while wearing a gas mask or respirator in The Lab (40)"
    ],
    "objectives": [
     {
@@ -25210,10 +25210,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -25741,7 +25741,7 @@
    "trader": "Prapor",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Eliminate any 20 any target using Assault rifles or Assault carbines on Streets of Tarkov"
+    "Eliminate any target with Assault rifles or Assault carbines on Streets of Tarkov (20)"
    ],
    "objectives": [
     {
@@ -25819,10 +25819,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -26182,10 +26182,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -26461,8 +26461,8 @@
    "name": "Drip-Out - Part 1",
    "trader": "Ragman",
    "objectiveText": [
-    "Eliminate 100 Raiders",
-    "Hand over 50 found in raid WARTECH brand equipment"
+    "Eliminate Raiders (100)",
+    "Hand over the found in raid WARTECH brand equipment (50)"
    ],
    "objectives": [
     {
@@ -26533,10 +26533,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -26679,8 +26679,8 @@
    "name": "Drip-Out - Part 2",
    "trader": "Ragman",
    "objectiveText": [
-    "Eliminate 100 Rogues",
-    "Hand over 50 found in raid LBT brand equipment"
+    "Eliminate Rogues (100)",
+    "Hand over the found in raid LBT brand equipment (50)"
    ],
    "objectives": [
     {
@@ -26752,10 +26752,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -27866,7 +27866,7 @@
    "trader": "Prapor",
    "map": "Factory",
    "objectiveText": [
-    "Eliminate any 50 targets while using an SR-2M with suppressor and KP-SR2 sight on Factory"
+    "Eliminate any target with SR-2M with suppressor and KP-SR2 sight on Reserve or Lighthouse (30)"
    ],
    "objectives": [
     {
@@ -27927,10 +27927,10 @@
      "dating": "none"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -28314,7 +28314,7 @@
    "name": "Establish Contact",
    "trader": "Fence",
    "objectiveText": [
-    "Reach 5.0 standing with Fence"
+    "Reach 5.0 reputation with Fence"
    ],
    "objectives": [
     {
@@ -28356,10 +28356,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -29793,8 +29793,8 @@
    "name": "Fishing Place",
    "trader": "Jaeger",
    "objectiveText": [
-    "Find 2 TerraGroup Labs access keycards in raid",
-    "Hand over 2 TerraGroup Labs access keycards to Jaeger"
+    "Find the item in raid: TerraGroup Labs access keycard (2)",
+    "Hand over the items (2)"
    ],
    "objectives": [
     {
@@ -29860,10 +29860,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -31580,8 +31580,8 @@
    "name": "General Wares",
    "trader": "Therapist",
    "objectiveText": [
-    "Find 15 Cans of beef stew (Small) in raid",
-    "Hand over 15 cans to Therapist"
+    "Find the item in raid: Can of beef stew (Small) (15)",
+    "Hand over the items (15)"
    ],
    "objectives": [
     {
@@ -31647,10 +31647,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -32081,7 +32081,7 @@
    "name": "Getting Some Air",
    "trader": "Prapor",
    "objectiveText": [
-    "Eliminate any 40 targets while using an RPDN with EKP-1S-03 sight on Shoreline, Interchange or Woods"
+    "Eliminate any target with an RPDN with EKP-1S-03 sight on Shoreline, Lighthouse, or Reserve (40)"
    ],
    "objectives": [
     {
@@ -32140,10 +32140,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -34662,10 +34662,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -35170,10 +35170,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -36262,7 +36262,7 @@
    "name": "Hell on Earth - Part 2",
    "trader": "Prapor",
    "objectiveText": [
-    "Eliminate 3 hooded men while using the double barrel shotgun"
+    "Eliminate the hooded men with the double barrel shotgun (2)"
    ],
    "objectives": [
     {
@@ -36319,10 +36319,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -37183,9 +37183,9 @@
    "trader": "Ragman",
    "map": "Interchange",
    "objectiveText": [
-    "Stash 2 ComTac II headsets in the specified place on Interchange",
-    "Stash 2 6B47 helmets (Olive Drab) in the specified place on Interchange",
-    "Stash 2 Gzhel-K body armors in the specified place on Interchange"
+    "Stash a ComTac II headset in the specified place on Interchange",
+    "Stash a 6B47 helmet (Olive Drab) in the specified place on Interchange",
+    "Stash a Gzhel-K body armor in the specified place on Interchange"
    ],
    "objectives": [
     {
@@ -37304,10 +37304,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -37531,7 +37531,8 @@
    "map": "Streets of Tarkov",
    "objectiveText": [
     "Locate where the missing group was held captive on Streets of Tarkov",
-    "Survive and extract from the location"
+    "Locate the debtor on Streets of tarkov",
+    "Hand over the item: Chekannaya 15 apartment key"
    ],
    "objectives": [
     {
@@ -37615,10 +37616,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -41019,7 +41020,7 @@
    "name": "Job for a Patriot",
    "trader": "Prapor",
    "objectiveText": [
-    "Eliminate 10 PMCs with AK-12 with the proprietary suppressor and PS-320 scope on Lighthouse, Customs, or Reserve"
+    "Eliminate PMCs with AK-12 with proprietary suppressor and PS-320 scope on Streets of Tarkov, Shoreline, or Ground Zero (10)"
    ],
    "objectives": [
     {
@@ -41078,10 +41079,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -45307,7 +45308,7 @@
    "trader": "Prapor",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Eliminate 8 snipers on the rooftops on Streets of Tarkov"
+    "Eliminate Sniper Scavs on Streets of Tarkov (8)"
    ],
    "objectives": [
     {
@@ -45375,10 +45376,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -45518,9 +45519,9 @@
    "name": "Know Your Place!",
    "trader": "Ragman",
    "objectiveText": [
-    "Eliminate any 5 targets on Streets of Tarkov (In one raid)",
+    "Eliminate any target on Streets of Tarkov (In one raid) (5)",
     "Use the transit from Streets of Tarkov to Interchange (In one raid)",
-    "Eliminate any 5 targets on Interchange (In one raid)"
+    "Eliminate any target on Interchange (In one raid) (5)"
    ],
    "objectives": [
     {
@@ -45594,10 +45595,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -45843,7 +45844,7 @@
    "trader": "Ragman",
    "map": "Interchange",
    "objectiveText": [
-    "Eliminate 4 PMCs on Interchange"
+    "Eliminate PMC operatives on Interchange (4)"
    ],
    "objectives": [
     {
@@ -45969,10 +45970,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -49538,10 +49539,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 6 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 6, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -51038,7 +51039,7 @@
    "trader": "Skier",
    "map": "Shoreline",
    "objectiveText": [
-    "Eliminate any 10 enemies in the base area"
+    "Eliminate any target at the smuggler bases on Shoreline or Interchange (10)"
    ],
    "objectives": [
     {
@@ -51127,10 +51128,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -51998,10 +51999,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -52048,7 +52049,7 @@
    "trader": "Peacekeeper",
    "map": "Factory",
    "objectiveText": [
-    "Eliminate 15 targets with headshots while using an AUG on Factory"
+    "Eliminate any target with headshots using a Steyr AUG on Factory (15)"
    ],
    "objectives": [
     {
@@ -52116,10 +52117,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -52694,10 +52695,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-08",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was failed when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was failed. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -52733,8 +52734,8 @@
    "trader": "Peacekeeper",
    "map": "Lighthouse",
    "objectiveText": [
-    "Eliminate 10 targests around the chalet area on Lighthouse",
-    "Hand over 5 Topographic survey maps, Intelligence folder, or TerraGroup \"Blue Folders\" materials marked with the Found in raid status"
+    "Eliminate any target around the chalets on Lighthouse (10)",
+    "Hand over the found in raid item: Topographic survey maps, Intelligence folder, or TerraGroup \"Blue Folders\" materials (5)"
    ],
    "objectives": [
     {
@@ -52812,10 +52813,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -53166,9 +53167,9 @@
    "trader": "Ragman",
    "map": "Interchange",
    "objectiveText": [
-    "Visit the Railway Exfil exit",
-    "Visit the Emercom Checkpoint exit",
-    "Visit the Power Station V-Ex exit"
+    "Visit the Railway Exfil exit on Interchange",
+    "Visit the Emercom Checkpoint exit on Interchange",
+    "Visit the Power Station V-Ex exit on Interchange"
    ],
    "objectives": [
     {
@@ -53228,10 +53229,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -53484,10 +53485,10 @@
    "name": "Peacekeeping Mission",
    "trader": "Peacekeeper",
    "objectiveText": [
-    "Eliminate 12 Scavs while using a UNTAR helmet, MF-UNTAR armor, and 5.56 UN weapons on Woods or Reserve",
-    "Eliminate 12 Scavs while using a UNTAR helmet, MF-UNTAR armor, and 5.56 UN weapons on Customs or Lighthouse",
-    "Eliminate 12 Scavs while using a UNTAR helmet, MF-UNTAR armor, and 5.56 UN weapons on Shoreline or Streets of Tarkov",
-    "Eliminate 12 Scavs while using a UNTAR helmet, MF-UNTAR armor, and 5.56 UN weapons on Ground Zero or Interchange"
+    "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Woods or Reserve (12)",
+    "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Customs or Lighthouse (12)",
+    "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Shoreline or Streets of Tarkov (12)",
+    "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Ground Zero or Interchange (12)"
    ],
    "objectives": [
     {
@@ -53606,10 +53607,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -53770,7 +53771,7 @@
    "trader": "Jaeger",
    "map": "Reserve",
    "objectiveText": [
-    "Eliminate 10 Scavs inside the main barracks on Reserve"
+    "Eliminate Scavs around the main barracks on Reserve (10)"
    ],
    "objectives": [
     {
@@ -53848,10 +53849,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -55588,10 +55589,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -56870,7 +56871,7 @@
    "name": "Psycho Sniper",
    "trader": "Mechanic",
    "objectiveText": [
-    "Eliminate any 15 targets without dying while using a bolt-action rifle"
+    "Eliminate any target with a bolt-action rifle without dying (15)"
    ],
    "objectives": [
     {
@@ -56935,10 +56936,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -56975,16 +56976,16 @@
    "map": "Streets of Tarkov",
    "objectiveText": [
     "Mark any ATM on Klimov Street with an MS2000 Marker on Streets of Tarkov",
+    "(Optional) Locate the first group of ATMs on Klimov Street on Streets of Tarkov",
     "(Optional) Locate the first ATM inside Klimov Shopping Mall on Streets of Tarkov",
+    "(Optional) Locate the first ATM on Klimov Street on Streets of Tarkov",
+    "(Optional) Locate the third ATM on Klimov Street on Streets of Tarkov",
     "(Optional) Locate the second ATM inside Klimov Shopping Mall on Streets of Tarkov",
     "(Optional) Locate the third ATM inside Klimov Shopping Mall on Streets of Tarkov",
-    "(Optional) Locate the first group of ATMs on Klimov Street on Streets of Tarkov",
-    "(Optional) Locate the second group of ATMs inside Klimov Shopping Mall on Streets of Tarkov",
-    "(Optional) Locate the third group of ATMs inside Klimov Shopping Mall on Streets of Tarkov",
-    "(Optional) Locate the first group of ATMs on Klimov Street on Streets of Tarkov",
-    "(Optional) Locate the first ATM on Klimov Street on Streets of Tarkov",
+    "(Optional) Locate the first group of ATMs inside Klimov Shopping Mall on Streets of Tarkov",
     "(Optional) Locate the second ATM on Klimov Street on Streets of Tarkov",
-    "(Optional) Locate the third ATM on Klimov Street on Streets of Tarkov"
+    "(Optional) Locate the second group of ATMs inside Klimov Shopping Mall on Streets of Tarkov",
+    "(Optional) Locate the third group of ATMs inside Klimov Shopping Mall on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -57327,10 +57328,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-08",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 11 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 11 where the next source lists 11, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -57449,10 +57450,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -57811,10 +57812,10 @@
    "name": "Regulated Materials",
    "trader": "Prapor",
    "objectiveText": [
-    "Find 1 6-STEN-140-M military battery in raid",
-    "Hand over 1 military battery to Prapor",
-    "Find 3 OFZ 30x165mm shells in raid",
-    "Hand over the 3 OFZ shells to Prapor"
+    "Find the item in raid: 6-STEN-140-M military battery",
+    "Hand over the item",
+    "Find the item in raid: OFZ 30x165mm shell (3)",
+    "Hand over the items (3)"
    ],
    "objectives": [
     {
@@ -57912,10 +57913,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -58069,12 +58070,13 @@
    "trader": "Ragman",
    "map": "Reserve",
    "objectiveText": [
-    "Check the first arsenal in the eastern barracks (Black Pawn) on Reserve",
+    "Check the first armory in the eastern barracks (Black Pawn) on Reserve",
     "Check the duty room in the eastern barracks (Black Pawn) on Reserve",
-    "Check the second arsenal in the eastern barracks (Black Pawn) on Reserve",
-    "Check the first arsenal in the southern barracks (White Pawn) on Reserve",
-    "Check the second arsenal in the southern barracks (White Pawn) on Reserve",
-    "Survive and extract from the location"
+    "Check the second armory in the eastern barracks (Black Pawn) on Reserve",
+    "Check the first armory in the southern barracks (White Pawn) on Reserve",
+    "Check the second armory in the southern barracks (White Pawn) on Reserve",
+    "Hand over the gear found in the rooms (3)",
+    "(Optional) Locate and obtain any Russian gear in the armory rooms (3)"
    ],
    "objectives": [
     {
@@ -58249,10 +58251,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 7 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 7 where the next source lists 6, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -59929,7 +59931,8 @@
    "trader": "Skier",
    "map": "Reserve",
    "objectiveText": [
-    "Eliminate 10 Scavs in the underground warehouse on Reserve"
+    "Eliminate Scavs in the underground storage warehouse on Reserve (5)",
+    "Hand over any found in raid keys for the underground storage warehouse (RB-PSP and RB-PSV) (3)"
    ],
    "objectives": [
     {
@@ -60000,10 +60003,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -62487,8 +62490,8 @@
    "name": "Setting Priorities",
    "trader": "Mechanic",
    "objectiveText": [
-    "Eliminate 10 PMC operatives while using an active headset without wearing any armor",
-    "Eliminate 10 PMC operatives while wearing the TSh-4M-L soft tank crew helmet without wearing any active headset"
+    "Eliminate PMC operatives while using an active headset without wearing any armor or helmet (10)",
+    "Eliminate PMC operatives while wearing the TSh-4M-L soft tank crew helmet (10)"
    ],
    "objectives": [
     {
@@ -62566,10 +62569,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -62716,10 +62719,10 @@
    "name": "Sew it Good - Part 1",
    "trader": "Ragman",
    "objectiveText": [
-    "Find 1 Ski hat with holes for eyes in raid",
-    "Hand over 1 Ski hat with holes for eyes to Ragman",
-    "Find 1 Pilgrim tourist backpack in raid",
-    "Hand over 1 Pilgrim tourist backpack to Ragman"
+    "Find the item in raid: Ski hat with holes for eyes",
+    "Hand over the item",
+    "Find the item in raid: Pilgrim tourist backpack",
+    "Hand over the item"
    ],
    "objectives": [
     {
@@ -62803,10 +62806,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -63922,10 +63925,10 @@
    "name": "Shooter Born in Heaven",
    "trader": "Mechanic",
    "objectiveText": [
-    "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Customs or Lighthouse",
-    "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Streets of Tarkov or Shoreline",
-    "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Interchange or Ground Zero",
-    "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Woods or Reserve"
+    "Eliminate PMC operatives with a bolt-action rifle headshot on Customs or Lighthouse (5)",
+    "Eliminate PMC operatives with a bolt-action rifle headshot on Streets of Tarkov or Shoreline (5)",
+    "Eliminate PMC operatives with a bolt-action rifle headshot on Interchange or Ground Zero (5)",
+    "Eliminate PMC operatives with a bolt-action rifle headshot on Woods or Reserve (5)"
    ],
    "objectives": [
     {
@@ -64066,10 +64069,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -65745,10 +65748,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -67308,10 +67311,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -67565,9 +67568,9 @@
    "name": "Stray Dogs",
    "trader": "Jaeger",
    "objectiveText": [
-    "Locate and eliminate Knight",
-    "Locate and eliminate Big Pipe",
-    "Locate and eliminate Birdeye"
+    "Locate and neutralize Knight (in one raid)",
+    "Locate and neutralize Big Pipe (in one raid)",
+    "Locate and neutralize Birdeye (in one raid)"
    ],
    "objectives": [
     {
@@ -67668,10 +67671,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -67705,9 +67708,12 @@
    "name": "Supervisor",
    "trader": "Ragman",
    "objectiveText": [
-    "Stash the Goshan cash register key at the BIZARRO store fitting rooms on Interchange.",
-    "Stash the IDEA cash register key at Register #9 on Interchange.",
-    "Stash the OLI cash register key at Register #7-8 on Interchange."
+    "Stash the Goshan cash register key at the BIZARRO store fitting rooms on Interchange",
+    "(Optional) Obtain the Goshan cash register key",
+    "Stash the IDEA cash register key at Register #9 on Interchange",
+    "(Optional) Obtain the IDEA cash register key",
+    "Stash the OLI cash register key at Register #7-8 on Interchange",
+    "(Optional) Obtain the OLI cash register key"
    ],
    "objectives": [
     {
@@ -67777,10 +67783,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 6 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 3, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -67810,10 +67816,12 @@
    "name": "Supplements",
    "trader": "Skier",
    "objectiveText": [
-    "Find 4 Respirators in raid",
-    "Hand over 4 Respirators to Skier",
-    "Find 3 Medical bloodsets in raid",
-    "Hand over 3 Medical bloodsets to Skier"
+    "Hand over the items (4)",
+    "Find the item in raid: Respirator (4)",
+    "Find the item in raid Medical bloodset (3)",
+    "Hand over the items (3)",
+    "Locate and obtain the chemical vial on Customs",
+    "Hand over the vial"
    ],
    "objectives": [
     {
@@ -67903,10 +67911,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 6 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -68969,7 +68977,7 @@
    "trader": "Jaeger",
    "map": "Woods",
    "objectiveText": [
-    "Eliminate 15 PMCs without using any armor or helmets on Woods"
+    "Eliminate any target without wearing any armor and helmets on Woods (10)"
    ],
    "objectives": [
     {
@@ -69030,10 +69038,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -69068,7 +69076,7 @@
    "trader": "BTR Driver",
    "map": "Woods",
    "objectiveText": [
-    "Eliminate 10 Scavs on Woods"
+    "Eliminate Scavs on Woods (10)"
    ],
    "objectives": [
     {
@@ -69124,10 +69132,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -69157,10 +69165,10 @@
    "trader": "Therapist",
    "map": "Shoreline",
    "objectiveText": [
-    "Locate and obtain Sanitar's surgery kit marked with a blue symbol on Shoreline",
-    "Hand over Sanitar's surgery kit to Therapist",
+    "Locate and obtain Sanitar's surgery kit on Shoreline",
+    "Hand over the item",
     "Locate and obtain Sanitar's ophthalmoscope on Shoreline",
-    "Hand over Sanitar's ophthalmoscope to Therapist"
+    "Hand over the item"
    ],
    "objectives": [
     {
@@ -69279,10 +69287,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -70119,7 +70127,7 @@
    "name": "The Art of Explosion",
    "trader": "Prapor",
    "objectiveText": [
-    "Eliminate 20 PMC operatives while using grenades or grenade launchers"
+    "Eliminate PMC operatives with grenades or grenade launchers (20)"
    ],
    "objectives": [
     {
@@ -70169,10 +70177,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -70800,7 +70808,7 @@
    "trader": "Mechanic",
    "map": "Customs",
    "objectiveText": [
-    "Stash a Trijicon REAP-IR scope behind the trash containers at the \"new\" gas station on Customs"
+    "Stash a Trijicon REAP-IR scope behind the trash containers at the new gas station on Customs"
    ],
    "objectives": [
     {
@@ -70904,10 +70912,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -72587,7 +72595,7 @@
    "trader": "Jaeger",
    "map": "The Lab",
    "objectiveText": [
-    "Eliminate 2 PMCs while they are suffering from the stun effect"
+    "Eliminate any target in The Lab (in one raid) (10)"
    ],
    "objectives": [
     {
@@ -72642,10 +72650,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -72766,10 +72774,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -74908,7 +74916,7 @@
    "trader": "Prapor",
    "map": "Customs",
    "objectiveText": [
-    "Eliminate 25 Scavs while using an AKS-74U series assault rifle on Customs"
+    "Eliminate Scavs with AKS-74U on Customs (25)"
    ],
    "objectives": [
     {
@@ -74962,10 +74970,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -75193,10 +75201,10 @@
    "trader": "Prapor",
    "map": "Lighthouse",
    "objectiveText": [
-    "Eliminate 10 Scavs while using an SVDS 7.62x54R sniper rifle or TKPD 9.3x64 carbine on Lighthouse",
-    "Eliminate 10 Scavs while wearing a Scav Vest on Lighthouse",
-    "Find 5 Bars A-2607 95Kh18 knives in raid",
-    "Hand over the 5 Bars A-2607 95Kh18 knives"
+    "Eliminate Scavs with an SVDS or TKPD on Lighthouse (10)",
+    "Eliminate Scavs while wearing a Scav vest on Lighthouse (10)",
+    "Find the item in raid: Bars A-2607 95Kh18 knive (5)",
+    "Hand over the items (5)"
    ],
    "objectives": [
     {
@@ -75284,10 +75292,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -75895,7 +75903,7 @@
    "name": "The Survivalist Path - Cold Blooded",
    "trader": "Jaeger",
    "objectiveText": [
-    "Eliminate 2 PMC operatives with headshots while suffering from the tremor effect"
+    "Eliminate PMC operatives with headshots while suffering from the Tremor status effect (2)"
    ],
    "objectives": [
     {
@@ -75939,10 +75947,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -76392,7 +76400,7 @@
    "trader": "Jaeger",
    "map": "Woods",
    "objectiveText": [
-    "Eliminate 3 Scavs in a single raid without using any medicine on Woods"
+    "Eliminate Scavs in a single raid without using any medicine on Woods (3)"
    ],
    "objectives": [
     {
@@ -76446,10 +76454,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -77241,7 +77249,7 @@
    "name": "The Tarkov Shooter - Part 5",
    "trader": "Jaeger",
    "objectiveText": [
-    "Eliminate 5 Sniper Scavs while using a bolt-action rifle"
+    "Eliminate Sniper Scavs with a bolt-action rifle (5)"
    ],
    "objectives": [
     {
@@ -77290,10 +77298,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -77322,7 +77330,7 @@
    "name": "The Tarkov Shooter - Part 6",
    "trader": "Jaeger",
    "objectiveText": [
-    "Eliminate 5 PMCs while using a suppressed bolt-action rifle"
+    "Eliminate PMC operatives with a suppressed bolt-action rifle (5)"
    ],
    "objectives": [
     {
@@ -77366,10 +77374,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -79504,7 +79512,7 @@
    "map": "Lighthouse",
    "objectiveText": [
     "Locate the radar station commandant's office on Lighthouse",
-    "Obtain the military HDD with archived flight routes",
+    "Locate and obtain the HDD with archived flight routes inside the room",
     "Hand over the drive"
    ],
    "objectives": [
@@ -79623,10 +79631,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -79663,8 +79671,8 @@
    "objectiveText": [
     "Locate the room with reservoirs in the Health Resort on Shoreline",
     "Obtain any information about the second part of the cargo shipment",
-    "Hand over the retrieved information to Peacekeeper",
-    "Locate the TerraGroup cargo hidden inside the Health Resort on Shoreline"
+    "Hand over the retrieved information",
+    "Locate the hidden TerraGroup cargo in the Health Resort on Shoreline"
    ],
    "objectives": [
     {
@@ -79765,10 +79773,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 4 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -79802,8 +79810,8 @@
    "name": "Trophies",
    "trader": "Peacekeeper",
    "objectiveText": [
-    "Find in raid and hand over 10 BEAR PMC dogtags of Prestige 1 or higher to Peacekeeper",
-    "Find in raid and hand over 10 USEC PMC dogtags of Prestige 1 or higher to Peacekeeper"
+    "Hand over the found in raid item: Dogtag BEAR (Prestige 1 or higher) (10)",
+    "Hand over the found in raid item: Dogtag USEC (Prestige 1 or higher) (10)"
    ],
    "objectives": [
     {
@@ -79916,10 +79924,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -80614,12 +80622,12 @@
    "name": "Vitamins",
    "trader": "Skier",
    "objectiveText": [
-    "Obtain the first Chemical container",
-    "Hand over the first Chemical container to Skier",
-    "Obtain the second Chemical container",
-    "Hand over the second Chemical container to Skier",
-    "Obtain the third Chemical container",
-    "Hand over the third Chemical container to Skier"
+    "Locate and obtain the chemical container on Factory",
+    "Hand over the container",
+    "Hand over the items (4)",
+    "Hand over the items (3)",
+    "Find the item in raid: Respirator (4)",
+    "Find the item in raid: Medical bloodset (3)"
    ],
    "objectives": [
     {
@@ -80771,10 +80779,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 6 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 6, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -81231,7 +81239,7 @@
    "trader": "Peacekeeper",
    "map": "Shoreline",
    "objectiveText": [
-    "Eliminate 10 Scavs while using a suppressed M4A1, ADAR or TX-15 on Shoreline"
+    "Eliminate Scavs with an M4A1, M16, ADAR, or TX-15 on Shoreline (10)"
    ],
    "objectives": [
     {
@@ -81285,10 +81293,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -82223,7 +82231,7 @@
    "name": "Worst Job in the World",
    "trader": "Peacekeeper",
    "objectiveText": [
-    "Eliminate any 30 enemies from over 100 meters away while using AR-15 platform weapons on Reserve, Lighthouse, Shoreline, or Ground Zero"
+    "Eliminate any target with AR-15 weapons from over 100 meters away on Reserve, Lighthouse, Shoreline, or Ground Zero (30)"
    ],
    "objectives": [
     {
@@ -82287,10 +82295,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -82463,7 +82471,7 @@
    "map": "Streets of Tarkov",
    "objectiveText": [
     "Obtain the digital storage device from the car dealership manager's office on Streets of Tarkov",
-    "Hand over the digital storage device"
+    "Hand over the storage device"
    ],
    "objectives": [
     {
@@ -82561,10 +82569,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
     },
     "objectives": {
      "src": "tarkov.dev",

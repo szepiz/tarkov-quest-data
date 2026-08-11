@@ -109,6 +109,31 @@ objectives to 6, three of them stashes at named Interchange spots (the BIZARRO
 fitting rooms, Register #9, Register #7-8). Nobody publishes a position for any
 of them, so nothing downstream can place a pin.
 
+### The quantities and the maps in an objective are wrong more often than the count
+
+The count is what everyone checks, because it's the difference you can see
+without reading. Comparing the *wording* against the game screen on 268 quests
+turns up a second layer, on quests where every source agrees about how many steps
+there are:
+
+- ***Hot Delivery*.** The wiki asks for **2** ComTac II headsets, 2 helmets and
+  2 body armors. The game asks for one of each — 1.1.0 halved it, and the quest
+  text in game says so outright ("Leave one set consisting of...").
+- ***Job for a Patriot*.** The wiki sends you to Lighthouse, Customs or Reserve.
+  The game says Streets of Tarkov, Shoreline or Ground Zero. **No overlap.**
+- ***Easy-Breezy*.** Wiki: 50 kills on Factory. Game: 30, on Reserve or
+  Lighthouse.
+- ***Getting Some Air*.** Wiki: Shoreline, Interchange or Woods. Game: Shoreline,
+  Lighthouse or Reserve.
+- ***Hell on Earth - Part 2*.** Three hooded men on the wiki, two in the game.
+- ***No Swiping*** names no map at all on the wiki ("in the base area"); the game
+  says the smuggler bases on Shoreline or Interchange.
+- ***Pyramid Scheme*** and ***Beneath The Streets*** list the right steps in the
+  wrong ORDER, and the wiki misses that one of Beneath The Streets' is optional.
+
+None of these would be caught by counting objectives, and a tracker that shows
+the wiki's text sends the player to the wrong map with the wrong shopping list.
+
 ---
 
 ## 29 quests no longer exist

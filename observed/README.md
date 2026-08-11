@@ -111,6 +111,13 @@ had been inflating the error counts:
 - **An unfinished quest shows fewer objectives than it has.** The game reveals a
   step once the step it depends on is done. Only a `completed` record's objective
   count gets graded.
+
+  That is a rule about the **count**, and it was over-applied for a while: the
+  published `objectiveText` threw away an unfinished record's wording too, which
+  is a different thing entirely. A step the game DID show is printed exactly.
+  What actually matters is whether the record is short — if it shows at least as
+  many steps as the next source lists, nothing is hidden and the game's words
+  win. That is now how `build_api.js` reads it, and it moved 75 quests.
 - **A part number isn't an identity.** 1.1.0 reshuffled The Punisher and The
   Tarkov Shooter, so the game's Part 1 carries another part's objectives. Those
   records are pinned with an explicit `questId` read off the objective text.

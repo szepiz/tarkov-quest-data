@@ -24,6 +24,7 @@ just about what those four publish.
 | **Story task locations** | The overlay has the chapters. It carries no coordinates at all, so every pin for them is placed here |
 | **9 hand-placed interactables and a hazard area** | Power panels, switches, the Shoreline sniper zone |
 | **305 quests read off the game screen** | Names, objectives, trader, loyalty tab and status, with the date each was seen |
+| **268 quests worded as the game words them** | Not a formatting preference: the wiki asks for 2 ComTac II headsets where the game asks for one, sends *Job for a Patriot* to three maps it no longer uses, and gives *No Swiping* no map at all |
 | **33 quests flagged as removed** | The wiki says so on the page; nobody publishes it as data, so tools keep listing quests BSG deleted |
 | **Loyalty gates on 65 quests** | tarkov.dev publishes them for 5. The rest are read out of the wiki's prose and checked against the game where possible |
 | **4 quests that open only on a FAILURE** | It is in tarkov.dev's data, in a `status` field almost nothing reads, so they publish as ordinary follow-ups and get listed for every player. Completing the prerequisite does not open them |
