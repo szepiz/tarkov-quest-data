@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T08:25:41.580Z",
+ "generatedAt": "2026-08-11T08:45:38.612Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -460,7 +460,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 22,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5edab4b1218d181e29451435",
@@ -502,9 +502,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 22; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -2041,7 +2042,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314b696a9349baa021bac",
@@ -2091,9 +2092,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -2264,7 +2266,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 33,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5d25e2ee86f77443e35162ea",
@@ -2328,9 +2330,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 33; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -5383,6 +5386,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -5424,6 +5435,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -5933,7 +5950,7 @@
      "markerItem": "MS2000 Marker"
     }
    ],
-   "minPlayerLevel": 11,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "597a0f5686f774273b74f676",
@@ -5988,9 +6005,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-08",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 11; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -6681,6 +6699,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -6728,6 +6754,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -18244,7 +18276,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314bf1cd52e3d040a2e78",
@@ -18286,9 +18318,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -18810,7 +18843,7 @@
      "level": 3
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27bafb86f7741c73584017",
@@ -18821,6 +18854,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -18866,9 +18907,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -18879,6 +18921,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -19986,13 +20034,21 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27ba9586f7741b543d8e85",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
     }
    ],
    "modes": [
@@ -20039,14 +20095,21 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -21759,7 +21822,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 45,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5bc4893c86f774626f5ebf3e",
@@ -22182,6 +22245,50 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -22215,14 +22322,21 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 45; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "7 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -22862,7 +22976,7 @@
      "count": 20
     }
    ],
-   "minPlayerLevel": 33,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5c0bc91486f7746ab41857a2",
@@ -22910,9 +23024,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 33; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -23364,6 +23479,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -23420,6 +23543,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -24512,7 +24641,7 @@
      "count": 1
     }
    ],
-   "minPlayerLevel": 31,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5b4795fb86f7745876267770",
@@ -24523,6 +24652,14 @@
    ],
    "objectiveMaps": [
     "Streets of Tarkov"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -24562,9 +24699,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 31; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -24575,6 +24713,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -24612,7 +24756,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 1,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "657315df034d76585f032e01",
@@ -24620,6 +24764,14 @@
       "complete",
       "failed"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
     }
    ],
    "modes": [
@@ -24660,14 +24812,21 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 1; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -24719,7 +24878,7 @@
      "questItem": "Ref dirt"
     }
    ],
-   "minPlayerLevel": 10,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "66058ccf06ef1d50a60c1f48",
@@ -24766,9 +24925,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 10; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -24835,7 +24995,7 @@
      "questItem": "Ref dirt"
     }
    ],
-   "minPlayerLevel": 10,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "683425dd8f5b18d29a05d9d1",
@@ -24883,9 +25043,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 10; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -24930,7 +25091,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 35,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a68669a86f774255929b4d4",
@@ -24947,6 +25108,14 @@
    ],
    "objectiveMaps": [
     "Interchange"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
    ],
    "modes": [
     "pvp",
@@ -24992,9 +25161,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 35; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -25005,6 +25175,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -25530,7 +25706,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 20,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "64e7b9a4aac4cd0a726562cb",
@@ -25541,6 +25717,14 @@
    ],
    "objectiveMaps": [
     "Streets of Tarkov"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -25586,9 +25770,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 20; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -25599,6 +25784,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -26771,7 +26962,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 11,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b7d686f77460d847e6a6",
@@ -26782,6 +26973,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -26826,9 +27025,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 11; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -26839,6 +27039,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -29241,9 +29447,17 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 1,
+   "minPlayerLevel": null,
    "objectiveMaps": [
     "Ground Zero"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -29288,14 +29502,21 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 1; the wiki's Requirements section lists no level."
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -29406,7 +29627,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 10,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27d2af86f7744e1115b323",
@@ -29417,6 +29638,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -29461,9 +29690,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 10; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -29474,6 +29704,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -30698,7 +30934,15 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 9,
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -30737,9 +30981,16 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 9; the wiki's Requirements section lists no level."
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -31176,13 +31427,21 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a03173786f77451cb427172",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
     }
    ],
    "modes": [
@@ -31223,14 +31482,21 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -31863,7 +32129,7 @@
      "markerItem": "MS2000 Marker"
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27bb5986f7741dfb660900",
@@ -31874,6 +32140,14 @@
    ],
    "objectiveMaps": [
     "Lighthouse"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -31913,9 +32187,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -31926,6 +32201,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -32015,7 +32296,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 22,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "639135b04ed9512be67647d7",
@@ -32071,9 +32352,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 22; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -32344,7 +32626,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 8,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5979ed3886f77431307dc512",
@@ -32355,6 +32637,14 @@
    ],
    "objectiveMaps": [
     "Customs"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -32399,9 +32689,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 8; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -32412,6 +32703,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -32800,6 +33097,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -32846,6 +33151,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -35816,7 +36127,7 @@
      "item": "MP-43-1C 12ga double-barrel shotgun"
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314b4d7f171c4c20226c3",
@@ -35859,9 +36170,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -35893,7 +36205,7 @@
      "count": 3
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314b0acf8442f8b0531a1",
@@ -35943,9 +36255,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -37550,7 +37863,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 11,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b80086f774429a5d7e20",
@@ -37561,6 +37874,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -37605,9 +37926,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 11; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -37618,6 +37940,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -37888,7 +38216,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a0327ba86f77456b9154236",
@@ -37899,6 +38227,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -37944,9 +38280,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -37957,6 +38294,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -38033,7 +38376,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 9,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5967530a86f77462ba22226b",
@@ -38044,6 +38387,14 @@
    ],
    "objectiveMaps": [
     "Woods"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -38088,9 +38439,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 9; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -38101,6 +38453,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -38880,7 +39238,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 24,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5c1234c286f77406fa13baeb",
@@ -38893,6 +39251,14 @@
     "Woods",
     "Customs",
     "Interchange"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -38932,9 +39298,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 24; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -38945,6 +39312,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -44281,7 +44654,7 @@
      "questItem": "Tarkov City souvenir key"
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314c3acf8442f8b0531a3",
@@ -44331,9 +44704,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -44866,6 +45240,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -44923,6 +45305,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -45434,7 +45822,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 45,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5ae449d986f774453a54a7e1",
@@ -45445,6 +45833,14 @@
    ],
    "objectiveMaps": [
     "Interchange"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -45490,9 +45886,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 45; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -45503,6 +45900,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -47428,7 +47831,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 15,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5ae448a386f7744d3730fff0",
@@ -47439,6 +47842,14 @@
    ],
    "objectiveMaps": [
     "Interchange"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -47483,9 +47894,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 15; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -47496,6 +47908,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -47644,7 +48062,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a03296886f774569778596a",
@@ -47655,6 +48073,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -47699,9 +48125,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -47712,6 +48139,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -48289,7 +48722,7 @@
      "questItem": "Gaming magazine"
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314bafd5ca9577902e03a",
@@ -48339,9 +48772,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -50072,7 +50506,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 17,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "639135f286e646067c176a87",
@@ -50083,6 +50517,14 @@
    ],
    "objectiveMaps": [
     "Ground Zero"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -50117,9 +50559,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 17; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -50130,6 +50573,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -50168,13 +50617,21 @@
      ]
     }
    ],
-   "minPlayerLevel": 50,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5edabd13218d181e29451442",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
     }
    ],
    "modes": [
@@ -50210,14 +50667,21 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 50; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -51318,7 +51782,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 15,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "6179aff8f57fb279792c60a1",
@@ -51330,6 +51794,14 @@
    "objectiveMaps": [
     "Factory",
     "Woods"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "failedBy": [
     "669fa3910c828825de06d69f"
@@ -51373,9 +51845,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 15; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -51386,6 +51859,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     },
     "failedBy": {
      "src": "tarkov.dev",
@@ -51420,7 +51899,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b87686f77460de0252a8",
@@ -51431,6 +51910,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -51476,9 +51963,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -51489,6 +51977,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -51987,7 +52481,7 @@
      "markerItem": "MS2000 Marker"
     }
    ],
-   "minPlayerLevel": 11,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "597a0f5686f774273b74f676",
@@ -52042,9 +52536,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-08",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 11; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -52100,7 +52595,7 @@
      "level": 3
     }
    ],
-   "minPlayerLevel": 15,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a03153686f77442d90e2171",
@@ -52111,6 +52606,14 @@
    ],
    "objectiveMaps": [
     "Lighthouse"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -52156,9 +52659,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 15; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -52169,6 +52673,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -52879,7 +53389,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 30,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5c0d0f1886f77457b8210226",
@@ -52895,6 +53405,14 @@
     "Shoreline",
     "Streets of Tarkov",
     "Ground Zero"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
    ],
    "modes": [
     "pvp",
@@ -52935,9 +53453,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 30; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -52948,6 +53467,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -54281,7 +54806,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 10,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "59675d6c86f7740a842fc482",
@@ -54292,6 +54817,14 @@
    ],
    "objectiveMaps": [
     "Factory"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -54336,9 +54869,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 10; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -54349,6 +54883,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -55404,7 +55944,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314c10aa5c7436c00908c",
@@ -55451,9 +55991,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -56194,6 +56735,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -56241,6 +56790,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -56555,7 +57110,7 @@
      "level": 3
     }
    ],
-   "minPlayerLevel": 28,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5b478ff486f7744d184ecbbf",
@@ -56566,6 +57121,14 @@
    ],
    "objectiveMaps": [
     "Streets of Tarkov"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -56611,9 +57174,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-08",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 28; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -56624,6 +57188,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-08",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -56670,7 +57240,7 @@
      "questItem": "LEDX Skin Transilluminator (US Version)"
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314b4d7f171c4c20226c3",
@@ -56721,9 +57291,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -57132,13 +57703,21 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 25,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5979f8bb86f7743ec214c7a6",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
     }
    ],
    "modes": [
@@ -57180,14 +57759,21 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 25; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -57767,7 +58353,7 @@
      "level": 3
     }
    ],
-   "minPlayerLevel": 14,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "6086c852c945025d41566124",
@@ -57779,6 +58365,14 @@
    ],
    "objectiveMaps": [
     "Lighthouse"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -57823,9 +58417,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 14; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -57836,6 +58431,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -58110,7 +58711,7 @@
      "level": 3
     }
    ],
-   "minPlayerLevel": 14,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b87686f77460de0252a8",
@@ -58121,6 +58722,14 @@
    ],
    "objectiveMaps": [
     "Reserve"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -58165,9 +58774,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 14; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -58178,6 +58788,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -58262,7 +58878,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 17,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "6086c852c945025d41566124",
@@ -58274,6 +58890,14 @@
    ],
    "objectiveMaps": [
     "Streets of Tarkov"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -58318,9 +58942,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-07",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 17; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -58331,6 +58956,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-07",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -58690,7 +59321,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 20,
+   "minPlayerLevel": null,
    "faction": "USEC",
    "requires": [
     {
@@ -58702,6 +59333,14 @@
    ],
    "objectiveMaps": [
     "Streets of Tarkov"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -58747,9 +59386,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 20; the wiki's Requirements section lists no level."
     },
     "faction": {
      "src": "tarkov.dev",
@@ -58765,6 +59405,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -59616,13 +60262,21 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 4,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5967733e86f774602332fc84",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
     }
    ],
    "modes": [
@@ -59668,14 +60322,21 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 4; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -60491,7 +61152,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 10,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b7a786f774579c3eb376",
@@ -60502,6 +61163,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -60546,9 +61215,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 10; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -60559,6 +61229,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -61308,7 +61984,7 @@
      "maps": []
     }
    ],
-   "minPlayerLevel": 15,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "67a096577e86e067eb045733",
@@ -61354,9 +62030,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 15; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -61558,7 +62235,7 @@
      "questItem": "Hard drive"
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314bd920800278d0f6748",
@@ -61608,9 +62285,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -61656,7 +62334,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 37,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "61958c366726521dd96828ec",
@@ -61724,9 +62402,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 37; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -61766,7 +62445,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 18,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27d2af86f7744e1115b323",
@@ -61777,6 +62456,14 @@
    ],
    "objectiveMaps": [
     "Customs"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -61821,9 +62508,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 18; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -61834,6 +62522,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -62610,7 +63304,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 9,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "59675d6c86f7740a842fc482",
@@ -62673,9 +63367,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 9; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -63141,7 +63836,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 14,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5ac3462b86f7741d6118b983",
@@ -63159,6 +63854,14 @@
     "Streets of Tarkov",
     "Interchange",
     "Ground Zero"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
    ],
    "modes": [
     "pvp",
@@ -63199,9 +63902,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 14; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -63212,6 +63916,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -65598,13 +66308,21 @@
      ]
     }
    ],
-   "minPlayerLevel": 60,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "60e71ccb5688f6424c7bfec4",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
     }
    ],
    "modes": [
@@ -65640,14 +66358,21 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 60; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -65863,13 +66588,21 @@
      ]
     }
    ],
-   "minPlayerLevel": 20,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "59ca2eb686f77445a80ed049",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
     }
    ],
    "modes": [
@@ -65905,14 +66638,21 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 20; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -66819,7 +67559,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 40,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5ae4498786f7744bde357695",
@@ -66873,9 +67613,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 40; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -67049,7 +67790,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 5,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "657315e270bb0b8dba00cc48",
@@ -67057,6 +67798,14 @@
       "complete",
       "failed"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
     }
    ],
    "modes": [
@@ -67097,14 +67846,21 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 5; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-06",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -68454,7 +69210,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 23,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5edac020218d181e29451446",
@@ -68472,6 +69228,14 @@
    ],
    "objectiveMaps": [
     "The Lab"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
    ],
    "modes": [
     "pvp",
@@ -68517,9 +69281,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 23; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -68530,6 +69295,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -68625,7 +69396,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 42,
+   "minPlayerLevel": null,
    "faction": "BEAR",
    "requires": [
     {
@@ -68681,9 +69452,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 42; the wiki's Requirements section lists no level."
     },
     "faction": {
      "src": "tarkov.dev",
@@ -68794,7 +69566,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 42,
+   "minPlayerLevel": null,
    "faction": "USEC",
    "requires": [
     {
@@ -68850,9 +69622,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 42; the wiki's Requirements section lists no level."
     },
     "faction": {
      "src": "tarkov.dev",
@@ -69760,7 +70533,7 @@
      "count": 40
     }
    ],
-   "minPlayerLevel": 45,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5c0d4e61d09282029f53920e",
@@ -69771,6 +70544,14 @@
    ],
    "objectiveMaps": [
     "Reserve"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -69810,9 +70591,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 45; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -69823,6 +70605,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -69888,7 +70676,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 52,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "60e71d23c1bfa3050473b8e6",
@@ -69899,6 +70687,14 @@
    ],
    "objectiveMaps": [
     "Customs"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -69944,9 +70740,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 52; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -69957,6 +70754,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -70006,7 +70809,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 12,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b87686f77460de0252a8",
@@ -70017,6 +70820,14 @@
    ],
    "objectiveMaps": [
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -70061,9 +70872,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 12; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -70074,6 +70886,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -70702,7 +71520,7 @@
      "count": 10
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314b8312343839d032d24",
@@ -70744,9 +71562,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -70871,7 +71690,7 @@
      "count": 1
     }
    ],
-   "minPlayerLevel": 32,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27bc8586f7741b543d8ea4",
@@ -70891,6 +71710,14 @@
     "Lighthouse",
     "Streets of Tarkov",
     "Ground Zero"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
    ],
    "modes": [
     "pvp",
@@ -70925,9 +71752,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 32; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -70938,6 +71766,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -71694,7 +72528,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 23,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "639136df4b15ca31f76bc31f",
@@ -71705,6 +72539,14 @@
    ],
    "objectiveMaps": [
     "Streets of Tarkov"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -71750,9 +72592,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 23; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -71763,6 +72606,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -71989,13 +72838,21 @@
      "count": 30
     }
    ],
-   "minPlayerLevel": 2,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5d25e2b486f77409de05bba0",
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
     }
    ],
    "modes": [
@@ -72031,14 +72888,21 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-07",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 2; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-07",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -72375,7 +73239,7 @@
      "count": 1
     }
    ],
-   "minPlayerLevel": 55,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5d25e2c386f77443e7549029",
@@ -72423,6 +73287,14 @@
     "Reserve",
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -72456,9 +73328,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 55; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -72469,6 +73342,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -77126,7 +78005,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 15,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "665eeca45d86b6c8aa03c79d",
@@ -77168,9 +78047,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 15; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -77498,7 +78378,7 @@
      "level": 1
     }
    ],
-   "minPlayerLevel": 10,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b75b86f7742e97191958",
@@ -77510,6 +78390,14 @@
    ],
    "objectiveMaps": [
     "Customs"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
    ],
    "modes": [
     "pvp",
@@ -77554,9 +78442,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 10; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -77567,6 +78456,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -78802,6 +79697,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -78849,6 +79752,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -79448,7 +80357,7 @@
      ]
     }
    ],
-   "minPlayerLevel": 27,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "666314bc1d3ec95634095e77",
@@ -79495,9 +80404,10 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 27; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -80044,7 +80954,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 18,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27b9de86f77464e5044585",
@@ -80057,6 +80967,14 @@
     "Woods",
     "Customs",
     "Shoreline"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -80096,9 +81014,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 18; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -80109,6 +81028,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -81122,7 +82047,7 @@
      "count": 30
     }
    ],
-   "minPlayerLevel": 25,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "5a27bc6986f7741c7358402b",
@@ -81135,6 +82060,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
     }
    ],
    "modes": [
@@ -81170,14 +82103,21 @@
      "dating": "none"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 25; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-05",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -81373,7 +82313,7 @@
      "level": 2
     }
    ],
-   "minPlayerLevel": 35,
+   "minPlayerLevel": null,
    "requires": [
     {
      "task": "61958c366726521dd96828ec",
@@ -81384,6 +82324,14 @@
    ],
    "objectiveMaps": [
     "Streets of Tarkov"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -81429,9 +82377,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 35; the wiki's Requirements section lists no level."
     },
     "requires": {
      "src": "tarkov.dev",
@@ -81442,6 +82391,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "wiki",
+     "asOf": "2026-08-09",
+     "dating": "exact",
+     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   }

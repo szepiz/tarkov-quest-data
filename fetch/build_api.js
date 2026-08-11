@@ -56,6 +56,40 @@ const section = (w, name) => {
 };
 const isRemoved = (w) => /\{\{\s*Historical content/i.test(w || '');
 
+// ---- the wiki's ==Requirements== section
+//
+// This is where the loyalty gates live. 1.1.0 re-hung much of the quest tree off
+// trader loyalty, and tarkov.dev publishes FIVE such gates in the whole dataset
+// while 62 wiki pages state one. Reading only tarkov.dev means publishing a
+// quest as available when the game will not offer it.
+const reqLines = (w) => {
+  const m = /==\s*Requirements\s*==\s*\n([\s\S]*?)(?:\n==[^=]|$)/.exec(w || '');
+  if (!m) return null;                       // no section at all: says nothing
+  return m[1].split('\n').map((l) => l.trimEnd()).filter((l) => l.trim().startsWith('*'))
+    .map((l) => strip(l.trim().replace(/^\**\s*/, ''))).filter(Boolean);
+};
+
+// The wiki says the same thing four ways, and matching one of them is how a
+// generator ends up covering 13 quests instead of 40:
+//   "Obtain level 2 loyalty with Skier"
+//   "Must be Loyalty Level 3 to start this quest"      <- trader not named
+//   "Reach Loyalty Level 2 with Ragman"
+//   "Must reach Loyalty Level 2 with Peacekeeper to obtain this quest."
+// So: find the number either way round, then look for a REAL trader name in the
+// rest of the line rather than carving one out with punctuation. With no trader
+// named, the line means the quest's OWN trader, which is what "to start this
+// quest" refers to.
+const loyaltyFrom = (text, ownTrader, traderNames) => {
+  const m = /loyalty level\s*(\d+)|level\s*(\d+)\s*loyalty/i.exec(text);
+  if (!m) return null;
+  const value = Number(m[1] || m[2]);
+  if (!(value >= 1 && value <= 4)) return null;
+  const tail = text.slice(m.index);
+  const named = traderNames.find((n) => new RegExp(`\\b${n}\\b`, 'i').test(tail));
+  if (!named && !ownTrader) return null;
+  return { trader: named || ownTrader, kind: 'loyalty', compareMethod: '>=', value };
+};
+
 // tarkov.dev's text is double-encoded UTF-8 in places: a right single quote
 // arrives as the bytes of "a€™" re-encoded. Repair is attempted only when every
 // character is <= U+00FF and at least one is >= U+0080, so a correctly encoded
@@ -245,6 +279,13 @@ const wikiLinkFor = (currentName, wq) => {
 const allIds = [...new Set(MODES.flatMap((m) => [...M[m].keys()]))];
 const quests = [];
 let removedCount = 0;
+let wikiGates = 0;
+let droppedLevels = 0;
+
+// Trader names, longest first, so "Prapor" cannot claim a line naming someone
+// whose name contains it.
+const TRADER_NAMES = [...new Set(MODES.flatMap((m) => [...M[m].values()].map((t) => t.trader).filter(Boolean)))]
+  .sort((x, y) => y.length - x.length);
 
 for (const id of allIds) {
   const modes = MODES.filter((m) => M[m].has(id));
@@ -333,7 +374,46 @@ for (const id of allIds) {
   put('faction', pick([src.dev('faction', dev.faction)]));
   put('requires', pick([src.dev('requires', dev.requires)]));
   put('objectiveMaps', pick([src.dev('objectiveMaps', dev.objectiveMaps)]));
-  put('traderRequirements', pick([src.dev('traderRequirements', dev.traderRequirements)]));
+  // LOYALTY GATES, from the wiki's Requirements section, on top of the five
+  // tarkov.dev publishes. The wiki is never allowed to contradict tarkov.dev
+  // here, only to add a trader it says nothing about: two sources disagreeing
+  // about the same trader is a finding for OPEN.md, not something to silently
+  // resolve in the published file.
+  const wReq = wikiSays ? reqLines(wpage) : null;
+  const devTR = dev.traderRequirements || [];
+  const addedTR = [];
+  for (const line of wReq || []) {
+    const row = loyaltyFrom(line, fields.trader || dev.trader, TRADER_NAMES);
+    if (!row) continue;
+    if (devTR.some((r) => r.trader === row.trader)) continue;        // already stated
+    if (addedTR.some((r) => r.trader === row.trader)) continue;
+    addedTR.push(row);
+  }
+  if (addedTR.length) {
+    fields.traderRequirements = [...devTR, ...addedTR];
+    provenance.traderRequirements = { src: 'wiki', asOf: wikiAt, dating: 'exact',
+      note: `${addedTR.length} loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states ${devTR.length}.` };
+    wikiGates += addedTR.length;
+  } else {
+    put('traderRequirements', pick([src.dev('traderRequirements', dev.traderRequirements)]));
+  }
+
+  // A LEVEL REQUIREMENT THE WIKI SAYS IS GONE. 1.1.0 replaced a lot of "Must be
+  // level 10 to start this quest" with "Must be Loyalty Level 2", and tarkov.dev
+  // still publishes the old number.
+  //
+  // Only on a page that HAS a filled Requirements section. Most pages have none,
+  // and silence there is silence, not a claim. Where a section exists, the wiki
+  // keeps BOTH lines when both apply (Counteraction states a level AND a loyalty
+  // level), so a missing level line inside a populated section is a statement.
+  if ((dev.minPlayerLevel || 0) > 0 && wReq && wReq.length
+      && !wReq.some((l) => /must be level\s*\d+/i.test(l))) {
+    fields.minPlayerLevel = null;
+    provenance.minPlayerLevel = { src: 'wiki', asOf: wikiAt, dating: 'exact',
+      note: `tarkov.dev requires level ${dev.minPlayerLevel}; the wiki's Requirements section lists no level.` };
+    droppedLevels++;
+  }
+
   if (dev.failedBy.length) put('failedBy', pick([src.dev('failedBy', dev.failedBy)]));
 
   // The three modes are near-identical, but "near" is not "identical": one quest
@@ -483,3 +563,4 @@ console.log(`   ${payload.counts.confirmedInGame} confirmed in game, ${payload.c
   + `${payload.counts.unknownToEverySource} in no source but ours`);
 const undated = quests.filter((q) => !q.asOf).length;
 console.log(`   ${quests.length - undated} quest(s) carry a date, ${undated} carry none (every field came from tarkov.dev)`);
+console.log(`   ${wikiGates} loyalty gate(s) added from the wiki, ${droppedLevels} stale level requirement(s) dropped`);
