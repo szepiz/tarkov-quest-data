@@ -194,13 +194,35 @@ when a quest has several requirements it is worth naming which one you checked.
 The remaining two are the faction variants of Ragman's `Textile - Part 1` at
 Ragman LL4, which this profile can't reach.
 
-**Reading the gates off the wiki instead works, mostly.** 65 quests carry one in
-`api/quests.json` against tarkov.dev's 5, and checked against every observation
-that shows a loyalty tab: **45 right, 1 wrong**. The failure is Peacekeeper's
-*One Less Loose End*, where the wiki says "Must be Loyalty Level 2" and the card
-sits in the LL1 tab.
+**Reading the gates off the wiki instead works, mostly.** Checked against every
+observation that shows a loyalty tab: **45 right, 1 wrong**. The failure is
+Peacekeeper's *One Less Loose End*, where the wiki says "Must be Loyalty Level 2"
+and the card sits in the LL1 tab.
 
 For comparison: 62 wiki pages state a loyalty level, the overlay has 0, SPT has 4.
+
+### So the tab the quest was sitting under is the gate
+
+Every quest read off the game screen was read out of a trader's loyalty tab, and
+that is the game stating its own requirement. Published as
+`traderRequirements`, it covers **165 quests against tarkov.dev's 5** — 150 of
+them straight off the tabs, 13 from the wiki's prose, 2 from tarkov.dev.
+
+It is the one source here allowed to CONTRADICT rather than only add, and it
+does so in both directions:
+
+- **119 gates no source states at all.** *Hot Delivery* sits under Ragman LL2 and
+  neither source mentions loyalty for it.
+- **15 gates the sources claim and the game does not have.** Thirteen are rows
+  asserting LL1, which is where every trader starts and therefore not a gate at
+  all. The other two are real errors: *All This Filth...* published at LL4 and
+  offered at LL1, and *One Less Loose End* at LL2 and offered at LL1.
+- **1 at the wrong level**: *Setting Priorities*, LL3 published, LL4 in game.
+
+The asymmetry is worth stating plainly: a gate that is too HIGH hides a quest the
+player can already take, which looks like the tool being out of date. A gate that
+is too LOW offers one the trader will not, which looks like the player being
+confused. Both were happening.
 
 ---
 

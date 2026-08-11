@@ -325,6 +325,8 @@ const allIds = [...new Set(MODES.flatMap((m) => [...M[m].keys()]))];
 const quests = [];
 let removedCount = 0;
 let wikiGates = 0;
+let obsGates = 0;
+let obsGatesDropped = 0;
 let droppedLevels = 0;
 let failGated = 0;
 let objTextById = 0;
@@ -505,6 +507,50 @@ for (const id of allIds) {
     wikiGates += addedTR.length;
   } else {
     put('traderRequirements', pick([src.dev('traderRequirements', dev.traderRequirements)]));
+  }
+
+  // THE LOYALTY TAB THE QUEST WAS SITTING UNDER, which is the game stating its
+  // own gate. This is the one source allowed to CONTRADICT the others here —
+  // the wiki above may only ADD a trader nobody mentions — because it is not a
+  // third opinion, it is the thing the other two are describing.
+  //
+  // Both directions matter, and the second is the one that surprises:
+  //
+  //   seen under LL2/3/4   that is the gate. 119 of them are in no source at
+  //                        all, and Setting Priorities is published at LL3 by
+  //                        both sources and sits under LL4 in game.
+  //   seen under LL1       LL1 is where every trader starts, so this is the
+  //                        game saying there is NO loyalty gate. 15 rows claim
+  //                        one anyway — All This Filth... is published at LL4
+  //                        and offered at LL1, which would hide it from almost
+  //                        everybody.
+  //   filed as essential   no loyalty tab at all, so no gate either.
+  //
+  // `loyalty` keeps the raw reading, LL1 included, because "confirmed to have
+  // no gate" is worth more than silence. This field is the GATE MODEL, so LL1
+  // produces no row.
+  if (obs && obs.trader && (obs.availableAtLoyalty != null || obs.category === 'essential')) {
+    const lvl = obs.availableAtLoyalty;
+    const before = fields.traderRequirements || [];
+    const kept = before.filter((r) => !(r.kind === 'loyalty' && r.trader === obs.trader));
+    const dropped = before.length - kept.length;
+    if (lvl > 1) kept.push({ trader: obs.trader, kind: 'loyalty', compareMethod: '>=', value: lvl });
+    if (dropped || lvl > 1) {
+      const was = before.filter((r) => r.kind === 'loyalty' && r.trader === obs.trader).map((r) => r.value);
+      if (kept.length) {
+        fields.traderRequirements = kept;
+        provenance.traderRequirements = { src: 'observed', asOf: obsAt, dating: 'exact',
+          note: lvl > 1
+            ? `Seen under ${obs.trader}'s loyalty level ${lvl} tab in game`
+              + (was.length ? `; the sources published LL${was.join('/')}.` : '; no source states a gate for this quest.')
+            : `The game offers this at ${obs.trader} LL1, so there is no loyalty gate`
+              + `; the sources published LL${was.join('/')}.` };
+      } else {
+        delete fields.traderRequirements;
+        delete provenance.traderRequirements;
+      }
+      if (lvl > 1) obsGates++; else obsGatesDropped++;
+    }
   }
 
   // A LEVEL REQUIREMENT THE WIKI SAYS IS GONE. 1.1.0 replaced a lot of "Must be
@@ -785,4 +831,4 @@ console.log(`   ${payload.counts.confirmedInGame} confirmed in game, ${payload.c
   + `${payload.counts.unknownToEverySource} in no source but ours`);
 const undated = quests.filter((q) => !q.asOf).length;
 console.log(`   ${quests.length - undated} quest(s) carry a date, ${undated} carry none (every field came from tarkov.dev)`);
-console.log(`   ${wikiGates} loyalty gate(s) added from the wiki, ${droppedLevels} stale level requirement(s) dropped`);
+console.log(`   ${obsGates} loyalty gate(s) read off the game screen, ${obsGatesDropped} the game says do not exist; ${wikiGates} added from the wiki, ${droppedLevels} stale level requirement(s) dropped`);

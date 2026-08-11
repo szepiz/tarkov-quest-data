@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T12:02:45.810Z",
+ "generatedAt": "2026-08-11T12:13:44.476Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -598,6 +598,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -659,6 +667,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -2028,6 +2042,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "onlyAfterFailure": true,
    "modes": [
     "pvp",
@@ -2075,6 +2097,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
     },
     "requiresAnyOf": {
      "src": "wiki",
@@ -2271,6 +2299,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -2332,6 +2368,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -2373,14 +2415,6 @@
    ],
    "objectiveMaps": [
     "Woods"
-   ],
-   "traderRequirements": [
-    {
-     "trader": "Jaeger",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 4
-    }
    ],
    "modes": [
     "pvp",
@@ -2436,11 +2470,6 @@
      "dating": "none"
     },
     "objectiveMaps": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "traderRequirements": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
@@ -2621,6 +2650,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -2682,6 +2719,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -3882,6 +3925,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -3943,6 +3994,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -4011,6 +4068,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -4072,6 +4137,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -4138,6 +4209,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -4199,6 +4278,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -5025,6 +5110,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -5086,6 +5179,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -5525,6 +5624,14 @@
     "Streets of Tarkov",
     "The Lab"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -5577,6 +5684,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -6059,6 +6172,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -6116,6 +6237,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -6409,6 +6536,14 @@
    "objectiveMaps": [
     "Interchange"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -6465,6 +6600,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -6661,6 +6802,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -6717,6 +6866,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -7009,10 +7164,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Ragman's loyalty level 3 tab in game; the sources published LL3."
     }
    }
   },
@@ -7153,6 +7308,14 @@
    "objectiveMaps": [
     "Customs"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -7214,6 +7377,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -18167,6 +18336,14 @@
    "objectiveMaps": [
     "Customs"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -18224,6 +18401,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -18356,6 +18539,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -18408,6 +18599,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -18908,6 +19105,14 @@
     "Woods",
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -18960,6 +19165,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -19038,6 +19249,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -19084,6 +19303,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -19222,10 +19447,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 3 tab in game; the sources published LL3."
     }
    }
   },
@@ -19379,6 +19604,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -19440,6 +19673,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -19569,6 +19808,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -19615,6 +19862,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -20379,14 +20632,6 @@
      ]
     }
    ],
-   "traderRequirements": [
-    {
-     "trader": "Peacekeeper",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -20440,12 +20685,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -20522,6 +20761,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -20584,6 +20831,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -20832,6 +21085,14 @@
     "Customs",
     "Woods"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -20884,6 +21145,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -21138,6 +21405,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -21199,6 +21474,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -21585,6 +21866,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -21647,6 +21936,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -23730,6 +24025,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -23786,6 +24089,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -24023,6 +24332,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -24080,6 +24397,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -24633,6 +24956,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -24680,6 +25011,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -24774,6 +25111,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -24835,6 +25180,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -25165,14 +25516,6 @@
      ]
     }
    ],
-   "traderRequirements": [
-    {
-     "trader": "Prapor",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -25220,12 +25563,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -25584,10 +25921,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Therapist's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -25682,6 +26019,14 @@
     "Customs",
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -25738,6 +26083,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -26027,6 +26378,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -26083,6 +26442,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -26210,10 +26575,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Prapor's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -26354,6 +26719,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -26415,6 +26788,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -26530,6 +26909,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -26592,6 +26979,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 2 tab in game; no source states a gate for this quest."
     },
     "requiresAnyOf": {
      "src": "wiki",
@@ -27258,6 +27651,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -27319,6 +27720,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -27537,10 +27944,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -27618,6 +28025,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -27679,6 +28094,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -28349,6 +28770,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -28411,6 +28840,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -28536,6 +28971,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -28597,6 +29040,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -28927,6 +29376,14 @@
     "Factory",
     "Customs"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -28983,6 +29440,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -29027,6 +29490,14 @@
    ],
    "objectiveMaps": [
     "Factory"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
    ],
    "modes": [
     "pvp",
@@ -29089,6 +29560,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -29742,6 +30219,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -29788,6 +30273,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -30031,14 +30522,6 @@
    "objectiveMaps": [
     "Ground Zero"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Therapist",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -30096,12 +30579,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -30291,10 +30768,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -30347,6 +30824,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -30394,6 +30879,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -31572,10 +32063,10 @@
      "note": "tarkov.dev requires level 9; the wiki's Requirements section lists no level."
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Skier's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -31729,6 +32220,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -31776,6 +32275,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -32021,14 +32526,6 @@
      ]
     }
    ],
-   "traderRequirements": [
-    {
-     "trader": "Peacekeeper",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -32076,12 +32573,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -32134,6 +32625,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -32181,6 +32680,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -32630,6 +33135,14 @@
     "Interchange",
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -32687,6 +33200,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -32901,6 +33420,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -32959,6 +33486,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -33231,14 +33764,6 @@
    "objectiveMaps": [
     "Customs"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Skier",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -33296,12 +33821,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -33746,10 +34265,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Prapor's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -33787,6 +34306,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
     }
    ],
    "modes": [
@@ -33840,6 +34367,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -33877,6 +34410,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
     }
    ],
    "modes": [
@@ -33930,6 +34471,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -33967,6 +34514,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
     }
    ],
    "modes": [
@@ -34020,6 +34575,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -34149,6 +34710,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -34200,6 +34769,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -34329,6 +34904,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -34380,6 +34963,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -34417,6 +35006,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
     }
    ],
    "modes": [
@@ -34470,6 +35067,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -34600,6 +35203,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -34651,6 +35262,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -34694,6 +35311,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
     }
    ],
    "modes": [
@@ -34747,6 +35372,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -34784,6 +35415,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
     }
    ],
    "modes": [
@@ -34837,6 +35476,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -34874,6 +35519,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
     }
    ],
    "modes": [
@@ -34927,6 +35580,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -38039,6 +38698,14 @@
    "objectiveMaps": [
     "Interchange"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -38101,6 +38768,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -38356,6 +39029,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -38413,6 +39094,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -38793,10 +39480,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -39147,10 +39834,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -39306,10 +39993,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Prapor's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -39392,6 +40079,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -39448,6 +40143,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -39590,6 +40291,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -39636,6 +40345,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -40103,14 +40818,6 @@
     "Customs",
     "Interchange"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Skier",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -40163,12 +40870,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -40807,6 +41508,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "onlyAfterFailure": true,
    "modes": [
     "pvp",
@@ -40854,6 +41563,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     },
     "requiresAnyOf": {
      "src": "wiki",
@@ -41893,6 +42608,14 @@
     "Customs",
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -41950,6 +42673,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -46257,10 +46986,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Prapor's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -46427,6 +47156,14 @@
     "Streets of Tarkov",
     "Interchange"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -46484,6 +47221,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -46648,6 +47391,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -46695,6 +47446,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -46794,14 +47551,6 @@
    "objectiveMaps": [
     "Interchange"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Ragman",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -46860,12 +47609,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -46919,6 +47662,14 @@
    ],
    "objectiveMaps": [
     "Lighthouse"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
    ],
    "modes": [
     "pvp",
@@ -46981,6 +47732,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -47046,6 +47803,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -47107,6 +47872,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -48903,14 +49674,6 @@
    "objectiveMaps": [
     "Interchange"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Ragman",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -48973,12 +49736,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -49143,14 +49900,6 @@
    "objectiveMaps": [
     "Shoreline"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Peacekeeper",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -49213,12 +49962,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -49659,6 +50402,14 @@
    "objectiveMaps": [
     "Interchange"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -49720,6 +50471,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -49959,6 +50716,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -50020,6 +50785,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -51914,6 +52685,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -51975,6 +52754,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -52304,6 +53089,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -52365,6 +53158,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -52923,14 +53722,6 @@
     "Factory",
     "Woods"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Peacekeeper",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 2
-    }
-   ],
    "failedBy": [
     "669fa3910c828825de06d69f"
    ],
@@ -52992,12 +53783,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     },
     "failedBy": {
      "src": "tarkov.dev",
@@ -53112,10 +53897,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -53817,10 +54602,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 3 tab in game; the sources published LL3."
     }
    }
   },
@@ -53938,6 +54723,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -53995,6 +54788,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -54611,10 +55410,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -54796,6 +55595,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -54858,6 +55665,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -54947,6 +55760,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -55003,6 +55824,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -55473,6 +56300,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -55534,6 +56369,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -55720,6 +56561,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -55781,6 +56630,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -55860,6 +56715,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -55921,6 +56784,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -56083,10 +56952,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Prapor's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -57354,6 +58223,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -57415,6 +58292,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -58044,10 +58927,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Mechanic's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -58380,6 +59263,12 @@
      "kind": "loyalty",
      "compareMethod": ">=",
      "value": 3
+    },
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
     }
    ],
    "modes": [
@@ -58442,10 +59331,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-08",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -58685,6 +59574,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -58731,6 +59628,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -58830,6 +59733,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -58886,6 +59797,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -59022,10 +59939,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Prapor's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -59091,6 +60008,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -59152,6 +60077,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -59314,6 +60245,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -59371,6 +60310,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -59706,10 +60651,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 3 tab in game; the sources published LL3."
     }
    }
   },
@@ -60063,10 +61008,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 3 tab in game; the sources published LL3."
     }
    }
   },
@@ -60241,10 +61186,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -60352,6 +61297,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -60413,6 +61366,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -60700,10 +61659,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -61109,6 +62068,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -61171,6 +62138,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     },
     "requiresAnyOf": {
      "src": "wiki",
@@ -61493,6 +62466,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -61539,6 +62520,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Peacekeeper's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -61655,10 +62642,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Therapist's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -62118,6 +63105,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -62164,6 +63159,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -62329,6 +63330,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -62390,6 +63399,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -62587,10 +63602,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -62796,6 +63811,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -62857,6 +63880,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -63029,6 +64058,14 @@
     "Customs",
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -63080,6 +64117,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -63270,6 +64313,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -63316,6 +64367,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -63738,7 +64795,7 @@
      "trader": "Mechanic",
      "kind": "loyalty",
      "compareMethod": ">=",
-     "value": 3
+     "value": 4
     }
    ],
    "modes": [
@@ -63796,9 +64853,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 4 tab in game; the sources published LL3."
     }
    }
   },
@@ -63915,10 +64973,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Skier's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -64722,14 +65780,6 @@
    "objectiveMaps": [
     "Customs"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Prapor",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 2
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -64789,11 +65839,6 @@
      "dating": "none"
     },
     "objectiveMaps": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "traderRequirements": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
@@ -65346,10 +66391,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Mechanic's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -65957,6 +67002,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -66004,6 +67057,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -66280,6 +67339,14 @@
     "Reserve",
     "Ground Zero"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -66332,6 +67399,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -67563,6 +68636,14 @@
     "Woods",
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -67615,6 +68696,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -68777,6 +69864,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -68833,6 +69928,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -68926,6 +70027,14 @@
     "Customs",
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -68983,6 +70092,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -69043,6 +70158,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -69091,6 +70214,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -69171,6 +70300,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -69218,6 +70355,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -69275,14 +70418,6 @@
      ]
     }
    ],
-   "traderRequirements": [
-    {
-     "trader": "Skier",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -69335,12 +70470,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -69553,6 +70682,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -69614,6 +70751,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -70220,6 +71363,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -70277,6 +71428,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -70584,6 +71741,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -70641,6 +71806,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -70810,10 +71981,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -71482,6 +72653,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -71534,6 +72713,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -71714,6 +72899,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -71770,6 +72963,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -72209,14 +73408,6 @@
    "objectiveMaps": [
     "Customs"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Mechanic",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -72275,12 +73466,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -72418,10 +73603,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -72552,6 +73737,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -72613,6 +73806,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -72716,6 +73915,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -72773,6 +73980,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -73417,6 +74630,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -73474,6 +74695,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -73650,6 +74877,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -73707,6 +74942,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -73910,6 +75151,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -73967,6 +75216,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -74001,6 +75256,14 @@
      "status": [
       "complete"
      ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
     }
    ],
    "modes": [
@@ -74055,6 +75318,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -74187,10 +75456,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Jaeger's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -75719,6 +76988,14 @@
    "objectiveMaps": [
     "Interchange"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -75776,6 +77053,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -77122,6 +78405,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -77179,6 +78470,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -77243,6 +78540,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -77300,6 +78605,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -78279,6 +79590,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -78330,6 +79649,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -79103,6 +80428,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -79164,6 +80497,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -80111,14 +81450,6 @@
    "objectiveMaps": [
     "Customs"
    ],
-   "traderRequirements": [
-    {
-     "trader": "Peacekeeper",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 1
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -80176,12 +81507,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
     }
    }
   },
@@ -81172,6 +82497,14 @@
    "objectiveMaps": [
     "Lighthouse"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -81234,6 +82567,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -81324,6 +82663,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -81386,6 +82733,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Peacekeeper's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -81543,10 +82896,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -81926,6 +83279,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -81987,6 +83348,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -82359,6 +83726,14 @@
     "Shoreline",
     "Interchange"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -82411,6 +83786,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Skier's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -82579,6 +83960,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -82636,6 +84025,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Mechanic's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -82829,10 +84224,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -83950,10 +85345,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -84037,6 +85432,14 @@
    "objectiveMaps": [
     "Streets of Tarkov"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -84098,6 +85501,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Seen under Prapor's loyalty level 2 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -84247,10 +85656,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Peacekeeper's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   }
