@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T12:49:21.178Z",
+ "generatedAt": "2026-08-11T13:00:43.896Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -4324,6 +4324,11 @@
      "questItem": "Bronze pocket watch on a chain"
     }
    ],
+   "objectiveTextById": {
+    "5968ec9986f7741ddd6c1012": "Locate and obtain the bronze pocket watch on Customs",
+    "5975de1f86f7744ca53b7c82": "(Optional) Obtain the key to the fuel tanker truck",
+    "5967920f86f77468d219d632": "Hand over the found item"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -4379,6 +4384,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -19801,6 +19811,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5969f98286f774576d4c9542": "Find the item in raid: Adrenaline injector (5)",
+    "5969f99286f77456630ea442": "Hand over the items (5)"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -19855,6 +19869,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -19989,6 +20008,13 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5979fc2686f77426d702a0f2": "Locate and obtain any information about the deputy chief's past life on Customs",
+    "5a3fbbfd86f77459d52a16a8": "(Optional) Locate the sleeping place of the former deputy chief of security on Customs",
+    "5979fc7e86f77426d702a0f4": "Hand over the information",
+    "5979fc5386f77426d702a0f3": "Locate and obtain any item that could help with the investigation",
+    "5979fc9286f77426d702a0f5": "Hand over the item"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -20037,6 +20063,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -30856,6 +30887,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5d2f375186f7745916404955": "Find the item in raid: TerraGroup Labs access keycard (2)",
+    "5d8a09d386f77410b4225d13": "Hand over the items (2)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -30911,6 +30946,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -32663,6 +32703,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "596a1f0486f77456630ea4d2": "Find the item in raid: Can of beef stew (Small) (15)",
+    "596a1f1586f77420d2328077": "Hand over the items (15)"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -32718,6 +32762,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -34261,6 +34310,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "5c1b760686f77412780211a3": "Eliminate any target with hand grenades or grenade launchers (5)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -34315,6 +34367,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -39470,6 +39527,14 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "5a28017786f77452f6318b1b": "Locate and mark the first UN truck with an MS2000 Marker",
+    "5a3ba47986f7744df8667505": "(Optional) Locate the first truck that was holding the lost UN cargo on Shoreline",
+    "5a2801f986f774531b679875": "Locate and mark the second UN truck with an MS2000 Marker",
+    "5a3ba4ba86f7744df759b1e5": "(Optional) Locate the second truck that was holding the lost UN cargo on Shoreline",
+    "5cb5fd3d86f7746ef64ca33c": "Obtain the item: MRE ration pack (5)",
+    "5a28023f86f774528903dd1e": "Hand over the items (5)"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -39532,6 +39597,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -39982,6 +40052,12 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5968ed3186f77420d2328013": "Find the item in raid: AK-74 5.45x39 6L31 60-round magazine (3)",
+    "5967938c86f77468cf5f9f54": "(Optional) Obtain the key to the bunker in the TerraGroup employee's dorm room",
+    "5a3fbe3a86f77414422e0d9b": "(Optional) Locate the locked bunker on Woods",
+    "59675e1d86f77414b07f137d": "Hand over the items (3)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -40044,6 +40120,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -40350,6 +40431,12 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5ec14003e16f6c41ee73525f": "Find the item raid: UHF RFID Reader",
+    "5c139eb686f7747878361a72": "Hand over the item",
+    "5ec14080c9ffe55cca300867": "Find the item raid: VPX Flash Storage Module",
+    "5c139eb686f7747878361a73": "Hand over the item"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -40404,6 +40491,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -54931,6 +55023,10 @@
      "questItem": "Box with upgraded tools"
     }
    ],
+   "objectiveTextById": {
+    "675c15916580a378dc0f012f": "Locate and obtain the customized tool set at the garage complex on Customs",
+    "675c1595a4c063af74ee5279": "Hand over the found item"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -54985,6 +55081,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -57553,6 +57654,10 @@
      "questItem": "Skier's wallet"
     }
    ],
+   "objectiveTextById": {
+    "675c37d2da4b531ba8daaadd": "Locate and obtain Skier's wallet on Customs",
+    "675c37e07ac1a33fff170966": "Hand over the found item"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -57608,6 +57713,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -59486,6 +59596,10 @@
      "questItem": "LEDX Skin Transilluminator (US Version)"
     }
    ],
+   "objectiveTextById": {
+    "6672e47f25ab92726912c3e5": "Locate and obtain the special version of the LEDX Skin Transilluminator in The Lab",
+    "6672e49679243c500ec02c2e": "Hand over the found item"
+   },
    "minPlayerLevel": null,
    "requires": [
     {
@@ -59535,6 +59649,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "wiki",
@@ -65199,6 +65318,12 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5ae4559386f7742dc043c95e": "Find the item in raid: Ski hat with holes for eyes",
+    "5ae4562086f774498b05e0dc": "Hand over the item",
+    "5ae455fb86f7744dd8242380": "Find the item in raid: Pilgrim tourist backpack",
+    "5ae455be86f7742dc043c969": "Hand over the item"
+   },
    "minPlayerLevel": 25,
    "requires": [
     {
@@ -65240,6 +65365,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -66841,6 +66971,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5968edc086f77420d2328014": "Find the item in raid: Salewa first aid kit (3)",
+    "59689eb886f7740d137ebfc3": "Hand over the items (3)"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -66888,6 +67022,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -78105,6 +78244,11 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "59624d5386f77446b872d5f7": "Eliminate Scavs with 9x39 caliber weapons on Reserve (12)",
+    "5cb5e2ff86f7746ef64c979b": "Find the item in raid: Lower half-mask (7)",
+    "59c50f1686f77412ef2c01e7": "Hand over the items (7)"
+   },
    "minPlayerLevel": 18,
    "requires": [
     {
@@ -78153,6 +78297,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -78228,6 +78377,12 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "59674d5986f77446b872d5f7": "Eliminate Scavs with an SVDS or TKPD on Lighthouse (10)",
+    "59ca27f786f77445aa0ddc14": "Eliminate Scavs while wearing a Scav vest on Lighthouse (10)",
+    "59ca293c86f91445a80ed047": "Find the item in raid: Bars A-2607 95Kh18 knive (5)",
+    "59ca29ab86f77445ab431c86": "Hand over the items (5)"
+   },
    "minPlayerLevel": 20,
    "requires": [
     {
@@ -78277,6 +78432,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -80851,6 +81011,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "665ef4d93bd11acd294ac48c": "Find the item in raid: Propane tank (5L) (2)",
+    "665ef4f08f3a505364a8ab09": "Hand over the items (2)"
+   },
    "minPlayerLevel": 15,
    "requires": [
     {
@@ -80891,6 +81055,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -85214,6 +85383,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5979ee2986f7743ec214c7a4": "Find the item in raid: Secure Flash drive (2)",
+    "5979ee4586f7743ec214c7a5": "Hand over the items (2)"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -85260,6 +85433,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",

@@ -72,12 +72,25 @@ const isRemoved = (w) => /\{\{\s*Historical content/i.test(w || '');
 // must claim one line, no line twice, the best candidate must clear a real
 // margin over the runner-up, and if any objective fails the whole quest is left
 // alone. Half a list rewritten is worse than none.
+// Stemmed the same way the tokens are, or a plural leaks through: "operatives"
+// stems to "operative", which was not in the list, so it counted as a
+// distinctive word on whichever side happened to write the plural.
 const OBJ_STOP = new Set(('the a an in on of to and or any at with while using item items found raid '
-  + 'specified place hand over locate obtain find eliminate stash operatives target targets').split(' '));
-const objWords = (s2) => new Set(String(s2 || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ')
-  .split(/\s+/).filter((w) => w.length > 2 && !OBJ_STOP.has(w)));
+  + 'specified place hand over locate obtain find eliminate stash operatives target targets')
+  .split(' ').map((w) => w.replace(/s$/, '')));
+// Singulars, so "PC CPU" and "PC CPUs" are the same word — the two sources
+// disagree about plurals constantly ("Find the item in raid: PC CPU" against
+// "Find PC CPUs in raid").
+const objTokens = (s2) => String(s2 || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ')
+  .split(/\s+/).filter(Boolean).map((w) => w.replace(/s$/, ''));
+const objWords = (s2) => new Set(objTokens(s2).filter((w) => w.length > 2 && !OBJ_STOP.has(w)));
 const objOverlap = (a, b) => {
-  const A = objWords(a), B = objWords(b);
+  // Some objectives are nothing BUT boilerplate: "Hand over the item", "Hand
+  // over the found item". Stripping the common words leaves both sides empty
+  // and scored them 0 against each other — identical strings, no match. Where
+  // either side has nothing distinctive, compare the whole line instead.
+  let A = objWords(a), B = objWords(b);
+  if (!A.size || !B.size) { A = new Set(objTokens(a)); B = new Set(objTokens(b)); }
   if (!A.size || !B.size) return 0;
   let n = 0;
   for (const w of A) if (B.has(w)) n++;
@@ -88,14 +101,54 @@ const objOverlap = (a, b) => {
 // the game had fewer — which is precisely the quests 1.1.0 cut down, the ones
 // most worth correcting. Driving it from the game's side also identifies the
 // leftovers, which is the other half of the answer.
+// WHAT THE STEP ASKS YOU TO DO, from the sentence rather than from the type.
+//
+// Order matters: "Locate and obtain the pick" is an OBTAIN, not a locate, and
+// the compound forms have to be tested before the bare "locate". Anything not
+// listed returns null and constrains nothing — better to leave a pairing to the
+// wording than to invent a rule for "Survive and extract" or "Use the transit".
+// Coarse on purpose. "Find the lost group in the chalet area" and "Locate the
+// lost group in the chalet area" are one action described two ways, so find,
+// locate and obtain are one family; splitting them cost three correct pairings.
+// What has to stay apart is ELIMINATE from everything else, which is where the
+// wording overlap actually misleads.
+const VERB_RULES = [
+  [/\b(eliminate|kill|neutralize)\b/, 'eliminate'],
+  [/\bhand over\b/, 'handover'],
+  [/\b(stash|install|plant)\b/, 'stash'],
+  [/\bmark\b/, 'mark'],
+  [/\b(find|obtain|locate|search|scout|inspect)\b/, 'find'],
+];
+const bare = (line) => String(line || '').replace(/^\s*\(optional\)\s*/i, '').toLowerCase().trim();
+// the GAME's line leads with what it wants, so the first rule that fires wins
+const askedFor = (line) => {
+  const t = bare(line);
+  const hit = VERB_RULES.find(([re]) => re.test(t));
+  return hit ? hit[1] : null;
+};
+// A PUBLISHED description can name two actions in one sentence — "Obtain 3
+// packs of Gunpowder and stash them in the designated spot" — so it offers a
+// SET, and the game's word only has to be somewhere in it.
+const offers = (desc) => {
+  const t = bare(desc);
+  return new Set(VERB_RULES.filter(([re]) => re.test(t)).map(([, v]) => v));
+};
+
 function matchGameLines(objectives, gameLines) {
   if (!(objectives || []).length || !(gameLines || []).length) return null;
   if (gameLines.length > objectives.length) return null;   // more on screen than published: not this quest's list
   const taken = new Set();
   const hit = [];
   for (const line of gameLines) {
+    const want = askedFor(line);
     const scored = objectives.map((o, i) => ({ o, i, s: objOverlap(line, o.description) }))
       .filter((c) => !taken.has(c.i))
+      // Rejected only when BOTH sentences name what they want and the two
+      // disagree. Silence on either side is not evidence.
+      .filter((c) => {
+        const has = offers(c.o.description);
+        return !want || !has.size || has.has(want);
+      })
       .sort((x, y) => y.s - x.s);
     const best = scored[0], second = scored[1];
     if (!best || best.s < 0.5) return null;                    // nothing close enough
