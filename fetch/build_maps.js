@@ -32,37 +32,38 @@ const story = J('story.json');
 const day = (t) => (t ? String(t).slice(0, 10) : null);
 const n = (v) => (Array.isArray(v) ? v.length : (v && typeof v === 'object' ? Object.keys(v).length : 0));
 
-// The editor writes its correction keys as "<map>|<label>|<x>|<z>". Splitting
-// them out means a consumer never has to parse our key format to find the map a
-// correction belongs to.
-const splitKey = (k) => {
-  const parts = String(k).split('|');
-  return parts.length >= 4
-    ? { map: parts[0], label: parts.slice(1, -2).join('|'), fromX: Number(parts[parts.length - 2]), fromZ: Number(parts[parts.length - 1]) }
-    : { map: null, label: String(k) };
-};
-const asMoves = (obj) => Object.entries(obj || {}).map(([k, v]) => ({ ...splitKey(k), to: v }));
-
+// KEYS ARE CARRIED VERBATIM, and that is a decision rather than laziness.
+//
+// The first version of this file "helpfully" split every key into
+// { map, label, fromX, fromZ }, on the assumption that they all read
+// "<map>|<label>|<x>|<z>". They do not. There are three formats:
+//
+//   labels, objectives, transits, and their *Floors:  map|label|x|z
+//   extracts, switches, extractFloors:                map|name|floor
+//   hidden:                                           kind|map|name|...
+//
+// Splitting mangled 22 of them into a key that could never be matched again, and
+// nothing would have complained. Reinterpreting someone else's key format is a
+// chance to be wrong once per format; passing it through is a chance to be wrong
+// never. The formats are documented in `keyFormats` below so a consumer can
+// parse them deliberately.
 const bakedAt = day(placed.bakedAt) || day(story.bakedAt);
 const FIRST_PARTY = { src: 'placed by hand', asOf: bakedAt, dating: 'exact' };
 
-// Corrections: something published in the wrong place, moved to the right one.
-const corrections = {
-  labels: asMoves(placed.labels),
-  extracts: asMoves(placed.extracts),
-  objectives: asMoves(placed.objectives),
-  transits: asMoves(placed.transits),
-  switches: asMoves(placed.switches),
-  floors: {
-    objectives: placed.objectiveFloors || {},
-    extracts: placed.extractFloors || {},
-    labels: placed.labelFloors || {},
-    transits: placed.transitFloors || {},
-    switches: placed.switchFloors || {},
-  },
-  // Things a source publishes that are not really there, or are duplicates.
-  hidden: Object.keys(placed.hidden || {}),
-};
+// Every correction category, verbatim, INCLUDING the empty ones. An empty
+// category is not noise: it is a category that exists and currently holds
+// nothing, and dropping it means a later entry disappears silently.
+const CORRECTION_KEYS = ['labels', 'extracts', 'objectives', 'transits', 'switches',
+  'objectiveFloors', 'extractFloors', 'labelFloors', 'transitFloors', 'switchFloors',
+  'extractFactions', 'extractNotes', 'extractSwitches', 'hidden'];
+const corrections = {};
+for (const k of CORRECTION_KEYS) corrections[k] = placed[k] || {};
+
+// Anything the source folder grows that this list does not know about would be
+// dropped in silence, which is the failure this whole file is trying to avoid.
+const SOURCE_ONLY = ['what', 'firstParty', 'placedBy', 'bakedAt', 'license', 'note', 'counts',
+  'newLabels', 'mapTexts', 'newExtracts'];
+const unknown = Object.keys(placed).filter((k) => !CORRECTION_KEYS.includes(k) && !SOURCE_ONLY.includes(k));
 
 // Additions: things NO source publishes at all. The most valuable part.
 const additions = {
@@ -102,10 +103,22 @@ const payload = {
     },
   },
 
+  // How to read a correction key, per category, so nobody has to guess. Getting
+  // this wrong is what mangled 22 entries in the first build of this file.
+  keyFormats: {
+    'labels, objectives, transits, objectiveFloors, labelFloors, transitFloors': 'map|label|x|z',
+    'extracts, switches, extractFloors, switchFloors, extractFactions, extractNotes, extractSwitches': 'map|name|floor',
+    hidden: 'kind|map|name|... where kind is "ex", "label" or similar',
+    note: 'A label may itself contain "|". Split from the RIGHT by the number of trailing '
+      + 'fields the format has, never from the left.',
+  },
+
   counts: {
-    correctedPositions: corrections.labels.length + corrections.extracts.length
-      + corrections.objectives.length + corrections.transits.length + corrections.switches.length,
-    hiddenMarkers: corrections.hidden.length,
+    correctedPositions: ['labels', 'extracts', 'objectives', 'transits', 'switches']
+      .reduce((t, k) => t + n(corrections[k]), 0),
+    floorOverrides: ['objectiveFloors', 'extractFloors', 'labelFloors', 'transitFloors', 'switchFloors']
+      .reduce((t, k) => t + n(corrections[k]), 0),
+    hiddenMarkers: n(corrections.hidden),
     addedLabels: additions.labels.length,
     mapTexts: additions.mapTexts.length,
     addedExtracts: additions.extracts.length,
@@ -142,6 +155,14 @@ if (!payload.counts.addedLabels && !payload.counts.mapTexts && !payload.counts.b
 }
 if (!bakedAt) {
   console.error('REFUSING TO WRITE: hand-placed data with no date on it cannot be merged by anyone.');
+  process.exit(1);
+}
+// A category the source has grown that this builder does not know about would
+// otherwise vanish without a word. That is exactly how the first build lost
+// three of them.
+if (unknown.length) {
+  console.error(`REFUSING TO WRITE: mapdata/placed.json holds ${unknown.length} key(s) this builder `
+    + `does not carry: ${unknown.join(', ')}. Add them to CORRECTION_KEYS or SOURCE_ONLY.`);
   process.exit(1);
 }
 
