@@ -25,14 +25,14 @@ a dated one.
 
 ## Use it
 
-One static file behind GitHub's CDN. No clone, no key, no signup.
+One static file behind GitHub Pages. No clone, no key, no signup.
 
 ```
-https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/api/quests.json
+https://szepiz.github.io/tarkov-quest-data/api/quests.json
 ```
 
 ```js
-const data = await fetch('https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/api/quests.json')
+const data = await fetch('https://szepiz.github.io/tarkov-quest-data/api/quests.json')
   .then((r) => r.json());
 ```
 
@@ -40,10 +40,10 @@ It's about 1.9 MB, so cache it instead of pulling it on every page load. Each
 quest carries a top-level `asOf` (the newest of its field dates), so if your copy
 is newer you can skip the record without reading its `provenance` at all.
 
-There's a second file for the map side, about 245 KB:
+There's a second file for the map side, about 240 KB:
 
 ```
-https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/api/maps.json
+https://szepiz.github.io/tarkov-quest-data/api/maps.json
 ```
 
 BattlePass document pins, corrected marker positions, 219 added labels, 87 map
@@ -55,6 +55,11 @@ Almost all of `maps.json` exists nowhere else. Nobody publishes a position for a
 BattlePass document, a room number the map doesn't print, or a hazard area, and
 where a source does publish a position it's often wrong by enough to send a
 player to the wrong door.
+
+Both are also reachable through `raw.githubusercontent.com` on the `main`
+branch, which is the same bytes out of the same commit. Prefer the Pages URLs:
+they serve `application/json`, state their cache window, and refresh on deploy,
+where raw has served a stale copy long after a push.
 
 [api/README.md](api/README.md) has the field list and the merge rules.
 

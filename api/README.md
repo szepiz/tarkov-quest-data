@@ -6,13 +6,18 @@ known to be true, and says which source it came from.
 Fetch it directly. No clone, no key, no signup.
 
 ```
-https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/api/quests.json
+https://szepiz.github.io/tarkov-quest-data/api/quests.json
 ```
 
 ```js
-const data = await fetch('https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/api/quests.json')
+const data = await fetch('https://szepiz.github.io/tarkov-quest-data/api/quests.json')
   .then((r) => r.json());
 ```
+
+Served by GitHub Pages: `application/json`, `max-age=600`, refreshed on deploy.
+The same bytes are also on `raw.githubusercontent.com` under the `main` branch
+if you need a second way in, but prefer Pages. raw is not meant to back an
+application and has served a stale copy long after a push.
 
 It's one static file behind a CDN, so it's fast and it can't go down on its own.
 It's also about 1.9 MB, so cache it rather than pulling it on every page load.
