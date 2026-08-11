@@ -56,15 +56,78 @@ const section = (w, name) => {
 };
 const isRemoved = (w) => /\{\{\s*Historical content/i.test(w || '');
 
+// tarkov.dev's text is double-encoded UTF-8 in places: a right single quote
+// arrives as the bytes of "a€™" re-encoded. Repair is attempted only when every
+// character is <= U+00FF and at least one is >= U+0080, so a correctly encoded
+// string can never match and cannot be corrupted by the repair.
+function clean(s) {
+  if (typeof s !== 'string') return s;
+  let out = s;
+  if (/[-ÿ]/.test(out) && !/[Ā-￿]/.test(out)) {
+    const repaired = Buffer.from(out, 'latin1').toString('utf8');
+    if (!repaired.includes('�')) out = repaired;
+  }
+  return out.trim();
+}
+
 function loadMode(mode) {
   const td = J(`tarkovdev/${mode}.tasks.json`);
   const en = (J(`tarkovdev/${mode}.tasks_en.json`) || {}).data || {};
   const mapsEn = (J(`tarkovdev/${mode}.maps_en.json`) || {}).data || {};
   const trEn = (J(`tarkovdev/${mode}.traders_en.json`) || {}).data || {};
-  const L = (v) => { const r = (typeof v === 'string' && en[v] !== undefined) ? en[v] : v; return typeof r === 'string' ? r.trim() : r; };
-  const MAPN = (id) => (typeof id === 'string' && mapsEn[`${id} Name`] ? MAP_VARIANT(mapsEn[`${id} Name`]) : null);
-  const TRN = (id) => (typeof id === 'string' ? (trEn[`${id} Nickname`] || '').trim() || null : null);
+  // Fetched once, under `regular`, because item names do not vary by mode.
+  const itEn = (() => { try { return (J('tarkovdev/regular.items_en.json') || {}).data || {}; } catch { return {}; } })();
+  const L = (v) => { const r = (typeof v === 'string' && en[v] !== undefined) ? en[v] : v; return typeof r === 'string' ? clean(r) : r; };
+  const MAPN = (id) => (typeof id === 'string' && mapsEn[`${id} Name`] ? MAP_VARIANT(clean(mapsEn[`${id} Name`])) : null);
+  const TRN = (id) => (typeof id === 'string' ? clean(trEn[`${id} Nickname`] || '') || null : null);
+  const ITN = (id) => (typeof id === 'string' ? (clean(itEn[`${id} Name`] || '') || id) : null);
   const tasks = (td.data && td.data.tasks) || {};
+  const qItems = (td.data && td.data.questItems) || {};
+  const QIN = (id) => {
+    const q = qItems[id];
+    const n = q && typeof q.name === 'string' ? L(q.name) : null;
+    return n || ITN(id);
+  };
+  const pos = (p) => (p && typeof p.x === 'number' ? { x: p.x, y: p.y, z: p.z } : null);
+
+  // The FULL objective, not just its text. This is what a tracker needs and what
+  // no other published source carries: a stable id to tick against, a type, the
+  // maps and zone coordinates that place a pin, the keys the player must bring.
+  // 465 objectives have zone coordinates and 116 have possible item locations,
+  // and all of it is lost the moment an objective is reduced to a sentence.
+  const objectiveOf = (o) => {
+    const out = {
+      id: o.id,
+      type: o.type,
+      description: L(o.description),
+      optional: !!o.optional,
+      maps: (o.maps || []).map(MAPN).filter(Boolean),
+    };
+    // requiredKeys is a list of alternative key SETS, nested on purpose: bring
+    // every key in any one set. Flattening it would say the wrong thing.
+    if (Array.isArray(o.requiredKeys) && o.requiredKeys.length) {
+      out.requiredKeys = o.requiredKeys.map((set) => (Array.isArray(set) ? set.map(ITN) : [ITN(set)]));
+    }
+    const zones = (o.zones || []).map((z) => ({ map: MAPN(z.map), position: pos(z.position) }))
+      .filter((z) => z.position || z.map);
+    if (zones.length) out.zones = zones;
+    if (o.count != null) out.count = o.count;
+    if (o.foundInRaid) out.foundInRaid = true;
+    if (Array.isArray(o.items) && o.items.length) out.items = o.items.map(ITN);
+    if (o.questItem != null) out.questItem = QIN(o.questItem);
+    if (Array.isArray(o.possibleLocations) && o.possibleLocations.length) {
+      out.possibleLocations = o.possibleLocations.map((pl) => ({
+        map: MAPN(pl.map),
+        positions: (pl.positions || []).map(pos).filter(Boolean),
+      }));
+    }
+    if (o.exitName != null) out.exitName = o.exitName;
+    if (o.markerItem != null) out.markerItem = ITN(o.markerItem);
+    if (Array.isArray(o.useAny) && o.useAny.length) out.useAny = o.useAny.map(ITN);
+    if (o.item != null) out.item = ITN(o.item);
+    return out;
+  };
+
   const out = new Map();
   for (const [id, t] of Object.entries(tasks)) {
     out.set(id, {
@@ -75,10 +138,27 @@ function loadMode(mode) {
       map: MAPN(t.map),
       objectiveMaps: [...new Set((t.objectives || []).flatMap((o) => (o.maps || []).map(MAPN).filter(Boolean)))],
       minPlayerLevel: t.minPlayerLevel || null,
+      restartable: !!t.restartable,
       loyalty: (t.traderRequirements || []).filter((r) => r.requirementType === 'level')
         .map((r) => ({ trader: TRN(r.trader), level: r.value })),
-      objectives: (t.objectives || []).map((o) => L(o.description)),
+      // Both kinds, kept apart. `reputation` is the decimal standing (Fence
+      // karma); `level` is the trader's loyalty level. A tracker needs both, and
+      // they gate in completely different ways.
+      traderRequirements: (t.traderRequirements || [])
+        .filter((r) => r && (r.requirementType === 'reputation' || r.requirementType === 'level'))
+        .map((r) => ({
+          trader: TRN(r.trader),
+          kind: r.requirementType === 'level' ? 'loyalty' : 'reputation',
+          compareMethod: r.compareMethod || '>=',
+          value: typeof r.value === 'number' ? r.value : 0,
+        })),
+      objectiveText: (t.objectives || []).map((o) => L(o.description)),
+      objectives: (t.objectives || []).map(objectiveOf),
       requires: (t.taskRequirements || []).map((r) => ({ task: r.task, status: r.status || ['complete'] })),
+      // Completing any quest named here FAILS this one. It is how the game
+      // encodes an exclusive choice, and reading only `requires` misses it.
+      failedBy: [...new Set((t.failConditions || [])
+        .filter((c) => c && c.task).map((c) => c.task))],
       kappaRequired: !!t.kappaRequired,
       lightkeeperRequired: !!t.lightkeeperRequired,
       wikiLink: t.wikiLink ? String(t.wikiLink).replace(/(?:%0A|%0D)+$/i, '') : null,
@@ -217,20 +297,31 @@ for (const id of allIds) {
     src.dev('map', dev.map),
   ].filter(Boolean)));
 
-  // An UNFINISHED quest's objective list is a LOWER BOUND, the game reveals a
-  // step only once the step it depends on is done. Publishing it as the whole
-  // list would ship a shorter quest than the game has.
+  // TWO VIEWS OF THE OBJECTIVES, on purpose, because no single one can serve
+  // both readers.
+  //
+  //   `objectives`     the structured list: a stable id to tick against, a type,
+  //                    maps, zone coordinates, item names, the keys to bring.
+  //                    Only tarkov.dev has any of it, so it is undated.
+  //   `objectiveText`  the WORDING, from the best-dated source that has it.
+  //
+  // They are kept apart rather than merged because merging needs the two lists
+  // to line up positionally, and they routinely do not: 1.1.0 rewrote quests to
+  // different objective COUNTS, so pairing by index would attach one quest's
+  // coordinates to another quest's sentence. A consumer ticks against
+  // `objectives` and displays `objectiveText`.
   const obsObjUsable = obs && obs.status === 'completed' && (obs.objectives || []).length;
-  put('objectives', pick([
-    obsObjUsable ? src.obs('objectives', obs.objectives) : null,
-    wikiSays && wObj.length ? src.wiki('objectives', wObj) : null,
-    src.dev('objectives', dev.objectives),
+  put('objectiveText', pick([
+    obsObjUsable ? src.obs('objectiveText', obs.objectives) : null,
+    wikiSays && wObj.length ? src.wiki('objectiveText', wObj) : null,
+    src.dev('objectiveText', dev.objectiveText),
   ].filter(Boolean)));
   if (obs && !obsObjUsable && (obs.objectives || []).length) {
-    provenance.objectives = provenance.objectives || {};
-    provenance.objectives.note = `The in-game capture shows ${obs.objectives.length} objective(s), but the quest was `
+    provenance.objectiveText = provenance.objectiveText || {};
+    provenance.objectiveText.note = `The in-game capture shows ${obs.objectives.length} objective(s), but the quest was `
       + `${obs.status} when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list.`;
   }
+  put('objectives', pick([src.dev('objectives', dev.objectives)]));
 
   put('loyalty', pick([
     obs && obs.availableAtLoyalty != null && obs.trader
@@ -242,14 +333,34 @@ for (const id of allIds) {
   put('faction', pick([src.dev('faction', dev.faction)]));
   put('requires', pick([src.dev('requires', dev.requires)]));
   put('objectiveMaps', pick([src.dev('objectiveMaps', dev.objectiveMaps)]));
+  put('traderRequirements', pick([src.dev('traderRequirements', dev.traderRequirements)]));
+  if (dev.failedBy.length) put('failedBy', pick([src.dev('failedBy', dev.failedBy)]));
+
+  // The three modes are near-identical, but "near" is not "identical": one quest
+  // carries a different level and a different prerequisite in PvP than in the
+  // other two. Publishing the first mode's values for all three would be right
+  // 537 times out of 538 and silently wrong once, which is the worst kind of
+  // wrong. Recorded only where a mode actually disagrees.
+  const MODE_CHECK = ['minPlayerLevel', 'map', 'trader', 'requires', 'traderRequirements', 'kappaRequired', 'lightkeeperRequired'];
+  const modeOverrides = {};
+  for (const m of modes.slice(1)) {
+    const other = M[m].get(id);
+    const diff = {};
+    for (const f of MODE_CHECK) {
+      if (JSON.stringify(other[f]) !== JSON.stringify(dev[f])) diff[f] = other[f];
+    }
+    if (Object.keys(diff).length) modeOverrides[MODE_PUB[m]] = diff;
+  }
 
   const dates = Object.values(provenance).map((p) => p.asOf).filter(Boolean).sort();
   quests.push({
     id,
     ...fields,
+    modeOverrides: Object.keys(modeOverrides).length ? modeOverrides : undefined,
     modes: modes.map((m) => MODE_PUB[m]),
     kappaRequired: dev.kappaRequired,
     lightkeeperRequired: dev.lightkeeperRequired,
+    restartable: dev.restartable,
     // NEITHER tarkov.dev's `wikiLink` NOR our own id->page lookup is right for a
     // renumbered line, and for the same reason: both resolve by the name
     // tarkov.dev publishes, while the wiki RENUMBERED ITS PAGES IN PLACE rather
@@ -301,7 +412,12 @@ for (const u of observed.unmatched) {
 quests.sort((a, b) => String(a.name).localeCompare(String(b.name)));
 
 const payload = {
-  schemaVersion: 1,
+  // 2 added the full objective structure (ids, types, zones, coordinates,
+  // items, required keys), traderRequirements, failedBy, restartable and
+  // modeOverrides, so a tracker can consume this file INSTEAD of tarkov.dev
+  // rather than alongside it. In 1, `objectives` was a list of sentences; it is
+  // now a list of objects and the sentences live in `objectiveText`.
+  schemaVersion: 2,
   generatedAt: new Date().toISOString(),
   game: { version: '1.1.0', modes: ['pvp', 'pve', 'seasonal'] },
   // How to merge this with data you already hold. Stated in the file itself so

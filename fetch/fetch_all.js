@@ -84,7 +84,13 @@ async function fetchTarkovDev() {
     const tasks = await get(base + `${mode}/tasks`);
     const n = Object.keys((tasks.data && tasks.data.tasks) || {}).length;
     save('tarkovdev', `${mode}.tasks.json`, tasks, { url: base + `${mode}/tasks`, records: n });
-    for (const f of ['tasks_en', 'maps_en', 'traders_en']) {
+    // items_en is 1.6 MB and is fetched ONCE, not per mode: item names do not
+    // change between game modes, and an objective that names an item names the
+    // same one in all three. Without it every item in an objective (the keys to
+    // bring, the things to hand over) publishes as a raw id.
+    const perMode = ['tasks_en', 'maps_en', 'traders_en'];
+    if (mode === 'regular') perMode.push('items_en');
+    for (const f of perMode) {
       const j = await get(base + `${mode}/${f}`);
       save('tarkovdev', `${mode}.${f}.json`, j, { url: base + `${mode}/${f}`, records: Object.keys(j).length });
     }
