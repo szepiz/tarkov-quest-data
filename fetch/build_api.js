@@ -755,6 +755,20 @@ for (const id of allIds) {
     // newer than mine?" check before reading `provenance` at all.
     asOf: dates[dates.length - 1] || null,
     confirmedInGame: !!obs,
+    // WHERE THE GAME FILES IT, which is not the same claim as the gate above.
+    // A trader's quest list is tabbed by loyalty level, with one more tab for
+    // the ones it calls Essential, and `traderTab` is that tab and nothing
+    // else: 1-4, or "essential". It carries no provenance for the same reason
+    // `confirmedInGame` does not — there is only ever one source for it, the
+    // screen, and a field that cannot disagree has nothing to arbitrate.
+    //
+    // The gate model deliberately loses this. LL1 produces no requirement (LL1
+    // is where everyone starts) and Essential produces none either, so both
+    // arrive at a consumer as "no loyalty gate" and are indistinguishable from
+    // the 233 quests no one has seen. Order a list by loyalty tab without this
+    // and every Essential quest lands in the unknown pile.
+    traderTab: obs ? (obs.availableAtLoyalty != null ? obs.availableAtLoyalty
+      : (obs.category === 'essential' ? 'essential' : undefined)) : undefined,
     // NOT "we could not find it". The wiki banners a removed quest's page
     // {{Historical content}} and keeps the page, so this is a positive statement
     // by a dated source, and it is why a tracker should stop asking for it.
@@ -781,12 +795,15 @@ for (const u of observed.unmatched) {
     f.objectiveText = u.objectives;
   }
   if (u.availableAtLoyalty != null) f.loyalty = [{ trader: u.trader, level: u.availableAtLoyalty }];
+  const uTab = u.availableAtLoyalty != null ? u.availableAtLoyalty
+    : (u.category === 'essential' ? 'essential' : undefined);
   quests.push({
     id: `observed:${u.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
     ...f,
     modes: [MODE_PUB[{ pve: 'pve' }[u.mode] || 'pve'] || 'pve'],
     asOf: at,
     confirmedInGame: true,
+    traderTab: uTab,
     // The interesting bit: no published id exists, because no publisher has it.
     unknownToEverySource: true,
     // Only over the fields actually present, provenance for a field that is not
@@ -943,6 +960,16 @@ for (const q of quests) {
   const newest = ds[ds.length - 1] || null;
   if ((q.asOf || null) !== newest) violations.push(`${q.name}: asOf ${q.asOf} is not the newest field date (${newest})`);
   if (q.removedFromGame && !q.removedSaysWiki) violations.push(`${q.name}: claimed removed with no date for the claim`);
+  // Every quest we have SEEN was seen under some tab, because the tab is how
+  // the list is drawn — there is nowhere else on the screen for it to have
+  // been. A missing one means the record was transcribed without it, and the
+  // consumer would read that silence as "we never saw this quest".
+  if (q.confirmedInGame && q.traderTab === undefined) {
+    violations.push(`${q.name}: seen in game but filed under no trader tab`);
+  }
+  if (q.traderTab !== undefined && !q.confirmedInGame) {
+    violations.push(`${q.name}: has a trader tab without having been seen`);
+  }
 }
 if (violations.length) {
   console.error(`REFUSING TO WRITE, ${violations.length} date invariant(s) broken:`);
@@ -966,4 +993,8 @@ console.log(`   ${payload.counts.confirmedInGame} confirmed in game, ${payload.c
   + `${payload.counts.unknownToEverySource} in no source but ours`);
 const undated = quests.filter((q) => !q.asOf).length;
 console.log(`   ${quests.length - undated} quest(s) carry a date, ${undated} carry none (every field came from tarkov.dev)`);
+const tabs = {};
+for (const q of quests) if (q.traderTab !== undefined) tabs[q.traderTab] = (tabs[q.traderTab] || 0) + 1;
+console.log('   trader tabs: ' + Object.keys(tabs).sort()
+  .map((k) => `${k === 'essential' ? 'essential' : 'LL' + k} ${tabs[k]}`).join(', '));
 console.log(`   ${obsGates} loyalty gate(s) read off the game screen, ${obsGatesDropped} the game says do not exist; ${wikiGates} added from the wiki, ${droppedLevels} stale level requirement(s) dropped`);

@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T13:03:39.343Z",
+ "generatedAt": "2026-08-11T20:47:08.521Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -151,6 +151,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Big_Loss",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -617,6 +618,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Fuel_Matter",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -720,6 +722,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Healthy_Alternative",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -840,6 +843,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Helping_Hand",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -1261,6 +1265,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Abandoned_Cargo",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -1380,6 +1385,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Acquaintance",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -1717,6 +1723,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Against_the_Conscience_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -1871,6 +1878,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Against_the_Conscience_-_Part_2",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -2048,6 +2056,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aid_Stations",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -2304,6 +2313,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/All_Is_Revealed",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -2413,6 +2423,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/All_This_Filth...",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -2655,6 +2666,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Anesthesia",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -3129,6 +3141,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Arena_Business",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -3930,6 +3943,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Audiophile",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -4073,6 +4087,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Audit",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -4210,6 +4225,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Back_Door",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -4359,6 +4375,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Background_Check",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -4520,6 +4537,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bad_Habit",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -4694,6 +4712,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bad_Rep_Evidence",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -4848,6 +4867,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_1",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -4992,6 +5012,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_2",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -5116,6 +5137,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ballet_Lover",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -5432,6 +5454,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Belka_and_Strelka",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -5630,6 +5653,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Beneath_The_Streets",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -6025,6 +6049,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Between_Two_Fires",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -6180,6 +6205,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Beyond_the_Red_Meat",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -6338,6 +6364,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Big_Customer",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -6556,6 +6583,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Big_Sale",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -6827,6 +6855,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Black_Swan",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -6933,6 +6962,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Blood_in_the_Water",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -7132,6 +7162,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Booze",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -7333,6 +7364,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Break_the_Deal",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -7482,6 +7514,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Broadcast_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -7595,6 +7628,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Broadcast_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -18366,6 +18400,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bullshit",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -18467,6 +18502,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Burning_Rubber",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -18569,6 +18605,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Calibration",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -19135,6 +19172,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capturing_Outposts",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -19279,6 +19317,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Car_Repair",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -19411,6 +19450,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cargo_X",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -19641,6 +19681,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cease_Fire!",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -19849,6 +19890,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Charity",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -20038,6 +20080,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -20202,6 +20245,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -20351,6 +20395,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_3",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -20497,6 +20542,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_4",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -20682,6 +20728,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chemical_Experiments",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -20819,6 +20866,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chemistry_Closet",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -21148,6 +21196,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chumming",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -21356,6 +21405,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Circulate",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -21479,6 +21529,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classified_Technologies",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -21940,6 +21991,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colleagues",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -23023,6 +23075,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Collector",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -24099,6 +24152,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corporate_Secrets",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -24410,6 +24464,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Courtesy_Visit",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -24642,6 +24697,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_1",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -24819,6 +24875,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_2",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -25039,6 +25096,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crisis",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -25194,6 +25252,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dandies",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -25290,6 +25349,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dangerous_Props",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -25591,6 +25651,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Debut",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -25821,6 +25882,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decisions%2C_Decisions",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -25937,6 +25999,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decontamination_Service",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -26108,6 +26171,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Delivery_From_the_Past",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -26181,6 +26245,7 @@
    ],
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "unknownToEverySource": true,
    "provenance": {
     "name": {
@@ -26475,6 +26540,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disease_History",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -26599,6 +26665,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/District_Patrol",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -26816,6 +26883,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Documents",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -27006,6 +27074,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dragnet",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -27162,6 +27231,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dressed_to_Kill",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -27377,6 +27447,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -27605,6 +27676,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -27748,6 +27820,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drug_Trafficking",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -27969,6 +28042,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Eagle_Eye",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -28118,6 +28192,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Job",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -28492,6 +28567,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -28759,6 +28835,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_2",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -28858,6 +28935,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy-Breezy",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -29059,6 +29137,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy_Crisis",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -29331,6 +29410,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Establish_Contact",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -29464,6 +29544,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Every_Hunter_Knows_This",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -29579,6 +29660,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Exit_Here",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -29874,6 +29956,7 @@
    ],
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "unknownToEverySource": true,
    "provenance": {
     "name": {
@@ -30028,6 +30111,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Farming",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -30316,6 +30400,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fertilizers",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -30446,6 +30531,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Aid",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -30611,6 +30697,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_in_Line",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -30798,6 +30885,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fishing_Gear",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -30925,6 +31013,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fishing_Place",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -32120,6 +32209,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_From_the_West",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -32332,6 +32422,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/From_Hand_to_Hand",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -32497,6 +32588,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fuel_Crisis",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -32630,6 +32722,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fuel_Shortage",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -32741,6 +32834,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/General_Wares",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -33256,6 +33350,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Getting_Some_Air",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -33538,6 +33633,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Glory_to_CPSU",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -33874,6 +33970,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_Swag",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34101,6 +34198,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gratitude",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34347,6 +34445,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Grenadier",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34451,6 +34550,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_AK-105",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34555,6 +34655,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_AKM",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34659,6 +34760,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_AKS-74N",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34755,6 +34857,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_AKS-74U",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34853,6 +34956,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_AS_VAL",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -34949,6 +35053,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_HK_MP5",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35047,6 +35152,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_M4A1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35151,6 +35257,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Model_870",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35248,6 +35355,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_MP-133",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35346,6 +35454,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_MPX",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35456,6 +35565,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_OP-SKS",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35560,6 +35670,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_P226R",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35664,6 +35775,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Vector_9x19",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -35754,6 +35866,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -35997,6 +36110,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_12",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36076,6 +36190,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_13",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36156,6 +36271,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36235,6 +36351,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_3",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36314,6 +36431,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_4",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36393,6 +36511,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_5",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36472,6 +36591,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_6",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36551,6 +36671,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_7",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -36641,6 +36762,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_8",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37035,6 +37157,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37165,6 +37288,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37314,6 +37438,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_3",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37398,6 +37523,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_4",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37527,6 +37653,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_5",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37658,6 +37785,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_6",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37743,6 +37871,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hell_on_Earth_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -37835,6 +37964,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hell_on_Earth_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -38020,6 +38150,7 @@
    ],
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "unknownToEverySource": true,
    "provenance": {
     "name": {
@@ -38688,6 +38819,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -38849,6 +38981,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hot_Delivery",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -39180,6 +39313,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/House_Arrest",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -39572,6 +39706,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Humanitarian_Supplies",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -39929,6 +40064,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/I_Need_More_Power",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -40095,6 +40231,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ice_Cream_Cones",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -40253,6 +40390,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ill-Wisher",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -40471,6 +40609,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Import",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -41002,6 +41141,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Informed_Means_Armed",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -41390,6 +41530,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Introduction",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -41592,6 +41733,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Inventory_Files",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -41712,6 +41854,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ironclad_Proof",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -41847,6 +41990,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Irresistible",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -42705,6 +42849,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Is_This_a_Reference%3F",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -42811,6 +42956,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Job_for_a_Patriot",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -47117,6 +47263,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kings_of_the_Rooftops",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -47359,6 +47506,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Know_Your_Place!",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -47588,6 +47736,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -47740,6 +47889,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Long_Line",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -47860,6 +48010,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Long_Road",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -48000,6 +48151,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lost_Contact",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -48324,6 +48476,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Luxurious_Life",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -49863,6 +50016,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_ULTRA_Great_Again",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -50089,6 +50243,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Master_Key",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -50433,6 +50588,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_Birds",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -50594,6 +50750,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Minibus",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -50903,6 +51060,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Missing_Cargo",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -51398,6 +51556,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Needle_in_a_Haystack",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -52872,6 +53031,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/No_Place_for_Renegades",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -53009,6 +53169,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/No_Swiping",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -53276,6 +53437,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nothing_Fishy_About_This",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -53633,6 +53795,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Oil_Run",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -53904,6 +54067,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/One_Less_Loose_End",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -54016,6 +54180,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/One-Way_Ticket",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -54212,6 +54377,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Operation_Aquarius",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -54598,6 +54764,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Out_of_Curiosity",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -54721,6 +54888,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Overpopulation",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -54910,6 +55078,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Paramedic",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -55056,6 +55225,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Passion_for_Ergonomics",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -55160,6 +55330,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pathfinder",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -55553,6 +55724,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peacekeeping_Mission",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -55812,6 +55984,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pest_Control",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -55977,6 +56150,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pets_Won't_Need_It",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -56316,6 +56490,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pharmacist",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -56517,6 +56692,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Playing_the_Market",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -56626,6 +56802,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Polikhim_Hobo",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -56778,6 +56955,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Population_Census",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -56932,6 +57110,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Possessor",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -57097,6 +57276,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -57198,6 +57378,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -57433,6 +57614,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_of_Persuasion",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -57687,6 +57869,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Private_Club",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -57845,6 +58028,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Professional_Fitness_-_Part_1",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -57987,6 +58171,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Professional_Fitness_-_Part_2",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -58449,6 +58634,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Properties_All_Around",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -58799,6 +58985,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Provide_Viewership",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -59099,6 +59286,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Psycho_Sniper",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -59497,6 +59685,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pyramid_Scheme",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -59623,6 +59812,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Quality_Standard",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -59817,6 +60007,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rat_Hunting",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -59976,6 +60167,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reconnaissance",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -60124,6 +60316,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Regulated_Materials",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -60251,6 +60444,7 @@
    "wikiLink": null,
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -60488,6 +60682,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reserve_Expert",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -60822,6 +61017,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Revision_-_Lighthouse",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -61200,6 +61396,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Revision_-_Reserve",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -61384,6 +61581,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Revision_-_Streets_of_Tarkov",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -61567,6 +61765,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rigged_Game",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -61859,6 +62058,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Road_Closed",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -62016,6 +62216,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rough_Tarkov",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -62343,6 +62544,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Safe_Corridor",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -62736,6 +62938,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Samples",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -62850,6 +63053,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -63273,6 +63477,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saving_the_Mole",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -63375,6 +63580,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scavenger",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -63600,6 +63806,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scout",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -63800,6 +64007,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scrap_Metal",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -63952,6 +64160,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Search_Mission",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -64090,6 +64299,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Seaside_Vacation",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -64168,6 +64378,7 @@
    ],
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "unknownToEverySource": true,
    "provenance": {
     "name": {
@@ -64350,6 +64561,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secrets_of_Polikhim",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -64468,6 +64680,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Seizing_the_Initiative",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -64610,6 +64823,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Semiconductor_Crisis",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -65087,6 +65301,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Setting_Priorities",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -65198,6 +65413,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Setup",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -65344,6 +65560,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -65917,6 +66134,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shady_Contractor",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -66080,6 +66298,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shaking_Up_the_Teller",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -66230,6 +66449,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shipment_Tracking",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -66324,6 +66544,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shipping_Delay_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -66636,6 +66857,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shooter_Born_in_Heaven",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -66792,6 +67014,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shooting_Cans",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -66889,6 +67112,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shootout_Picnic",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -67002,6 +67226,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shortage",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -67318,6 +67543,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silent_Caliber",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -67665,6 +67891,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Slaughterhouse",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -68382,6 +68609,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Small_Things%2C_Big_Help",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -68980,6 +69208,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Special_Comms",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -69982,6 +70211,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Steady_Signal",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -70219,6 +70449,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stirrup",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -70382,6 +70613,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stray_Dogs",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -70513,6 +70745,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Supervisor",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -70655,6 +70888,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Supplements",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -70765,6 +70999,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Supplier",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -70894,6 +71129,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Supply_Plans",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -71037,6 +71273,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surplus_Goods",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -71272,6 +71509,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surprise",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -71720,6 +71958,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surveillance",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -71833,6 +72072,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Swift",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -71935,6 +72175,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Swift_Retribution",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -72103,6 +72344,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tarkov-Style_Diplomacy",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -72278,6 +72520,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TerraGroup_Employee",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -73023,6 +73266,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Art_of_Explosion",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -73269,6 +73513,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Bunker",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -73776,6 +74021,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Courier",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -73918,6 +74164,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Cult",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -74124,6 +74371,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Delicious_Sausage",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -74303,6 +74551,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Door",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -74502,6 +74751,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Extortionist",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -74603,6 +74853,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Good_Times_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -75024,6 +75275,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Hermit",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -75275,6 +75527,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Administrator",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -75400,6 +75653,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Angry_Watchman",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -75554,6 +75808,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Big_Game",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -75672,6 +75927,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Controller",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -75809,6 +76065,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Crooked_Cop",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -77051,6 +77308,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Trophy",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -77186,6 +77444,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Woods_Keeper",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -77275,6 +77534,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Invisible_Hand",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -77429,6 +77689,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Key_to_Success",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -78055,6 +78316,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -78150,6 +78412,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_2",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -78272,6 +78535,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_3",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -78406,6 +78670,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_4",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -78874,6 +79139,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Secret_Recipe",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -79016,6 +79282,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Secret_to_Productivity",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -79116,6 +79383,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Cold_Blooded",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -79543,6 +79811,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Thrifty",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -79637,6 +79906,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Tough_Guy",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -79732,6 +80002,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Unprotected_but_Dangerous",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -79820,6 +80091,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Wounded_Beast",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -79934,6 +80206,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Zhivchik",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -79997,6 +80270,7 @@
    ],
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "unknownToEverySource": true,
    "provenance": {
     "name": {
@@ -80080,6 +80354,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Import",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -80169,6 +80444,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_1",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -80258,6 +80534,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_2",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -80336,6 +80613,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_3",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -80411,6 +80689,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_4",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -80575,6 +80854,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_5",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -80659,6 +80939,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_6",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -80918,6 +81199,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Walls_Have_Eyes",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -81035,6 +81317,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Thirsty_-_Breadwinner",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -81227,6 +81510,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Thirsty_-_Delivery",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -81456,6 +81740,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Thirsty_-_Hounds",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -81948,6 +82233,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tigr_Safari",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -82101,6 +82387,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_1",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -82243,6 +82530,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_2",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -82385,6 +82673,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_3",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -82564,6 +82853,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_4",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -82701,6 +82991,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_5",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -82843,6 +83134,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_6",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -83003,6 +83295,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Top_Secret",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -83164,6 +83457,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tracker",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
      "src": "observed",
@@ -83330,6 +83624,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trophies",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -83770,6 +84065,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Urban_Medicine",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -84212,6 +84508,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Vitamins",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -84447,6 +84744,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Watching_You",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -84662,6 +84960,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapons_Circulation",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -84769,6 +85068,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_1",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
      "src": "observed",
@@ -85413,6 +85713,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/What's_on_the_Flash_Drive%3F",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -85689,6 +85990,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Work_Smarter",
    "asOf": "2026-08-11",
    "confirmedInGame": true,
+   "traderTab": 1,
    "provenance": {
     "name": {
      "src": "observed",
@@ -85802,6 +86104,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Worst_Job_in_the_World",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
      "src": "observed",
@@ -85952,6 +86255,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/You've_Got_Mail",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
@@ -86103,6 +86407,7 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Your_Car_Needs_a_Service",
    "asOf": "2026-08-10",
    "confirmedInGame": true,
+   "traderTab": 2,
    "provenance": {
     "name": {
      "src": "observed",
