@@ -1,5 +1,15 @@
 # tarkov-quest-data
 
+### [Open the quest trees →](https://szepiz.github.io/tarkov-quest-data/view/tree.html)
+
+Every trader's quest tree, drawn from this data. There's also a
+[side-by-side view of what each source says](https://szepiz.github.io/tarkov-quest-data/view/index.html)
+about a quest, with the disagreements highlighted. Both have a PvP / PvE /
+Seasonal switch and a BEAR / USEC faction switch, and both run entirely in the
+browser.
+
+---
+
 Escape from Tarkov quest data where every value carries the date it was last
 known to be true.
 
@@ -218,14 +228,17 @@ something you can spot. A wrong date silently wins a merge it should have lost.
 
 ## The viewers
 
-Two self-contained HTML files, no server needed. Open them directly.
+Two self-contained HTML files. Open them in a browser without cloning anything:
 
-- **`view/index.html`** puts every source side by side for a quest and highlights
+- **[Quest trees](https://szepiz.github.io/tarkov-quest-data/view/tree.html)**
+  (`view/tree.html`) draws each trader's quest tree.
+- **[Source comparison](https://szepiz.github.io/tarkov-quest-data/view/index.html)**
+  (`view/index.html`) puts every source side by side for a quest and highlights
   where they disagree. Filters for source disagreements, mode differences,
   quests confirmed in game, and quests removed from the game.
-- **`view/tree.html`** draws each trader's quest tree.
 
-Both have a PvP / PvE / Seasonal switch and a BEAR / USEC / any faction switch.
+Both have a PvP / PvE / Seasonal switch and a BEAR / USEC / any faction switch,
+and both work from a local copy too, with no server.
 
 ## Longer notes
 
