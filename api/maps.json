@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-11T19:00:28.043Z",
+ "generatedAt": "2026-08-11T21:17:54.001Z",
  "what": "Map-side data for Escape from Tarkov: hand-placed corrections and additions, BattlePass document locations, and the story campaign.",
  "pairsWith": "api/quests.json, joined by quest id and by map name.",
  "mergeContract": {
@@ -30,7 +30,7 @@
   "note": "A label may itself contain \"|\". Split from the RIGHT by the number of trailing fields the format has, never from the left."
  },
  "counts": {
-  "correctedPositions": 133,
+  "correctedPositions": 134,
   "floorOverrides": 15,
   "hiddenMarkers": 39,
   "addedLabels": 219,
@@ -39,7 +39,7 @@
   "interactables": 9,
   "hazards": 1,
   "bpDocuments": 9,
-  "bpPins": 92,
+  "bpPins": 99,
   "storyChapters": 10
  },
  "corrections": {
@@ -305,6 +305,10 @@
    "Interchange|Saferoom Exfil|0": {
     "x": -53.7,
     "z": 45.5
+   },
+   "Customs|Old Gas Station|0": {
+    "x": 312.9,
+    "z": -181.2
    }
   },
   "objectives": {
@@ -3332,8 +3336,8 @@
        "spot": null
       },
       {
-       "x": 173.62,
-       "z": 185.07,
+       "x": 172.86,
+       "z": 185.88,
        "floor": 1,
        "spot": null
       },
@@ -3558,6 +3562,48 @@
        "x": 78.49,
        "z": -166.72,
        "floor": 1,
+       "spot": null
+      },
+      {
+       "x": 315.76,
+       "z": -180.25,
+       "floor": -1,
+       "spot": null
+      },
+      {
+       "x": 197.28,
+       "z": -102.77,
+       "floor": -1,
+       "spot": null
+      },
+      {
+       "x": 68.9,
+       "z": -169.76,
+       "floor": -1,
+       "spot": null
+      },
+      {
+       "x": 25.41,
+       "z": -58.95,
+       "floor": 1,
+       "spot": null
+      },
+      {
+       "x": 90.25,
+       "z": -58.36,
+       "floor": 2,
+       "spot": null
+      },
+      {
+       "x": 173.68,
+       "z": 185.67,
+       "floor": 1,
+       "spot": null
+      },
+      {
+       "x": 106.01,
+       "z": -87.31,
+       "floor": -1,
        "spot": null
       }
      ],

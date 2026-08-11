@@ -267,6 +267,10 @@
   "Interchange|Saferoom Exfil|0": {
    "x": -53.7,
    "z": 45.5
+  },
+  "Customs|Old Gas Station|0": {
+   "x": 312.9,
+   "z": -181.2
   }
  },
  "objectives": {
@@ -2868,7 +2872,7 @@
  ],
  "counts": {
   "labels": 50,
-  "extracts": 15,
+  "extracts": 16,
   "objectives": 56,
   "transits": 5,
   "switches": 7,
