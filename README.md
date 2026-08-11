@@ -8,6 +8,26 @@ about a quest, with the disagreements highlighted. Both have a PvP / PvE /
 Seasonal switch and a BEAR / USEC faction switch, and both run entirely in the
 browser.
 
+## What's here that the sources don't have
+
+Checked against the four this is built from: tarkov.dev, the wiki,
+tarkov-data-overlay and SPT. Not a claim about every Tarkov tool in existence,
+just about what those four publish.
+
+| | |
+|---|---|
+| **Every value dated, per field** | None of the four publishes a date on anything. tarkov.dev has none at all, the wiki's are page revisions rather than data, the other two date a whole snapshot |
+| **92 BattlePass document pins** | The documents exist as items in tarkov.dev. No source has a position for any of them |
+| **87 room numbers and signs** | Dorm 301, Health Resort 219, and so on. Zero overlap with anything published |
+| **215 map labels** | On top of the 303 tarkov.dev already publishes, not instead of them. Switchboard, Heat Station, Desalinator, Central Discharge Collector |
+| **132 corrected pin positions** | Places where a published position is wrong by enough to send you to the wrong door, plus 39 markers hidden because they aren't really there |
+| **Story task locations** | The overlay has the chapters. It carries no coordinates at all, so every pin for them is placed here |
+| **9 hand-placed interactables and a hazard area** | Power panels, switches, the Shoreline sniper zone |
+| **305 quests read off the game screen** | Names, objectives, trader, loyalty tab and status, with the date each was seen |
+| **33 quests flagged as removed** | The wiki says so on the page; nobody publishes it as data, so tools keep listing quests BSG deleted |
+| **Loyalty gates on 65 quests** | tarkov.dev publishes them for 5. The rest are read out of the wiki's prose and checked against the game where possible |
+| **5 quests no source has at all** | In the game, in none of the four, checked by name and by content |
+
 ---
 
 Escape from Tarkov quest data where every value carries the date it was last
