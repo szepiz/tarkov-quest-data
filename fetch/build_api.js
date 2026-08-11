@@ -58,6 +58,49 @@ const section = (w, name) => {
 };
 const isRemoved = (w) => /\{\{\s*Historical content/i.test(w || '');
 
+// ---- attaching the game's wording to a structured objective
+//
+// `objectiveText` is a flat list; `objectives` is tarkov.dev's structured list,
+// each with the id a tracker ticks and pins against. Consumers render the
+// second, so the game's wording has nowhere to land unless it can be attached
+// to an id — and NOT BY INDEX. The two lists routinely disagree about order
+// (Pyramid Scheme's ten ATM steps) and about length (1.1.0 merged Bad Habit's
+// six objectives into two), so pairing positionally attaches one objective's
+// sentence to another objective's coordinates.
+//
+// By content instead, and only when the answer is unambiguous: every objective
+// must claim one line, no line twice, the best candidate must clear a real
+// margin over the runner-up, and if any objective fails the whole quest is left
+// alone. Half a list rewritten is worse than none.
+const OBJ_STOP = new Set(('the a an in on of to and or any at with while using item items found raid '
+  + 'specified place hand over locate obtain find eliminate stash operatives target targets').split(' '));
+const objWords = (s2) => new Set(String(s2 || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ')
+  .split(/\s+/).filter((w) => w.length > 2 && !OBJ_STOP.has(w)));
+const objOverlap = (a, b) => {
+  const A = objWords(a), B = objWords(b);
+  if (!A.size || !B.size) return 0;
+  let n = 0;
+  for (const w of A) if (B.has(w)) n++;
+  return n / Math.max(A.size, B.size);
+};
+function objectiveTextById(objectives, gameLines) {
+  if (!(objectives || []).length || !(gameLines || []).length) return null;
+  if (gameLines.length < objectives.length) return null;
+  const taken = new Set();
+  const out = {};
+  for (const o of objectives) {
+    const scored = gameLines.map((g, i) => ({ g, i, s: objOverlap(g, o.description) }))
+      .filter((c) => !taken.has(c.i))
+      .sort((x, y) => y.s - x.s);
+    const best = scored[0], second = scored[1];
+    if (!best || best.s < 0.5) return null;                    // nothing close enough
+    if (second && best.s - second.s < 0.05) return null;       // two lines fit equally
+    taken.add(best.i);
+    out[o.id] = best.g;
+  }
+  return out;
+}
+
 // ---- the wiki's ==Requirements== section
 //
 // This is where the loyalty gates live. 1.1.0 re-hung much of the quest tree off
@@ -284,6 +327,8 @@ let removedCount = 0;
 let wikiGates = 0;
 let droppedLevels = 0;
 let failGated = 0;
+let objTextById = 0;
+let objTextAmbiguous = 0;
 // { id, titles, at } — resolved after the loop, when every published name is
 // known. The wiki names an alternative by its CURRENT title, and the current
 // title of a renamed quest is only settled once its own record has been built.
@@ -414,6 +459,19 @@ for (const id of allIds) {
         + `${obs.status} when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list.`;
   }
   put('objectives', pick([src.dev('objectives', dev.objectives)]));
+  // The same wording, keyed by objective id, for anything that renders the
+  // structured list rather than the flat one. `objectives` itself stays
+  // tarkov.dev verbatim — the ids, zones, items and keys are theirs, and a
+  // consumer that wants their text should still get it.
+  if (obsObjUsable && (dev.objectives || []).length) {
+    const byId = objectiveTextById(dev.objectives, obs.objectives);
+    if (byId) {
+      put('objectiveTextById', src.obs('objectiveTextById', byId));
+      objTextById++;
+    } else {
+      objTextAmbiguous++;
+    }
+  }
 
   put('loyalty', pick([
     obs && obs.availableAtLoyalty != null && obs.trader
@@ -648,6 +706,8 @@ for (const u of observed.unmatched) {
 
   console.log(`   ${failGated} quest(s) open only after a FAILURE; ${groups} opened by ANY ONE of several`
     + `; ${sibSets} quest(s) published once per arm`);
+  console.log(`   ${objTextById} quest(s) carry the game's wording keyed by objective id`
+    + `, ${objTextAmbiguous} left alone because the lines could not be told apart`);
   if (unresolved.length) console.log(`   alternative(s) the wiki names that no source has: ${unresolved.join('; ')}`);
 }
 

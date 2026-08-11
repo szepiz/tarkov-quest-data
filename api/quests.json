@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T11:57:11.002Z",
+ "generatedAt": "2026-08-11T12:02:45.810Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -118,6 +118,10 @@
      "questItem": "OLI cargo route documents"
     }
    ],
+   "objectiveTextById": {
+    "5ae9b5bd86f774307c29df37": "Locate and obtain the OLI cargo route documents on Interchange",
+    "5ae9b63286f774229110402d": "Hand over the documents"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -172,6 +176,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -567,6 +576,10 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "60a4dc7e4e734e57d07fb335": "Mark the first group of fuel tanks with an MS2000 Marker on Reserve",
+    "60b90232ec7c6f5eb510c195": "Mark the second group of fuel tanks with an MS2000 Marker on Reserve"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -622,6 +635,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -662,6 +680,9 @@
      "questItem": "Lab journal"
     }
    ],
+   "objectiveTextById": {
+    "669faef62c68a5925a36fccc": "Hand over the lab journal"
+   },
    "minPlayerLevel": 15,
    "requires": [
     {
@@ -706,6 +727,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -781,6 +807,11 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "6752f86d538945df8cc3fc3a": "Locate and obtain Prapor's package on Woods",
+    "6756bcb3f93f4c1fc2b2d685": "Survive and extract from the location",
+    "6752f85800c5b2c48240c45f": "Complete the task Shipping Delay - Part 1"
+   },
    "objectiveMaps": [
     "Woods"
    ],
@@ -820,6 +851,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
@@ -1182,6 +1218,15 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "675c0444db2b69f48942f37c": "Mark any of the special TerraGroup cargo boxes with an MS2000 Marker on Customs",
+    "675c04497439eaed82b6dfeb": "(Optional) Locate the second special TerraGroup cargo on Customs",
+    "675c044cc482cb252c5a92d4": "(Optional) Locate the third special TerraGroup cargo on Customs",
+    "675c044e3691199fe911a641": "(Optional) Locate the fourth special TerraGroup cargo on Customs",
+    "675c3fbeb402d4fa5589516f": "(Optional) Locate the fifth special TerraGroup cargo on Customs",
+    "675c3fd3a2c0bad5f70af01c": "(Optional) Locate the sixth special TerraGroup cargo on Customs",
+    "675c3fdd5af984e99db7b4e1": "(Optional) Locate the seventh special TerraGroup cargo on Customs"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -1236,6 +1281,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -1634,6 +1684,12 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "6834233fecd5cf3a440d855f": "Locate the old champion's room on Customs",
+    "6834233fecd5cf3a440d8567": "(Optional) Locate and obtain the key at the smugglers' base on Shoreline",
+    "6834233fecd5cf3a440d8561": "Find out what happened to the champion",
+    "6834233fecd5cf3a440d8564": "Survive and extract from the location"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -1686,6 +1742,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -1789,6 +1850,9 @@
      "count": 100
     }
    ],
+   "objectiveTextById": {
+    "68342446a8d674b5740b31ff": "Eliminate enemies in any game mode in Arena (100)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -1827,6 +1891,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -2180,6 +2249,10 @@
      "questItem": "Chemical sample"
     }
    ],
+   "objectiveTextById": {
+    "669fb6c859bdae826f7325d4": "Take a sample of the chemicals from the damaged tank container on Factory",
+    "66a7eebed6bac3ecc16f7d6b": "Hand over the collected sample"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -2234,6 +2307,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -2520,6 +2598,11 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5eda1d6ec586607c09662d54": "Locate and mark the first trading post with an MS2000 Marker on Shoreline",
+    "5eda1da9a58a4c49c74165ee": "Locate and mark the second trading post with an MS2000 Marker on Shoreline",
+    "5eda1dd3317f6066993c1744": "Locate and mark the third trading post with an MS2000 Marker on Shoreline"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -2574,6 +2657,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -2989,6 +3077,11 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "69789903c30426685c9f3080": "Complete the task Professional Fitness - Part 2",
+    "6978990cbe971818240c2d7f": "Complete the task To Great Heights! - Part 6",
+    "697899167ed646e5d6187fea": "Complete the task Hold the Lead"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -3027,6 +3120,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -3755,6 +3853,11 @@
      "questItem": "AG guitar pick"
     }
    ],
+   "objectiveTextById": {
+    "63a7d8f404d3dc28a52a2104": "Locate the musician gathering spot on Streets of Tarkov",
+    "639135bbc115f907b14700a7": "Locate and obtain the engraved guitar pick",
+    "639135bbc115f907b14700a8": "Hand over the guitar pick"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -3815,6 +3918,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -3881,6 +3989,10 @@
      "questItem": "Accountant's notes"
     }
    ],
+   "objectiveTextById": {
+    "638fd070202cd55bee01ca11": "Obtain the financial records on Streets of Tarkov",
+    "638fd0805e5a195d2c443754": "Hand over the journal"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -3935,6 +4047,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -3999,6 +4116,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "608a94101a66564e74191fc3": "Locate the secret underground bunker exit on Reserve",
+    "608a94ae1a66564e74191fc6": "Survive and extract from the location through the secret exit"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -4053,6 +4174,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -4459,6 +4585,13 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5968943f86f7740d137ebfc2": "Locate and obtain Secure Folder 0031 in one of the bunkhouses on Customs",
+    "5a3fbdb086f7745a554f0c31": "(Optional) Gain access to the locked room in the office hallway on the third floor on Factory",
+    "5968941f86f7740d1570bbd2": "(Optional) Obtain the Portable bunkhouse key",
+    "5968948986f7740d121082d4": "Hand over the folder",
+    "596762ec86f77426d3687a87": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -4509,6 +4642,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -4617,6 +4755,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "68341846186efa3c5b07f98c": "Eliminate Scavs while using a Steyr AUG on any location (5)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -4655,6 +4796,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -4753,6 +4899,9 @@
      "count": 2
     }
    ],
+   "objectiveTextById": {
+    "68341a0b2f0e2a7eb90b62d7": "Eliminate PMC operatives while wearing a PACA Soft Armor on any location (2)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -4791,6 +4940,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -4849,6 +5003,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "63a7da6f5199ab1f7d4a774a": "Locate the balletmeister's apartment on Streets of Tarkov",
+    "63a7daae04d3dc28a52a2109": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -4903,6 +5061,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -5151,6 +5314,9 @@
      "exitName": "customs_sniper_exit"
     }
    ],
+   "objectiveTextById": {
+    "675c3507a06634b5110e3c1a": "Survive and extract from Customs through Railroad Passage (Flare)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -5205,6 +5371,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -5724,6 +5895,11 @@
      "questItem": "Ref dirt"
     }
    ],
+   "objectiveTextById": {
+    "683425dd8f5b18d29a05d9d4": "Return to the old champion's hideout on Customs",
+    "683425dd8f5b18d29a05d9d6": "Locate and obtain the compromising information on Ref",
+    "683425dd8f5b18d29a05d9d8": "Hand over the found info"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -5774,6 +5950,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -6005,6 +6186,10 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5a3fbec386f77413bd5fc20a": "Locate the transport with the chemicals on Customs",
+    "5998360886f77456936817f3": "Mark the vehicle with an MS2000 Marker"
+   },
    "minPlayerLevel": null,
    "requires": [
     {
@@ -6058,6 +6243,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "wiki",
@@ -6550,6 +6740,9 @@
      "count": 15
     }
    ],
+   "objectiveTextById": {
+    "5968eb9b86f7741ddb481543": "Eliminate Scavs on Customs (15)"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -6604,6 +6797,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -6931,6 +7129,12 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "675c14f54662a2fae349dbb9": "Stash a DVL-10 sniper rifle at the specified spot on Customs",
+    "675c152299549b5b62094f06": "Stash a DVL-10 magazine at the specified spot on Customs",
+    "675c153ae96d38136d02f670": "Stash an ELCAN SpecterDR scope at the specified spot on Customs",
+    "67604476b1ae3717835ccaed": "Stash a pack of any 7.62x51 ammo at the specified spot on Customs"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -6985,6 +7189,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -7071,6 +7280,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "63ac232087413d64ae0ac23c": "Locate the hidden recording studio on Lighthouse",
+    "626c3158a371ee3a7a3514cc": "Place a Signal Jammer inside the studio"
+   },
    "minPlayerLevel": 12,
    "requires": [
     {
@@ -7119,6 +7332,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -18031,6 +18249,9 @@
      "exitName": "Sandbox_VExit"
     }
    ],
+   "objectiveTextById": {
+    "65733e571b7e7ed95fcd2f0c": "Use the paid vehicle extraction on Ground Zero"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -18078,6 +18299,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -18112,6 +18338,9 @@
      "count": 20
     }
    ],
+   "objectiveTextById": {
+    "60e740b8b567ff641b129573": "Eliminate PMC operatives from over 100 meters away (20)"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -18159,6 +18388,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -19124,6 +19358,9 @@
      "exitName": "E9_sniper"
     }
    ],
+   "objectiveTextById": {
+    "63929101744e452011470818": "Survive and extract from Streets of Tarkov through Klimov Street (Flare)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -19178,6 +19415,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -19639,6 +19881,12 @@
      "questItem": "Sealed letter with a TG logo"
     }
    ],
+   "objectiveTextById": {
+    "597a0be986f774273b74f673": "Locate and obtain any evidence that could help with the investigation on Customs",
+    "597a0bb486f77426d66c0634": "Locate and obtain any information that could help with the investigation on Customs",
+    "597a0bf886f7742717106d13": "Hand over the evidence",
+    "597a0bdb86f7742717106d12": "Hand over the info"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -19687,6 +19935,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -19779,6 +20032,10 @@
      "questItem": "Syringe with a chemical"
     }
    ],
+   "objectiveTextById": {
+    "597a15b386f774799e5cd152": "Locate and obtain the chemical syringe on Factory",
+    "597a15c386f77405ba6887d2": "Hand over the syringe"
+   },
    "minPlayerLevel": 11,
    "requires": [
     {
@@ -19827,6 +20084,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -19912,6 +20174,10 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5a3fbc9586f77459d52a16c4": "Locate the transport with the chemicals on Customs",
+    "59b242ea86f7741e6e0e7a86": "Mark the vehicle with an MS2000 Marker"
+   },
    "minPlayerLevel": 11,
    "requires": [
     {
@@ -19964,6 +20230,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -20223,6 +20494,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5f0488c590eea473df674002": "Locate Sanitar's office in the health resort on Shoreline",
+    "5f04983ffbed7a08077b4367": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -20284,6 +20559,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -20731,6 +21011,9 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "666973ee1d80fbbbfeaf46c9": "Sell Ragman any backpacks or tactical rigs (250)"
+   },
    "minPlayerLevel": 35,
    "requires": [
     {
@@ -20772,6 +21055,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -20828,6 +21116,10 @@
      "questItem": "T-90M Commander Control Panel"
     }
    ],
+   "objectiveTextById": {
+    "60929ad46342771d851b827a": "Obtain the package with T-90M Commander control panel on Reserve",
+    "60929afc35915c62b44fd05c": "Hand over the package"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -20882,6 +21174,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -21264,6 +21561,12 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5edab7d3cc183c769d778bc5": "Locate the group that was sent to the Health Resort on Shoreline",
+    "5edab8890880da21347b3826": "Locate the group that was sent to the pier on Shoreline",
+    "5edab8e216d985118871ba18": "Locate the group that was sent to the cottages on Shoreline",
+    "5f03969a51823847c253afa0": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -21319,6 +21622,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -23923,6 +24231,9 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "68341c4babec72d95d0c1263": "Plant TP-200 TNT bricks on the second floor of the cafe on Ground Zero (3)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -23969,6 +24280,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -24092,6 +24408,9 @@
      "count": 2
     }
    ],
+   "objectiveTextById": {
+    "68341d7d7559f4e6d50bc0de": "Eliminate Kaban's or Kollontay's guards on Streets of Tarkov (2)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -24138,6 +24457,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -24427,6 +24751,11 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "65734c186dc1e402c80dc1a2": "Eliminate any target while wearing a Bomber beanie and RayBench Hipster Reserve sunglasses on Streets of Tarkov (15)",
+    "657356c410becd24bc776f55": "Stash a Bomber beanie inside the barber shop on Streets of Tarkov",
+    "657356d0a95a1e7e1a8d8d99": "Stash RayBench Hipster Reserve sunglasses inside the barber shop on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -24481,6 +24810,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -25150,6 +25484,9 @@
      "count": 40
     }
    ],
+   "objectiveTextById": {
+    "5c1b778286f774294438b536": "Eliminate any target from less than 60 meters away while wearing a gas mask or respirator in The Lab (40)"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -25219,6 +25556,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -25317,6 +25659,10 @@
      "questItem": "Secure Folder 0022"
     }
    ],
+   "objectiveTextById": {
+    "5968929e86f7740d121082d3": "Locate and obtain the valuable folder in Tarcone director's office on Customs",
+    "59674fe586f7744f4e358aa2": "Stash the package in the break room on the 2nd floor near Gate 3 on Factory"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -25367,6 +25713,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -25765,6 +26116,9 @@
      "count": 30
     }
    ],
+   "objectiveTextById": {
+    "64e7bdd52d369a1c0172722f": "Eliminate any target with Assault rifles or Assault carbines on Streets of Tarkov (20)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -25828,6 +26182,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -25969,6 +26328,14 @@
      "questItem": "Military documents #3"
     }
    ],
+   "objectiveTextById": {
+    "60916aeac49cf53e4772cc3c": "Obtain the first folder with military documents in the command bunker offices on Reserve",
+    "60ae0dfe2d6a8320983d19ba": "Obtain the second folder with military documents in the command bunker offices on Reserve",
+    "60ae0e2c79e83a2cf96f35ce": "Obtain the third folder with military documents in the command bunker offices on Reserve",
+    "60916b41b89a3c264d7296f9": "Hand over the first documents",
+    "60ae0f0586046842a754e21e": "Hand over the second documents",
+    "60ae0f17b809a4748759078c": "Hand over the third documents"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -26023,6 +26390,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -26135,6 +26507,10 @@
      "questItem": "Chemical container"
     }
    ],
+   "objectiveTextById": {
+    "66a0e692281e56a89b717b7d": "Locate and obtain the chemical container at the TerraGroup warehouse on Factory",
+    "66a0e69ec03c2dad1a84993a": "Hand over the chemical container"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -26191,6 +26567,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -26494,6 +26875,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "66151401efb0539ae10875af": "Eliminate Raiders (100)",
+    "66168239957ac58c30b29135": "Hand over the found in raid WARTECH brand equipment (50)"
+   },
    "minPlayerLevel": 24,
    "faction": "USEC",
    "requires": [
@@ -26542,6 +26927,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -26714,6 +27104,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "6615141bfda04449120269a8": "Eliminate Rogues (100)",
+    "661682aed31d408548016468": "Hand over the found in raid LBT brand equipment (50)"
+   },
    "minPlayerLevel": 33,
    "faction": "USEC",
    "requires": [
@@ -26761,6 +27155,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -26837,6 +27236,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "63ac210b1287ef0b827d0cb8": "Locate the hidden drug lab on Lighthouse",
+    "626c3010a371ee3a7a3514cb": "Stash a WI-FI Camera in the drug lab"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -26891,6 +27294,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -27031,6 +27439,14 @@
      "questItem": "UAV SAS disk #2"
     }
    ],
+   "objectiveTextById": {
+    "5a3ba34286f7744eb240406a": "Locate the first UAV crash site on Shoreline",
+    "5a294f1686f774340c7b7e4a": "Obtain the SAS disk from the second crashed drone",
+    "5a27ffb186f774192932b3d5": "Obtain the SAS disk from the first crashed drone",
+    "5a27ffc786f77415ca58ae47": "Hand over the first SAS disk",
+    "5a3ba3b086f7745ab1081101": "Locate the second UAV crash site on Shoreline",
+    "5a294f3386f77433e923f9cd": "Hand over the second SAS disk"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -27093,6 +27509,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -27175,6 +27596,10 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "63ac1e0a87413d64ae0ac233": "Locate the helicopter at the water treatment plant on Lighthouse",
+    "6179b804bca27a099552e057": "Mark the helicopter with an MS2000 Marker"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -27229,6 +27654,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -27546,6 +27976,9 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "6834145ebc1f443d7603c8ab": "Plant the Bison vs Undertaker poster in the living quarters at the Scav base on Customs"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -27594,6 +28027,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -27809,6 +28247,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "6834158f2f0e2a7eb90b62cb": "Hand over the found in raid items from the Drinks category (5)",
+    "6834158f2f0e2a7eb90b62cc": "Hand over the found in raid items from the Food category (5)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -27848,6 +28290,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -27881,6 +28328,9 @@
      "count": 50
     }
    ],
+   "objectiveTextById": {
+    "66a0f5a7f9eae6761253114c": "Eliminate any target with SR-2M with suppressor and KP-SR2 sight on Reserve or Lighthouse (30)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -27936,6 +28386,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -28056,6 +28511,12 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "617bf5860cf4a041de5b396b": "Find and mark the group of fuel tanks with an MS2000 Marker on Lighthouse",
+    "61926522b0295324b5484459": "Find and mark the first tanker truck with an MS2000 Marker on Lighthouse",
+    "6192653d80c326298126aee1": "Find and mark the second tanker truck with an MS2000 Marker on Lighthouse",
+    "61926544bb0c712ed42d583c": "Find and mark the third tanker truck with an MS2000 Marker on Lighthouse"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -28111,6 +28572,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -28325,6 +28791,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "66813c01decf4560581ca0c0": "Reach 5.0 reputation with Fence"
+   },
    "traderRequirements": [
     {
      "trader": "Fence",
@@ -28365,6 +28834,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "traderRequirements": {
      "src": "tarkov.dev",
@@ -28430,6 +28904,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "66b38e144f2ab7cc530c3fe8": "Locate a good tripwire installation spot in the breach room on Factory",
+    "66b38e144f2ab7cc530c3fea": "Locate a good tripwire installation spot at the three-story dorm stairs on Customs"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -28481,6 +28959,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-11",
@@ -28524,6 +29007,9 @@
      "exitName": "Gate_o"
     }
    ],
+   "objectiveTextById": {
+    "669fb12eb01ceef19a5b4ebc": "Survive and extract from Factory through the Courtyard Gate"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -28578,6 +29064,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -28948,6 +29439,11 @@
      "questItem": "Package of graphics cards"
     }
    ],
+   "objectiveTextById": {
+    "5ac6248586f77416781dd3a3": "Obtain the package of graphics cards",
+    "5ac6240786f77417204ca2b9": "Locate the warehouse of seized goods on Customs",
+    "5ac624b286f77416781dd3ac": "Hand over the package"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -29002,6 +29498,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -29516,6 +30017,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "65732ac3c67dcd96adffa3c7": "Locate the Emercom station on Ground Zero",
+    "65817bf31404f3565aef9fec": "Hand over any found in raid medicine items (3)"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -29570,6 +30075,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -32097,6 +32607,9 @@
      "count": 30
     }
    ],
+   "objectiveTextById": {
+    "6574e0dedc0d635f633a5807": "Eliminate any target with an RPDN with EKP-1S-03 sight on Shoreline, Lighthouse, or Reserve (40)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -32149,6 +32662,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -33253,6 +33771,9 @@
      "item": "Kalashnikov AK-105 5.45x39 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5ae445f386f7744e87761331": "Modify an AK-105 to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33300,6 +33821,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33335,6 +33861,9 @@
      "item": "Kalashnikov AKM 7.62x39 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5ae3550b86f7741cf44fc799": "Modify an AKM to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33382,6 +33911,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33417,6 +33951,9 @@
      "item": "Kalashnikov AKS-74N 5.45x39 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5ae3570b86f7746efa6b4494": "Modify an AKS-74N to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33464,6 +34001,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33499,6 +34041,9 @@
      "item": "Kalashnikov AKS-74U 5.45x39 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5accd9b686f774112d7173d1": "Modify an AKS-74U to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33546,6 +34091,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33581,6 +34131,9 @@
      "item": "AS VAL 9x39 special assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5ae4479686f7744f6c79b7b3": "Modify an AS VAL to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33628,6 +34181,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33663,6 +34221,9 @@
      "item": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
     }
    ],
+   "objectiveTextById": {
+    "5accde3686f7740cea1b7ec2": "Modify an MP5 to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33710,6 +34271,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33745,6 +34311,9 @@
      "item": "Colt M4A1 5.56x45 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5accdfdb86f77412265cbfc9": "Modify an M4A1 to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33792,6 +34361,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33827,6 +34401,9 @@
      "item": "Remington Model 870 12ga pump-action shotgun"
     }
    ],
+   "objectiveTextById": {
+    "5ae34b8b86f7741e5b1e5d48": "Modify a Remington Model 870 to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33874,6 +34451,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33909,6 +34491,9 @@
      "item": "MP-133 12ga pump-action shotgun"
     }
    ],
+   "objectiveTextById": {
+    "5accd5e386f77463027e9397": "Modify an MP-133 to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -33957,6 +34542,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -33992,6 +34582,9 @@
      "item": "SIG MPX 9x19 submachine gun"
     }
    ],
+   "objectiveTextById": {
+    "5b477b3b86f77401da02e6c4": "Modify a SIG MPX to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -34039,6 +34632,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -34074,6 +34672,9 @@
      "item": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
     }
    ],
+   "objectiveTextById": {
+    "63987404e5163c24b3029356": "Modify an OP-SKS to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -34127,6 +34728,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -34162,6 +34768,9 @@
      "item": "SIG P226R 9x19 pistol"
     }
    ],
+   "objectiveTextById": {
+    "6398776f93ae507d5858c3a8": "Modify a P226R to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -34209,6 +34818,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -34244,6 +34858,9 @@
      "item": "TDI KRISS Vector Gen.2 9x19 submachine gun"
     }
    ],
+   "objectiveTextById": {
+    "63987860c8f8cc12a47b02a6": "Modify a KRISS Vector 9x19 to comply with the given specifications"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -34291,6 +34908,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -34326,6 +34948,9 @@
      "item": "HK 416A5 5.56x45 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "639879addecada40426d3449": "Modify an HK 416A5 to comply with the given specifications"
+   },
    "minPlayerLevel": 27,
    "requires": [
     {
@@ -34366,6 +34991,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -34559,6 +35189,11 @@
      "item": "Glock 17 9x19 pistol"
     }
    ],
+   "objectiveTextById": {
+    "676529e759261ce07bc47b62": "Modify a T-5000M to comply with the given specifications",
+    "676529af9c90953d090882ea": "Modify a PP-19-01 to comply with the given specifications",
+    "67652a2f4f75e1a9543289ed": "Modify a Glock 17 to comply with the given specifications"
+   },
    "minPlayerLevel": 17,
    "requires": [
     {
@@ -34600,6 +35235,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -34630,6 +35270,9 @@
      "item": "Kalashnikov PKP 7.62x54R infantry machine gun"
     }
    ],
+   "objectiveTextById": {
+    "64f841199a4f905106515448": "Modify a PKP machine gun to comply with the given specifications"
+   },
    "minPlayerLevel": 39,
    "requires": [
     {
@@ -34672,6 +35315,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -34702,6 +35350,9 @@
      "item": "Remington R11 RSASS 7.62x51 marksman rifle"
     }
    ],
+   "objectiveTextById": {
+    "5acce11786f77411ed6fa6eb": "Modify an R11 RSASS to comply with the given specifications"
+   },
    "minPlayerLevel": 25,
    "requires": [
     {
@@ -34743,6 +35394,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -34773,6 +35429,9 @@
      "item": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
     }
    ],
+   "objectiveTextById": {
+    "5acce08b86f7745f8521fa64": "Modify a DVL-10 to comply with the given specifications"
+   },
    "minPlayerLevel": 30,
    "requires": [
     {
@@ -34814,6 +35473,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -34844,6 +35508,9 @@
      "item": "Kalashnikov AK-102 5.56x45 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5b47796686f774374f4a8bb1": "Modify an AK-102 to comply with the given specifications"
+   },
    "minPlayerLevel": 31,
    "requires": [
     {
@@ -34885,6 +35552,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -34915,6 +35587,9 @@
      "item": "Kalashnikov AKMN 7.62x39 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5b477f1486f7743009493232": "Modify an AKMN to comply with the given specifications"
+   },
    "minPlayerLevel": 33,
    "requires": [
     {
@@ -34956,6 +35631,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -34986,6 +35666,9 @@
      "item": "SVDS 7.62x54R sniper rifle"
     }
    ],
+   "objectiveTextById": {
+    "63987a4e3693c63d86328f27": "Modify an SVDS to comply with the given specifications"
+   },
    "minPlayerLevel": 36,
    "requires": [
     {
@@ -35027,6 +35710,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -35057,6 +35745,9 @@
      "item": "Springfield Armory M1A 7.62x51 rifle"
     }
    ],
+   "objectiveTextById": {
+    "5b47824386f7744d190d8dd1": "Modify an M1A to comply with the given specifications"
+   },
    "minPlayerLevel": 37,
    "requires": [
     {
@@ -35098,6 +35789,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -35138,6 +35834,10 @@
      "item": "Colt M1911A1 .45 ACP pistol"
     }
    ],
+   "objectiveTextById": {
+    "63987b49cd51826f7a069b85": "Modify an M700 to comply with the given specifications",
+    "63987b9c05aa481907106505": "Modify an M1911 to comply with the given specifications"
+   },
    "minPlayerLevel": 38,
    "requires": [
     {
@@ -35179,6 +35879,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -35524,6 +36229,11 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5a6873bc86f7741f8d4589a3": "Locate and mark the first ambulance with an MS2000 Marker on Shoreline",
+    "5a6873d786f7743ad1151d6e": "Locate and mark the second ambulance with an MS2000 Marker on Shoreline",
+    "5a6873ec86f7743cc55d8622": "Locate and mark the third ambulance with an MS2000 Marker on Shoreline"
+   },
    "minPlayerLevel": 20,
    "requires": [
     {
@@ -35572,6 +36282,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -35649,6 +36364,11 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5a68760f86f7743cc55d8709": "Locate and obtain any info about TerraGroup's research in Health Resort west wing on Shoreline",
+    "5a68763786f77474c33a40a1": "Hand over the retrieved information",
+    "5a68764c86f77474c4269f3c": "Survive and extract from the location"
+   },
    "minPlayerLevel": 20,
    "requires": [
     {
@@ -35697,6 +36417,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -35992,6 +36717,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5a6879be86f774284429b1bb": "Locate the drop spot on night-time Factory",
+    "5a687a1c86f7745f2152168c": "Stash any Gunpowder in the designated spot (3)"
+   },
    "minPlayerLevel": 20,
    "requires": [
     {
@@ -36040,6 +36769,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -36202,6 +36936,9 @@
      "item": "MP-43-1C 12ga double-barrel shotgun"
     }
    ],
+   "objectiveTextById": {
+    "66632cf3fbd7dedfa6153a9f": "Modify an MP-43-1C shotgun to comply with the given specifications"
+   },
    "minPlayerLevel": null,
    "requires": [
     {
@@ -36244,6 +36981,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "wiki",
      "asOf": "2026-08-05",
@@ -36280,6 +37022,9 @@
      "count": 3
     }
    ],
+   "objectiveTextById": {
+    "66632deea5607d352f3aa844": "Eliminate the hooded men with the double barrel shotgun (2)"
+   },
    "minPlayerLevel": null,
    "requires": [
     {
@@ -36328,6 +37073,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "wiki",
@@ -37126,6 +37876,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "69789660b2187365e70bb94d": "Eliminate enemies in Arena (75)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -37164,6 +37917,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -37258,6 +38016,11 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5b478c4c86f7744d1a393fac": "Stash a ComTac II headset in the specified place on Interchange",
+    "5b478c7386f7744d1a393fb1": "Stash a 6B47 helmet (Olive Drab) in the specified place on Interchange",
+    "5b478cb586f7744d1a393fb5": "Stash a Gzhel-K body armor in the specified place on Interchange"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -37313,6 +38076,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -39708,6 +40476,11 @@
      "questItem": "Encrypted message"
     }
    ],
+   "objectiveTextById": {
+    "63ac18f4972364554162a25c": "Find Jaeger's camp at the specified spot on Woods",
+    "5d249a6e86f774791546e952": "Obtain Jaeger's encrypted message",
+    "5d249aa286f77475e8376399": "Hand over the message"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -39757,6 +40530,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -39886,6 +40664,14 @@
      "questItem": "IDEA cargo manifests"
     }
    ],
+   "objectiveTextById": {
+    "5ae9b32486f7745bbc72275a": "Locate and obtain the Goshan cargo manifests on Interchange",
+    "5ae9b36c86f774307c29df04": "Locate and obtain the OLI cargo manifests on Interchange",
+    "5ae9b3b186f7745bbc722762": "Locate and obtain the IDEA cargo manifests on Interchange",
+    "5ae9b34686f7743129512ccf": "Hand over the Goshan cargo manifests",
+    "5ae9b38a86f77432c81e2ce3": "Hand over the OLI cargo manifests",
+    "5ae9b3c986f77432c81e2ce6": "Hand over the IDEA cargo manifests"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -39946,6 +40732,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -40130,6 +40921,10 @@
      "questItem": "Stolen weapon case"
     }
    ],
+   "objectiveTextById": {
+    "671a5941cb557f8656561a12": "Locate and obtain the lost weapon crate on Interchange",
+    "671a598e596272a846fa862a": "Hand over the retrieved cargo"
+   },
    "minPlayerLevel": 35,
    "requires": [
     {
@@ -40178,6 +40973,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -40947,6 +41747,35 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "66d9cbb67b491f9d5304f6eb": "Install a WI-FI Camera at the barbed wire body on Streets of Tarkov",
+    "66d9cbb67b491f9d5304f6e9": "Install a WI-FI Camera at the amphibian pizza lovers' hideout on Streets of Tarkov",
+    "66dacf2a88c7001436a67390": "Install a WI-FI Camera at the really scary hole in the wall on Streets of Tarkov",
+    "66d9cbb67b491f9d5304f6ea": "Install a WI-FI Camera at the burned girl's sickroom on Streets of Tarkov",
+    "66dad1d7811532f53e472c13": "Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero",
+    "66dad1d941756590432b0eaa": "Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero",
+    "66dad1dbb16caebe0e214d89": "Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero",
+    "66dad1ddec53b0df3b10a1b9": "Install a WI-FI Camera by your friend Wilson on Lighthouse",
+    "66dad1de93c8fcffd5790d89": "Install a WI-FI Camera at the kindled rest place on Lighthouse",
+    "66dad1e0703b718902451ee4": "Install a WI-FI Camera at the ominous welcome sign on Lighthouse",
+    "66dad1e21e7ef28d17a69a93": "Install a WI-FI Camera at the megagenius scientist's seat on Lighthouse",
+    "66dad1e607181e2f78a3a0a2": "Install a WI-FI Camera at the place where conscripts did a very important task on Reserve",
+    "66dad1e843a718561db0fdd3": "Install a WI-FI Camera at the two chair riddle on Reserve",
+    "66dad1ebc5c8e6cd26dd1d31": "Install a WI-FI Camera at every tank driver's first videogame on Reserve",
+    "66dad1edbc4fdd0c6eb38c5e": "Install a WI-FI Camera at the bucket-head villain on Customs",
+    "66dad1f00e049ac7abb6d801": "Install a WI-FI Camera at Anvil 3-4 crew member's execution site on Customs",
+    "66dad1f22edc2103eb176de8": "Install a WI-FI Camera at every indie developer's worst nightmare on Customs",
+    "66db1f8d7539f4b4eb640aff": "Install a WI-FI Camera in the room where the firefighter burned the books to become happy on Factory",
+    "66db1f8f564045697071d934": "Install a WI-FI Camera at the place where some valve technicians couldn't finish their third project on Factory",
+    "66db1f928d59a9fe511dfc25": "Install a WI-FI Camera at the dangerous Russian chocolate beauty on Factory",
+    "66db1f94a147d9840ec0dfba": "Install a WI-FI Camera in the conspiracy theorist's room on Factory",
+    "66db1f98b8e22a92437fe5c6": "Install a WI-FI Camera near where someone thought he'd get transported to the magic school on Factory",
+    "66db1f9b4f7bf01d937eb150": "Install a WI-FI Camera at the mother of all strategy games on Factory",
+    "66db1ff798d52a5a8e4ed1f8": "Install a WI-FI Camera at the stairway to the skies on Factory",
+    "66debf2b9e4ce2ef233ee5b7": "Install a WI-FI Camera at the bear who sat into a flaming car on Woods",
+    "66debf2e1e254957b82711ff": "Install a WI-FI Camera at the upside-down chair on Shoreline",
+    "66debf30802386a45d0adb60": "Install a WI-FI Camera at the not-so-lonely bathroom on Shoreline"
+   },
    "minPlayerLevel": 25,
    "objectiveMaps": [
     "Streets of Tarkov",
@@ -40998,6 +41827,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -41036,6 +41870,9 @@
      "count": 20
     }
    ],
+   "objectiveTextById": {
+    "64f5deac39e45b527a7c4235": "Eliminate PMCs with AK-12 with proprietary suppressor and PS-320 scope on Streets of Tarkov, Shoreline, or Ground Zero (10)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -41088,6 +41925,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -45322,6 +46164,9 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "63929224744e45201147081a": "Eliminate Sniper Scavs on Streets of Tarkov (8)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -45385,6 +46230,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -45553,6 +46403,11 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "66aa61663aa37705c5024278": "Eliminate any target on Streets of Tarkov (In one raid) (5)",
+    "66aa61663aa37705c502427c": "Use the transit from Streets of Tarkov to Interchange (In one raid)",
+    "66aa61663aa37705c502427e": "Eliminate any target on Interchange (In one raid) (5)"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -45604,6 +46459,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -46039,6 +46899,9 @@
      "count": 4
     }
    ],
+   "objectiveTextById": {
+    "6193dabd5f6468204470571f": "Eliminate Scavs along the shore and the main road on Lighthouse or Shoreline (7)"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -46093,6 +46956,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -46156,6 +47024,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "63ac0c99f83fd608393890bf": "Locate the lost group in the chalet area on Lighthouse",
+    "6190464d74169a76c90aa230": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -46210,6 +47082,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -46464,6 +47341,11 @@
      "questItem": "Bottle of Le Jean wine"
     }
    ],
+   "objectiveTextById": {
+    "6575aa67197bd678a0c3f552": "Locate the liquor store on Ground Zero",
+    "65817cabba2ba6ef71fc72ca": "Locate and obtain the wine bottle in the store",
+    "65817cd2881a7e07b3ec1249": "Hand over the wine bottle"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -46518,6 +47400,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -47995,6 +48882,9 @@
      "count": 25
     }
    ],
+   "objectiveTextById": {
+    "5ae44ecd86f77414a13c970e": "Eliminate any target on Interchange (10)"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -48057,6 +48947,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -48226,6 +49121,10 @@
      "questItem": "Key to the closed premises of the Health Resort"
     }
    ],
+   "objectiveTextById": {
+    "5a044a6c86f7747370402d91": "Locate and obtain the key to the closed premises of the Health Resort on Shoreline",
+    "5a280f8d86f774141b501756": "Hand over the key"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -48288,6 +49187,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -48732,6 +49636,11 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5b478d8986f774563c7a4809": "Locate and mark the first yellow minibus with an MS2000 Marker on Interchange",
+    "5b478daf86f7744d1c35339b": "Locate and mark the second yellow minibus with an MS2000 Marker on Interchange",
+    "5b478dca86f7744d190d91c2": "Locate and mark the third yellow minibus with an MS2000 Marker on Interchange"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -48786,6 +49695,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -49022,6 +49936,11 @@
      "questItem": "Stolen military documents"
     }
    ],
+   "objectiveTextById": {
+    "61a00eff2d708d41a34f19b4": "Locate and obtain the informant's intelligence folder",
+    "63ac1a941b5c95746621ddb2": "Locate the crashed helicopter on Lighthouse",
+    "61a00f3f177fb945751bbe92": "Hand over the folder"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -49076,6 +49995,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -49501,6 +50425,14 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "67a0bc81fcbc1c559d09b58f": "Investigate the courtyard park by TerraGroup HQ on Ground Zero",
+    "67a0bc83182c4b0c71edd0ce": "Investigate the kart track on Interchange",
+    "67a0bc84f19d5b1120a55762": "Investigate the indoor children's playground on Interchange",
+    "67a0bc87c60a93d7a3f28b23": "Investigate the children's playground by Concordia on Streets of Tarkov",
+    "67a0bc8848d9d2cbd274ffd9": "Investigate the coast-side construction site on Shoreline",
+    "67a0bc8ab12fe4b1baa60e4c": "Investigate the children's playground by the Health Resort on Shoreline"
+   },
    "minPlayerLevel": 15,
    "requires": [
     {
@@ -49548,6 +50480,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -50956,6 +51893,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "608bffeee0cc9c2d4d2ccb29": "Eliminate Raiders in the command bunker on Reserve (5)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -51010,6 +51950,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -51337,6 +52282,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "65802b627b44fa5e1463889a": "Locate Ragman's SUV on Shoreline",
+    "65802bfabac8c53c548fca2a": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -51391,6 +52340,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -51946,6 +52900,10 @@
      "questItem": "Lab journal"
     }
    ],
+   "objectiveTextById": {
+    "669faeb6a6e02d00c47ad812": "Locate and obtain the lab journal on Factory",
+    "669faecceb01bf6324de66c4": "Stash the journal at the old sawmill on Woods"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -52008,6 +52966,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -52651,6 +53614,10 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5a3fc1f286f7744ccc15d643": "Locate the transport with the chemicals on Customs",
+    "5998366886f77455853b2d9f": "Mark the vehicle with an MS2000 Marker"
+   },
    "minPlayerLevel": null,
    "requires": [
     {
@@ -52704,6 +53671,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "wiki",
@@ -53803,6 +54775,9 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "608a8356fa70fc097863b8f8": "Eliminate Scavs around the main barracks on Reserve (10)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -53858,6 +54833,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -54276,6 +55256,12 @@
      "questItem": "Carbon case"
     }
    ],
+   "objectiveTextById": {
+    "5969fa4886f7741ddb481544": "Locate and obtain the suitcase with the device on Customs",
+    "5a3fb8f686f7742384533f10": "(Optional) Locate the paramedic's car on Customs",
+    "5a3fb92286f77422b46cdb18": "(Optional) Find a way inside the two-story dorm room 114 on Customs",
+    "5969fa8986f7741ddc2d3154": "Hand over the suitcase"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -54330,6 +55316,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -54460,6 +55451,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5ac7a4ba86f77409f3423628": "Fix the first control board with a Toolset on Factory",
+    "5ac7a51a86f774738a4ffc96": "Fix the second control board with a Toolset on Factory"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -54514,6 +55509,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -54698,6 +55698,10 @@
      "questItem": "Housing office journal"
     }
    ],
+   "objectiveTextById": {
+    "639135d89444fb141f4e6eeb": "Obtain the journal containing resident details on Streets of Tarkov",
+    "639135d89444fb141f4e6eec": "Hand over the journal"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -54752,6 +55756,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -54829,6 +55838,10 @@
      "questItem": "Pilot logbook"
     }
    ],
+   "objectiveTextById": {
+    "669fb4a56e66d3d79183a5c9": "Locate and obtain the helicopter logbook on Factory",
+    "669fb4b21f2e5268651cc96a": "Hand over the found information"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -54883,6 +55896,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -54970,6 +55988,11 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "596895f986f7740d14064722": "Locate the dead messenger and obtain his letter on Factory",
+    "5968962686f7740e7266d973": "Survive and extract from the location",
+    "596896c386f7740d1570bbd4": "Hand over the letter to Therapist"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -55033,6 +56056,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -55080,6 +56108,9 @@
      "questItem": "Sealed letter"
     }
    ],
+   "objectiveTextById": {
+    "5968975586f7740e7266d974": "Hand over the letter from Prapor's messenger"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -55120,6 +56151,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -55296,6 +56332,9 @@
      "count": 20
     }
    ],
+   "objectiveTextById": {
+    "63a5cf262964a7488f5243d1": "Eliminate PMC operatives with an MP5SD on Woods, Ground Zero, Interchange, or Customs (5)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -55347,6 +56386,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -55704,6 +56748,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "69788d4e963f08d9140bce1c": "Play a match in CheckPoint or Last Hero mode"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -55742,6 +56789,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -55838,6 +56890,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "6978907718bd6d7cbd0e8b91": "Eliminate enemies in Arena (20)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -55876,6 +56931,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -56271,6 +57331,11 @@
      "questItem": "Cadastral registry records"
     }
    ],
+   "objectiveTextById": {
+    "6573397ef3f8344c4575cd88": "Locate the real estate fund on Streets of Tarkov",
+    "6581676e7a18ff402fd23e68": "Locate and obtain the Tarkov real estate transactions document",
+    "658167a0e53c40116f8632fa": "Hand over the obtained information"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -56325,6 +57390,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -56598,6 +57668,13 @@
      "count": 15
     }
    ],
+   "objectiveTextById": {
+    "675c1c87caddcfa893af10e9": "Install the first WI-FI Camera inside the industrial plant on Customs",
+    "676047054c9696a7d071bc08": "Install the second WI-FI Camera inside the industrial plant on Customs",
+    "6760470877d1b7790af5de11": "Install the third WI-FI Camera inside the industrial plant on Customs",
+    "6760470b7d65f702a6295820": "Install the fourth WI-FI Camera inside the industrial plant on Customs",
+    "675c1c980fd114390c638b89": "Eliminate any target inside the industrial plant on Customs (15)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -56657,6 +57734,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -57987,6 +59069,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5d8a05d086f77410b4225d10": "Locate the food warehouse on Reserve",
+    "629f1259422dff20ff234b4d": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -58041,6 +59127,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -58518,6 +59609,12 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "61952308aa0f643f9a0ae20f": "Locate and mark the first BRDM with an MS2000 Marker on Lighthouse",
+    "6195231dd07bdc6de57b40a5": "Locate and mark the second BRDM with an MS2000 Marker on Lighthouse",
+    "61952325aa0f643f9a0ae212": "Locate and mark the first Stryker with an MS2000 Marker on Lighthouse",
+    "6195232a1e972a652931edb6": "Locate and mark the second Stryker with an MS2000 Marker on Lighthouse"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -58581,6 +59678,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -59043,6 +60145,11 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "63927f14744e452011470816": "Locate and mark the first LAV III with an MS2000 Marker on Streets of Tarkov",
+    "63927f2d8ba6894d155e77e6": "Locate and mark the Stryker with an MS2000 Marker on Streets of Tarkov",
+    "63927f349444fb141f4e6f24": "Locate and mark the second LAV III with an MS2000 Marker on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -59106,6 +60213,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -59217,6 +60329,11 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5f071a9727cec53d5d24fe3b": "Mark the medical container at the Health Resort with an MS2000 Marker on Shoreline",
+    "5f071ae396d1ae55e476abc4": "Mark the medical container by cottages with an MS2000 Marker on Shoreline",
+    "5f071b2a8ca6db7f3b41215f": "Mark the medical container at the river pier with an MS2000 Marker on Shoreline"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -59271,6 +60388,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -59642,6 +60764,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "66b38c7bf85b8bf7250f9cb7": "Locate the heavily mined area at the USEC camp on Woods",
+    "66b38de6a97d8cbafd711846": "Locate the Claymore mine on Ground Zero"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -59692,6 +60818,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -59956,6 +61087,9 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "608ab22755f4ac386d7e7fdc": "Eliminate Scavs in the underground storage warehouse on Reserve (5)"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -60012,6 +61146,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -60868,6 +62007,13 @@
      "questItem": "TerraGroup scientist's hard drive"
     }
    ],
+   "objectiveTextById": {
+    "6575a64d3fc09bdfb38b713d": "Access the lab scientist's office on Ground Zero",
+    "6575a524a39d2be74e620546": "(Optional) Locate the USEC group at the parking lot of the TerraGroup complex",
+    "6575a62a62028c6d5cb43cb7": "(Optional) Locate the lab scientist in the TerraGroup complex",
+    "65817fbbb454159976c91917": "Locate and obtain the scientist's hard drive",
+    "65817fc99a039ed2e97896e4": "Hand over the hard drive"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -60914,6 +62060,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -61153,6 +62304,13 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5ac61a8a86f7743a8d663c77": "Locate the first Factory extraction",
+    "5ac61ab986f7746e352cec8c": "Locate the second Factory extraction",
+    "5ac61adf86f774741c1bf096": "Locate the third Factory extraction",
+    "63a865ce1943b749b5021f86": "Locate the fourth Factory extraction",
+    "5ac61b1486f7743a8f30fc84": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -61207,6 +62365,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -61329,6 +62492,11 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5a37e8ae86f77415076b401d": "Locate and mark the first T-90 tank with an MS2000 Marker on Shoreline",
+    "5a27fc8186f7746371546243": "Locate and mark the second T-90 tank with an MS2000 Marker on Shoreline",
+    "5a27fc9686f774675744bb60": "Locate and mark the third T-90 tank with an MS2000 Marker on Shoreline"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -61391,6 +62559,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -61600,6 +62773,10 @@
      "questItem": "Laptop with information"
     }
    ],
+   "objectiveTextById": {
+    "617bf2a6f8e6c97ec70878b7": "Locate and obtain the informant's briefcase on Lighthouse",
+    "617bf29a52e86c73d372a917": "Hand over the found package"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -61655,6 +62832,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -61931,6 +63113,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "675c1d6d59b0575973008fc9": "Use the transit from Customs to Shoreline",
+    "675c1dbdcca03cb7f61fc735": "Survive and extract from Shoreline"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -61981,6 +63167,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -62511,6 +63702,10 @@
      "count": 15
     }
    ],
+   "objectiveTextById": {
+    "6942b48e6998a45a7b90cd5b": "Eliminate PMC operatives while using an active headset without wearing any armor or helmet (10)",
+    "6942b72980d7f587b5b3ca86": "Eliminate PMC operatives while wearing the TSh-4M-L soft tank crew helmet (10)"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -62579,6 +63774,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -62622,6 +63822,9 @@
      "count": 8
     }
    ],
+   "objectiveTextById": {
+    "5c1fa9c986f7740de474cb3d": "Eliminate PMC operatives with common Scav weapons while wearing the specified gear on Customs (8)"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -62684,6 +63887,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -63333,6 +64541,11 @@
      "questItem": "Knossos senior manager's diary"
     }
    ],
+   "objectiveTextById": {
+    "67a0a91f4681b4e43d13892b": "Locate the Knossos LLC senior manager's car on Ground Zero",
+    "67a0ab610345d81cb3cbb24c": "Locate and obtain the manager's diary",
+    "67a0ab83359e2d00cf9d6b06": "Hand over the diary"
+   },
    "minPlayerLevel": 15,
    "requires": [
     {
@@ -63382,6 +64595,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -63481,6 +64699,11 @@
      "questItem": "Bank case"
     }
    ],
+   "objectiveTextById": {
+    "5968981986f7740d1648df42": "Locate and obtain the valuable item in dorm room 203 on Customs",
+    "5a3fc03286f77414d64f9941": "(Optional) Gain access to dorm room 214 on Customs",
+    "5968988286f7740d14064724": "Hand over the valuable item"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -63543,6 +64766,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -63635,6 +64863,10 @@
      "questItem": "TerraGroup shipment report"
     }
    ],
+   "objectiveTextById": {
+    "675c04b3fc6b273a36ed294a": "Locate and obtain the TerraGroup shipment lists on Customs",
+    "675c04c1b68cc8180efb38c6": "Hand over the found information"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -63690,6 +64922,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -63731,6 +64968,9 @@
      "questItem": "Package for Prapor"
     }
    ],
+   "objectiveTextById": {
+    "673f34c674ec5bf80ea69eee": "Hand over the package from the depot on Woods"
+   },
    "requires": [
     {
      "task": "6752f6d83038f7df520c83e8",
@@ -63775,6 +65015,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "requires": {
      "src": "tarkov.dev",
@@ -64187,6 +65432,11 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "657333fee3fbaa77d3b5cd7c": "Locate the Utyos machine gun on Ground Zero",
+    "6573340403f471fb2bb12df1": "Locate the AGS grenade launcher on Ground Zero",
+    "657334311dbb8b7569bb83c4": "Eliminate any target on Ground Zero (5)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -64233,6 +65483,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -65702,6 +66957,11 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5c10f94386f774227172c574": "Locate and mark the first fuel stash with an MS2000 Marker on Woods",
+    "5c10f94386f774227172c575": "Locate and mark the second fuel stash with an MS2000 Marker on Woods",
+    "5c10f94386f774227172c576": "Locate and mark the third fuel stash with an MS2000 Marker on Woods"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -65757,6 +67017,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -67494,6 +68759,9 @@
      "count": 3
     }
    ],
+   "objectiveTextById": {
+    "5c9b5e3f86f7744aab7329b5": "Eliminate any target with pistols on Factory (10)"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -67545,6 +68813,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -67614,6 +68887,11 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "626c317e05f287031503c7fd": "Locate and neutralize Knight (in one raid)",
+    "626c318147ea7f506e5493c7": "Locate and neutralize Big Pipe (in one raid)",
+    "626c3183af14a41d9a1f4ea7": "Locate and neutralize Birdeye (in one raid)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -67680,6 +68958,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -67972,6 +69255,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "597867e986f7741b265c6bd3": "Hand over the item: BNTI Module-3M body armor",
+    "5ab8d44c86f7745b2325bd0c": "Hand over the item: TOZ-106 20ga bolt-action shotgun"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -68027,6 +69314,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -68239,6 +69531,10 @@
      "questItem": "MBT Integrated Navigation System"
     }
    ],
+   "objectiveTextById": {
+    "6092942fb0f07c6ea1246e3a": "Obtain the MBT Integrated Navigation System on Reserve",
+    "6092947635915c62b44fd05b": "Hand over the navigation system"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -68293,6 +69589,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -68471,6 +69772,9 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "68341b407559f4e6d50bc0d1": "Hand over the found in raid items: Class 4 or higher ballistic plates (3)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -68509,6 +69813,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -68991,6 +70300,9 @@
      "count": 15
     }
    ],
+   "objectiveTextById": {
+    "60e729cf5698ee7b0505743c": "Eliminate any target without wearing any armor and helmets on Woods (10)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -69048,6 +70360,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-11",
@@ -69090,6 +70407,9 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "6745fd2e3d6070c3563039a9": "Eliminate Scavs on Woods (10)"
+   },
    "requires": [
     {
      "task": "673f4e956f1b89c7bc0f56ef",
@@ -69141,6 +70461,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "requires": {
      "src": "tarkov.dev",
@@ -70139,6 +71464,9 @@
      "count": 35
     }
    ],
+   "objectiveTextById": {
+    "67b45467814ab0ffa000c7ea": "Eliminate PMC operatives with grenades or grenade launchers (20)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -70186,6 +71514,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -70991,6 +72324,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5a3ba51d86f7743af1475c3a": "Locate the missing informant on Shoreline",
+    "5a28051286f7740eb10bac04": "Survive and extract from the location"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -71053,6 +72390,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -71185,6 +72527,13 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "63a98cfbc31b00242d28a95b": "Scout the Shestyorochka store at Nikitskaya street",
+    "63a98d24655ec5555b4aa9e7": "Scout the Sparja store at Primorsky ave",
+    "63a98d39da7999196148ba3a": "Scout the Sparja store in Pinewood hotel",
+    "63a98d60c0f61a5d8731cd9f": "Scout the Goshan store in Concordia",
+    "63a98cdf655ec5555b4aa9e6": "Hand over the found in raid item: Salty Dog beef sausage"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -71239,6 +72588,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -71526,6 +72880,12 @@
      "questItem": "Secure Folder 0048"
     }
    ],
+   "objectiveTextById": {
+    "596b44b686f77457cb50ecca": "Locate and obtain the hidden valuable cargo on Customs",
+    "5a3fbabc86f774231d75afbe": "(Optional) Locate the messenger's body on Customs",
+    "5a3fbab086f77421593d9bf0": "(Optional) Locate the place where the messenger hid the cargo on Customs",
+    "596b450986f7745a7e510b54": "Hand over the valuable cargo"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -71581,6 +72941,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -71624,6 +72989,9 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "666333e93962787efd64004a": "Eliminate PMC operatives while wearing 6B43 body armor and Kiver-M helmet on Factory (5)"
+   },
    "minPlayerLevel": 27,
    "requires": [
     {
@@ -71673,6 +73041,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -72375,6 +73748,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "5d2733c586f7741dea4f3072": "Eliminate PMC operatives in the Dorms area on Customs (3)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -72429,6 +73805,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -74182,6 +75563,9 @@
      "count": 15
     }
    ],
+   "objectiveTextById": {
+    "66696cd3997231debad40d19": "Eliminate any target that is using a 20+ container size backpack (15)"
+   },
    "minPlayerLevel": 35,
    "requires": [
     {
@@ -74222,6 +75606,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -74930,6 +76319,9 @@
      "count": 25
     }
    ],
+   "objectiveTextById": {
+    "59674d5186f77446b852d5f7": "Eliminate Scavs with AKS-74U on Customs (25)"
+   },
    "minPlayerLevel": 19,
    "requires": [
     {
@@ -74980,6 +76372,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -75017,6 +76414,9 @@
      "count": 15
     }
    ],
+   "objectiveTextById": {
+    "59674d5186f00443b872d5f7": "Eliminate Scavs with AKM series weapons on Shoreline (15)"
+   },
    "minPlayerLevel": 17,
    "requires": [
     {
@@ -75065,6 +76465,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -75915,6 +77320,9 @@
      "count": 2
     }
    ],
+   "objectiveTextById": {
+    "5d25d4e786f77442734d335d": "Eliminate PMC operatives with headshots while suffering from the Tremor status effect (2)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -75956,6 +77364,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -76328,6 +77741,12 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5d25beca86f77409dd5cdbb3": "Stash an Iskra ration pack in the ZB-016 bunker on Woods",
+    "5d25beeb86f77443fe45765f": "Stash a Bottle of water (0.6L) in the ZB-016 bunker on Woods",
+    "5d2deedc86f77459121c3118": "Stash an Iskra ration pack in the ZB-014 bunker on Woods",
+    "5d2defc586f774591510e6b9": "Stash a Bottle of water (0.6L) in the ZB-014 bunker on Woods"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -76377,6 +77796,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -76414,6 +77838,9 @@
      "count": 3
     }
    ],
+   "objectiveTextById": {
+    "5d25d09286f77444001e284c": "Eliminate Scavs in a single raid without using any medicine on Woods (3)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -76464,6 +77891,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -76501,6 +77933,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "5d25af3c86f77443ff46b9e7": "Eliminate PMC operatives without wearing any body armor or plate carriers (5)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -76550,6 +77985,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -76584,6 +78024,9 @@
      "count": 3
     }
    ],
+   "objectiveTextById": {
+    "5d25c8c986f77443e47ad47a": "Eliminate Scavs while suffering from the Pain status effect (3)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -76624,6 +78067,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -76676,6 +78124,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5d25c5a186f77443fe457661": "Gain the Dehydration status effect and maintain it for 5 minutes (On any location excluding Factory)",
+    "5d9f035086f7741cac4a9713": "Survive and extract from the location"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -76729,6 +78181,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -76804,6 +78261,9 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "5c1b765d86f77413193fa4f2": "Eliminate PMCs with SR-25 with Hybrid 46 suppressor and S&B PM II 1-8x24 scope on Lighthouse or Reserve (6)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -76851,6 +78311,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-10",
@@ -76885,6 +78350,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "5bc850d186f7747213700892": "Eliminate Scavs from over 40 meters away with a bolt-action rifle with iron sights (5)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -76926,6 +78394,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -76964,6 +78437,10 @@
      "count": 2
     }
    ],
+   "objectiveTextById": {
+    "5bd983d886f7747ba73fc246": "Shoot any target in the legs from over 40 meters away with a bolt-action rifle (3)",
+    "5bd9944f86f774035c4877f3": "Shoot any target in the head from over 40 meters away with a bolt-action rifle (2)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -77006,6 +78483,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -77035,6 +78517,9 @@
      "count": 3
     }
    ],
+   "objectiveTextById": {
+    "5bc47e3e86f7741e6b2f3332": "Eliminate PMC operatives from less than 25 meters away with a bolt-action rifle (3)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -77075,6 +78560,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -77263,6 +78753,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "5bc483ba86f77415034ba8d0": "Eliminate Sniper Scavs with a bolt-action rifle (5)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -77308,6 +78801,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "minPlayerLevel": {
      "src": "tarkov.dev",
      "asOf": null,
@@ -77342,6 +78840,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "5bc485b586f774726473a858": "Eliminate PMC operatives with a suppressed bolt-action rifle (5)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -77383,6 +78884,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -77574,6 +79080,11 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "669fb5c58c03e61e1a33ddf0": "Install a WI-FI Camera in the first crane's cockpit on Factory",
+    "669fb5c7d5fbaaa7b285e83d": "Install a WI-FI Camera in the second crane's cockpit on Factory",
+    "669fb5c9d798aa41b9bd60b5": "Install a WI-FI Camera in the third crane's cockpit on Factory"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -77628,6 +79139,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -78088,6 +79604,9 @@
      "count": 12
     }
    ],
+   "objectiveTextById": {
+    "665eed28bdbf7b1f92394ecb": "Eliminate Scavs during 22:00-07:00 on Shoreline (12)"
+   },
    "minPlayerLevel": 15,
    "requires": [
     {
@@ -78136,6 +79655,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -78744,6 +80268,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "68341eb25619c8e2a9031504": "Win a match in CheckPoint or LastHero mode in Arena"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -78782,6 +80309,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -78878,6 +80410,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "68341f6fe2e7ef70a3060a0d": "Win a match in TeamFight, BlastGang, or CheckPoint mode in Arena"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -78916,6 +80451,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -79012,6 +80552,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "6834202a186efa3c5b07f9a5": "Win a match while claiming at least 3rd place in TeamFight, BlastGang, or CheckPoint mode in Arena (2)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -79050,6 +80593,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -79320,6 +80868,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "68342265a8d674b5740b31f3": "Win a match claiming at least 2nd place in the team in TeamFight, BlastGang, or CheckPoint mode"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -79358,6 +80909,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -79454,6 +81010,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "6978a2bc18130b67d9156d7a": "Win two matches in a row in TeamFight, BlastGang, or CheckPoint mode (2)"
+   },
    "minPlayerLevel": 10,
    "requires": [
     {
@@ -79492,6 +81051,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -79578,6 +81142,11 @@
      "questItem": "Working hard drive"
     }
    ],
+   "objectiveTextById": {
+    "63ac19f9de609574d97adf78": "Locate the radar station commandant's office on Lighthouse",
+    "62863b9ae5b4f5010e0d30c8": "Locate and obtain the HDD with archived flight routes inside the room",
+    "626c30c55bef5d7d590bd41b": "Hand over the drive"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -79640,6 +81209,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -79727,6 +81301,11 @@
      "questItem": "Secure Folder 0013"
     }
    ],
+   "objectiveTextById": {
+    "5a2819c886f77460ba564f38": "Obtain any information about the second part of the cargo shipment",
+    "5a3ba76486f7744d39436da2": "Locate the room with reservoirs in the Health Resort on Shoreline",
+    "5a2e966286f7742f6c4f27a6": "Hand over the retrieved information"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -79782,6 +81361,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -79872,6 +81456,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "60e8174d0367e10a450f7818": "Hand over the found in raid item: Dogtag BEAR (Prestige 1 or higher) (10)",
+    "60e81795479eef59b01b0bdf": "Hand over the found in raid item: Dogtag USEC (Prestige 1 or higher) (10)"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -79933,6 +81521,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -80310,6 +81903,11 @@
      "questItem": "Chemical container with samples"
     }
    ],
+   "objectiveTextById": {
+    "63a7d64710b7a13eb015961f": "Locate the chemical laboratory on Streets of Tarkov",
+    "639135e0fa894f0a866afde7": "Obtain the container with drug samples",
+    "639135e0fa894f0a866afde8": "Hand over the container"
+   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -80364,6 +81962,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -81253,6 +82856,9 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "5c9de99286f7741ced54c902": "Eliminate Scavs with an M4A1, M16, ADAR, or TX-15 on Shoreline (10)"
+   },
    "minPlayerLevel": 14,
    "requires": [
     {
@@ -81302,6 +82908,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -82148,6 +83759,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "675c1cf4a757ddd00404f0a6": "Locate the secret exfil on Customs",
+    "676ab31c058363b09072c78e": "(Optional) Obtain the special item to extract through the secret exfil"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -82204,6 +83819,11 @@
      "asOf": null,
      "dating": "none"
     },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
     "loyalty": {
      "src": "observed",
      "asOf": "2026-08-11",
@@ -82243,6 +83863,9 @@
      "count": 30
     }
    ],
+   "objectiveTextById": {
+    "63a9b229813bba58a50c9ee6": "Eliminate any target with AR-15 weapons from over 100 meters away on Reserve, Lighthouse, Shoreline, or Ground Zero (30)"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -82304,6 +83927,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -82387,6 +84015,10 @@
      "questItem": "Registered letter"
     }
    ],
+   "objectiveTextById": {
+    "6391359b9444fb141f4e6ee7": "Locate and obtain the registered mail on Streets of Tarkov",
+    "6391359b9444fb141f4e6ee8": "Hand over the letter"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -82441,6 +84073,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -82515,6 +84152,10 @@
      "questItem": "Secure Flash drive"
     }
    ],
+   "objectiveTextById": {
+    "639135534b15ca31f76bc318": "Obtain the digital storage device from the car dealership manager's office on Streets of Tarkov",
+    "639135534b15ca31f76bc319": "Hand over the storage device"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -82578,6 +84219,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
