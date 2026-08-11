@@ -24,6 +24,7 @@ just about what those four publish.
 | **Story task locations** | The overlay has the chapters. It carries no coordinates at all, so every pin for them is placed here |
 | **9 hand-placed interactables and a hazard area** | Power panels, switches, the Shoreline sniper zone |
 | **305 quests read off the game screen** | Names, objectives, trader, loyalty tab and status, with the date each was seen |
+| **88 quests the game files under Essential** | Its trader list is tabbed by loyalty level with one more tab beside them, and no source publishes which tab anything is in. `traderTab` is that tab: LL1 64, LL2 74, LL3 59, LL4 20, Essential 88 |
 | **Objectives worded as the game words them** | 223 quests carry the wording against the objective ids a tracker ticks with. Not a formatting preference: the wiki asks for 2 ComTac II headsets where the game asks for one, sends *Job for a Patriot* to three maps it no longer uses, and gives *No Swiping* no map at all |
 | **21 objectives the game no longer has** | Published by tarkov.dev and gone from the card. *Gratitude* asks for two of the four items it lists, *The Huntsman Path - Big Game* for one of four |
 | **33 quests flagged as removed** | The wiki says so on the page; nobody publishes it as data, so tools keep listing quests BSG deleted |
