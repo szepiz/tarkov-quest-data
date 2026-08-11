@@ -256,7 +256,11 @@ something you can spot. A wrong date silently wins a merge it should have lost.
 Two self-contained HTML files. Open them in a browser without cloning anything:
 
 - **[Quest trees](https://szepiz.github.io/tarkov-quest-data/view/tree.html)**
-  (`view/tree.html`) draws each trader's quest tree.
+  (`view/tree.html`) draws each trader's quest tree. Prerequisite edges are drawn
+  by what they ask for — completed, either outcome, only if **failed**, or a
+  choice of several. A chain that crosses traders is followed in both directions:
+  under each box, what fed it on the left and what it feeds on the right, and
+  clicking either lands on that quest in the other trader's tree.
 - **[Source comparison](https://szepiz.github.io/tarkov-quest-data/view/index.html)**
   (`view/index.html`) puts every source side by side for a quest and highlights
   where they disagree. Filters for source disagreements, mode differences,

@@ -91,6 +91,10 @@
   .modeonly { fill: var(--cold); font-size: 10px; letter-spacing: .08em; }
   .cont  { fill: #cfcbbf; font-size: 10px; letter-spacing: .04em; }
   .cont-go { fill: var(--gold); font-size: 10px; letter-spacing: .06em; }
+  /* the two ways out of this tree. Gold means clickable everywhere else here,
+     so they need no "click to switch" line under them. */
+  .jump { fill: var(--gold); font-size: 10px; letter-spacing: .05em; cursor: pointer; }
+  .jump:hover { fill: #f0e2ad; text-decoration: underline; }
   .failnote { fill: var(--hot); font-size: 10px; letter-spacing: .06em; }
   .ornote   { fill: var(--cold); font-size: 10px; letter-spacing: .04em; }
   .armnote  { fill: var(--dim); font-size: 10px; letter-spacing: .04em; font-style: italic; }
@@ -299,16 +303,64 @@ function draw() {
     if ((n.failAfterNames || []).length) under('failnote', 'only if you FAILED ' + n.failAfterNames.join(' and '));
     if ((n.orAfter || []).length) under('ornote', 'or after ' + n.orAfter.join(' / '));
     if (n.armOf) under('armnote', `one of ${n.armOf} versions, you are offered the one for your branch`);
-    if (n.continues) {
-      under('cont', 'continues at ' + n.continues.join(', '));
-      under('cont-go', 'click to switch');
+    // WHERE THE CHAIN ENTERS AND LEAVES THIS TREE.
+    //
+    // Left is what fed this quest, right is what it feeds, which is the same
+    // order the eye reads and the same direction the edges run. Each names the
+    // trader and jumps to them, landing ON the related quest rather than just
+    // opening their tree — a trader can hold ninety boxes and "it continues at
+    // Prapor" leaves you hunting for which one.
+    const linkLabel = (list, dir) => {
+      const names = list.map((l) => l.trader + (l.n > 1 ? ` (${l.n})` : '')).join(', ');
+      return dir < 0 ? '\u2190 comes from ' + names : 'continues at ' + names + ' \u2192';
+    };
+    // Fitted to the box. A label wider than the box it belongs to runs under its
+    // neighbour and reads as that quest's, which is worse than saying less.
+    const ROOM_J = w - 6;
+    const fitLabel = (list, dir) => {
+      const full = linkLabel(list, dir);
+      if (widthOf(full, 'jump') <= ROOM_J) return full;
+      if (list.length > 1) {
+        const total = list.reduce((sum, l) => sum + l.n, 0);
+        const short = dir < 0
+          ? `\u2190 comes from ${list.length} traders (${total} quests)`
+          : `continues at ${list.length} traders (${total} quests) \u2192`;
+        if (widthOf(short, 'jump') <= ROOM_J) return short;
+      }
+      let cut = full;
+      while (cut.length > 6 && widthOf(cut + '…', 'jump') > ROOM_J) cut = cut.slice(0, -1);
+      return cut + '…';
+    };
+    const linkAt = (list, dir, x, anchor, y) => {
+      const label = fitLabel(list, dir);
+      const t = txt(x, y, 'jump', label, { 'text-anchor': anchor });
+      const one = list.length === 1 && list[0].n === 1 ? list[0] : null;
+      t.appendChild(el('title', {}, one
+        ? `${one.name} — click to open ${one.trader}'s tree there`
+        // every trader, spelled out, because the label may have stopped doing so
+        : (dir < 0 ? 'comes from ' : 'continues at ')
+          + list.map((l) => `${l.trader}${l.n > 1 ? ` (${l.n} quests)` : ''}`).join(', ')
+          + ` — click to open ${list[0].trader}`));
+      t.addEventListener('click', (ev) => {
+        ev.stopPropagation();
+        const to = TR().findIndex((x2) => x2.name === list[0].trader);
+        if (to >= 0) go(to, list[0].id);
+      });
+      grp.appendChild(t);
+    };
+    if (n.comesFrom || n.continues) {
+      const wIn = n.comesFrom ? widthOf(fitLabel(n.comesFrom, -1), 'jump') : 0;
+      const wOut = n.continues ? widthOf(fitLabel(n.continues, 1), 'jump') : 0;
+      // Both on one line unless they would meet. A collision here is not a
+      // cosmetic problem: the two labels are different claims about the quest
+      // and overlapping them makes one unreadable.
+      const together = wIn + wOut + 14 <= w;
+      if (n.comesFrom) linkAt(n.comesFrom, -1, p.x + 2, 'start', by);
+      if (n.continues) linkAt(n.continues, 1, p.x + w - 2, 'end', together ? by : by + (n.comesFrom ? 12 : 0));
+      by += (together || !n.comesFrom || !n.continues) ? 12 : 24;
     }
     grp.addEventListener('click', (ev) => {
       ev.stopPropagation();
-      if (n.continues && lit === n.id) {
-        const to = TR().findIndex((x) => x.name === n.continues[0]);
-        if (to >= 0) return go(to);
-      }
       lit = lit === n.id ? null : n.id;
       draw();
     });
@@ -325,7 +377,9 @@ function draw() {
   document.querySelectorAll('.mtabs div').forEach((c) => c.classList.toggle('on', c.dataset.mode === mode));
 }
 
-const go = (i) => { idx = i; lit = null; draw(); fit(); };
+// `litId` lights the quest you followed the link to, so arriving in a tree of
+// ninety boxes does not start with a search for the one you asked about.
+const go = (i, litId = null) => { idx = i; lit = litId; draw(); fit(); };
 function apply() { $('cam').setAttribute('transform', `translate(${cam.x},${cam.y}) scale(${cam.k})`); }
 function fit() {
   const s = $('stage').getBoundingClientRect();

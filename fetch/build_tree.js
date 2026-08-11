@@ -326,10 +326,32 @@ function treesFor(quests) {
         n.failAfterNames = n.failAfter.map((p) => (quests.get(p) || {}).name).filter(Boolean);
       }
     }
-    // where a quest of THIS trader unlocks one belonging to another
+    // WHERE THE CHAIN LEAVES THIS TREE, AND WHERE IT ENTERS IT.
+    //
+    // Only "continues at" existed, so a chain crossing traders could be
+    // followed one way. Swift Retribution continues at Prapor and Lightkeeper,
+    // and nothing on the box says it comes from Skier — to find that you open
+    // every other trader and look for the name.
+    //
+    // One entry per other trader, carrying a quest id so the click can land on
+    // the quest rather than just the trader. Where a trader has several, the
+    // first by name, which is at least stable between builds.
+    const linkRow = (list) => {
+      const byTrader = new Map();
+      for (const q of list.sort((a, b) => a.name.localeCompare(b.name))) {
+        if (!byTrader.has(q.trader)) byTrader.set(q.trader, { trader: q.trader, id: q.id, name: q.name, n: 0 });
+        byTrader.get(q.trader).n++;
+      }
+      return [...byTrader.values()];
+    };
     for (const n of nodes) {
-      const onward = [...quests.values()].filter((q) => q.trader !== tr.name && (q.prereq || []).includes(n.id));
-      if (onward.length) n.continues = [...new Set(onward.map((q) => q.trader))];
+      const onward = [...quests.values()]
+        .filter((q) => q.trader !== tr.name && (q.prereq || []).includes(n.id));
+      if (onward.length) n.continues = linkRow(onward);
+      // its own prerequisites, where they belong to somebody else
+      const back = (n.prereq || []).map((p) => quests.get(p))
+        .filter((q) => q && q.trader !== tr.name);
+      if (back.length) n.comesFrom = linkRow(back);
     }
     out.push({
       name: tr.name, id: tr.id,
@@ -392,9 +414,11 @@ for (const mode of MODES) {
     + (only ? `, ${only} of them in no other mode` : ''));
   for (const t of trees) {
     const cross = t.nodes.filter((n) => n.continues).length;
+    const inbound = t.nodes.filter((n) => n.comesFrom).length;
     const longest = t.nodes.reduce((a, n) => (n.name.length > a.length ? n.name : a), '');
     console.log(`     ${t.name.padEnd(13)} ${String(t.count).padStart(3)} quests, ${t.edges.length} edge(s), `
       + `${t.rows} row(s), widest row ${t.widest}${cross ? `, ${cross} onward` : ''}`
+      + `${inbound ? `, ${inbound} from elsewhere` : ''}`
       + `${data.portraits[t.id] ? '' : '  [no portrait]'}   longest: "${longest}"`);
   }
 }
