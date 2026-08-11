@@ -47,9 +47,21 @@ These files are **baked output copied out of the tracker that produced them**
 (`szepiz/tarkov-questing-companion`), where the map editor and its generators
 live. The editor's working file is not here.
 
-That leaves a real seam: **re-baking in the tracker does not update this folder.**
-Until the generators write here directly, a re-bake needs a re-copy, and the
-`bakedAt` date in each file is what tells you how stale it is.
+That used to leave a real seam — re-baking in the tracker did not update this
+folder, and copying by hand is what let it drift. It is a script now, run from
+the tracker:
+
+    node _dev/export_mapdata.js            write here
+    node _dev/export_mapdata.js --check    report differences, write nothing
+
+It reads the BAKED files rather than the editor's working file, so what ships in
+the app and what ships in the API come from one source and a bake that was never
+run cannot be exported by accident. It refuses to write if the tracker's
+correction categories grow one it does not know, because silently dropping a
+whole category is the failure worth guarding against.
+
+Then rebuild: `node fetch/build_maps.js`. The `bakedAt` date in each file still
+says how old the bake is.
 
 ## Licensing
 

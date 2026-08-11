@@ -155,6 +155,39 @@ read them: this banner, the overlay's objective corrections, and `failConditions
 
 ---
 
+## A quest unlocks when you ACCEPT the one before it, not when you finish it
+
+Measured on 2026-08-11, when the owner asked for prerequisite gating back after
+Knock-Knock listed itself with the whole Lightkeeper line untouched.
+
+Every requirement in `requires` says `["complete"]`. Judging the collection by
+that rule — a quest may only be offered once its prerequisites are COMPLETED —
+contradicts the game **43 times**. Allowing an *accepted* prerequisite to count
+as well: **0**.
+
+| rule for a `["complete"]` row | contradictions with the game |
+|---|---|
+| the prerequisite must be completed | 43 |
+| completed **or accepted** | **0** |
+
+*Hot Delivery* is the plainest case. Its prerequisite is *Gratitude*, which this
+profile has ACCEPTED and not handed in — and the trader is offering Hot Delivery
+anyway. Of the 52 quests a completed-only rule would have held back, **17 are
+waiting on a quest the collection lists as active and not one on a quest it
+lists as completed**.
+
+So the chain is not wrong about the ORDER. It is measured against the wrong
+event, and every consumer reading `["complete"]` as "hand it in first" will hold
+back quests the game is handing over.
+
+The residue after that correction is small and has one shape: on the seven
+traders captured in full, 76 quests are correctly held back and 24 are not, and
+**every one of the 24 is blocked by a prerequisite the collection has never
+seen** — which is what a renamed or deleted quest tarkov.dev still publishes
+looks like from here. None is blocked by a prerequisite whose state is known.
+
+---
+
 ## The published prerequisite chain isn't what unlocks quests
 
 Four quests are offered at a loyalty level **below** the quest tarkov.dev says
