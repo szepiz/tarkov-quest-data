@@ -399,6 +399,43 @@ const wikiLinkFor = (currentName, wq) => {
   return null;
 };
 
+// ---- the matcher, exercised before it is trusted
+//
+// Every one of these has a known answer, and each is a bug that has actually
+// happened: a regex whose word boundaries turned into control characters and
+// matched nothing; identical all-boilerplate lines scoring zero against each
+// other; a plural blocking a match; and a line pairing with an objective that
+// asks for something else entirely.
+{
+  const cases = [
+    ['verb: eliminate', () => askedFor('Eliminate any target at the smuggler bases on Shoreline (10)') === 'eliminate'],
+    ['verb: hand over', () => askedFor('Hand over the items (2)') === 'handover'],
+    ['verb: stash', () => askedFor('Stash a Shemagh (Green) at the sawmill docks on Woods') === 'stash'],
+    ['verb: locate reads as find', () => askedFor("Locate the smugglers' base on Shoreline") === 'find'],
+    ['verb: silent where it should be', () => askedFor('Survive and extract from the location') === null],
+    ['verb: optional prefix ignored', () => askedFor('(Optional) Obtain the key to the fuel tanker truck') === 'find'],
+    ['a compound description offers both', () => {
+      const o = offers('Obtain 3 packs of Gunpowder "Kite" and stash them in the designated spot');
+      return o.has('find') && o.has('stash');
+    }],
+    ['boilerplate matches itself', () => objOverlap('Hand over the found item', 'Hand over the found item') === 1],
+    ['plurals match', () => objOverlap('Find the item in raid: PC CPU', 'Find PC CPUs in raid') > 0.5],
+    ['different items do NOT match', () => objOverlap('Find the item in raid: PC CPU',
+      'Find the item in raid: Military power filter') < 0.5],
+    ['an eliminate line will not take a locate objective', () => {
+      const objs = [{ id: 'a', type: 'visit', description: "Locate the smugglers' base on Shoreline" },
+        { id: 'b', type: 'shoot', description: 'Eliminate any target in the base area' }];
+      const m = matchGameLines(objs, ['Eliminate any target at the smuggler bases on Shoreline or Interchange (10)']);
+      return m === null || m.hit[0].id === 'b';
+    }],
+  ];
+  const broken = cases.filter(([, run]) => { try { return !run(); } catch { return true; } }).map(([n]) => n);
+  if (broken.length) {
+    console.error('REFUSING TO BUILD: the objective matcher is not behaving\n  ' + broken.join('\n  '));
+    process.exit(1);
+  }
+}
+
 const allIds = [...new Set(MODES.flatMap((m) => [...M[m].keys()]))];
 const quests = [];
 let removedCount = 0;
