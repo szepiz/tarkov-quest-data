@@ -83,22 +83,47 @@ const objOverlap = (a, b) => {
   for (const w of A) if (B.has(w)) n++;
   return n / Math.max(A.size, B.size);
 };
-function objectiveTextById(objectives, gameLines) {
+// EVERY GAME LINE CLAIMS AN OBJECTIVE, not the other way round. Requiring each
+// published objective to find a line meant the match failed outright whenever
+// the game had fewer — which is precisely the quests 1.1.0 cut down, the ones
+// most worth correcting. Driving it from the game's side also identifies the
+// leftovers, which is the other half of the answer.
+function matchGameLines(objectives, gameLines) {
   if (!(objectives || []).length || !(gameLines || []).length) return null;
-  if (gameLines.length < objectives.length) return null;
+  if (gameLines.length > objectives.length) return null;   // more on screen than published: not this quest's list
   const taken = new Set();
-  const out = {};
-  for (const o of objectives) {
-    const scored = gameLines.map((g, i) => ({ g, i, s: objOverlap(g, o.description) }))
+  const hit = [];
+  for (const line of gameLines) {
+    const scored = objectives.map((o, i) => ({ o, i, s: objOverlap(line, o.description) }))
       .filter((c) => !taken.has(c.i))
       .sort((x, y) => y.s - x.s);
     const best = scored[0], second = scored[1];
     if (!best || best.s < 0.5) return null;                    // nothing close enough
-    if (second && best.s - second.s < 0.05) return null;       // two lines fit equally
+    if (second && best.s - second.s < 0.05) return null;       // two objectives fit equally
     taken.add(best.i);
-    out[o.id] = best.g;
+    hit.push({ id: best.o.id, type: best.o.type, line });
   }
-  return out;
+  return { hit, rest: objectives.filter((o) => !hit.some((h) => h.id === o.id)) };
+}
+
+// WHICH LEFTOVERS ARE GONE FROM THE GAME, AND WHICH ARE MERELY NOT SHOWN YET.
+//
+// The game reveals a step once the step it depends on is done — the owner's own
+// example is that "Hand over the folder" only appears after you have picked the
+// folder up. So a leftover of a type the screen is NOT showing may simply be
+// waiting its turn, and dropping it would delete a real objective.
+//
+// A leftover of a type ALREADY ON THE SCREEN is a different matter: a fourth
+// stash step cannot be hidden behind the second stash step. Those are the 1.1.0
+// cuts — Gratitude asks for two of the four items, Peacekeeping Mission names
+// four map pairs where tarkov.dev has six.
+//
+// Measured over the collection the split is 21 gone against 28 merely unshown,
+// and every one of the 28 is a hand-over, an extract, or a step behind a
+// "locate" the player has not done.
+function goneFromGame(match) {
+  const shown = new Set(match.hit.map((h) => h.type));
+  return match.rest.filter((o) => shown.has(o.type)).map((o) => o.id);
 }
 
 // ---- the wiki's ==Requirements== section
@@ -331,6 +356,7 @@ let droppedLevels = 0;
 let failGated = 0;
 let objTextById = 0;
 let objTextAmbiguous = 0;
+let objGone = 0;
 // { id, titles, at } — resolved after the loop, when every published name is
 // known. The wiki names an alternative by its CURRENT title, and the current
 // title of a renamed quest is only settled once its own record has been built.
@@ -442,8 +468,14 @@ for (const id of allIds) {
   // uses, and lists Pyramid Scheme's ten steps in an order the game does not.
   const obsObj = (obs && obs.objectives) || [];
   const otherText = (wikiSays && wObj.length) ? wObj : (dev.objectiveText || []);
-  const obsComplete = !!(obs && obs.status === 'completed');
-  const obsObjUsable = obsObj.length && (obsComplete || obsObj.length >= otherText.length);
+  // THE RECORD SAYS SO. `objectivesComplete` is required on every observation and
+  // means the whole card was captured; `objectivesHidden` names the steps the
+  // game was withholding. Between them there is nothing left to infer, and the
+  // count comparison that used to stand in for this called 36 complete records
+  // short — Gratitude among them, where the game asks for two of the four items
+  // the wiki lists.
+  const obsHidden = (obs && obs.objectivesHidden) || [];
+  const obsObjUsable = obsObj.length && !!(obs && obs.objectivesComplete) && !obsHidden.length;
   put('objectiveText', pick([
     obsObjUsable ? src.obs('objectiveText', obs.objectives) : null,
     wikiSays && wObj.length ? src.wiki('objectiveText', wObj) : null,
@@ -451,14 +483,13 @@ for (const id of allIds) {
   ].filter(Boolean)));
   // Only ever a note ON a published field: a provenance entry for a field that
   // was never written describes nothing, and the guard at the end rejects it.
-  if (obsObj.length && !obsComplete && fields.objectiveText !== undefined) {
+  if (obsObj.length && obs.status !== 'completed' && fields.objectiveText !== undefined) {
     provenance.objectiveText = provenance.objectiveText || {};
     provenance.objectiveText.note = obsObjUsable
-      ? `Read off the screen while the quest was ${obs.status}. The game hides a step until the step `
-        + `it depends on is done, but it showed ${obsObj.length} where the next source lists `
-        + `${otherText.length}, so nothing is being held back and the wording is the game's own.`
-      : `The in-game capture shows ${obsObj.length} objective(s), but the quest was `
-        + `${obs.status} when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list.`;
+      ? `Read off the screen while the quest was ${obs.status}, and recorded as the whole card `
+        + `(${obsObj.length} objective(s)) with nothing noted as withheld. ${otherText.length} elsewhere.`
+      : `The capture shows ${obsObj.length} objective(s) and names ${obsHidden.length} the game had not `
+        + `revealed yet (${obsHidden.join('; ')}), so it is a lower bound, not the list.`;
   }
   put('objectives', pick([src.dev('objectives', dev.objectives)]));
   // The same wording, keyed by objective id, for anything that renders the
@@ -466,10 +497,19 @@ for (const id of allIds) {
   // tarkov.dev verbatim — the ids, zones, items and keys are theirs, and a
   // consumer that wants their text should still get it.
   if (obsObjUsable && (dev.objectives || []).length) {
-    const byId = objectiveTextById(dev.objectives, obs.objectives);
-    if (byId) {
-      put('objectiveTextById', src.obs('objectiveTextById', byId));
+    const m = matchGameLines(dev.objectives, obs.objectives);
+    if (m) {
+      put('objectiveTextById', src.obs('objectiveTextById',
+        Object.fromEntries(m.hit.map((h) => [h.id, h.line]))));
       objTextById++;
+      const gone = goneFromGame(m);
+      if (gone.length) {
+        put('objectivesGone', src.obs('objectivesGone', gone));
+        provenance.objectivesGone.note = 'Published objectives the game does not show, of a type it IS '
+          + 'showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown '
+          + 'type are kept, because a "hand over" step only appears once the item is in hand.';
+        objGone += gone.length;
+      }
     } else {
       objTextAmbiguous++;
     }
@@ -643,9 +683,13 @@ for (const u of observed.unmatched) {
     trader: u.trader,
     map: u.location && u.location !== 'Any location' ? u.location : null,
   };
-  // Same rule as everywhere else: an unfinished quest's list is a lower bound,
-  // so it is not published as the objectives.
-  if (u.status === 'completed' && (u.objectives || []).length) f.objectives = u.objectives;
+  // Same rule as everywhere else, which is the RECORD's rule and not a guess
+  // about the status: a complete capture with nothing noted as withheld is the
+  // list. Without this the five quests no source has published no objectives at
+  // all, which is the one thing about them only we know.
+  if ((u.objectives || []).length && u.objectivesComplete && !(u.objectivesHidden || []).length) {
+    f.objectiveText = u.objectives;
+  }
   if (u.availableAtLoyalty != null) f.loyalty = [{ trader: u.trader, level: u.availableAtLoyalty }];
   quests.push({
     id: `observed:${u.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`,
@@ -754,6 +798,7 @@ for (const u of observed.unmatched) {
     + `; ${sibSets} quest(s) published once per arm`);
   console.log(`   ${objTextById} quest(s) carry the game's wording keyed by objective id`
     + `, ${objTextAmbiguous} left alone because the lines could not be told apart`);
+  console.log(`   ${objGone} published objective(s) the game no longer shows`);
   if (unresolved.length) console.log(`   alternative(s) the wiki names that no source has: ${unresolved.join('; ')}`);
 }
 

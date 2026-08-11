@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T12:13:44.476Z",
+ "generatedAt": "2026-08-11T12:49:21.178Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -735,7 +735,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -1232,15 +1232,6 @@
      "markerItem": "MS2000 Marker"
     }
    ],
-   "objectiveTextById": {
-    "675c0444db2b69f48942f37c": "Mark any of the special TerraGroup cargo boxes with an MS2000 Marker on Customs",
-    "675c04497439eaed82b6dfeb": "(Optional) Locate the second special TerraGroup cargo on Customs",
-    "675c044cc482cb252c5a92d4": "(Optional) Locate the third special TerraGroup cargo on Customs",
-    "675c044e3691199fe911a641": "(Optional) Locate the fourth special TerraGroup cargo on Customs",
-    "675c3fbeb402d4fa5589516f": "(Optional) Locate the fifth special TerraGroup cargo on Customs",
-    "675c3fd3a2c0bad5f70af01c": "(Optional) Locate the sixth special TerraGroup cargo on Customs",
-    "675c3fdd5af984e99db7b4e1": "(Optional) Locate the seventh special TerraGroup cargo on Customs"
-   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -1295,11 +1286,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -4187,10 +4173,6 @@
      "count": 1
     }
    ],
-   "objectiveTextById": {
-    "608a94101a66564e74191fc3": "Locate the secret underground bunker exit on Reserve",
-    "608a94ae1a66564e74191fc6": "Survive and extract from the location through the secret exit"
-   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -4253,11 +4235,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -5658,7 +5635,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 6, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 6 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -6097,8 +6074,7 @@
    "trader": "Skier",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Locate and obtain information on culinary secrets at the Beluga restaurant on Streets of Tarkov",
-    "Hand over the found data"
+    "Locate and obtain information on culinary secrets at the Beluga restaurant on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -6154,6 +6130,9 @@
      "questItem": "Chef's diary"
     }
    ],
+   "objectiveTextById": {
+    "64f6a9e6dd44b6417729b535": "Locate and obtain information on culinary secrets at the Beluga restaurant on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -6208,15 +6187,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -6364,7 +6348,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was failed. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was failed, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -6518,6 +6502,13 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5ae4508386f7741250488337": "Locate the AVOKADO store on Interchange",
+    "5ae450db86f7741250488359": "Locate the KOSTIN store on Interchange",
+    "5ae450ee86f7740f9307859d": "Locate the tRend store on Interchange",
+    "5ae4510786f7740fa614399f": "Locate the DINO CLOTHES store on Interchange",
+    "5ae4511d86f7740ffc31ccb5": "Locate the TOP BRAND store on Interchange"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -6580,6 +6571,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -7141,7 +7137,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 8 where the next source lists 8, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (8 objective(s)) with nothing noted as withheld. 8 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -7530,8 +7526,7 @@
    "trader": "Mechanic",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Locate the place of bloody broadcast inside the grocery store on Streets of Tarkov",
-    "Survive and extract from the location"
+    "Locate the place of bloody broadcast inside the grocery store on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -7564,6 +7559,9 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "63a7d99804d3dc28a52a2106": "Locate the place of bloody broadcast inside the grocery store on Streets of Tarkov"
+   },
    "minPlayerLevel": 15,
    "requires": [
     {
@@ -7604,15 +7602,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -18220,11 +18223,9 @@
    "trader": "Skier",
    "map": "Lighthouse",
    "objectiveText": [
-    "Obtain the False flash drive from the specified spot on Customs",
-    "Stash the False flash drive in the trash opposite of the stairs on the 3rd floor of the dorm on Customs",
-    "Stash 1 SV-98 sniper rifle in the trash opposite of the stairs on the 3rd floor of the dorm on Customs",
-    "Stash 1 Roler Submariner gold wrist watch in the trash opposite of the stairs on the 3rd floor of the dorm on Customs",
-    "You must not kill any Scavs on Customs while the task is active"
+    "Stash an AXMC sniper rifle in the trash bags at the chalet tennis court on Lighthouse",
+    "Stash a Roler Submariner gold wrist watch in the trash bags at the chalet tennis court on Lighthouse",
+    "Stash a Military flash drive in the trash bags at the chalet tennis court on Lighthouse"
    ],
    "objectives": [
     {
@@ -18372,10 +18373,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 5 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -18573,7 +18574,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -19139,7 +19140,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -19318,8 +19319,7 @@
    "trader": "Peacekeeper",
    "map": "Shoreline",
    "objectiveText": [
-    "Obtain the data in the computer room in the east wing of the Health Resort on Shoreline",
-    "Hand over the retrieved data to Peacekeeper"
+    "Locate and obtain the data in Health Resort east wing computer room on Shoreline"
    ],
    "objectives": [
     {
@@ -19361,6 +19361,9 @@
      "questItem": "Toughbook reinforced laptop"
     }
    ],
+   "objectiveTextById": {
+    "5a28183186f774398675d127": "Locate and obtain the data in Health Resort east wing computer room on Shoreline"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -19415,15 +19418,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -20136,8 +20144,8 @@
    ],
    "objectiveTextById": {
     "597a0be986f774273b74f673": "Locate and obtain any evidence that could help with the investigation on Customs",
-    "597a0bb486f77426d66c0634": "Locate and obtain any information that could help with the investigation on Customs",
     "597a0bf886f7742717106d13": "Hand over the evidence",
+    "597a0bb486f77426d66c0634": "Locate and obtain any information that could help with the investigation on Customs",
     "597a0bdb86f7742717106d12": "Hand over the info"
    },
    "minPlayerLevel": 10,
@@ -20663,7 +20671,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -20800,7 +20808,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -20979,10 +20987,8 @@
    "name": "Chumming",
    "trader": "Skier",
    "objectiveText": [
-    "Stash 3 Golden neck chains under the mattress next to BTR-82A in Generic Store on Interchange",
-    "Stash 3 Golden neck chains in the microwave on the 3rd floor of the dorm on Customs",
-    "Stash 3 Golden neck chains in the middle wooden cabin at the sawmill on Woods",
-    "Eliminate 5 PMC operatives in the time period of 22:00-10:00 on Interchange"
+    "Stash Golden neck chains in the microwave on the 3rd floor of the dorm on Customs (3)",
+    "Stash Golden neck chains in the middle wooden cabin at the sawmill on Woods (3)"
    ],
    "objectives": [
     {
@@ -21065,6 +21071,13 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "5b4796c086f7745877352c2c": "Stash Golden neck chains in the microwave on the 3rd floor of the dorm on Customs (3)",
+    "5b47971086f774587877ad34": "Stash Golden neck chains in the middle wooden cabin at the sawmill on Woods (3)"
+   },
+   "objectivesGone": [
+    "5b47968e86f7745877352c28"
+   ],
    "loyalty": [
     {
      "trader": "Skier",
@@ -21116,15 +21129,26 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -21316,7 +21340,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -21905,7 +21929,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -24242,8 +24266,7 @@
    "objectiveText": [
     "Locate the chairman's house in the abandoned village on Shoreline",
     "Locate the fisherman's house in the abandoned village on Shoreline",
-    "Locate the priest's house in the abandoned village on Shoreline",
-    "Survive and extract from Shoreline with the \"Survived\" exit status"
+    "Locate the priest's house in the abandoned village on Shoreline"
    ],
    "objectives": [
     {
@@ -24314,6 +24337,11 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5d357b6c86f774588d4d7e25": "Locate the chairman's house in the abandoned village on Shoreline",
+    "5d357b9586f7745b422d653f": "Locate the fisherman's house in the abandoned village on Shoreline",
+    "5d357bb786f774588d4d7e27": "Locate the priest's house in the abandoned village on Shoreline"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -24368,15 +24396,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -24990,7 +25023,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 10 where the next source lists 10, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (10 objective(s)) with nothing noted as withheld. 10 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -25241,7 +25274,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -25688,9 +25721,7 @@
    "name": "Decisions, Decisions [PVE ZONE]",
    "trader": "Ref",
    "objectiveText": [
-    "Return to the old champion's hideout on Customs",
-    "Locate and obtain the compromising information on Ref",
-    "Hand over the found info"
+    "Locate and obtain the compromising information on Ref"
    ],
    "objectives": [
     {
@@ -25731,6 +25762,9 @@
      "questItem": "Ref dirt"
     }
    ],
+   "objectiveTextById": {
+    "6834254f2f0e2a7eb90b62f1": "Locate and obtain the compromising information on Ref"
+   },
    "minPlayerLevel": null,
    "requires": [
     {
@@ -25768,15 +25802,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was failed when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was failed, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "wiki",
@@ -25887,7 +25926,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -26097,6 +26136,9 @@
    "name": "Demonstration Model",
    "trader": "Peacekeeper",
    "map": "Reserve",
+   "objectiveText": [
+    "Eliminate any target with headshots with 7.62x51 assault rifles or DMRs on Reserve (15)"
+   ],
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -26121,6 +26163,11 @@
      "dating": "exact"
     },
     "map": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectiveText": {
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact"
@@ -26541,7 +26588,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -26948,7 +26995,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -27314,7 +27361,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -27542,7 +27589,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -27848,10 +27895,10 @@
    ],
    "objectiveTextById": {
     "5a3ba34286f7744eb240406a": "Locate the first UAV crash site on Shoreline",
-    "5a294f1686f774340c7b7e4a": "Obtain the SAS disk from the second crashed drone",
     "5a27ffb186f774192932b3d5": "Obtain the SAS disk from the first crashed drone",
     "5a27ffc786f77415ca58ae47": "Hand over the first SAS disk",
     "5a3ba3b086f7745ab1081101": "Locate the second UAV crash site on Shoreline",
+    "5a294f1686f774340c7b7e4a": "Obtain the SAS disk from the second crashed drone",
     "5a294f3386f77433e923f9cd": "Hand over the second SAS disk"
    },
    "loyalty": [
@@ -28003,10 +28050,6 @@
      "markerItem": "MS2000 Marker"
     }
    ],
-   "objectiveTextById": {
-    "63ac1e0a87413d64ae0ac233": "Locate the helicopter at the water treatment plant on Lighthouse",
-    "6179b804bca27a099552e057": "Mark the helicopter with an MS2000 Marker"
-   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -28069,11 +28112,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -28809,7 +28847,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -29277,7 +29315,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -29790,6 +29828,10 @@
    "name": "Fall Ailment",
    "trader": "Therapist",
    "map": null,
+   "objectiveText": [
+    "Find the item in raid: Disposable syringe (5)",
+    "Hand over the items (5)"
+   ],
    "loyalty": [
     {
      "trader": "Therapist",
@@ -29814,6 +29856,11 @@
      "dating": "exact"
     },
     "map": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectiveText": {
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact"
@@ -29917,8 +29964,8 @@
     }
    ],
    "objectiveTextById": {
-    "5ac6248586f77416781dd3a3": "Obtain the package of graphics cards",
     "5ac6240786f77417204ca2b9": "Locate the warehouse of seized goods on Customs",
+    "5ac6248586f77416781dd3a3": "Obtain the package of graphics cards",
     "5ac624b286f77416781dd3ac": "Hand over the package"
    },
    "loyalty": [
@@ -30858,7 +30905,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -32004,6 +32051,9 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5be0198686f774595412d9c4": "Eliminate PMC operatives (5)"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -32050,6 +32100,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -32150,10 +32205,8 @@
    "name": "From Hand to Hand",
    "trader": "Skier",
    "objectiveText": [
-    "Find 2 Virtex programmable processors in raid",
-    "Find 1 Military COFDM Wireless Signal Transmitter in raid",
-    "Hand over 2 Virtex programmable processors to Peacekeeper",
-    "Hand over 1 Military COFDM Wireless Signal Transmitter to Peacekeeper"
+    "Stash a Virtex programmable processor inside the makeshift lab on Lighthouse",
+    "Stash a Military COFDM Wireless Signal Transmitter inside the makeshift lab on Lighthouse"
    ],
    "objectives": [
     {
@@ -32251,10 +32304,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -32659,7 +32712,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -33169,7 +33222,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -33328,11 +33381,8 @@
    "trader": "Prapor",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "(Optional) Locate the apartment of Prapor's friend on Streets of Tarkov",
     "Locate the place of work of Prapor's friend on Streets of Tarkov",
-    "Obtain any information on the fate of Prapor's friend",
-    "Survive and extract from the location",
-    "Hand over the found data"
+    "(Optional) Locate the apartment of Prapor's friend on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -33456,10 +33506,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 5 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -33830,10 +33880,8 @@
    "trader": "Ragman",
    "map": "Woods",
    "objectiveText": [
-    "Stash 1 Ghost balaclava at the sawmill docks on Woods",
-    "Stash 1 Shemagh (Green) at the sawmill docks on Woods",
-    "Stash 1 RayBench Hipster Reserve sunglasses at the sawmill docks on Woods",
-    "Stash 1 Round frame sunglasses at the sawmill docks on Woods"
+    "Stash a Shemagh (Green) at the sawmill docks on Woods",
+    "Stash RayBench Hipster Reserve sunglasses at the sawmill docks on Woods"
    ],
    "objectives": [
     {
@@ -33961,6 +34009,14 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5ae9e1c786f77403fb3f9674": "Stash a Shemagh (Green) at the sawmill docks on Woods",
+    "5ae9e2a286f7740de4152a0a": "Stash RayBench Hipster Reserve sunglasses at the sawmill docks on Woods"
+   },
+   "objectivesGone": [
+    "5ae9e17c86f77440d37ce03c",
+    "5ae9e2e386f7740de4152a0d"
+   ],
    "loyalty": [
     {
      "trader": "Ragman",
@@ -34013,15 +34069,26 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -35967,7 +36034,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -36532,7 +36599,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -36888,11 +36955,6 @@
      "markerItem": "MS2000 Marker"
     }
    ],
-   "objectiveTextById": {
-    "5a6873bc86f7741f8d4589a3": "Locate and mark the first ambulance with an MS2000 Marker on Shoreline",
-    "5a6873d786f7743ad1151d6e": "Locate and mark the second ambulance with an MS2000 Marker on Shoreline",
-    "5a6873ec86f7743cc55d8622": "Locate and mark the third ambulance with an MS2000 Marker on Shoreline"
-   },
    "minPlayerLevel": 20,
    "requires": [
     {
@@ -36941,11 +37003,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -37172,6 +37229,11 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5a68770f86f774747d4b0d8b": "Locate the van of the Health Resort medical services director on Woods",
+    "5a68776786f774759f1f55f6": "Take a sample of the blood",
+    "5a68777586f774747d4b0d9e": "Hand over the blood sample"
+   },
    "minPlayerLevel": 20,
    "requires": [
     {
@@ -37220,6 +37282,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -37726,7 +37793,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -37882,6 +37949,9 @@
    "name": "Hiking",
    "trader": "Peacekeeper",
    "map": "Woods",
+   "objectiveText": [
+    "Eliminate Scavs at USEC camp, Scav camp, sawmill, or abandoned village on Woods (10)"
+   ],
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -37906,6 +37976,11 @@
      "dating": "exact"
     },
     "map": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectiveText": {
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact"
@@ -38737,7 +38812,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -39068,7 +39143,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -39689,8 +39764,7 @@
    "objectiveText": [
     "Locate the generators in the east wing of the Health Resort on Shoreline",
     "Locate the generators in the west wing of the Health Resort on Shoreline",
-    "Hand over 3 Metal fuel tanks or Expeditionary fuel tanks marked with the found in raid stats",
-    "Survive and extract from the location"
+    "Hand over the found in raid item: Metal fuel tank or Expeditionary fuel tank (3)"
    ],
    "objectives": [
     {
@@ -39802,10 +39876,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -40798,6 +40872,13 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5b47932586f7747cc908b5dd": "Install a WI-FI Camera to watch the sawmill dock on Woods",
+    "5b47938086f7747ccc057c22": "Install a WI-FI Camera to watch the Kiba Arms store entrance on Interchange"
+   },
+   "objectivesGone": [
+    "5b47936686f77427fd044025"
+   ],
    "loyalty": [
     {
      "trader": "Skier",
@@ -40849,6 +40930,17 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -41367,10 +41459,10 @@
    ],
    "objectiveTextById": {
     "5ae9b32486f7745bbc72275a": "Locate and obtain the Goshan cargo manifests on Interchange",
-    "5ae9b36c86f774307c29df04": "Locate and obtain the OLI cargo manifests on Interchange",
-    "5ae9b3b186f7745bbc722762": "Locate and obtain the IDEA cargo manifests on Interchange",
     "5ae9b34686f7743129512ccf": "Hand over the Goshan cargo manifests",
+    "5ae9b36c86f774307c29df04": "Locate and obtain the OLI cargo manifests on Interchange",
     "5ae9b38a86f77432c81e2ce3": "Hand over the OLI cargo manifests",
+    "5ae9b3b186f7745bbc722762": "Locate and obtain the IDEA cargo manifests on Interchange",
     "5ae9b3c986f77432c81e2ce6": "Hand over the IDEA cargo manifests"
    },
    "loyalty": [
@@ -42463,10 +42555,10 @@
     }
    ],
    "objectiveTextById": {
-    "66d9cbb67b491f9d5304f6eb": "Install a WI-FI Camera at the barbed wire body on Streets of Tarkov",
     "66d9cbb67b491f9d5304f6e9": "Install a WI-FI Camera at the amphibian pizza lovers' hideout on Streets of Tarkov",
-    "66dacf2a88c7001436a67390": "Install a WI-FI Camera at the really scary hole in the wall on Streets of Tarkov",
     "66d9cbb67b491f9d5304f6ea": "Install a WI-FI Camera at the burned girl's sickroom on Streets of Tarkov",
+    "66d9cbb67b491f9d5304f6eb": "Install a WI-FI Camera at the barbed wire body on Streets of Tarkov",
+    "66dacf2a88c7001436a67390": "Install a WI-FI Camera at the really scary hole in the wall on Streets of Tarkov",
     "66dad1d7811532f53e472c13": "Install a WI-FI Camera at the high rise where one die-hard guy kicked ass on Ground Zero",
     "66dad1d941756590432b0eaa": "Install a WI-FI Camera at the computer with a joke for programmers on Ground Zero",
     "66dad1dbb16caebe0e214d89": "Install a WI-FI Camera at the little chair surrounded by big black chairs on Ground Zero",
@@ -42642,7 +42734,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -46953,7 +47045,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -47190,7 +47282,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -47235,18 +47327,12 @@
    "name": "Living High is Not a Crime",
    "trader": "Ragman",
    "objectiveText": [
-    "Find 2 Bronze lion figurines in raid",
-    "Find 2 Horse figurines in raid",
-    "Find 2 Golden rooster figurines in raid",
-    "Find 2 Cat figurine in raid",
-    "Find 2 Roler Submariner gold wrist watch in raid",
-    "Find 2 Golden egg in raid",
-    "Hand over 2 Bronze lion figurines to Ragman",
-    "Hand over 2 Horse figurines to Ragman",
-    "Hand over 2 Golden rooster figurines to Ragman",
-    "Hand over 2 Cat figurine to Ragman",
-    "Hand over 2 Roler Submariner gold wrist watch to Ragman",
-    "Hand over 2 Golden egg to Ragman"
+    "Hand over the found in raid item: Bronze lion figurine (2)",
+    "Hand over the found in raid item: Horse figurine (2)",
+    "Hand over the found in raid item: Golden rooster figurine (2)",
+    "Hand over the found in raid item: Cat figurine (2)",
+    "Hand over the found in raid item: Golden egg (2)",
+    "Hand over the found in raid item: Roler Submariner gold wrist watch (2)"
    ],
    "objectives": [
     {
@@ -47422,10 +47508,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 6 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 12 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -47582,7 +47668,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -50379,11 +50465,6 @@
      "markerItem": "MS2000 Marker"
     }
    ],
-   "objectiveTextById": {
-    "5b478d8986f774563c7a4809": "Locate and mark the first yellow minibus with an MS2000 Marker on Interchange",
-    "5b478daf86f7744d1c35339b": "Locate and mark the second yellow minibus with an MS2000 Marker on Interchange",
-    "5b478dca86f7744d190d91c2": "Locate and mark the third yellow minibus with an MS2000 Marker on Interchange"
-   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -50446,11 +50527,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -50694,8 +50770,8 @@
     }
    ],
    "objectiveTextById": {
-    "61a00eff2d708d41a34f19b4": "Locate and obtain the informant's intelligence folder",
     "63ac1a941b5c95746621ddb2": "Locate the crashed helicopter on Lighthouse",
+    "61a00eff2d708d41a34f19b4": "Locate and obtain the informant's intelligence folder",
     "61a00f3f177fb945751bbe92": "Hand over the folder"
    },
    "loyalty": [
@@ -51245,7 +51321,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 6, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 6 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -52861,7 +52937,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -53751,7 +53827,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -53868,7 +53944,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -54450,7 +54526,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was failed. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was failed, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -54573,7 +54649,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -54762,7 +54838,7 @@
      "src": "wiki",
      "asOf": "2026-08-05",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "The capture shows 2 objective(s) and names 1 the game had not revealed yet (Hand over the smartphone), so it is a lower bound, not the list."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -55003,7 +55079,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -55324,6 +55400,16 @@
      "count": 12
     }
    ],
+   "objectiveTextById": {
+    "5c1fd66286f7743c7b261f7b": "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Woods or Reserve (12)",
+    "5c1b713486f77413bc250406": "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Customs or Lighthouse (12)",
+    "63aec4fe6d6c3377e64b9f39": "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Shoreline or Streets of Tarkov (12)",
+    "65e08aa9f5879b2586d5fd4c": "Eliminate Scavs while using UNTAR helmet and armor, and 5.56x45 UN weapons on Ground Zero or Interchange (12)"
+   },
+   "objectivesGone": [
+    "5c1b713986f77470d8650910",
+    "5c1b713f86f774719c22e8a0"
+   ],
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -55381,12 +55467,23 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -55634,7 +55731,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -57505,7 +57602,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -58855,6 +58952,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "64b67c6358b5637e2d71a655": "Eliminate any target with a bolt-action rifle without dying (15)"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -58904,12 +59004,17 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -59302,7 +59407,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 11 where the next source lists 11, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (11 objective(s)) with nothing noted as withheld. 11 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -59424,7 +59529,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -59915,7 +60020,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -60284,7 +60389,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 7 where the next source lists 6, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (7 objective(s)) with nothing noted as withheld. 6 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -60923,6 +61028,22 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "6087d553d79a2b4e943482bf": "Locate and inspect the first BMP-2 on Reserve",
+    "6086c8ed1b0bb8063d5babb7": "Mark the first BMP-2 with an MS2000 Marker",
+    "60882695949eb1096c454fcd": "Locate and inspect the second BMP-2 on Reserve",
+    "608826d0a3994358a0751cfc": "Mark the second BMP-2 with an MS2000 Marker",
+    "608826f3949eb1096c454fd0": "Locate and inspect the third BMP-2 on Reserve",
+    "60882714c18cfa2a4e2afe59": "Mark the third BMP-2 with an MS2000 Marker",
+    "6088274a82e40b3c727fd164": "Locate and inspect the fourth BMP-2 on Reserve",
+    "60882779d241f77b8a49785d": "Mark the fourth BMP-2 with an MS2000 Marker"
+   },
+   "objectivesGone": [
+    "60892585b90d6f39cb74b114",
+    "608925d455f4ac386d7e7fc4",
+    "60892590fa70fc097863b8e5",
+    "608930aa1124f748c94b801e"
+   ],
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -60985,6 +61106,17 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -61514,8 +61646,7 @@
    "map": "Streets of Tarkov",
    "objectiveText": [
     "Locate the cargo convoy on Streets of Tarkov",
-    "Determine the ambush spot",
-    "Survive and extract from the location"
+    "Determine the ambush spot"
    ],
    "objectives": [
     {
@@ -61567,6 +61698,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "63a7d444f32fa1316250c3d5": "Locate the cargo convoy on Streets of Tarkov",
+    "63a7d461f32fa1316250c3d7": "Determine the ambush spot"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -61622,15 +61757,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-06",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -62046,9 +62186,6 @@
      "count": 10
     }
    ],
-   "objectiveTextById": {
-    "608ab22755f4ac386d7e7fdc": "Eliminate Scavs in the underground storage warehouse on Reserve (5)"
-   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -62107,17 +62244,12 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -63668,6 +63800,10 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "5fd9fad9c1ce6b1a3b486d03": "Locate Prapor's missing convoy on Woods",
+    "5fd9fad9c1ce6b1a3b486d05": "Locate the temporary USEC camp on Woods"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -63722,6 +63858,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -63894,6 +64035,9 @@
    "name": "Secret Message",
    "trader": "Peacekeeper",
    "map": "Streets of Tarkov",
+   "objectiveText": [
+    "Eliminate any target with headshots using a 12ga shotgun on Streets of Tarkov (15)"
+   ],
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -63918,6 +64062,11 @@
      "dating": "exact"
     },
     "map": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectiveText": {
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact"
@@ -64039,6 +64188,11 @@
      "questItem": "Case with precision tools"
     }
    ],
+   "objectiveTextById": {
+    "66ab97a5c74ce045d6c32578": "Locate and obtain the precision tools package in the med lab on Customs",
+    "66aa74571e5e199ecd094f1b": "Use the transit from Customs to Factory (In one raid)",
+    "66ab97d56cb6e3bfd7c79fbc": "Stash the package at the laboratory storage room on Factory"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -64097,6 +64251,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -64824,7 +64983,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -65075,7 +65234,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -66362,7 +66521,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -66966,8 +67125,7 @@
    "name": "Silent Caliber",
    "trader": "Skier",
    "objectiveText": [
-    "Eliminate 20 Scavs while using a suppressed 12 gauge shotgun",
-    "Eliminate 10 PMCs while using a suppressed 12 gauge shotgun"
+    "Eliminate any target with a suppressed 12ga shotgun on Reserve, Lighthouse, Ground Zero, or The Lab (30)"
    ],
    "objectives": [
     {
@@ -67033,10 +67191,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -67204,15 +67362,12 @@
    "name": "Slaughterhouse",
    "trader": "Jaeger",
    "objectiveText": [
-    "Eliminate 10 Scavs while using melee weapons on daytime Factory",
-    "Eliminate 10 Scavs while using melee weapons on Streets of Tarkov",
-    "Eliminate 10 Scavs while using melee weapons on Lighthouse",
-    "Eliminate 10 Scavs while using melee weapons on Woods",
-    "Eliminate 10 Scavs while using melee weapons on Shoreline",
-    "Eliminate 10 Scavs while using melee weapons on Interchange",
-    "Eliminate 10 Scavs while using melee weapons on Customs",
-    "Eliminate 10 Scavs while using melee weapons on Reserve",
-    "Eliminate 10 Scavs while using melee weapons on Ground Zero"
+    "Eliminate Scavs with melee weapons on daytime Factory (10)",
+    "Eliminate Scavs with melee weapons on Streets of Tarkov (10)",
+    "Eliminate Scavs with melee weapons on Lighthouse (10)",
+    "Eliminate Scavs with melee weapons on Shoreline (10)",
+    "Eliminate Scavs with melee weapons on Reserve (10)",
+    "Eliminate Scavs with melee weapons on Ground Zero (10)"
    ],
    "objectives": [
     {
@@ -67307,6 +67462,19 @@
      "count": 10
     }
    ],
+   "objectiveTextById": {
+    "63a9b3d7813bba58a50c9ee9": "Eliminate Scavs with melee weapons on daytime Factory (10)",
+    "63a9b41dad5cc12f22162022": "Eliminate Scavs with melee weapons on Streets of Tarkov (10)",
+    "63a9b45bda7999196148ba5f": "Eliminate Scavs with melee weapons on Lighthouse (10)",
+    "63a9b557da7999196148ba61": "Eliminate Scavs with melee weapons on Shoreline (10)",
+    "63a9b5f064b9631d9178276b": "Eliminate Scavs with melee weapons on Reserve (10)",
+    "65e0a329893b7bf535c6a9fd": "Eliminate Scavs with melee weapons on Ground Zero (10)"
+   },
+   "objectivesGone": [
+    "63a9b52b009ffc6a551631a7",
+    "63a9b591da7999196148ba63",
+    "63a9b5b2813bba58a50c9eeb"
+   ],
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -67370,15 +67538,26 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 6 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 9 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -68084,7 +68263,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -68508,9 +68687,7 @@
    "trader": "Prapor",
    "objectiveText": [
     "Stash a Military cable at the boulder next to RUAF gate on Woods",
-    "Stash a Bulbex cable cutter at the boulder next to RUAF gate on Woods",
     "Use the transit from Woods to Reserve",
-    "Stash a Military cable at the sandbags next to LAV III above the storage warehouse on Reserve",
     "Stash a Bulbex cable cutter at the sandbags next to LAV III above the storage warehouse on Reserve"
    ],
    "objectives": [
@@ -68617,6 +68794,15 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "66ab9c5c60199cdb0902f8cc": "Stash a Military cable at the boulder next to RUAF gate on Woods",
+    "66ab970848ddbe9d4a0c49ab": "Use the transit from Woods to Reserve",
+    "66ab9c7ea3a7219e87d4b75e": "Stash a Bulbex cable cutter at the sandbags next to LAV III above the storage warehouse on Reserve"
+   },
+   "objectivesGone": [
+    "66ab9c78e192b852d889e2bf",
+    "66ab9c914a7cba3ea786ce58"
+   ],
    "loyalty": [
     {
      "trader": "Prapor",
@@ -68667,15 +68853,26 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 3 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 5 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -69666,7 +69863,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -70061,7 +70258,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -70192,7 +70389,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 3, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -70334,7 +70531,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -70578,7 +70775,7 @@
      "src": "wiki",
      "asOf": "2026-08-05",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was failed when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "The capture shows 1 objective(s) and names 1 the game had not revealed yet (Hand over the folder), so it is a lower bound, not the list."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -71282,8 +71479,7 @@
    "trader": "Mechanic",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Obtain the data on vehicle movement at the Concordia residential complex parking lot on Streets of Tarkov",
-    "Hand over the information"
+    "Obtain the data on vehicle movement at the Concordia residential complex parking lot on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -71339,6 +71535,9 @@
      "questItem": "Working hard drive"
     }
    ],
+   "objectiveTextById": {
+    "639135e8c115f907b14700ab": "Obtain the data on vehicle movement at the Concordia residential complex parking lot on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -71399,15 +71598,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -71510,7 +71714,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -71612,7 +71816,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -71780,7 +71984,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -71821,9 +72025,8 @@
    "trader": "Peacekeeper",
    "map": "The Lab",
    "objectiveText": [
-    "Find Sanitar's workplace in the Lab",
-    "Obtain information about Sanitar's work",
-    "Hand over the Flash drive marked with blue tape to Peacekeeper"
+    "Locate Sanitar's workplace in The Lab",
+    "Locate and obtain any information about Sanitar's work"
    ],
    "objectives": [
     {
@@ -71888,6 +72091,10 @@
      "questItem": "Flash drive marked with blue tape"
     }
    ],
+   "objectiveTextById": {
+    "5eec9d054110547f1f545c99": "Locate Sanitar's workplace in The Lab",
+    "5eff5674befb6436ce3bbaf7": "Locate and obtain any information about Sanitar's work"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -71949,15 +72156,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -72687,7 +72899,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -73390,6 +73602,12 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "60e85b2a26b88043510e0ada": "Stash a Trijicon REAP-IR scope behind the trash containers at the new gas station on Customs"
+   },
+   "objectivesGone": [
+    "60e84ba726b88043510e0ad8"
+   ],
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -73439,12 +73657,23 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -73821,9 +74050,7 @@
    "trader": "Mechanic",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Locate the cause of the signal jamming on Streets of Tarkov",
-    "Install a WI-FI Camera to watch the door",
-    "Install a WI-FI Camera to watch the stairwell"
+    "Locate the cause of the signal interference on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -73897,6 +74124,9 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "64ee9df4496db64f9b7a4433": "Locate the cause of the signal interference on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -73951,15 +74181,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -74555,9 +74790,7 @@
    "trader": "Jaeger",
    "map": "Lighthouse",
    "objectiveText": [
-    "Locate the hideout of Jaeger's friend on Lighthouse",
-    "Find and obtain the message for Jaeger",
-    "Hand over the message to Jaeger"
+    "Locate the hideout of Jaeger's friend on Lighthouse"
    ],
    "objectives": [
     {
@@ -74612,6 +74845,9 @@
      "questItem": "Sealed letter"
     }
    ],
+   "objectiveTextById": {
+    "63ac22351b5c95746621ddc4": "Locate the hideout of Jaeger's friend on Lighthouse"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -74666,15 +74902,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -74810,8 +75051,7 @@
    "trader": "Jaeger",
    "map": "Lighthouse",
    "objectiveText": [
-    "Shoot a yellow signal flare in the Train depot.",
-    "Eliminate any target in the train depot on reserve (6)"
+    "Launch a yellow signal flare at the train station on Lighthouse"
    ],
    "objectives": [
     {
@@ -74913,10 +75153,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -75080,10 +75320,7 @@
    "trader": "Jaeger",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Locate and eliminate Kaban",
-    "Locate and eliminate Basmach",
-    "Locate and eliminate Gus",
-    "Eliminate 5 of Kaban's guards at the car dealership on Streets of Tarkov"
+    "Locate and neutralize Kaban"
    ],
    "objectives": [
     {
@@ -75126,6 +75363,14 @@
      ],
      "count": 1
     }
+   ],
+   "objectiveTextById": {
+    "64e7ba17220ee966bf425ecb": "Locate and neutralize Kaban"
+   },
+   "objectivesGone": [
+    "64e7ba4a6393886f74119f3d",
+    "65bb698050fd7c32f5d666d1",
+    "65bb6a61a845e4eb51390b4e"
    ],
    "loyalty": [
     {
@@ -75187,15 +75432,26 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -75297,7 +75553,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -75370,6 +75626,13 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "6578eb36e5020875d64645d0": "Locate and neutralize Kollontay",
+    "6582b05dc992d6dcc0a40c75": "Hand over the found in raid Kollontay's police baton"
+   },
+   "objectivesGone": [
+    "6580130847df99b0741919f0"
+   ],
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -75427,12 +75690,23 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -76566,9 +76840,8 @@
    "trader": "Jaeger",
    "map": "Customs",
    "objectiveText": [
-    "Eliminate Reshala",
-    "Find 1 Reshala's Golden TT in raid",
-    "Hand over 1 Reshala's Golden TT to Jaeger"
+    "Locate and neutralize Reshala",
+    "Hand over the found in raid Reshala's Golden TT-33 pistol"
    ],
    "objectives": [
     {
@@ -76606,6 +76879,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "5d26fd8886f77469f0445745": "Locate and neutralize Reshala",
+    "5d2710e686f7742e9019a6b2": "Hand over the found in raid Reshala's Golden TT-33 pistol"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -76652,15 +76929,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -76690,9 +76972,8 @@
    "trader": "Jaeger",
    "map": "Woods",
    "objectiveText": [
-    "Eliminate Shturman",
-    "Find 1 Shturman's stash key in raid",
-    "Hand over 1 Shturman's stash key to Jaeger"
+    "Locate and neutralize Shturman",
+    "Search Shturman for his stash key"
    ],
    "objectives": [
     {
@@ -76783,10 +77064,10 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -76899,10 +77180,8 @@
    "trader": "Ragman",
    "map": "Interchange",
    "objectiveText": [
-    "Obtain the Clothes design handbook - Part 1 on Interchange",
-    "Hand over the Clothes design handbook - Part 1 to Ragman",
-    "Obtain the Clothes design handbook - Part 2 on Interchange",
-    "Hand over the Clothes design handbook - Part 2 to Ragman"
+    "Locate and obtain the first book of clothes design on Interchange",
+    "Locate and obtain the second book of clothes design on Interchange"
    ],
    "objectives": [
     {
@@ -76970,6 +77249,10 @@
      "questItem": "Clothes design handbook - Part 2"
     }
    ],
+   "objectiveTextById": {
+    "5ae9c0a686f774703201f143": "Locate and obtain the first book of clothes design on Interchange",
+    "5ae9c0e186f7746419683c5e": "Locate and obtain the second book of clothes design on Interchange"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -77024,15 +77307,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -77648,7 +77936,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -77983,7 +78271,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -78325,8 +78613,7 @@
    "trader": "Skier",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Locate and obtain the secret ingredient at the TerraGroup office on Streets of Tarkov",
-    "Hand over the chemical additive"
+    "Locate and obtain the red vial at the TerraGroup office on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -78387,6 +78674,9 @@
      "questItem": "Secret component"
     }
    ],
+   "objectiveTextById": {
+    "64f6aafd67e11a7c6206e0d1": "Locate and obtain the red vial at the TerraGroup office on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -78441,15 +78731,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -78485,8 +78780,7 @@
    "trader": "Mechanic",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Unravel the secret of the IT firm's employees' high morale on Streets of Tarkov",
-    "Survive and extract from the location"
+    "Unravel the secret of the IT firm's employees' high morale on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -78522,6 +78816,9 @@
      "count": 1
     }
    ],
+   "objectiveTextById": {
+    "6573382e557ff128bf3da537": "Unravel the secret of the IT firm's employees' high morale on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -78576,15 +78873,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -78669,7 +78971,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -79195,7 +79497,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -79520,6 +79822,10 @@
    "name": "The Tarkov Butcher",
    "trader": "Therapist",
    "map": null,
+   "objectiveText": [
+    "Locate and obtain the chemical container on Ground Zero",
+    "Stash the container by the police station on Streets of Tarkov"
+   ],
    "loyalty": [
     {
      "trader": "Therapist",
@@ -79544,6 +79850,11 @@
      "dating": "exact"
     },
     "map": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectiveText": {
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact"
@@ -80119,7 +80430,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -80203,7 +80514,7 @@
      "src": "observed",
      "asOf": "2026-08-11",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -80599,9 +80910,7 @@
    "trader": "Skier",
    "objectiveText": [
     "Locate the specified stash spot on Woods",
-    "Locate the specified stash spot on Customs",
-    "Stash the first Propane tank (5L)",
-    "Stash the second Propane tank (5L)"
+    "Locate the specified stash spot on Customs"
    ],
    "objectives": [
     {
@@ -80721,6 +81030,10 @@
      ]
     }
    ],
+   "objectiveTextById": {
+    "6661a14545909ae2e92ca2d5": "Locate the specified stash spot on Woods",
+    "6661a18a12e8457716d59f5d": "Locate the specified stash spot on Customs"
+   },
    "minPlayerLevel": 15,
    "requires": [
     {
@@ -80757,15 +81070,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 2 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -82536,7 +82854,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 3 where the next source lists 3, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -82640,11 +82958,6 @@
      "questItem": "Secure Folder 0013"
     }
    ],
-   "objectiveTextById": {
-    "5a2819c886f77460ba564f38": "Obtain any information about the second part of the cargo shipment",
-    "5a3ba76486f7744d39436da2": "Locate the room with reservoirs in the Health Resort on Shoreline",
-    "5a2e966286f7742f6c4f27a6": "Hand over the retrieved information"
-   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -82702,17 +83015,12 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 4 where the next source lists 4, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (4 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -82868,7 +83176,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -83256,11 +83564,6 @@
      "questItem": "Chemical container with samples"
     }
    ],
-   "objectiveTextById": {
-    "63a7d64710b7a13eb015961f": "Locate the chemical laboratory on Streets of Tarkov",
-    "639135e0fa894f0a866afde7": "Obtain the container with drug samples",
-    "639135e0fa894f0a866afde8": "Hand over the container"
-   },
    "loyalty": [
     {
      "trader": "Therapist",
@@ -83323,11 +83626,6 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
-    },
-    "objectiveTextById": {
-     "src": "observed",
-     "asOf": "2026-08-10",
-     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -83760,7 +84058,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 6 where the next source lists 6, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 6 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -83875,9 +84173,7 @@
    "trader": "Mechanic",
    "map": "Streets of Tarkov",
    "objectiveText": [
-    "Locate the surveillance spot on Streets of Tarkov",
-    "Obtain the observation results",
-    "Hand over the data"
+    "Locate the surveillance spot on Streets of Tarkov"
    ],
    "objectives": [
     {
@@ -83942,6 +84238,9 @@
      "questItem": "Flash drive with recordings"
     }
    ],
+   "objectiveTextById": {
+    "63a7d8665199ab1f7d4a7747": "Locate the surveillance spot on Streets of Tarkov"
+   },
    "loyalty": [
     {
      "trader": "Mechanic",
@@ -83996,15 +84295,20 @@
      "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "The in-game capture shows 1 objective(s), but the quest was active when seen and the game hides steps behind unfinished ones, so it is a lower bound, not the list."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 3 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -84142,6 +84446,14 @@
      "markerItem": "MS2000 Marker"
     }
    ],
+   "objectiveTextById": {
+    "5a2806e086f774291b084041": "Locate and mark the first ritual spot with an MS2000 Marker on Woods",
+    "5fe0e9ed3f3a7d4169035e8e": "Locate and mark the second ritual spot with an MS2000 Marker on Woods",
+    "5a2806f886f774513d3e69f5": "Locate and mark the ritual spot with an MS2000 Marker on Shoreline"
+   },
+   "objectivesGone": [
+    "5a2806b386f77420062f0fbd"
+   ],
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -84201,6 +84513,17 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
+    },
+    "objectivesGone": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact",
+     "note": "Published objectives the game does not show, of a type it IS showing — so they are cuts rather than steps waiting on another. Leftovers of an unshown type are kept, because a \"hand over\" step only appears once the item is in hand."
     },
     "loyalty": {
      "src": "observed",
@@ -84297,7 +84620,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -85316,7 +85639,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 1 where the next source lists 1, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -85622,7 +85945,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active. The game hides a step until the step it depends on is done, but it showed 2 where the next source lists 2, so nothing is being held back and the wording is the game's own."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 2 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
