@@ -1,0 +1,2884 @@
+{
+ "what": "Hand-placed map corrections and additions, made in the tracker's map editor.",
+ "firstParty": true,
+ "placedBy": "szepiz",
+ "bakedAt": "2026-08-10",
+ "license": "CC0-1.0",
+ "note": "Coordinates are game units, matching tarkov.dev's coordinate space. `floor` is -1 when a map has no floors. Keys in the correction maps are \"<map>|<label>|<x>|<z>\" as the editor writes them.",
+ "counts": {
+  "labels": 50,
+  "extracts": 15,
+  "objectives": 55,
+  "transits": 5,
+  "switches": 7,
+  "objectiveFloors": 3,
+  "extractFloors": 9,
+  "labelFloors": 1,
+  "transitFloors": 2,
+  "switchFloors": 0,
+  "hidden": 39,
+  "extractFactions": 0,
+  "extractNotes": 0,
+  "extractSwitches": 0,
+  "newLabels": 219,
+  "mapTexts": 87,
+  "newExtracts": 2
+ },
+ "labels": {
+  "The Lab|Warehouse Gate|-170|-248": {
+   "x": -168.6,
+   "z": -230.7
+  },
+  "Factory|Heli Crash|30|-8": {
+   "x": 27.2,
+   "z": -3.2
+  },
+  "Factory|Rafters|18|4": {
+   "x": 21,
+   "z": 8.4
+  },
+  "Streets of Tarkov|Prestigio Cafe|39|230": {
+   "x": 44,
+   "z": 232.9
+  },
+  "Streets of Tarkov|Tarbank|67|230": {
+   "x": 65.8,
+   "z": 237
+  },
+  "Streets of Tarkov|Zmejskij Alley|140|150": {
+   "x": 157.4,
+   "z": 181.2
+  },
+  "Streets of Tarkov|Kamchatskaya St.|232|100": {
+   "x": 237.9,
+   "z": 128.8
+  },
+  "Streets of Tarkov|Lexos|66|305": {
+   "x": 57.6,
+   "z": 296.2
+  },
+  "Streets of Tarkov|Office|-173|226": {
+   "x": -173.1,
+   "z": 229.6
+  },
+  "Streets of Tarkov|Shestyorochka|-218|135": {
+   "x": -202.8,
+   "z": 188.8
+  },
+  "Streets of Tarkov|Pinewood Hotel|-35|64": {
+   "x": -64,
+   "z": 108.5
+  },
+  "Streets of Tarkov|Kilmov Shopping Mall|-128|-35": {
+   "x": -94.1,
+   "z": -2.2
+  },
+  "Streets of Tarkov|Beluga|-45|-52": {
+   "x": -35,
+   "z": -44.3
+  },
+  "Streets of Tarkov|Cardinal Apartments|99|-71": {
+   "x": 94.6,
+   "z": -55.8
+  },
+  "Streets of Tarkov|Concordia|140|362": {
+   "x": 203.4,
+   "z": 381.8
+  },
+  "Streets of Tarkov|Post Office|42|97": {
+   "x": 39.9,
+   "z": 118.5
+  },
+  "Interchange|Cargo Containers|68|313": {
+   "x": 87.8,
+   "z": 264.6
+  },
+  "Interchange|Tarducks|64|-69": {
+   "x": 75.1,
+   "z": -81.1
+  },
+  "Interchange|Burger Spot|-27|-103": {
+   "x": -22.9,
+   "z": -97.9
+  },
+  "Lighthouse|Pikes Peak Resort|-107|-53": {
+   "x": -111.8,
+   "z": -71.1
+  },
+  "Lighthouse|Dead Tree|62|-60": {
+   "x": 60.4,
+   "z": -73.6
+  },
+  "Lighthouse|Construction|0|-188": {
+   "x": 11.3,
+   "z": -209.4
+  },
+  "Lighthouse|Cottages|-162|-225": {
+   "x": -181,
+   "z": -202
+  },
+  "Lighthouse|Red Brick|-75|-284": {
+   "x": -75.2,
+   "z": -279.5
+  },
+  "Streets of Tarkov|Pharmacy 1|42|160": {
+   "x": 40.9,
+   "z": 160.6
+  },
+  "Factory|Scav Bunker|-20|23": {
+   "x": -21.2,
+   "z": 23.9
+  },
+  "Streets of Tarkov|School|211|129": {
+   "x": 211.7,
+   "z": 137.3
+  },
+  "Streets of Tarkov|Construction|230|295": {
+   "x": 201.4,
+   "z": 300.1
+  },
+  "Factory|Connector|30|17": {
+   "x": 29.6,
+   "z": 17.4
+  },
+  "Factory|Silos|5|11": {
+   "x": 4.8,
+   "z": 11.9
+  },
+  "Factory|Med Tent|-18|-29": {
+   "x": -18.1,
+   "z": -28
+  },
+  "Factory|East Halls|44|-36": {
+   "x": 44.5,
+   "z": -36.3
+  },
+  "Factory|Boilers|56|5": {
+   "x": 55.7,
+   "z": 6.8
+  },
+  "Factory|Platform|-3|37": {
+   "x": -3,
+   "z": 38.1
+  },
+  "Factory|Wood Room|-45|61": {
+   "x": -47.4,
+   "z": 63.6
+  },
+  "Factory|Hole|20|42": {
+   "x": 20.1,
+   "z": 43.6
+  },
+  "Factory|Sinks|15|41": {
+   "x": 15,
+   "z": 42.8
+  },
+  "Factory|Locker Rooms|29|41": {
+   "x": 29.4,
+   "z": 43.1
+  },
+  "Factory|Servers|-21|27": {
+   "x": -21,
+   "z": 28.6
+  },
+  "Factory|North Stairs|35|39": {
+   "x": 35.3,
+   "z": 41.1
+  },
+  "Factory|Pumping Station|41|-11": {
+   "x": 40.2,
+   "z": -10.9
+  },
+  "Factory|Underground Stash|-2|-24": {
+   "x": -7,
+   "z": -22.3
+  },
+  "Factory|Pit|-1|16": {
+   "x": 6.3,
+   "z": 17
+  },
+  "Interchange|Garage B|47|-112": {
+   "x": 46.6,
+   "z": -128.3
+  },
+  "Interchange|Garage A|33|-222": {
+   "x": 23.4,
+   "z": -239.9
+  },
+  "Interchange|Garage C|0|47": {
+   "x": 10.1,
+   "z": 29.6
+  },
+  "Interchange|Scav Camp|263|-11": {
+   "x": 266.6,
+   "z": -45.8
+  },
+  "Interchange|Idea Tower|47|-358": {
+   "x": 46.1,
+   "z": -370.1
+  },
+  "Interchange|Power Station|-186|-319": {
+   "x": -204.2,
+   "z": -352
+  },
+  "Interchange|OLI|-28|140": {
+   "x": 3.4,
+   "z": 136.2
+  }
+ },
+ "extracts": {
+  "Factory|Camera Bunker Door|1": {
+   "x": -20,
+   "z": 44.7
+  },
+  "Factory|Courtyard Gate|0": {
+   "x": 20.9,
+   "z": 66.2
+  },
+  "Factory|Med Tent Gate|0": {
+   "x": -19.1,
+   "z": -48.8
+  },
+  "Factory|Gate 3|1": {
+   "x": 58.3,
+   "z": 64.1
+  },
+  "Factory|Gate 3|0": {
+   "x": 58.3,
+   "z": 64.1
+  },
+  "Customs|Railroad Passage (Flare)|0": {
+   "x": 167.6,
+   "z": -294.2
+  },
+  "Streets of Tarkov|Sewer River|0": {
+   "x": -260.1,
+   "z": 211.8
+  },
+  "Streets of Tarkov|Klimov Shopping Mall Exfil|1": {
+   "x": -163.4,
+   "z": -2.3
+  },
+  "Streets of Tarkov|Stylobate Building Elevator|0": {
+   "x": -53.4,
+   "z": -79.3
+  },
+  "The Lab|Hangar Gate|0": {
+   "x": -170.3,
+   "z": -248.9
+  },
+  "Factory|Office Window|1": {
+   "x": 19.1,
+   "z": 42.6
+  },
+  "Factory|Cellars|0": {
+   "x": 73.4,
+   "z": -29
+  },
+  "Factory|Smugglers' Passage|0": {
+   "x": 47.2,
+   "z": -25.5
+  },
+  "Interchange|Scav Camp (Co-Op)|2": {
+   "x": -91.4,
+   "z": -66.6
+  },
+  "Interchange|Saferoom Exfil|0": {
+   "x": -53.7,
+   "z": 45.5
+  }
+ },
+ "objectives": {
+  "The Lab|62692a8a161ea75b3470d90e|-129|-359": {
+   "x": -130.7,
+   "z": -353.8
+  },
+  "The Lab|66b090f5723e7bbe8b518ca8|-126|-305": {
+   "x": -125.8,
+   "z": -308.6
+  },
+  "The Lab|66aba97b1000025218c82ea8|-169|-421": {
+   "x": -168.8,
+   "z": -420.3
+  },
+  "The Lab|5eec9d054110547f1f545c99|-132|-337": {
+   "x": -130.2,
+   "z": -338.6
+  },
+  "The Lab|63a7cfe104d3dc28a52a20fc|-132|-358": {
+   "x": -136.7,
+   "z": -356.4
+  },
+  "Factory|63a865ce1943b749b5021f86|-18|-49": {
+   "x": -18.2,
+   "z": -48.7
+  },
+  "Factory|5a3fbdb086f7745a554f0c31|30|39": {
+   "x": 29.4,
+   "z": 38.3
+  },
+  "Factory|66d080533a3c33d823a3477d|35|36": {
+   "x": 35.9,
+   "z": 36.3
+  },
+  "Interchange|5ae9b3b186f7745bbc722762|-2|-293": {
+   "x": -4.1,
+   "z": -288.8
+  },
+  "Interchange|5b478d8986f774563c7a4809|110|289": {
+   "x": 102.6,
+   "z": 290.2
+  },
+  "Interchange|5b478dca86f7744d190d91c2|-50|59": {
+   "x": -55.4,
+   "z": 61
+  },
+  "Interchange|5ae452de86f77450595c4333|274|15": {
+   "x": 266.2,
+   "z": 17.4
+  },
+  "Interchange|5ae452fa86f774336a39758e|-173|-359": {
+   "x": -177.6,
+   "z": -355.5
+  },
+  "Interchange|5ae9b5bd86f774307c29df37|87|121": {
+   "x": 84.5,
+   "z": 123.7
+  },
+  "Interchange|5ae4508386f7741250488337|-33|26": {
+   "x": -37.03,
+   "z": 28.29
+  },
+  "Interchange|5ae450db86f7741250488359|-25|-104": {
+   "x": -28.54,
+   "z": -101.04
+  },
+  "Interchange|5ae450ee86f7740f9307859d|64|-155": {
+   "x": 60.3,
+   "z": -152.92
+  },
+  "Interchange|5ae4510786f7740fa614399f|94|-121": {
+   "x": 90.52,
+   "z": -118.16
+  },
+  "Interchange|5ae4511d86f7740ffc31ccb5|94|10": {
+   "x": 90.33,
+   "z": 12.7
+  },
+  "Interchange|67a0bc83182c4b0c71edd0ce|160|-247": {
+   "x": 156.03,
+   "z": -244.22
+  },
+  "Interchange|67a0bc84f19d5b1120a55762|43|-216": {
+   "x": 38.63,
+   "z": -213.92
+  },
+  "Interchange|5ae452c086f774336a397578|-208|-74": {
+   "x": -212.23,
+   "z": -71.94
+  },
+  "Interchange|5ae9b32486f7745bbc72275a|-76|-158": {
+   "x": -80.35,
+   "z": -155.24
+  },
+  "Interchange|5ae9b36c86f774307c29df04|38|147": {
+   "x": 34.14,
+   "z": 149.63
+  },
+  "Interchange|5b4c826b86f7743cc87bcee4|19|-107": {
+   "x": 15.48,
+   "z": -104.15
+  },
+  "Interchange|5b4c82cd86f774170c6e4169|24|-81": {
+   "x": 19.65,
+   "z": -78.33
+  },
+  "Interchange|5b478daf86f7744d1c35339b|18|-25": {
+   "x": 13.69,
+   "z": -23.01
+  },
+  "Interchange|5b47938086f7747ccc057c22|8|-37": {
+   "x": 4.23,
+   "z": -34.22
+  },
+  "Interchange|5b47968e86f7745877352c28|-27|2": {
+   "x": -31.1,
+   "z": 4.88
+  },
+  "Interchange|5ae9c0a686f774703201f143|20|-4": {
+   "x": 16.4,
+   "z": -1.94
+  },
+  "Interchange|5ae9c0e186f7746419683c5e|-31|-136": {
+   "x": -35.31,
+   "z": -133.71
+  },
+  "Interchange|667a958eb30fe2e2938a6387|15|-5": {
+   "x": 10.76,
+   "z": -2.31
+  },
+  "Interchange|667a958eb30fe2e2938a6387|20|-13": {
+   "x": 15.65,
+   "z": -10.09
+  },
+  "Interchange|667a958eb30fe2e2938a6387|18|-4": {
+   "x": 14.56,
+   "z": -1.24
+  },
+  "Interchange|667a958eb30fe2e2938a6387|30|-20": {
+   "x": 26.6,
+   "z": -17.02
+  },
+  "Interchange|667a958eb30fe2e2938a6387|16|-13": {
+   "x": 12.42,
+   "z": -10.06
+  },
+  "Interchange|667a958eb30fe2e2938a6387|14|-2": {
+   "x": 10.46,
+   "z": 0.03
+  },
+  "Interchange|667a958eb30fe2e2938a6387|19|-6": {
+   "x": 14.99,
+   "z": -3.06
+  },
+  "Interchange|667a958eb30fe2e2938a6387|26|1": {
+   "x": 22.3,
+   "z": 3.15
+  },
+  "Interchange|667a958eb30fe2e2938a6387|9|-19": {
+   "x": 4.86,
+   "z": -16.04
+  },
+  "Interchange|5b478c4c86f7744d1a393fac|-50|25": {
+   "x": -54.25,
+   "z": 27.56
+  },
+  "Interchange|5b478c7386f7744d1a393fb1|-50|25": {
+   "x": -54.25,
+   "z": 27.56
+  },
+  "Interchange|5b478cb586f7744d1a393fb5|180|-41": {
+   "x": 175.99,
+   "z": -38.41
+  },
+  "Interchange|671a5941cb557f8656561a12|138|268": {
+   "x": 134.1,
+   "z": 270.61
+  },
+  "Interchange|60e73ee8b567ff641b129570|-19|-240": {
+   "x": -23.23,
+   "z": -237.41
+  },
+  "Interchange|60e73ee8b567ff641b129570|-19|129": {
+   "x": -23.23,
+   "z": 131.82
+  },
+  "Interchange|60e73ee8b567ff641b129570|-41|-55": {
+   "x": -44.58,
+   "z": -52.08
+  },
+  "Interchange|60e73ee8b567ff641b129570|103|-55": {
+   "x": 99.62,
+   "z": -52.08
+  },
+  "Interchange|60e73ee8b567ff641b129570|109|-55": {
+   "x": 105.29,
+   "z": -52.08
+  },
+  "Interchange|60e73ee8b567ff641b129570|-189|-55": {
+   "x": -193.17,
+   "z": -52.08
+  },
+  "Interchange|60e73ee8b567ff641b129570|92|-266": {
+   "x": 88.4,
+   "z": -263.28
+  },
+  "Interchange|639a76e3e4aa7349085cb6e3|-9|-34": {
+   "x": -13.31,
+   "z": -31.23
+  },
+  "Interchange|639a77b97cb1a8023d49f683|-20|-22": {
+   "x": -23.37,
+   "z": -19.92
+  },
+  "Interchange|639a78046402c537c15d012f|-49|45": {
+   "x": -53.19,
+   "z": 47.51
+  },
+  "Interchange|639a78c27cb1a8023d49f684|139|274": {
+   "x": 134.98,
+   "z": 276.84
+  }
+ },
+ "transits": {
+  "Lighthouse|Shoreline|-339|-169": {
+   "x": -310,
+   "z": -141.9
+  },
+  "Factory|Customs|19|-48": {
+   "x": 17.6,
+   "z": -49
+  },
+  "Factory|Woods|24|62": {
+   "x": 23.7,
+   "z": 63.2
+  },
+  "Interchange|Streets of Tarkov|263|-444": {
+   "x": 264.8,
+   "z": -426
+  },
+  "Interchange|Customs|274|396": {
+   "x": 273.6,
+   "z": 391
+  }
+ },
+ "switches": {
+  "The Lab|-112|-435": {
+   "x": -112.9,
+   "z": -435.1
+  },
+  "Interchange|-201|-358": {
+   "x": -204.97,
+   "z": -355.32
+  },
+  "Interchange|-47|-55": {
+   "x": -50.47,
+   "z": -52.72
+  },
+  "Interchange|-67|54": {
+   "x": -70.97,
+   "z": 56.18
+  },
+  "Interchange|-51|46": {
+   "x": -54.47,
+   "z": 48.08
+  },
+  "Interchange|-51|-125": {
+   "x": -55.37,
+   "z": -122.92
+  },
+  "Interchange|-48|43": {
+   "x": -51.57,
+   "z": 45.08
+  }
+ },
+ "objectiveFloors": {
+  "The Lab|639ae49a5e3c9b787264d675|-161|-347": -1,
+  "Factory|669fb5c7d5fbaaa7b285e83d|-5|-32": 1,
+  "Factory|66ab97d56cb6e3bfd7c79fbc|28|-33": 0
+ },
+ "extractFloors": {
+  "Factory|Gate 3|0": -1,
+  "Customs|Boiler Room Basement (Co-op)|2": -1,
+  "Customs|ZB-013|0": -1,
+  "Customs|Old Gas Station|0": -1,
+  "Customs|Smugglers' Bunker (ZB-1012)|0": -1,
+  "Customs|ZB-1011|0": -1,
+  "Shoreline|Admin Basement|1": -1,
+  "Shoreline|Climber's Trail|0": -1,
+  "Streets of Tarkov|Stylobate Building Elevator|0": -1
+ },
+ "labelFloors": {
+  "Lighthouse|Boathouses|125|-153": -1
+ },
+ "transitFloors": {
+  "Shoreline|The Labyrinth|-198|-81": -1,
+  "Streets of Tarkov|The Lab (Dark)|207|82": -1
+ },
+ "switchFloors": {},
+ "hidden": {
+  "ex|Interchange|Hole in the Fence|0": true,
+  "label|Lighthouse|Lightkeeper Island|382|496": true,
+  "label|Lighthouse|Dead Tree|62|-60": true,
+  "label|Lighthouse|Boathouses|125|-153": true,
+  "label|Shoreline|Swamp|326|-118": true,
+  "label|Shoreline|Bus Stop|-96|-6": true,
+  "label|Shoreline|Scav Farm|-622|-202": true,
+  "label|Shoreline|Scav Island|216|424": true,
+  "label|Woods|Cultist Village|-80|-680": true,
+  "label|Woods|Shack|244|125": true,
+  "label|Customs|Sniper Hill|110|85": true,
+  "label|Customs|Bus Station|238|53": true,
+  "label|Customs|Streamer House|567|-67": true,
+  "label|Factory|Blue Containers|-18|50": true,
+  "label|Factory|Office Building|21|39": true,
+  "label|Factory|Main Office|16|39": true,
+  "label|Factory|Breach Room|25|39": true,
+  "label|Factory|Locked Office|31|39": true,
+  "label|Factory|Sky Bridge|34|26": true,
+  "label|Streets of Tarkov|Cardinal Bank|89|-20": true,
+  "label|Streets of Tarkov|Marked Hotel|-200|248": true,
+  "label|Streets of Tarkov|Family Market|-223|279": true,
+  "label|Streets of Tarkov|Hive|-212|300": true,
+  "label|Streets of Tarkov|Office|-173|226": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-169|-342": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-168|-344": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-171|-344": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-178|-345": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-178|-344": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-163|-342": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-161|-341": true,
+  "api|The Lab|639ae49a5e3c9b787264d675|-161|-347": true,
+  "api|The Lab|62692a8a161ea75b3470d90e|-129|-359": true,
+  "api|Factory|669fb1ffe34e78d618792b41|20|47": true,
+  "api|Factory|669fb1ffe34e78d618792b41|65|14": true,
+  "api|Factory|5d26143c86f77469ef0f894c|22|42": true,
+  "api|Factory|669fb1ffe34e78d618792b41|-51|14": true,
+  "api|Factory|669fb1ffe34e78d618792b41|20|-29": true,
+  "api|Factory|5ac7a4ba86f77409f3423628|68|-7": true
+ },
+ "extractFactions": {},
+ "extractNotes": {},
+ "extractSwitches": {},
+ "newLabels": [
+  {
+   "map": "The Lab",
+   "x": -266.8,
+   "z": -342.7,
+   "text": "Switchboard",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -238.6,
+   "z": -294.6,
+   "text": "Switchboard",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -220.8,
+   "z": -298.7,
+   "text": "Offline Power Plant",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -191.9,
+   "z": -321.7,
+   "text": "Ventillation",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -231,
+   "z": -399.7,
+   "text": "Heat Station",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -202,
+   "z": -377.8,
+   "text": "Dry Room",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -182.1,
+   "z": -378.7,
+   "text": "Desalinator",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -161.1,
+   "z": -342.3,
+   "text": "Central Discharge Collector",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -160.8,
+   "z": -353,
+   "text": "Store Room",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -129.4,
+   "z": -357.1,
+   "text": "Offline Power Plant",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -119.2,
+   "z": -311.3,
+   "text": "Switchboard",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -139.2,
+   "z": -267.9,
+   "text": "Pumping Station",
+   "floor": 1
+  },
+  {
+   "map": "The Lab",
+   "x": -185.2,
+   "z": -311.5,
+   "text": "Weapon Testing Area",
+   "floor": -1
+  },
+  {
+   "map": "The Lab",
+   "x": -97.3,
+   "z": -434.8,
+   "text": "Residential",
+   "floor": -1
+  },
+  {
+   "map": "The Lab",
+   "x": -261.9,
+   "z": -362.5,
+   "text": "Boiler Room",
+   "floor": -1
+  },
+  {
+   "map": "The Lab",
+   "x": -170.1,
+   "z": -342.4,
+   "text": "Board Room",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 9.2,
+   "z": -41,
+   "text": "TerraGroup Garage",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 19,
+   "z": 70,
+   "text": "Coffee Maniac",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 112.1,
+   "z": -3.4,
+   "text": "Skyside Business",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 175.4,
+   "z": -0.7,
+   "text": "Reception",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 175.1,
+   "z": 7.9,
+   "text": "Skyside Hotel",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 176.1,
+   "z": 31,
+   "text": "Coffee Joy",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 153.4,
+   "z": 36.3,
+   "text": "Norvair",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 111.3,
+   "z": 148.7,
+   "text": "Olive Restaurant",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 117.5,
+   "z": 190.1,
+   "text": "Kyshperski",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 139.8,
+   "z": 204.2,
+   "text": "Golden World",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 194.5,
+   "z": 134.1,
+   "text": "Tartowers",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 69.4,
+   "z": 313.5,
+   "text": "Giovanni Teducci",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 72.4,
+   "z": 318.6,
+   "text": "Budda Lounge",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 112.4,
+   "z": -5.3,
+   "text": "Skyside Business",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 115,
+   "z": 30.3,
+   "text": "ASAP Winery",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 98.7,
+   "z": -64.4,
+   "text": "Ramp",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 164.9,
+   "z": -89.4,
+   "text": "Coffee Joy",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 107.7,
+   "z": -93.8,
+   "text": "Kostin",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 135.6,
+   "z": -101,
+   "text": "Unity Credit Bank",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 99,
+   "z": -69.7,
+   "text": "Ramp",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 80.5,
+   "z": 133.9,
+   "text": "Coffee Vice",
+   "floor": -1
+  },
+  {
+   "map": "Ground Zero",
+   "x": 117.4,
+   "z": 190.9,
+   "text": "Kyshperski",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 112,
+   "z": 150.6,
+   "text": "Olive Restaurant",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 2304.7,
+   "z": -120.9,
+   "text": "Ramp",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 1985,
+   "z": 76.5,
+   "text": "Ramp",
+   "floor": 0
+  },
+  {
+   "map": "Ground Zero",
+   "x": 110.9,
+   "z": 147.2,
+   "text": "Olive Restaurant",
+   "floor": 1
+  },
+  {
+   "map": "Factory",
+   "x": -20.9,
+   "z": 48.1,
+   "text": "Bunker Red Light",
+   "floor": 2
+  },
+  {
+   "map": "The Labyrinth",
+   "x": -22.4,
+   "z": 20.7,
+   "text": "Shrine of the Minotaur",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": 22.1,
+   "z": 6.9,
+   "text": "Torture Room",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": 9.8,
+   "z": 4.4,
+   "text": "Observation Room",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": 11,
+   "z": -14.1,
+   "text": "Corpse Room",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 87.4,
+   "z": 341.5,
+   "text": "BEAR Camp",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 210,
+   "z": 417.2,
+   "text": "Barber Shop",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 189.8,
+   "z": 400.6,
+   "text": "Concordia 7-1",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 265.1,
+   "z": 410.5,
+   "text": "Concordia 7-2",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 270.7,
+   "z": 361.4,
+   "text": "Concordia 7-3",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 207.1,
+   "z": 362.6,
+   "text": "Basketball Court",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 176,
+   "z": 237.2,
+   "text": "Bakery",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 195,
+   "z": 229.3,
+   "text": "Chekannaya 13",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 204.7,
+   "z": 202.3,
+   "text": "Playground",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 185.2,
+   "z": 88.8,
+   "text": "Astronaut Mural",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 246.6,
+   "z": 61.5,
+   "text": "Museum",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 184.2,
+   "z": 38.4,
+   "text": "MissClick",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 147.8,
+   "z": 36.2,
+   "text": "Papillon",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 187.7,
+   "z": 116.7,
+   "text": "Children's Clinic",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 163.1,
+   "z": 152.5,
+   "text": "IT Firm Office",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 115,
+   "z": 122.8,
+   "text": "Brodian Pub",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 81.4,
+   "z": 135.6,
+   "text": "Census Building",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 77.2,
+   "z": 157.1,
+   "text": "Playground",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 38.4,
+   "z": 147.3,
+   "text": "IDEA Billboard",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 41.2,
+   "z": 205.3,
+   "text": "Aba",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 38,
+   "z": 219.8,
+   "text": "Voyage",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 76.7,
+   "z": 229.1,
+   "text": "Father and Signs",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 129.7,
+   "z": 227.5,
+   "text": "Chekannaya 15",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 66.2,
+   "z": 309.9,
+   "text": "Closed Section",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -32.7,
+   "z": 454.9,
+   "text": "Kostin",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -58.7,
+   "z": 468.1,
+   "text": "Rus Real Estate Fund",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -92,
+   "z": 456.3,
+   "text": "Gagarin Hotel",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -144.7,
+   "z": 458.9,
+   "text": "FCK",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -167.3,
+   "z": 460.4,
+   "text": "Trynhyrd",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -171.9,
+   "z": 485.8,
+   "text": "Adult Store",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -135.1,
+   "z": 343,
+   "text": "Petersen Center",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -40.7,
+   "z": 222,
+   "text": "Theater",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -161,
+   "z": 181.2,
+   "text": "Nikita Cafe",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -253.1,
+   "z": 137.8,
+   "text": "MVD Academy",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -52.7,
+   "z": 57.2,
+   "text": "Dental",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -153.2,
+   "z": -16.5,
+   "text": "Adik",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -130.9,
+   "z": -42.6,
+   "text": "G Phone",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -158.1,
+   "z": -33.8,
+   "text": "Bear Hunting and Fishing Shop",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -91.8,
+   "z": -27.7,
+   "text": "World of Childhood",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -11.9,
+   "z": -132.6,
+   "text": "Tonni Hellfinger",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 59.4,
+   "z": -127.6,
+   "text": "Cardinal NE",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 133,
+   "z": -115.6,
+   "text": "Art Structure",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 170.5,
+   "z": -130.5,
+   "text": "Cardinal NW",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 125.9,
+   "z": -68.7,
+   "text": "CleverLand",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 139.5,
+   "z": -22.8,
+   "text": "Cardinal SW",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 54.1,
+   "z": -31,
+   "text": "Cardinal SE",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 54.4,
+   "z": -62.2,
+   "text": "TerraGroup Offices",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 137,
+   "z": -273.8,
+   "text": "Panda Supermarket",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 217.7,
+   "z": 378.6,
+   "text": "Concordia Basement",
+   "floor": 0
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 141.7,
+   "z": 367.1,
+   "text": "Concordia 9",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 271.3,
+   "z": 384.4,
+   "text": "Goshan",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 137.6,
+   "z": 347.3,
+   "text": "Polygon",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 143.7,
+   "z": 382.3,
+   "text": "Gale",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 49.6,
+   "z": 142.4,
+   "text": "Skybridge",
+   "floor": 3
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 50.1,
+   "z": 141.8,
+   "text": "Skybridge",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 185.9,
+   "z": 105.1,
+   "text": "X-Ray",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 186.5,
+   "z": 105.1,
+   "text": "X-Ray",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 237.1,
+   "z": -97.7,
+   "text": "Coffee Joy",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -71.3,
+   "z": -55.8,
+   "text": "Telespot",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -22.3,
+   "z": -68.7,
+   "text": "Kitchen",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -86.3,
+   "z": -38.8,
+   "text": "Father and Sons",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -72,
+   "z": -28.9,
+   "text": "World of Childhood 2F",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -115.5,
+   "z": -16.9,
+   "text": "Unagi",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -115.5,
+   "z": -21.7,
+   "text": "Kroener",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -131.3,
+   "z": -21.5,
+   "text": "Pizza",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -129.5,
+   "z": -10.7,
+   "text": "Coffee 'n Ice",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -152.1,
+   "z": -20.8,
+   "text": "Bilbo Coffee",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -149.8,
+   "z": -7.7,
+   "text": "Underway",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -166.5,
+   "z": -10.4,
+   "text": "Burger Spot",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -136.9,
+   "z": -33.1,
+   "text": "Revi's",
+   "floor": 1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -115.4,
+   "z": -17.1,
+   "text": "Burger House",
+   "floor": 2
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -114.9,
+   "z": -24.4,
+   "text": "FCK",
+   "floor": 2
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -165.8,
+   "z": -8.8,
+   "text": "Don't Panic",
+   "floor": 2
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -165.5,
+   "z": -16.1,
+   "text": "Midnight Crunch",
+   "floor": 2
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 65,
+   "z": 313.5,
+   "text": "Closed Section",
+   "floor": 1
+  },
+  {
+   "map": "Interchange",
+   "x": -139.9,
+   "z": -5.3,
+   "text": "Bonfire",
+   "floor": 0
+  },
+  {
+   "map": "Interchange",
+   "x": 87.3,
+   "z": 128.8,
+   "text": "OLI Offices",
+   "floor": 0
+  },
+  {
+   "map": "Interchange",
+   "x": -102.3,
+   "z": 131.3,
+   "text": "Oli Warehouse",
+   "floor": 0
+  },
+  {
+   "map": "Interchange",
+   "x": -104,
+   "z": -244.7,
+   "text": "IDEA Warehouse",
+   "floor": 0
+  },
+  {
+   "map": "Interchange",
+   "x": -6.1,
+   "z": -299.3,
+   "text": "IDEA Offices",
+   "floor": 0
+  },
+  {
+   "map": "Lighthouse",
+   "x": 426.9,
+   "z": 484.9,
+   "text": "Lighthouse",
+   "floor": -1
+  },
+  {
+   "map": "Lighthouse",
+   "x": 263.8,
+   "z": 492.7,
+   "text": "Mined Bridge",
+   "floor": -1
+  },
+  {
+   "map": "Lighthouse",
+   "x": 67,
+   "z": 461,
+   "text": "Fishing Huts",
+   "floor": -1
+  },
+  {
+   "map": "Lighthouse",
+   "x": 10,
+   "z": 189.3,
+   "text": "Main Road",
+   "floor": -1
+  },
+  {
+   "map": "Lighthouse",
+   "x": 56.1,
+   "z": -81,
+   "text": "Dead Tree (Pride Rock)",
+   "floor": -1
+  },
+  {
+   "map": "Lighthouse",
+   "x": 124,
+   "z": -153.8,
+   "text": "Docks (Boathouses)",
+   "floor": -1
+  },
+  {
+   "map": "Lighthouse",
+   "x": -172,
+   "z": -228.8,
+   "text": "Village",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": 156.9,
+   "z": -10.7,
+   "text": "Fields",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": 316.9,
+   "z": -136.4,
+   "text": "Abandoned Villaged in the Swamp",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": 255,
+   "z": -111,
+   "text": "Wooden Church",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": 47.8,
+   "z": 355.9,
+   "text": "Bus Crash",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -313.9,
+   "z": 474.1,
+   "text": "Office",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -914,
+   "z": 276.5,
+   "text": "Scout Tower",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -773.8,
+   "z": 339.2,
+   "text": "Signpost",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -752.5,
+   "z": 246.5,
+   "text": "Sunken House",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -557.9,
+   "z": 179.1,
+   "text": "Arch",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -98.9,
+   "z": -6.6,
+   "text": "Bus Terminal",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -199.7,
+   "z": -236.3,
+   "text": "Lookout",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": 43.8,
+   "z": -120.5,
+   "text": "Campsite",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -409.8,
+   "z": -245.6,
+   "text": "Fountain",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": -624.1,
+   "z": -204.7,
+   "text": "Military Camp (Scav Farm)",
+   "floor": -1
+  },
+  {
+   "map": "Shoreline",
+   "x": 212.9,
+   "z": 419.7,
+   "text": "Fishers' Island (Scav Island)",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 225.5,
+   "z": -309.6,
+   "text": "Crater",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 136,
+   "z": -742.8,
+   "text": "Bridge Overlook",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 226.2,
+   "z": -700.6,
+   "text": "Scav Bunker",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -82,
+   "z": -694.5,
+   "text": "Cultist Village (Abandoned Village)",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -4.7,
+   "z": -604.7,
+   "text": "Campsite (North)",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -114.5,
+   "z": -467.4,
+   "text": "Bear Car",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -277.2,
+   "z": -424.1,
+   "text": "Marked Circle Bunker",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -220.1,
+   "z": -208.8,
+   "text": "Cave",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -141.4,
+   "z": -202.9,
+   "text": "Sniper Cliff",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 101.9,
+   "z": -336,
+   "text": "Maze",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -187.2,
+   "z": -81.9,
+   "text": "Lookout Rock",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -224.1,
+   "z": -90.9,
+   "text": "Campsite #1",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -255.9,
+   "z": 2.7,
+   "text": "Wooden Lookout Post",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -356,
+   "z": 115.6,
+   "text": "Ravine",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -211,
+   "z": 193.8,
+   "text": "Rubble",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -95.2,
+   "z": 225.6,
+   "text": "Car Crash",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -73,
+   "z": 173.4,
+   "text": "Peninsula",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -289.6,
+   "z": 238.9,
+   "text": "Tunnel Rock",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -361,
+   "z": 283.1,
+   "text": "White Tanker",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -527.9,
+   "z": 222.8,
+   "text": "Ditch",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -649.3,
+   "z": 139.3,
+   "text": "Train Yard",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 198.5,
+   "z": -13.3,
+   "text": "Ritual",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 122.7,
+   "z": 100.3,
+   "text": "Campsite #2",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 62.9,
+   "z": 47.4,
+   "text": "Warehouse #1",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 66.3,
+   "z": -1.7,
+   "text": "Warehouse #2",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 75.6,
+   "z": -42,
+   "text": "Wood Shed",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -34.3,
+   "z": 24.5,
+   "text": "Overwatch Rock",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": -28.4,
+   "z": 45.4,
+   "text": "Guardhouse",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 24,
+   "z": 85.7,
+   "text": "Jetty",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 129.4,
+   "z": -82.5,
+   "text": "Truck",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 124.8,
+   "z": 16.5,
+   "text": "Duffle Rock",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 242,
+   "z": 120.9,
+   "text": "Attachment Cabin (Shack)",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 368.1,
+   "z": 125,
+   "text": "Burnt Out SUV",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 412.4,
+   "z": 225.5,
+   "text": "Scav House",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 316.7,
+   "z": 264.2,
+   "text": "Cabin Overlook",
+   "floor": -1
+  },
+  {
+   "map": "Woods",
+   "x": 364.6,
+   "z": 10.5,
+   "text": "Bunker Overlook",
+   "floor": -1
+  },
+  {
+   "map": "Customs",
+   "x": 110.1,
+   "z": 84.3,
+   "text": "Ambush Hill (Sniper Hill)",
+   "floor": -1
+  },
+  {
+   "map": "Customs",
+   "x": 238.2,
+   "z": 54,
+   "text": "Bus Terminal",
+   "floor": -1
+  },
+  {
+   "map": "Customs",
+   "x": 567.6,
+   "z": -69,
+   "text": "Warehouse 6 (Streamer House)",
+   "floor": -1
+  },
+  {
+   "map": "Customs",
+   "x": 274,
+   "z": -51.5,
+   "text": "Industrial Plant",
+   "floor": -1
+  },
+  {
+   "map": "Customs",
+   "x": 350.1,
+   "z": -1.7,
+   "text": "Shortcut",
+   "floor": -1
+  },
+  {
+   "map": "Factory",
+   "x": 10.4,
+   "z": 25,
+   "text": "Processing Room",
+   "floor": -1
+  },
+  {
+   "map": "Factory",
+   "x": -19,
+   "z": 50.6,
+   "text": "Blue Containers (Holding Area)",
+   "floor": -1
+  },
+  {
+   "map": "Factory",
+   "x": 44.9,
+   "z": -49.1,
+   "text": "Gate 2",
+   "floor": -1
+  },
+  {
+   "map": "Factory",
+   "x": 70.2,
+   "z": -71.7,
+   "text": "Gate 1",
+   "floor": -1
+  },
+  {
+   "map": "Factory",
+   "x": -45.8,
+   "z": 7.8,
+   "text": "Gate 5",
+   "floor": -1
+  },
+  {
+   "map": "Factory",
+   "x": 17,
+   "z": 40.2,
+   "text": "Main Office (Foreman)",
+   "floor": 1
+  },
+  {
+   "map": "Factory",
+   "x": 24.5,
+   "z": 38.7,
+   "text": "Secretary Office (Breach)",
+   "floor": 1
+  },
+  {
+   "map": "Factory",
+   "x": 30.4,
+   "z": 40.3,
+   "text": "Engineer's Office (Locked)",
+   "floor": 1
+  },
+  {
+   "map": "Factory",
+   "x": 34.4,
+   "z": 7.8,
+   "text": "Bridge",
+   "floor": 1
+  },
+  {
+   "map": "Terminal",
+   "x": 217.8,
+   "z": -229.9,
+   "text": "Armory",
+   "floor": -1
+  },
+  {
+   "map": "Terminal",
+   "x": 286.3,
+   "z": -238.5,
+   "text": "Seaport Terminal",
+   "floor": -1
+  },
+  {
+   "map": "Terminal",
+   "x": -312.2,
+   "z": 62,
+   "text": "ZUBR Boat",
+   "floor": -1
+  },
+  {
+   "map": "Terminal",
+   "x": 156,
+   "z": 289.9,
+   "text": "Pump Station",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": -48.9,
+   "z": 51.9,
+   "text": "GATE 1",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": -4,
+   "z": -47.7,
+   "text": "GATE 2",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": -42.9,
+   "z": -30.5,
+   "text": "GATE 3",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": 16.1,
+   "z": 74.6,
+   "text": "GATE 4",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": 35.6,
+   "z": 9,
+   "text": "GATE 5",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -174.6,
+   "z": 227.4,
+   "text": "Finance Building",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -199.4,
+   "z": 251.5,
+   "text": "Dostoevsky (Marked Hotel)",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -222.3,
+   "z": 280.6,
+   "text": "ALCO-Point (Family Market)",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -211.4,
+   "z": 303.7,
+   "text": "Hive (Relax Room)",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 97.4,
+   "z": -17.3,
+   "text": "Cardinal Bank (Unity Credit)",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 108.1,
+   "z": 36.2,
+   "text": "Golden World",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 48,
+   "z": 38.2,
+   "text": "Corner Diner",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": 41.6,
+   "z": 78.6,
+   "text": "Coffee Joy",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -31.9,
+   "z": 402.1,
+   "text": "Statue",
+   "floor": -1
+  },
+  {
+   "map": "Streets of Tarkov",
+   "x": -83.4,
+   "z": 402.1,
+   "text": "Plaza",
+   "floor": -1
+  },
+  {
+   "map": "Interchange",
+   "x": 35.5,
+   "z": 147.7,
+   "text": "PC Cubicles",
+   "floor": 0
+  }
+ ],
+ "mapTexts": [
+  {
+   "map": "Customs",
+   "x": 179.2,
+   "z": 149.1,
+   "text": "301",
+   "floor": 2,
+   "size": 1.61
+  },
+  {
+   "map": "Customs",
+   "x": 170.1,
+   "z": 153.3,
+   "text": "302",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 179.5,
+   "z": 152.1,
+   "text": "303",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 170.5,
+   "z": 156.6,
+   "text": "304",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 179.9,
+   "z": 155.3,
+   "text": "305",
+   "floor": 2,
+   "size": 1.68
+  },
+  {
+   "map": "Customs",
+   "x": 171,
+   "z": 159.7,
+   "text": "306",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 180.3,
+   "z": 158.5,
+   "text": "307",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 181.7,
+   "z": 167.8,
+   "text": "309",
+   "floor": 2,
+   "size": 1.61
+  },
+  {
+   "map": "Customs",
+   "x": 182,
+   "z": 171,
+   "text": "311",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 182.3,
+   "z": 174,
+   "text": "313",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 182.9,
+   "z": 177.2,
+   "text": "315",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 184.1,
+   "z": 186.5,
+   "text": "314",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 174.3,
+   "z": 184.9,
+   "text": "310",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 174,
+   "z": 181.7,
+   "text": "308",
+   "floor": 2,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 178.8,
+   "z": 149,
+   "text": "201",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 169.7,
+   "z": 150.3,
+   "text": "202",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 179.3,
+   "z": 152.1,
+   "text": "203",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 170,
+   "z": 153.5,
+   "text": "204",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 180,
+   "z": 155.2,
+   "text": "205",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 170.6,
+   "z": 156.6,
+   "text": "206",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 180.3,
+   "z": 158.5,
+   "text": "207",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 170.9,
+   "z": 159.7,
+   "text": "208",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 180.7,
+   "z": 161.5,
+   "text": "209",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 182.1,
+   "z": 170.9,
+   "text": "211",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 173.5,
+   "z": 181.6,
+   "text": "210",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 174.1,
+   "z": 184.8,
+   "text": "212",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 174.8,
+   "z": 187.9,
+   "text": "214",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 182.3,
+   "z": 184.7,
+   "text": "213",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 185.4,
+   "z": 184,
+   "text": "215",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 188.5,
+   "z": 183.4,
+   "text": "217",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 191.6,
+   "z": 182.9,
+   "text": "219",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 194.6,
+   "z": 182.5,
+   "text": "221",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 197.7,
+   "z": 181.9,
+   "text": "223",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 187.3,
+   "z": 175,
+   "text": "216",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 190.4,
+   "z": 174.6,
+   "text": "218",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 193.5,
+   "z": 173.9,
+   "text": "220",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 179.1,
+   "z": 148.7,
+   "text": "101",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 179.6,
+   "z": 152,
+   "text": "103",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 180,
+   "z": 155.1,
+   "text": "105",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 169.8,
+   "z": 150.1,
+   "text": "102",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 170.2,
+   "z": 153.2,
+   "text": "104",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 170.7,
+   "z": 156.3,
+   "text": "106",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 182,
+   "z": 170.6,
+   "text": "107",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 173.8,
+   "z": 181.4,
+   "text": "108",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 174.3,
+   "z": 184.6,
+   "text": "109",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 174.9,
+   "z": 187.7,
+   "text": "110",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 182.4,
+   "z": 184.9,
+   "text": "111",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 185.5,
+   "z": 184.4,
+   "text": "112",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 188.5,
+   "z": 183.9,
+   "text": "113",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 187.4,
+   "z": 174.7,
+   "text": "114",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 191.8,
+   "z": 183.5,
+   "text": "115",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 190.5,
+   "z": 174.3,
+   "text": "116",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 194.8,
+   "z": 182.8,
+   "text": "117",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 193.6,
+   "z": 174,
+   "text": "118",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 197.9,
+   "z": 182.3,
+   "text": "119",
+   "floor": -1,
+   "size": 1.62
+  },
+  {
+   "map": "Customs",
+   "x": 223.6,
+   "z": 132.4,
+   "text": "101",
+   "floor": -1,
+   "size": 1.51
+  },
+  {
+   "map": "Customs",
+   "x": 233.6,
+   "z": 134,
+   "text": "102",
+   "floor": -1,
+   "size": 1.51
+  },
+  {
+   "map": "Customs",
+   "x": 224.2,
+   "z": 135.4,
+   "text": "103",
+   "floor": -1,
+   "size": 1.51
+  },
+  {
+   "map": "Customs",
+   "x": 234.1,
+   "z": 137.1,
+   "text": "104",
+   "floor": -1,
+   "size": 1.49
+  },
+  {
+   "map": "Customs",
+   "x": 224.6,
+   "z": 138.5,
+   "text": "105",
+   "floor": -1,
+   "size": 1.49
+  },
+  {
+   "map": "Customs",
+   "x": 234.3,
+   "z": 140.3,
+   "text": "106",
+   "floor": -1,
+   "size": 1.49
+  },
+  {
+   "map": "Customs",
+   "x": 226.1,
+   "z": 147.6,
+   "text": "107",
+   "floor": -1,
+   "size": 1.49
+  },
+  {
+   "map": "Customs",
+   "x": 226.1,
+   "z": 150.9,
+   "text": "108",
+   "floor": -1,
+   "size": 1.49
+  },
+  {
+   "map": "Customs",
+   "x": 226.5,
+   "z": 154.1,
+   "text": "109",
+   "floor": -1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 228,
+   "z": 163.2,
+   "text": "110",
+   "floor": -1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 228.4,
+   "z": 166.6,
+   "text": "111",
+   "floor": -1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 228.9,
+   "z": 169.7,
+   "text": "112",
+   "floor": -1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 237.7,
+   "z": 165.2,
+   "text": "113",
+   "floor": -1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 237.5,
+   "z": 162.2,
+   "text": "114",
+   "floor": -1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 223.5,
+   "z": 132.4,
+   "text": "201",
+   "floor": 1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 233.3,
+   "z": 134.1,
+   "text": "202",
+   "floor": 1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 224.3,
+   "z": 135.1,
+   "text": "203",
+   "floor": 1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 234,
+   "z": 137.4,
+   "text": "204",
+   "floor": 1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 224.8,
+   "z": 138.4,
+   "text": "205",
+   "floor": 1,
+   "size": 1.48
+  },
+  {
+   "map": "Customs",
+   "x": 234.5,
+   "z": 140.3,
+   "text": "206",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 225,
+   "z": 141.5,
+   "text": "207",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 225.2,
+   "z": 144.7,
+   "text": "208",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 225.6,
+   "z": 147.9,
+   "text": "209",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 226.1,
+   "z": 151.1,
+   "text": "210",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 226.6,
+   "z": 154.2,
+   "text": "211",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 227.9,
+   "z": 163.5,
+   "text": "212",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 228.2,
+   "z": 166.8,
+   "text": "213",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 228.6,
+   "z": 169.8,
+   "text": "214",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 236.3,
+   "z": 156.1,
+   "text": "218",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 237.7,
+   "z": 165.4,
+   "text": "215",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 237.4,
+   "z": 162.4,
+   "text": "216",
+   "floor": 1,
+   "size": 1.6
+  },
+  {
+   "map": "Customs",
+   "x": 237,
+   "z": 159.3,
+   "text": "217",
+   "floor": 1,
+   "size": 1.6
+  }
+ ],
+ "newExtracts": [
+  {
+   "map": "Interchange",
+   "x": 500.6,
+   "z": 84.1,
+   "name": "Path to river",
+   "faction": 0,
+   "floor": -1
+  },
+  {
+   "map": "Interchange",
+   "x": -142.7,
+   "z": -171.6,
+   "name": "Smuggler's Tunnel",
+   "faction": 2,
+   "floor": -1
+  }
+ ]
+}

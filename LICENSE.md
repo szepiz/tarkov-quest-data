@@ -7,6 +7,9 @@ a source that requires share-alike.
 
 - **`observed/`**, quests read off the in-game quest screen and transcribed. No
   upstream.
+- **`mapdata/`**, positions placed by hand on a map and checked against the
+  game. `api/maps.json` is built from it and is CC0 too, apart from the story
+  chapter list, which comes from tarkov-data-overlay and is marked as such.
 - **`fetch/`**, the collectors, the grader and the builders, including the viewer
   templates.
 

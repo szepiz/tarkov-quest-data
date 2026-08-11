@@ -36,9 +36,25 @@ const data = await fetch('https://raw.githubusercontent.com/szepiz/tarkov-quest-
   .then((r) => r.json());
 ```
 
-It's about 750 KB, so cache it instead of pulling it on every page load. Each
+It's about 1.9 MB, so cache it instead of pulling it on every page load. Each
 quest carries a top-level `asOf` (the newest of its field dates), so if your copy
 is newer you can skip the record without reading its `provenance` at all.
+
+There's a second file for the map side, about 245 KB:
+
+```
+https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/api/maps.json
+```
+
+BattlePass document pins, corrected marker positions, 219 added labels, 87 map
+texts, hazards and the story campaign. It's separate so that a consumer who only
+wants quest names and objectives doesn't download a few hundred KB of pins. The
+two files join by quest id and by map name.
+
+Almost all of `maps.json` exists nowhere else. Nobody publishes a position for a
+BattlePass document, a room number the map doesn't print, or a hazard area, and
+where a source does publish a position it's often wrong by enough to send a
+player to the wrong door.
 
 [api/README.md](api/README.md) has the field list and the merge rules.
 
@@ -179,7 +195,8 @@ unresolved is in [observed/OPEN.md](observed/OPEN.md), regenerated on every run.
 ```sh
 node fetch/fetch_all.js                 # everything -> raw/
 node fetch/fetch_all.js --only=wiki     # just one source
-node fetch/build_api.js                 # the published file -> api/quests.json
+node fetch/build_api.js                 # the quest file -> api/quests.json
+node fetch/build_maps.js                # the map file   -> api/maps.json
 node fetch/check_observed.js            # grade every source -> observed/REPORT.md + OPEN.md
 node fetch/build_view.js                # -> view/index.html
 node fetch/build_tree.js                # -> view/tree.html
@@ -221,7 +238,7 @@ to English, and to summarise it and make the overall text easier to read.
 
 Full detail in [LICENSE.md](LICENSE.md). Short version:
 
-- **`observed/` and `fetch/`** are mine, **CC0-1.0**. Do what you like.
+- **`observed/`, `mapdata/` and `fetch/`** are mine, **CC0-1.0**. Do what you like.
 - **`api/quests.json`** and the two built pages in `view/` contain wiki-derived
   values, so they carry the wiki's terms: **CC BY-SA 3.0**, attribution to
   *Escape from Tarkov Wiki contributors*. Every value names its source, so

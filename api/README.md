@@ -15,11 +15,18 @@ const data = await fetch('https://raw.githubusercontent.com/szepiz/tarkov-quest-
 ```
 
 It's one static file behind a CDN, so it's fast and it can't go down on its own.
-It's also about 750 KB, so cache it rather than pulling it on every page load.
+It's also about 1.9 MB, so cache it rather than pulling it on every page load.
+
+There is a second file here, **`maps.json`** (about 245 KB): BattlePass
+document pins, corrected marker positions, 219 added labels, 87 map texts,
+hazards and the story campaign. Almost all of it is first-party and exists
+nowhere else. It is separate so that a consumer who only wants quest names and
+objectives does not download a few hundred KB of pins. The two join by quest id
+and by map name, and `maps.json` carries the same per-section dating.
 
 This is the only folder meant for consumption. `raw/` is a local cache of the
-upstream sources, `observed/` is the in-game record they get graded against, and
-`fetch/` rebuilds all of it.
+upstream sources, `observed/` is the in-game record they get graded against,
+`mapdata/` holds the hand-placed map work, and `fetch/` rebuilds all of it.
 
 ## Why the dates matter
 
@@ -92,7 +99,8 @@ when it was downloaded, which is a fact about this repo and not about the data.
 ## Rebuild it
 
 ```sh
-node fetch/fetch_all.js && node fetch/build_api.js
+node fetch/fetch_all.js && node fetch/build_api.js   # quests.json
+node fetch/build_maps.js                             # maps.json
 ```
 
 The build refuses to write if any date invariant breaks: an undated source
