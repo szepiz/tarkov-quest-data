@@ -13,7 +13,7 @@ Where a source disagrees with a record in here, the source is wrong.
 
 ## What's in it
 
-**312 records across all eleven traders**, captured from 2026-08-10 onward, on
+**316 records across all eleven traders**, captured from 2026-08-10 onward, on
 game version 1.1.0, from a **PvE, USEC** profile.
 
 | trader | records | | trader | records |
@@ -72,6 +72,7 @@ The optional fields each exist because a real record needed one:
 | `questId` | the name alone is ambiguous. Setting it also stands the shuffle detector down for that record, since the pin is the answer it was looking for |
 | `questIdReason` | why that id and not the other. Printed straight into OPEN.md |
 | `objectivesHidden` | steps the game hasn't revealed yet, named where known |
+| `loyaltyBadge` | the badge in the card's top-right corner, which IS the loyalty tab: `crown` at LL4, `three bars` at LL3, `lines` for Essential. A second reading of the tab, off the card rather than off the list it was opened from |
 | `unknownToEverySource` | no source has this quest, checked by name *and* by content |
 | `merged` / `lineShattered` | 1.1.0 restructured the line this belongs to |
 | `itemChanged` | a rename that also changed content, which is the dangerous kind |
@@ -95,7 +96,7 @@ It grades every collected source against these records and writes two files:
 
 ## What it found
 
-Against these 312 records: the **wiki is 711 of 744 (96%)**, tarkov.dev is
+Against these 316 records: the **wiki is 716 of 750 (95%)**, tarkov.dev is
 **895 of 1023 (87%)**, SPT is 460 of 548 (84%), and the overlay is 2 of 3. The
 overlay is a correction layer of 13 tasks and says nothing about almost
 everything, which is by design.

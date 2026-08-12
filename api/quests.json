@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-12T10:56:08.575Z",
+ "generatedAt": "2026-08-12T15:10:26.032Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -25,7 +25,7 @@
    "dating": "exact",
    "datingNote": "The day the quest was seen on screen.",
    "asOf": "2026-08-11",
-   "coverage": "307 quests",
+   "coverage": "311 quests",
    "profile": {
     "mode": "pve",
     "faction": "USEC",
@@ -65,7 +65,7 @@
  },
  "counts": {
   "quests": 538,
-  "confirmedInGame": 312,
+  "confirmedInGame": 316,
   "removedFromGame": 33,
   "unknownToEverySource": 5
  },
@@ -2845,14 +2845,11 @@
    "name": "Antique Enthusiast",
    "trader": "Ragman",
    "objectiveText": [
-    "Find 3 Antique teapots in raid",
-    "Find 2 Antique vases in raid",
-    "Find 1 Axel parrot figurine in raid",
-    "Find 2 Raven figurines in raid",
-    "Hand over 3 Antique teapots to Ragman",
-    "Hand over 2 Antique vases to Ragman",
-    "Hand over 1 Axel parrot figurine to Ragman",
-    "Hand over 2 Raven figurines to Ragman"
+    "Hand over the found in raid item: Antique teapot (3)",
+    "Hand over the found in raid item: Antique vase (3)",
+    "Hand over the found in raid item: Axel parrot figurine (2)",
+    "Hand over the found in raid item: Raven figurine (2)",
+    "Hand over the found in raid item: Gold skull ring (5)"
    ],
    "objectives": [
     {
@@ -2952,6 +2949,12 @@
      ]
     }
    ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 4
+    }
+   ],
    "minPlayerLevel": 30,
    "requires": [
     {
@@ -2967,6 +2970,14 @@
      ]
     }
    ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -2976,28 +2987,34 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Antique_Enthusiast",
-   "asOf": "2026-08-09",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "loyalty": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -3008,6 +3025,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Seen under Ragman's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -72901,12 +72924,12 @@
    "name": "Textile - Part 1",
    "trader": "Ragman",
    "objectiveText": [
-    "Find 5 Aramid fabrics in raid",
-    "Hand over 5 Aramid fabrics to Ragman",
-    "Find 10 Ripstop fabrics in raid",
-    "Hand over 10 Ripstop fabrics to Ragman",
-    "Find 3 Paracords in raid",
-    "Hand over 3 Paracords to Ragman"
+    "Find the item in raid: Aramid fabric (5)",
+    "Hand over the fabrics (5)",
+    "Find the item in raid: Ripstop fabric (10)",
+    "Hand over the fabrics (10)",
+    "Find the item in raid: Paracord (3)",
+    "Hand over the items (3)"
    ],
    "objectives": [
     {
@@ -72998,14 +73021,6 @@
      ]
     }
    ],
-   "traderRequirements": [
-    {
-     "trader": "Ragman",
-     "kind": "loyalty",
-     "compareMethod": ">=",
-     "value": 4
-    }
-   ],
    "modes": [
     "pvp",
     "pve",
@@ -73015,23 +73030,25 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Textile_-_Part_1",
-   "asOf": "2026-08-05",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 6 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -73055,11 +73072,6 @@
      "dating": "none"
     },
     "requires": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "traderRequirements": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
@@ -76304,7 +76316,9 @@
    "trader": "Jaeger",
    "map": "Reserve",
    "objectiveText": [
-    "Eliminate Glukhar"
+    "Locate and neutralize Glukhar",
+    "Hand over the found in raid Glukhar's guards' helmets (2)",
+    "(Optional) Search Glukhar's guards and collect their helmets of Class 4 or higher (2)"
    ],
    "objectives": [
     {
@@ -76316,6 +76330,12 @@
       "Reserve"
      ],
      "count": 1
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
     }
    ],
    "minPlayerLevel": 20,
@@ -76330,6 +76350,14 @@
    "objectiveMaps": [
     "Reserve"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -76339,33 +76367,40 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Eraser",
-   "asOf": "2026-08-09",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "loyalty": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -76381,6 +76416,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -77200,7 +77241,7 @@
    "trader": "Jaeger",
    "map": "Factory",
    "objectiveText": [
-    "Eliminate 6 PMСs in the office area (any floor) on Factory"
+    "Eliminate PMC operatives on Factory (6)"
    ],
    "objectives": [
     {
@@ -77257,6 +77298,15 @@
      "count": 6
     }
    ],
+   "objectiveTextById": {
+    "5d26143c86f77469ef0f894c": "Eliminate PMC operatives on Factory (6)"
+   },
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ],
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -77275,6 +77325,14 @@
    "objectiveMaps": [
     "Factory"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -77284,33 +77342,45 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Secured_Perimeter",
-   "asOf": "2026-08-09",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": 3,
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
+    },
+    "loyalty": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -77326,6 +77396,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 3 tab in game; no source states a gate for this quest."
     }
    }
   },

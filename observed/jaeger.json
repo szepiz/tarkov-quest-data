@@ -296,8 +296,8 @@
         "Hand over the found in raid Sanitar's bag"
       ],
       "objectiveAdded": "The game has a second objective both sources lack: 'Hand over the found in raid Sanitar's bag'. tarkov.dev and the wiki publish the kill alone. Not progressive reveal in the usual direction — the card shows MORE than the sources, not fewer, so it cannot be explained by a step the game has not printed yet. Wording kept verbatim, the game's own phrasing.",
-      "crownIcon": true,
-      "crownIconNote": "See The Guide in peacekeeper.json."
+      "loyaltyBadge": "crown",
+      "loyaltyBadgeNote": "THE BADGE IN THE TOP-RIGHT CORNER IS THE LOYALTY TAB. Crown = LL4, three bars = LL3, horizontal lines = Essential. Confirmed by the owner, and every one of the eleven cards read on 2026-08-12 agrees with the tab they reported it from. It is worth recording because it makes the tab a property of the CARD rather than of which list the screenshot was taken from — an independent second reading of the same fact. It is NOT a Kappa marker: three of the crowned cards are published `kappaRequired` and three are not, which is what first made this look like a disagreement with tarkov.dev. It was not one."
     },
     {
       "name": "The Huntsman Path - Relentless",
@@ -315,8 +315,8 @@
         "Locate and neutralize Sanitar"
       ],
       "openQuestion": "OFFERED WHILE ONE OF ITS OWN PREREQUISITES IS STILL ACTIVE. tarkov.dev requires six Huntsman Path quests complete before this one, and one of them is Sadist — captured active in the same sitting as this card, not complete and not failed. Three more (Factory Chief, Eraser, Sellout) have never appeared on this profile at all. So either the requirement list is stale or the game does not enforce it; either way a tracker that locks on it hides a quest the game is offering right now. Same shape as the accept-not-complete finding, and the cleanest instance of it so far, because both cards were read minutes apart.",
-      "crownIcon": true,
-      "crownIconNote": "See The Guide in peacekeeper.json."
+      "loyaltyBadge": "crown",
+      "loyaltyBadgeNote": "See the first record carrying this field."
     },
     {
       "name": "Hunting Trip",
@@ -334,8 +334,8 @@
         ".338 Lapua Magnum FMJ (30)"
       ],
       "itemChanged": "THE WHOLE OBJECTIVE WAS REPLACED, and both sources still carry the old one. They publish a single step: kill Shturman with a headshot from over 40 metres using an M700 and a named scope. The game asks for twenty kills of ANY boss with ANY bolt-action rifle, and hands over an AXMC and a Sako TRG M10 to do it with. One target became twenty, one named weapon became a class, and the headshot and range conditions are gone. Anyone following the published text is doing a quest that no longer exists.",
-      "crownIcon": true,
-      "crownIconNote": "See The Guide in peacekeeper.json."
+      "loyaltyBadge": "crown",
+      "loyaltyBadgeNote": "See the first record carrying this field."
     },
     {
       "name": "The Tarkov Shooter - Part 1",
@@ -488,6 +488,36 @@
       "objectives": [
         "Eliminate Scavs during 22:00-07:00 on Shoreline (12)"
       ]
+    },
+    {
+      "name": "The Huntsman Path - Eraser",
+      "location": "Reserve",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "observedAt": "2026-08-12",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Glukhar",
+        "Hand over the found in raid Glukhar's guards' helmets (2)",
+        "(Optional) Search Glukhar's guards and collect their helmets of Class 4 or higher (2)"
+      ],
+      "loyaltyBadge": "three bars",
+      "loyaltyBadgeNote": "See the first record carrying this field.",
+      "objectiveAdded": "TWO OBJECTIVES NEITHER SOURCE HAS. Both publish the Glukhar kill alone; the card also asks for two of his guards' helmets handed over, and carries an optional step to collect helmets of Class 4 or higher. The optional prefix is the game's own and is kept verbatim."
+    },
+    {
+      "name": "The Huntsman Path - Secured Perimeter",
+      "location": "Factory",
+      "status": "active",
+      "availableAtLoyalty": 3,
+      "observedAt": "2026-08-12",
+      "objectivesComplete": true,
+      "objectives": [
+        "Eliminate PMC operatives on Factory (6)"
+      ],
+      "loyaltyBadge": "three bars",
+      "loyaltyBadgeNote": "See the first record carrying this field.",
+      "itemChanged": "THE OFFICE-AREA RESTRICTION IS GONE. Both sources say \"in the office area (any floor) on Factory\"; the card says Factory, no area named, same count of six. So the kills count anywhere on the map now. Consequence beyond the wording: the three hand-drawn map areas covering the Factory office floors for this objective no longer describe it."
     }
   ]
 }

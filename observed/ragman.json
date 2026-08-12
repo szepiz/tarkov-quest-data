@@ -421,6 +421,46 @@
       "objectives": [
         "Eliminate any target that is using a 20+ container size backpack (15)"
       ]
+    },
+    {
+      "name": "Antique Enthusiast",
+      "location": "Any location",
+      "status": "completed",
+      "availableAtLoyalty": 4,
+      "observedAt": "2026-08-12",
+      "objectivesComplete": true,
+      "objectives": [
+        "Hand over the found in raid item: Antique teapot (3)",
+        "Hand over the found in raid item: Antique vase (3)",
+        "Hand over the found in raid item: Axel parrot figurine (2)",
+        "Hand over the found in raid item: Raven figurine (2)",
+        "Hand over the found in raid item: Gold skull ring (5)"
+      ],
+      "loyaltyBadge": "crown",
+      "loyaltyBadgeNote": "See the first record carrying this field.",
+      "itemChanged": "FIVE HAND-OVERS AND NOTHING ELSE, against eight objectives in both sources, and this one is COMPLETED so its length can be graded — the progressive-reveal escape does not apply. Three separate differences: the game has no \"find in raid\" steps at all, only hand-overs; two counts moved (Antique vase 2 -> 3, Axel parrot figurine 1 -> 2); and there is a FIFTH item no source lists, Gold skull ring, five of them. Anyone working from the published list hands in the wrong number of two items and never learns about the third.",
+      "observedAtNote": "The 2026-08-10 Ragman capture recorded LL1-LL3 and the essential group and said plainly that Ragman LL4 had not been reached. It has now, which is why an LL4 card exists."
+    },
+    {
+      "name": "Textile - Part 1",
+      "questId": "5e383a6386f77465910ce1f3",
+      "questIdReason": "TWO QUESTS SHARE THIS NAME, one per faction, and the name alone cannot choose. Pinned to the USEC variant because the collection states the profile is USEC (see `profile.factionNote`). Without the pin the observation could drop a loyalty gate on the BEAR variant, which nobody has looked at.",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "observedAt": "2026-08-12",
+      "objectivesComplete": true,
+      "objectives": [
+        "Find the item in raid: Aramid fabric (5)",
+        "Hand over the fabrics (5)",
+        "Find the item in raid: Ripstop fabric (10)",
+        "Hand over the fabrics (10)",
+        "Find the item in raid: Paracord (3)",
+        "Hand over the items (3)"
+      ],
+      "loyaltyBadge": "lines",
+      "loyaltyBadgeNote": "See the first record carrying this field.",
+      "openQuestion": "FILED UNDER ESSENTIAL, WHILE BOTH SOURCES PUBLISH RAGMAN LL4. Essential is the group with no loyalty tab, so by the rule this collection has applied fifteen times the gate goes — but this single observation cannot separate the two candidates for why it was absent on 2026-08-10. BOTH changed since: Ragman LL4 was reached, AND the quest chain moved (it needs Sew it Good - Part 4 complete, and that capture recorded Sew it Good - Part 1 as still ACTIVE, so Parts 2-4 had not appeared yet). The chain alone explains the absence without any help from a loyalty gate, which is why the tab reading is taken at face value here."
     }
   ]
 }

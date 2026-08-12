@@ -439,9 +439,9 @@
         "Survive and extract from Ground Zero or Streets of Tarkov with the \"Survived\" exit status",
         "Eliminate any target (15)"
       ],
-      "crownIcon": true,
-      "crownIconNote": "THE CARD CARRIES A CROWN IN ITS TOP-RIGHT CORNER. Recorded as seen and not interpreted: all six cards read on 2026-08-12 carry it, while tarkov.dev flags only three of them `kappaRequired` (Sadist, Hunting Trip, The Guide) and not the other three (Relentless, Counteraction, Special Equipment). So either the crown means something else, or the published Kappa list has not caught up with 1.1.0, which rewrote Kappa. Six cards is not enough to settle it, and no card WITHOUT a crown has been read yet, so the other direction is untested.",
-      "objectiveTypeNote": "FIVE EXTRACTS, EACH A CHOICE OF TWO MAPS, plus a kill count. tarkov.dev publishes TEN extract objectives instead, one per map, and no kill objective at all — so its structure asks for ten raids where the game asks for five, and drops a step. The wiki has the pairs and the kill count right."
+      "objectiveTypeNote": "FIVE EXTRACTS, EACH A CHOICE OF TWO MAPS, plus a kill count. tarkov.dev publishes TEN extract objectives instead, one per map, and no kill objective at all — so its structure asks for ten raids where the game asks for five, and drops a step. The wiki has the pairs and the kill count right.",
+      "loyaltyBadge": "crown",
+      "loyaltyBadgeNote": "See the first record carrying this field."
     },
     {
       "name": "Counteraction",
@@ -455,9 +455,9 @@
         "Hand over the found in raid item: Dogtag BEAR (20)"
       ],
       "progressPercent": "the hand-over stood at 11/20 and the kills at 0/20 when this was read",
-      "crownIcon": true,
-      "crownIconNote": "See The Guide in this file.",
-      "objectiveTypeNote": "tarkov.dev's kill objective names Lighthouse ALONE; the game names five maps (Lighthouse, Ground Zero, Reserve, Shoreline, Streets of Tarkov). The header still files the quest under Lighthouse, so the map field is not wrong — the objective is."
+      "objectiveTypeNote": "tarkov.dev's kill objective names Lighthouse ALONE; the game names five maps (Lighthouse, Ground Zero, Reserve, Shoreline, Streets of Tarkov). The header still files the quest under Lighthouse, so the map field is not wrong — the objective is.",
+      "loyaltyBadge": "crown",
+      "loyaltyBadgeNote": "See the first record carrying this field."
     },
     {
       "name": "Special Equipment",
@@ -479,8 +479,8 @@
         "Hand over the items (4)"
       ],
       "notTruncated": "Five finds and five hand-overs, and the flash drive asks for FOUR where the other four items ask for five. The wiki publishes the same ten steps with the same 5/5/5/5/4 split, so the two agree and the list is settled rather than cut short.",
-      "crownIcon": true,
-      "crownIconNote": "See The Guide in this file."
+      "loyaltyBadge": "crown",
+      "loyaltyBadgeNote": "See the first record carrying this field."
     }
   ]
 }

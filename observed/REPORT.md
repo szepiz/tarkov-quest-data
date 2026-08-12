@@ -202,7 +202,7 @@ _every source agrees_
 > in game: **Jaeger LL4** · active · Any location
 `60e71e8ed54b755a3b53eb67` · matched on wiki title
 - **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
-- tarkov.dev also gates it behind: The Huntsman Path - Trophy [complete], seen in game at LL1; The Huntsman Path - Factory Chief [complete], not observed yet; The Huntsman Path - Woods Keeper [complete], seen in game at LL1; The Huntsman Path - Eraser (tarkov.dev: The Huntsman Path - Eraser - Part 1) [complete], not observed yet; The Huntsman Path - Sadist [complete or failed], seen in game at LL4; The Huntsman Path - Sellout [complete], not observed yet
+- tarkov.dev also gates it behind: The Huntsman Path - Trophy [complete], seen in game at LL1; The Huntsman Path - Factory Chief [complete], not observed yet; The Huntsman Path - Woods Keeper [complete], seen in game at LL1; The Huntsman Path - Eraser (tarkov.dev: The Huntsman Path - Eraser - Part 1) [complete], seen in game at LL3; The Huntsman Path - Sadist [complete or failed], seen in game at LL4; The Huntsman Path - Sellout [complete], not observed yet
 
 ### Hunting Trip
 > in game: **Jaeger LL4** · active · Woods
@@ -269,6 +269,20 @@ _every source agrees_
 ### Thirsty - Hounds
 _every source agrees_
 > in game: **Jaeger essential** · completed · Shoreline
+
+### The Huntsman Path - Eraser
+> in game: **Jaeger LL3** · active · Reserve
+`5d25e44f86f77443e625e385` · matched on wiki title
+- **name**, tarkov.dev says `The Huntsman Path - Eraser - Part 1`
+- **name**, SPT says `The Huntsman Path - Eraser - Part 1`
+- **loyalty**, observed at LL3; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: Pest Control [complete], seen in game at LL3
+
+### The Huntsman Path - Secured Perimeter
+> in game: **Jaeger LL3** · active · Factory
+`5d25e2b486f77409de05bba0` · matched on wiki title
+- **loyalty**, observed at LL3; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: The Tarkov Shooter - Part 3 [complete], seen in game at essential; The Survivalist Path - Tough Guy [complete], seen in game at essential
 
 ## Lightkeeper
 _observed 2026-08-11, game version 1.1.0_
@@ -1360,6 +1374,20 @@ _every source agrees_
 _every source agrees_
 > in game: **Ragman essential** · completed · Any location
 
+### Antique Enthusiast
+> in game: **Ragman LL4** · completed · Any location
+`5c1141f386f77430ff393792` · matched on wiki title
+- **name**, tarkov.dev says `Living High is Not a Crime - Part 2`
+- **name**, SPT says `Living High is Not a Crime - Part 2`
+- **objective count**, game shows 5, tarkov.dev has 8, wiki 8
+- **objective count (wiki)**, game shows 5, wiki has 8
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: Living High is Not a Crime (tarkov.dev: Living High is Not a Crime - Part 1) [complete], seen in game at LL3; Small Things, Big Help (tarkov.dev: The Blood of War - Part 3) [complete], seen in game at LL1
+
+### Textile - Part 1
+_every source agrees_
+> in game: **Ragman essential** · active · Any location
+
 ## Ref
 _observed 2026-08-11, game version 1.1.0_
 
@@ -1911,7 +1939,9 @@ assumed.
 
 | quest | offered at | tarkov.dev requires | which is offered at |
 |---|---|---|---|
+| The Huntsman Path - Trophy | **LL1** | The Huntsman Path - Secured Perimeter (complete) | **LL3** |
 | Swift | **LL1** | The Huntsman Path - Sadist (complete or failed) | **LL4** |
+| The Huntsman Path - Woods Keeper | **LL1** | The Huntsman Path - Secured Perimeter (complete) | **LL3** |
 | The Huntsman Path - Crooked Cop | **LL2** | The Huntsman Path - Administrator (complete) | **LL3** |
 | The Courier | **LL1** | Calibration (complete) | **LL4** |
 | Surveillance | **LL2** | Corporate Secrets (complete) | **LL3** |
@@ -1941,12 +1971,12 @@ mark against a source, it is a gap someone else has to fill.
 
 | source | right | wrong | silent | accuracy where it speaks |
 |---|---|---|---|---|
-| tarkov.dev | 912 | 128 | 158 | 88% |
-| overlay | 2 | 1 | 310 | 67% |
-| wiki | 711 | 33 | 147 | 96% |
-| SPT | 472 | 88 | 54 | 84% |
+| tarkov.dev | 920 | 131 | 161 | 88% |
+| overlay | 2 | 1 | 314 | 67% |
+| wiki | 716 | 34 | 151 | 95% |
+| SPT | 478 | 90 | 54 | 84% |
 
-312 observed quest(s) checked, 5 matched no source at all.
+316 observed quest(s) checked, 5 matched no source at all.
 
 ## Claims this batch cannot settle
 
@@ -1995,6 +2025,8 @@ mark against a source, it is a gap someone else has to fill.
 - **The Survivalist Path - Wounded Beast**, tarkov.dev claims minimum player level **2**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **The Survivalist Path - Cold Blooded**, tarkov.dev claims minimum player level **2**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Thirsty - Hounds**, tarkov.dev claims minimum player level **15**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **The Huntsman Path - Eraser**, tarkov.dev claims minimum player level **20**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **The Huntsman Path - Secured Perimeter**, tarkov.dev claims minimum player level **2**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Bad Habit**, tarkov.dev claims minimum player level **12**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Steady Signal**, tarkov.dev claims minimum player level **15**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Saving the Mole**, tarkov.dev claims minimum player level **1**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
@@ -2159,6 +2191,8 @@ mark against a source, it is a gap someone else has to fill.
 - **Drip-Out - Part 2**, tarkov.dev claims minimum player level **33**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Circulate**, tarkov.dev claims minimum player level **35**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **The Invisible Hand**, tarkov.dev claims minimum player level **35**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Antique Enthusiast**, tarkov.dev claims minimum player level **30**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Textile - Part 1**, tarkov.dev claims minimum player level **42**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Provide Viewership**, tarkov.dev claims minimum player level **10**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Arena Business [PVE ZONE]**, tarkov.dev claims minimum player level **10**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Professional Fitness - Part 1 [PVE ZONE]**, tarkov.dev claims minimum player level **10**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
