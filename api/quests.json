@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-11T20:47:08.521Z",
+ "generatedAt": "2026-08-12T07:33:45.857Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -25,7 +25,7 @@
    "dating": "exact",
    "datingNote": "The day the quest was seen on screen.",
    "asOf": "2026-08-11",
-   "coverage": "300 quests",
+   "coverage": "301 quests",
    "profile": {
     "mode": "pve",
     "faction": "USEC",
@@ -65,7 +65,7 @@
  },
  "counts": {
   "quests": 538,
-  "confirmedInGame": 305,
+  "confirmedInGame": 306,
   "removedFromGame": 33,
   "unknownToEverySource": 5
  },
@@ -38091,23 +38091,25 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hidden_Layer",
-   "asOf": "2026-08-05",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
      "src": "wiki",
      "asOf": "2026-08-05",
-     "dating": "exact"
+     "dating": "exact",
+     "note": "The capture shows 1 objective(s) and names 2 the game had not revealed yet (Find a way inside the Knossos LLC facility; (Optional) Locate and obtain the Knossos LLC facility key), so it is a lower bound, not the list."
     },
     "objectives": {
      "src": "tarkov.dev",

@@ -628,6 +628,23 @@
       ]
     },
     {
+      "name": "Hidden Layer",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "observedAt": "2026-08-12",
+      "observedAtNote": "Later than this file's date. It is gated on Needle in a Haystack, which the 2026-08-10 capture recorded as ACTIVE, so it was not on the screen that day. That capture's `allVisibleCaptured` claim is unaffected: it is a statement about 2026-08-10.",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate a good lead related to Knossos LLC"
+      ],
+      "objectivesHidden": [
+        "Find a way inside the Knossos LLC facility",
+        "(Optional) Locate and obtain the Knossos LLC facility key"
+      ],
+      "objectivesNote": "ONE LINE ON THE CARD, and the card was captured whole. This is progressive reveal working normally (see Therapist/Paramedic for the general rule), not a short quest: the owner reports the quest is unchanged and matches the wiki, which lists three steps. The two not yet revealed are named here from the wiki rather than the screen, so the published objective text keeps the full list instead of being cut down to the one line visible today."
+    },
+    {
       "name": "Shady Contractor",
       "location": "Ground Zero",
       "status": "completed",

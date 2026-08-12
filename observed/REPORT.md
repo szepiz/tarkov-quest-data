@@ -617,6 +617,10 @@ _every source agrees_
 _every source agrees_
 > in game: **Mechanic essential** · active · Any location
 
+### Hidden Layer
+_every source agrees_
+> in game: **Mechanic essential** · active · Any location
+
 ### Shady Contractor
 _every source agrees_
 > in game: **Mechanic essential** · completed · Ground Zero
@@ -1900,12 +1904,12 @@ mark against a source, it is a gap someone else has to fill.
 
 | source | right | wrong | silent | accuracy where it speaks |
 |---|---|---|---|---|
-| tarkov.dev | 895 | 128 | 152 | 87% |
-| overlay | 2 | 1 | 302 | 67% |
-| wiki | 700 | 33 | 142 | 95% |
-| SPT | 460 | 88 | 52 | 84% |
+| tarkov.dev | 897 | 128 | 152 | 88% |
+| overlay | 2 | 1 | 304 | 67% |
+| wiki | 701 | 33 | 142 | 96% |
+| SPT | 460 | 88 | 54 | 84% |
 
-305 observed quest(s) checked, 5 matched no source at all.
+306 observed quest(s) checked, 5 matched no source at all.
 
 ## Claims this batch cannot settle
 
@@ -2003,6 +2007,7 @@ mark against a source, it is a gap someone else has to fill.
 - **Gunsmith Master - Part 12**, tarkov.dev claims minimum player level **17**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Gunsmith Master - Part 13**, tarkov.dev claims minimum player level **39**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Needle in a Haystack**, tarkov.dev claims minimum player level **15**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Hidden Layer**, tarkov.dev claims minimum player level **15**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Shady Contractor**, tarkov.dev claims minimum player level **15**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Broadcast - Part 1**, tarkov.dev claims minimum player level **12**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Broadcast - Part 2**, tarkov.dev claims minimum player level **15**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.

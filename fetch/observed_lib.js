@@ -75,7 +75,7 @@ function loadObserved(ROOT) {
       if (!id) {
         // the WHOLE record, not just its name, a quest no source has is the most
         // interesting thing in the folder, and a consumer needs it in full
-        unmatched.push({ ...q, trader: doc.trader, observedAt: doc.observedAt, gameVersion: doc.gameVersion,
+        unmatched.push({ ...q, trader: doc.trader, observedAt: q.observedAt || doc.observedAt, gameVersion: doc.gameVersion,
           mode: (doc.profile && doc.profile.mode) || 'unconfirmed' });
         continue;
       }
@@ -84,7 +84,12 @@ function loadObserved(ROOT) {
         questId: id,
         questIdPinned: !!q.questId,
         trader: doc.trader,
-        observedAt: doc.observedAt,
+        // THE FILE'S DATE, unless the record states its own. A trader's list is
+        // normally captured in one sitting and one date covers it; a quest that
+        // only became visible later is added to the same file and dates itself,
+        // because moving the file's date forward would re-date every record in
+        // it to a day nobody looked.
+        observedAt: q.observedAt || doc.observedAt,
         gameVersion: doc.gameVersion,
         mode: (doc.profile && doc.profile.mode) || 'unconfirmed',
       });

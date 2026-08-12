@@ -13,7 +13,7 @@ Where a source disagrees with a record in here, the source is wrong.
 
 ## What's in it
 
-**305 records across all eleven traders**, captured from 2026-08-10 onward, on
+**306 records across all eleven traders**, captured from 2026-08-10 onward, on
 game version 1.1.0, from a **PvE, USEC** profile.
 
 | trader | records | | trader | records |
@@ -95,7 +95,7 @@ It grades every collected source against these records and writes two files:
 
 ## What it found
 
-Against these 305 records: the **wiki is 700 of 733 (95%)**, tarkov.dev is
+Against these 306 records: the **wiki is 701 of 734 (96%)**, tarkov.dev is
 **895 of 1023 (87%)**, SPT is 460 of 548 (84%), and the overlay is 2 of 3. The
 overlay is a correction layer of 13 tasks and says nothing about almost
 everything, which is by design.
