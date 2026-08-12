@@ -285,6 +285,54 @@
       ]
     },
     {
+      "name": "The Huntsman Path - Sadist",
+      "location": "Shoreline",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "observedAt": "2026-08-12",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Sanitar",
+        "Hand over the found in raid Sanitar's bag"
+      ],
+      "objectiveAdded": "The game has a second objective both sources lack: 'Hand over the found in raid Sanitar's bag'. tarkov.dev and the wiki publish the kill alone. Not progressive reveal in the usual direction — the card shows MORE than the sources, not fewer, so it cannot be explained by a step the game has not printed yet. Wording kept verbatim, the game's own phrasing."
+    },
+    {
+      "name": "The Huntsman Path - Relentless",
+      "location": "Any location",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "observedAt": "2026-08-12",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize Tagilla",
+        "Locate and neutralize Killa",
+        "Locate and neutralize Reshala",
+        "Locate and neutralize Shturman",
+        "Locate and neutralize Glukhar",
+        "Locate and neutralize Sanitar"
+      ],
+      "openQuestion": "OFFERED WHILE ONE OF ITS OWN PREREQUISITES IS STILL ACTIVE. tarkov.dev requires six Huntsman Path quests complete before this one, and one of them is Sadist — captured active in the same sitting as this card, not complete and not failed. Three more (Factory Chief, Eraser, Sellout) have never appeared on this profile at all. So either the requirement list is stale or the game does not enforce it; either way a tracker that locks on it hides a quest the game is offering right now. Same shape as the accept-not-complete finding, and the cleanest instance of it so far, because both cards were read minutes apart.",
+      "objectiveTypeNote": "The card carries the same top-right icon as Sadist and Hunting Trip in this batch, both of which tarkov.dev flags kappaRequired; it flags this one false. Recorded as seen, not resolved — the collection has no field for that flag."
+    },
+    {
+      "name": "Hunting Trip",
+      "location": "Woods",
+      "status": "active",
+      "availableAtLoyalty": 4,
+      "observedAt": "2026-08-12",
+      "objectivesComplete": true,
+      "objectives": [
+        "Locate and neutralize any Boss with a bolt-action rifle (20)"
+      ],
+      "startingEquipment": [
+        "Accuracy International AXMC .338 LM bolt-action sniper rifle",
+        "Sako TRG M10 .338 LM bolt-action sniper rifle",
+        ".338 Lapua Magnum FMJ (30)"
+      ],
+      "itemChanged": "THE WHOLE OBJECTIVE WAS REPLACED, and both sources still carry the old one. They publish a single step: kill Shturman with a headshot from over 40 metres using an M700 and a named scope. The game asks for twenty kills of ANY boss with ANY bolt-action rifle, and hands over an AXMC and a Sako TRG M10 to do it with. One target became twenty, one named weapon became a class, and the headshot and range conditions are gone. Anyone following the published text is doing a quest that no longer exists."
+    },
+    {
       "name": "The Tarkov Shooter - Part 1",
       "location": "Any location",
       "status": "completed",

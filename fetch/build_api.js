@@ -446,6 +446,7 @@ let droppedLevels = 0;
 let failGated = 0;
 let objTextById = 0;
 let objTextAmbiguous = 0;
+let objTextForced = 0;
 let objGone = 0;
 // { id, titles, at } — resolved after the loop, when every published name is
 // known. The wiki names an alternative by its CURRENT title, and the current
@@ -587,7 +588,21 @@ for (const id of allIds) {
   // tarkov.dev verbatim — the ids, zones, items and keys are theirs, and a
   // consumer that wants their text should still get it.
   if (obsObjUsable && (dev.objectives || []).length) {
-    const m = matchGameLines(dev.objectives, obs.objectives);
+    // ONE LINE ON EACH SIDE NEEDS NO MARGIN. matchGameLines exists to stop a
+    // sentence landing on the wrong pin, and it does that by demanding a clear
+    // margin over the runner-up. With a single published objective and a single
+    // line on the card there is no runner-up to beat — the pairing is forced by
+    // the arithmetic, whatever the wording looks like. That matters most where
+    // the wording looks LEAST alike: Hunting Trip's published step is "kill
+    // Shturman with a headshot from over 40m using an M700", the game asks for
+    // twenty bosses with any bolt-action, and the two share almost no words. The
+    // matcher scored that as a stranger and left the stale sentence on the only
+    // id the quest has.
+    const forced = dev.objectives.length === 1 && obs.objectives.length === 1
+      ? { hit: [{ id: dev.objectives[0].id, line: obs.objectives[0] }], rest: [] }
+      : null;
+    const m = forced || matchGameLines(dev.objectives, obs.objectives);
+    if (forced) objTextForced++;
     if (m) {
       put('objectiveTextById', src.obs('objectiveTextById',
         Object.fromEntries(m.hit.map((h) => [h.id, h.line]))));
@@ -904,6 +919,7 @@ for (const u of observed.unmatched) {
   console.log(`   ${failGated} quest(s) open only after a FAILURE; ${groups} opened by ANY ONE of several`
     + `; ${sibSets} quest(s) published once per arm`);
   console.log(`   ${objTextById} quest(s) carry the game's wording keyed by objective id`
+    + `, ${objTextForced} of them the only line on each side`
     + `, ${objTextAmbiguous} left alone because the lines could not be told apart`);
   console.log(`   ${objGone} published objective(s) the game no longer shows`);
   if (unresolved.length) console.log(`   alternative(s) the wiki names that no source has: ${unresolved.join('; ')}`);

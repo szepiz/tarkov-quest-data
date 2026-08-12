@@ -62,7 +62,7 @@ _every source agrees_
 `60e729cf5698ee7b05057439` · matched on wiki title
 - **name**, tarkov.dev says `Swift One`
 - **name**, SPT says `Swift One`
-- tarkov.dev also gates it behind: The Huntsman Path - Sadist [complete or failed], not observed yet
+- tarkov.dev also gates it behind: The Huntsman Path - Sadist [complete or failed], seen in game at LL4
 
 ### Acquaintance
 > in game: **Jaeger LL1** · completed · Any location
@@ -191,6 +191,24 @@ _every source agrees_
 - **name**, SPT says `The Huntsman Path - Controller`
 - **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
 - tarkov.dev also gates it behind: The Huntsman Path - Forest Cleaning [complete], not observed yet
+
+### The Huntsman Path - Sadist
+> in game: **Jaeger LL4** · active · Shoreline
+`5edab4b1218d181e29451435` · matched on wiki title
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: Rigged Game [complete], seen in game at LL3; Tarkov-Style Diplomacy (tarkov.dev: Colleagues - Part 2) [complete], seen in game at LL3; Chemistry Closet [complete], seen in game at LL2
+
+### The Huntsman Path - Relentless
+> in game: **Jaeger LL4** · active · Any location
+`60e71e8ed54b755a3b53eb67` · matched on wiki title
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: The Huntsman Path - Trophy [complete], seen in game at LL1; The Huntsman Path - Factory Chief [complete], not observed yet; The Huntsman Path - Woods Keeper [complete], seen in game at LL1; The Huntsman Path - Eraser (tarkov.dev: The Huntsman Path - Eraser - Part 1) [complete], not observed yet; The Huntsman Path - Sadist [complete or failed], seen in game at LL4; The Huntsman Path - Sellout [complete], not observed yet
+
+### Hunting Trip
+> in game: **Jaeger LL4** · active · Woods
+`5d25e4ca86f77409dd5cdf2c` · matched on wiki title
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: The Huntsman Path - Woods Keeper [complete], seen in game at LL1
 
 ### The Tarkov Shooter - Part 1
 _every source agrees_
@@ -1875,6 +1893,7 @@ assumed.
 
 | quest | offered at | tarkov.dev requires | which is offered at |
 |---|---|---|---|
+| Swift | **LL1** | The Huntsman Path - Sadist (complete or failed) | **LL4** |
 | The Huntsman Path - Crooked Cop | **LL2** | The Huntsman Path - Administrator (complete) | **LL3** |
 | The Courier | **LL1** | Calibration (complete) | **LL4** |
 | Surveillance | **LL2** | Corporate Secrets (complete) | **LL3** |
@@ -1904,12 +1923,12 @@ mark against a source, it is a gap someone else has to fill.
 
 | source | right | wrong | silent | accuracy where it speaks |
 |---|---|---|---|---|
-| tarkov.dev | 897 | 128 | 152 | 88% |
-| overlay | 2 | 1 | 304 | 67% |
-| wiki | 701 | 33 | 142 | 96% |
-| SPT | 460 | 88 | 54 | 84% |
+| tarkov.dev | 905 | 128 | 155 | 88% |
+| overlay | 2 | 1 | 307 | 67% |
+| wiki | 704 | 33 | 147 | 96% |
+| SPT | 466 | 88 | 54 | 84% |
 
-306 observed quest(s) checked, 5 matched no source at all.
+309 observed quest(s) checked, 5 matched no source at all.
 
 ## Claims this batch cannot settle
 
@@ -1942,6 +1961,9 @@ mark against a source, it is a gap someone else has to fill.
 - **Slaughterhouse**, tarkov.dev claims minimum player level **40**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Stray Dogs**, tarkov.dev claims minimum player level **35**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **The Huntsman Path - Control**, tarkov.dev claims minimum player level **2**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **The Huntsman Path - Sadist**, tarkov.dev claims minimum player level **22**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **The Huntsman Path - Relentless**, tarkov.dev claims minimum player level **55**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Hunting Trip**, tarkov.dev claims minimum player level **33**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **The Tarkov Shooter - Part 1**, tarkov.dev claims minimum player level **2**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **The Tarkov Shooter - Part 2**, tarkov.dev claims minimum player level **2**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **The Tarkov Shooter - Part 3**, tarkov.dev claims minimum player level **2**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.

@@ -23,9 +23,9 @@ just about what those four publish.
 | **132 corrected pin positions** | Places where a published position is wrong by enough to send you to the wrong door, plus 39 markers hidden because they aren't really there |
 | **Story task locations** | The overlay has the chapters. It carries no coordinates at all, so every pin for them is placed here |
 | **9 hand-placed interactables and a hazard area** | Power panels, switches, the Shoreline sniper zone |
-| **306 quests read off the game screen** | Names, objectives, trader, loyalty tab and status, with the date each was seen |
-| **89 quests the game files under Essential** | Its trader list is tabbed by loyalty level with one more tab beside them, and no source publishes which tab anything is in. `traderTab` is that tab: LL1 64, LL2 74, LL3 59, LL4 20, Essential 89 |
-| **Objectives worded as the game words them** | 223 quests carry the wording against the objective ids a tracker ticks with. Not a formatting preference: the wiki asks for 2 ComTac II headsets where the game asks for one, sends *Job for a Patriot* to three maps it no longer uses, and gives *No Swiping* no map at all |
+| **309 quests read off the game screen** | Names, objectives, trader, loyalty tab and status, with the date each was seen |
+| **89 quests the game files under Essential** | Its trader list is tabbed by loyalty level with one more tab beside them, and no source publishes which tab anything is in. `traderTab` is that tab: LL1 64, LL2 74, LL3 59, LL4 23, Essential 89 |
+| **Objectives worded as the game words them** | 234 quests carry the wording against the objective ids a tracker ticks with. Not a formatting preference: the wiki asks for 2 ComTac II headsets where the game asks for one, sends *Job for a Patriot* to three maps it no longer uses, and gives *No Swiping* no map at all |
 | **21 objectives the game no longer has** | Published by tarkov.dev and gone from the card. *Gratitude* asks for two of the four items it lists, *The Huntsman Path - Big Game* for one of four |
 | **33 quests flagged as removed** | The wiki says so on the page; nobody publishes it as data, so tools keep listing quests BSG deleted |
 | **Loyalty gates on 165 quests** | tarkov.dev publishes them for 5. **150 are read straight off the game's own loyalty tabs**, 13 out of the wiki's prose. The game also removes 15 the sources claim — *All This Filth...* is published at LL4 and offered at LL1 |
@@ -102,7 +102,7 @@ where raw has served a stale copy long after a push.
 ## Where the data comes from
 
 Four public sources, collected verbatim, plus one that isn't public anywhere
-else: 306 quests read off my own game screen and written down, which is what the
+else: 309 quests read off my own game screen and written down, which is what the
 other four get graded against.
 
 | source | what it is | worth knowing |
@@ -111,7 +111,7 @@ other four get graded against.
 | **wiki** (escapefromtarkov.fandom.com) | 495 pages covering 533 quest ids | tracks the game closely, because people edit it. Dated per page. CC BY-SA |
 | **tarkov-data-overlay** (tarkovtracker-org) | a community correction layer over tarkov.dev | small and targeted: 13 task entries. Carries JSON schemas worth reading |
 | **SPT** (`sp-tarkov/server`) | BSG's own condition schema | the quest JSON hasn't moved since March 2025. A schema reference, not current data |
-| **observed/** | 306 quests read off the in-game screen | mine, CC0. Not a fifth opinion, it's the thing the other four are describing |
+| **observed/** | 309 quests read off the in-game screen | mine, CC0. Not a fifth opinion, it's the thing the other four are describing |
 
 TarkovTracker isn't here on purpose. Its public API serves a user's own progress
 behind a token and publishes no quest data of its own; underneath it's tarkov.dev
@@ -210,7 +210,7 @@ id. Ragman's Drip-Out and Textile lines are the ones that catch people.
 ## What's in observed/
 
 Every quest a single PvE, USEC profile could see, across all eleven traders, from
-2026-08-10 onward. 306 records: 193 completed, 108 active, 4 failed, 1 locked.
+2026-08-10 onward. 309 records: 193 completed, 111 active, 4 failed, 1 locked.
 
 That's not the same as complete. A quest gated behind an unfinished quest, or
 behind a loyalty level not yet reached, never appears on screen at all, so no
@@ -221,7 +221,7 @@ visible list captured. Four couldn't: Ragman (LL4 not reached), the BTR Driver
 from "there was nothing to see"), and Peacekeeper, whose LL4 tab opened after it
 was collected and has not been read since.
 
-Graded against those 306 records: **wiki 701 of 734 (96%)**, tarkov.dev 897 of
+Graded against those 309 records: **wiki 704 of 737 (96%)**, tarkov.dev 905 of
 1023 (87%), SPT 460 of 548 (84%), the overlay 2 of 3.
 
 Five quests exist in the game and in none of the four sources: Therapist's *Fall

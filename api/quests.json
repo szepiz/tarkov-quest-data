@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-12T07:33:45.857Z",
+ "generatedAt": "2026-08-12T10:46:57.573Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -25,7 +25,7 @@
    "dating": "exact",
    "datingNote": "The day the quest was seen on screen.",
    "asOf": "2026-08-11",
-   "coverage": "301 quests",
+   "coverage": "304 quests",
    "profile": {
     "mode": "pve",
     "faction": "USEC",
@@ -65,7 +65,7 @@
  },
  "counts": {
   "quests": 538,
-  "confirmedInGame": 306,
+  "confirmedInGame": 309,
   "removedFromGame": 33,
   "unknownToEverySource": 5
  },
@@ -2393,6 +2393,9 @@
      "count": 20
     }
    ],
+   "objectiveTextById": {
+    "600303250b79c6604058ce30": "Eliminate Scavs on Interchange, Ground Zero, Woods, or Customs (20)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -2449,6 +2452,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -25329,6 +25337,9 @@
      "count": 20
     }
    ],
+   "objectiveTextById": {
+    "671ac68e30609eb2c7e9a7f7": "Eliminate any target with an AA-12 shotgun (20)"
+   },
    "minPlayerLevel": 35,
    "requires": [
     {
@@ -25371,6 +25382,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -37503,6 +37519,9 @@
      "maps": []
     }
    ],
+   "objectiveTextById": {
+    "5a6878e886f7745e65687985": "Gain the Fatigue status effect and maintain it for 8 minutes"
+   },
    "minPlayerLevel": 20,
    "requires": [
     {
@@ -37544,6 +37563,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -39775,7 +39799,7 @@
    "trader": "Jaeger",
    "map": "Woods",
    "objectiveText": [
-    "Locate and neutralize Shturman with a headshot from over 40 meters away while using an M700 sniper rifle with the specified scope"
+    "Locate and neutralize any Boss with a bolt-action rifle (20)"
    ],
    "objectives": [
     {
@@ -39787,6 +39811,15 @@
       "Woods"
      ],
      "count": 1
+    }
+   ],
+   "objectiveTextById": {
+    "5fd8aa3206fb3a6b8154a2c3": "Locate and neutralize any Boss with a bolt-action rifle (20)"
+   },
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
     }
    ],
    "minPlayerLevel": 33,
@@ -39801,6 +39834,14 @@
    "objectiveMaps": [
     "Woods"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "modes": [
     "pvp",
     "pve",
@@ -39810,33 +39851,45 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hunting_Trip",
-   "asOf": "2026-08-05",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-05",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
+    },
+    "loyalty": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -39852,6 +39905,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 4 tab in game; no source states a gate for this quest."
     }
    }
   },
@@ -47862,6 +47921,9 @@
      "count": 20
     }
    ],
+   "objectiveTextById": {
+    "60e73ee8b567ff641b129570": "Eliminate PMC operatives on Interchange (4)"
+   },
    "loyalty": [
     {
      "trader": "Ragman",
@@ -47918,6 +47980,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -54145,6 +54212,9 @@
      "count": 7
     }
    ],
+   "objectiveTextById": {
+    "5c9a17c686f7747dbe2da3c1": "Eliminate any target with headshots using a Steyr AUG on Factory (15)"
+   },
    "loyalty": [
     {
      "trader": "Peacekeeper",
@@ -54209,6 +54279,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -56774,6 +56849,9 @@
      "count": 25
     }
    ],
+   "objectiveTextById": {
+    "5b0e766b86f7746bfa618964": "Eliminate Scavs on Interchange, Ground Zero, or Woods (25)"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -56830,6 +56908,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -67085,6 +67168,9 @@
      "count": 15
     }
    ],
+   "objectiveTextById": {
+    "5cb31b6188a450159d330a18": "Eliminate any target on Woods, Ground Zero, Customs, or Interchange (15)"
+   },
    "loyalty": [
     {
      "trader": "Prapor",
@@ -67140,6 +67226,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -75895,6 +75986,9 @@
      "count": 2
     }
    ],
+   "objectiveTextById": {
+    "5d307fc886f77447f15f5b23": "Eliminate any target in The Lab (in one raid) (10)"
+   },
    "loyalty": [
     {
      "trader": "Jaeger",
@@ -75956,6 +76050,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
@@ -76688,12 +76787,12 @@
    "name": "The Huntsman Path - Relentless",
    "trader": "Jaeger",
    "objectiveText": [
-    "Eliminate Tagilla",
-    "Eliminate Killa",
-    "Eliminate Reshala",
-    "Eliminate Shturman",
-    "Eliminate Glukhar",
-    "Eliminate Sanitar"
+    "Locate and neutralize Tagilla",
+    "Locate and neutralize Killa",
+    "Locate and neutralize Reshala",
+    "Locate and neutralize Shturman",
+    "Locate and neutralize Glukhar",
+    "Locate and neutralize Sanitar"
    ],
    "objectives": [
     {
@@ -76757,6 +76856,20 @@
       "Shoreline"
      ],
      "count": 1
+    }
+   ],
+   "objectiveTextById": {
+    "60e7259e465ea8368012cc45": "Locate and neutralize Tagilla",
+    "60e725d8b567ff641b129555": "Locate and neutralize Killa",
+    "60e72604a6e322250215f066": "Locate and neutralize Reshala",
+    "60e7261382576b5f4f21c495": "Locate and neutralize Shturman",
+    "60e7261eb567ff641b129557": "Locate and neutralize Glukhar",
+    "60e72629465ea8368012cc47": "Locate and neutralize Sanitar"
+   },
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
     }
    ],
    "minPlayerLevel": null,
@@ -76824,28 +76937,40 @@
    "lightkeeperRequired": false,
    "restartable": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Relentless",
-   "asOf": "2026-08-09",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (6 objective(s)) with nothing noted as withheld. 6 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
+    },
+    "loyalty": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "wiki",
@@ -76864,10 +76989,10 @@
      "dating": "none"
     },
     "traderRequirements": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact",
-     "note": "1 loyalty gate(s) read off the wiki's Requirements section; tarkov.dev states 0."
+     "note": "Seen under Jaeger's loyalty level 4 tab in game; the sources published LL4."
     }
    }
   },
@@ -76877,7 +77002,8 @@
    "trader": "Jaeger",
    "map": "Shoreline",
    "objectiveText": [
-    "Eliminate Sanitar"
+    "Locate and neutralize Sanitar",
+    "Hand over the found in raid Sanitar's bag"
    ],
    "objectives": [
     {
@@ -76889,6 +77015,12 @@
       "Shoreline"
      ],
      "count": 1
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
     }
    ],
    "minPlayerLevel": 22,
@@ -76915,6 +77047,14 @@
    "objectiveMaps": [
     "Shoreline"
    ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
    "failedBy": [
     "5edac34d0bb72a50635c2bfa"
    ],
@@ -76927,33 +77067,40 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Sadist",
-   "asOf": "2026-08-09",
-   "confirmedInGame": false,
+   "asOf": "2026-08-12",
+   "confirmedInGame": true,
+   "traderTab": 4,
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-12",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (2 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "loyalty": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -76969,6 +77116,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "traderRequirements": {
+     "src": "observed",
+     "asOf": "2026-08-12",
+     "dating": "exact",
+     "note": "Seen under Jaeger's loyalty level 4 tab in game; no source states a gate for this quest."
     },
     "failedBy": {
      "src": "tarkov.dev",
@@ -80671,6 +80824,9 @@
      "count": 5
     }
    ],
+   "objectiveTextById": {
+    "657b0567ec71635f16471dd2": "Eliminate any target with a bolt-action rifle (15)"
+   },
    "minPlayerLevel": 2,
    "requires": [
     {
@@ -80712,6 +80868,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-11",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
