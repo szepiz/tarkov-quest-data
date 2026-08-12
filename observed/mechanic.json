@@ -591,6 +591,49 @@
       ]
     },
     {
+      "name": "Gunsmith Master - Part 9",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "observedAt": "2026-08-13",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify an M4A1 to comply with the given specifications"
+      ],
+      "loyaltyBadge": "lines",
+      "loyaltyBadgeNote": "See The Huntsman Path - Sadist in jaeger.json.",
+      "lineShattered": "THE LAST THREE GAPS IN THE RENUMBERING MAP, now closed. The map on Gunsmith Master - Part 1 pairs old parts 13, 14, 16-21 and 25 with Master 1-8 and 13, and left 9, 10 and 11 unaccounted for. They are old parts 22, 23 and 24 — tarkov.dev still calls them exactly that, which is how the pairing is confirmed rather than assumed. The current names reach the API from the WIKI's page moves (wikinames.js), not from tarkov.dev, and the weapon in each objective agrees with the card word for word: 22 -> Master 9 (M4A1), 23 -> Master 10 (CMMG Mk47 Mutant), 24 -> Master 11 (KAC SR-25). Name and content agree, so no questId pin is needed and the shuffle detector stays armed for this line.",
+      "openQuestion": "ALL THREE ARE ACTIVE AT THE SAME MOMENT, AND THE PUBLISHED CHAIN SAYS THEY CANNOT BE. tarkov.dev has Part 10 requiring Part 9 COMPLETE and Part 11 requiring Part 10 complete; Part 9 is on screen as active, not complete, and so is Part 10. Either 1.1.0 stopped chaining this line when it renumbered it, or the chain is not enforced — and a tracker that locks on it hides two quests the game is offering right now. Same shape as the Relentless/Sadist pair in jaeger.json, and stronger, because these are three consecutive links read in one sitting."
+    },
+    {
+      "name": "Gunsmith Master - Part 10",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "observedAt": "2026-08-13",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a CMMG Mk47 Mutant to comply with the given specifications"
+      ],
+      "loyaltyBadge": "lines",
+      "loyaltyBadgeNote": "See The Huntsman Path - Sadist in jaeger.json.",
+      "openQuestion": "See Gunsmith Master - Part 9 in this file: the three are simultaneously active against a published chain that forbids it."
+    },
+    {
+      "name": "Gunsmith Master - Part 11",
+      "location": "Any location",
+      "status": "active",
+      "category": "essential",
+      "observedAt": "2026-08-13",
+      "objectivesComplete": true,
+      "objectives": [
+        "Modify a KAC SR-25 to comply with the given specifications"
+      ],
+      "loyaltyBadge": "lines",
+      "loyaltyBadgeNote": "See The Huntsman Path - Sadist in jaeger.json.",
+      "openQuestion": "See Gunsmith Master - Part 9 in this file: the three are simultaneously active against a published chain that forbids it."
+    },
+    {
       "name": "Gunsmith Master - Part 12",
       "location": "Any location",
       "status": "completed",

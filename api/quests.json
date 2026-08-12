@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-12T15:10:26.032Z",
+ "generatedAt": "2026-08-12T22:14:53.507Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -25,7 +25,7 @@
    "dating": "exact",
    "datingNote": "The day the quest was seen on screen.",
    "asOf": "2026-08-11",
-   "coverage": "311 quests",
+   "coverage": "314 quests",
    "profile": {
     "mode": "pve",
     "faction": "USEC",
@@ -65,7 +65,7 @@
  },
  "counts": {
   "quests": 538,
-  "confirmedInGame": 316,
+  "confirmedInGame": 319,
   "removedFromGame": 33,
   "unknownToEverySource": 5
  },
@@ -35992,6 +35992,9 @@
      "item": "CMMG Mk47 Mutant 7.62x39 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "64f83d0eed30ed471f49bcde": "Modify a CMMG Mk47 Mutant to comply with the given specifications"
+   },
    "minPlayerLevel": 39,
    "requires": [
     {
@@ -36010,28 +36013,35 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_10",
-   "asOf": "2026-08-09",
-   "confirmedInGame": false,
+   "asOf": "2026-08-13",
+   "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-13",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -36063,6 +36073,9 @@
      "item": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
     }
    ],
+   "objectiveTextById": {
+    "64f83e9d52fc01298e2c857e": "Modify a KAC SR-25 to comply with the given specifications"
+   },
    "minPlayerLevel": 39,
    "requires": [
     {
@@ -36081,28 +36094,35 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_11",
-   "asOf": "2026-08-07",
-   "confirmedInGame": false,
+   "asOf": "2026-08-13",
+   "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
+     "src": "observed",
+     "asOf": "2026-08-13",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-07",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",
@@ -36889,6 +36909,9 @@
      "item": "Colt M4A1 5.56x45 assault rifle"
     }
    ],
+   "objectiveTextById": {
+    "5b4783ba86f7744d1c353185": "Modify an M4A1 to comply with the given specifications"
+   },
    "minPlayerLevel": 39,
    "requires": [
     {
@@ -36907,28 +36930,35 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_9",
-   "asOf": "2026-08-09",
-   "confirmedInGame": false,
+   "asOf": "2026-08-13",
+   "confirmedInGame": true,
+   "traderTab": "essential",
    "provenance": {
     "name": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
+     "src": "observed",
+     "asOf": "2026-08-13",
      "dating": "exact"
     },
     "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact"
     },
     "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-09",
-     "dating": "exact"
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact",
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (1 objective(s)) with nothing noted as withheld. 1 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-13",
+     "dating": "exact"
     },
     "minPlayerLevel": {
      "src": "tarkov.dev",

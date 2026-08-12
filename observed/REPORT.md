@@ -631,6 +631,27 @@ _every source agrees_
 - **name**, SPT says `Gunsmith - Part 21`
 - tarkov.dev also gates it behind: Gunsmith Master - Part 7 (tarkov.dev: Gunsmith - Part 20) [complete], seen in game at essential
 
+### Gunsmith Master - Part 9
+> in game: **Mechanic essential** · active · Any location
+`5b47825886f77468074618d3` · matched on wiki title
+- **name**, tarkov.dev says `Gunsmith - Part 22`
+- **name**, SPT says `Gunsmith - Part 22`
+- tarkov.dev also gates it behind: Gunsmith Master - Part 8 (tarkov.dev: Gunsmith - Part 21) [complete], seen in game at essential
+
+### Gunsmith Master - Part 10
+> in game: **Mechanic essential** · active · Any location
+`64f83bb69878a0569d6ecfbe` · matched on wiki title
+- **name**, tarkov.dev says `Gunsmith - Part 23`
+- **name**, SPT says `Gunsmith - Part 23`
+- tarkov.dev also gates it behind: Gunsmith Master - Part 9 (tarkov.dev: Gunsmith - Part 22) [complete], seen in game at essential
+
+### Gunsmith Master - Part 11
+> in game: **Mechanic essential** · active · Any location
+`64f83bcdde58fc437700d8fa` · matched on wiki title
+- **name**, tarkov.dev says `Gunsmith - Part 24`
+- **name**, SPT says `Gunsmith - Part 24`
+- tarkov.dev also gates it behind: Gunsmith Master - Part 10 (tarkov.dev: Gunsmith - Part 23) [complete], seen in game at essential
+
 ### Gunsmith Master - Part 12
 > in game: **Mechanic essential** · completed · Any location
 `676529af9c90953d090882e7` · matched on wiki title
@@ -643,7 +664,7 @@ _every source agrees_
 `64f83bd983cfca080a362c82` · matched on wiki title
 - **name**, tarkov.dev says `Gunsmith - Part 25`
 - **name**, SPT says `Gunsmith - Part 25`
-- tarkov.dev also gates it behind: Gunsmith Master - Part 11 (tarkov.dev: Gunsmith - Part 24) [complete], not observed yet
+- tarkov.dev also gates it behind: Gunsmith Master - Part 11 (tarkov.dev: Gunsmith - Part 24) [complete], seen in game at essential
 
 ### Needle in a Haystack
 _every source agrees_
@@ -1971,12 +1992,12 @@ mark against a source, it is a gap someone else has to fill.
 
 | source | right | wrong | silent | accuracy where it speaks |
 |---|---|---|---|---|
-| tarkov.dev | 920 | 131 | 161 | 88% |
-| overlay | 2 | 1 | 314 | 67% |
-| wiki | 716 | 34 | 151 | 95% |
-| SPT | 478 | 90 | 54 | 84% |
+| tarkov.dev | 923 | 134 | 161 | 87% |
+| overlay | 2 | 1 | 317 | 67% |
+| wiki | 719 | 34 | 151 | 95% |
+| SPT | 481 | 93 | 54 | 84% |
 
-316 observed quest(s) checked, 5 matched no source at all.
+319 observed quest(s) checked, 5 matched no source at all.
 
 ## Claims this batch cannot settle
 
@@ -2076,6 +2097,9 @@ mark against a source, it is a gap someone else has to fill.
 - **Gunsmith Master - Part 6**, tarkov.dev claims minimum player level **36**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Gunsmith Master - Part 7**, tarkov.dev claims minimum player level **37**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Gunsmith Master - Part 8**, tarkov.dev claims minimum player level **38**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Gunsmith Master - Part 9**, tarkov.dev claims minimum player level **39**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Gunsmith Master - Part 10**, tarkov.dev claims minimum player level **39**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Gunsmith Master - Part 11**, tarkov.dev claims minimum player level **39**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Gunsmith Master - Part 12**, tarkov.dev claims minimum player level **17**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Gunsmith Master - Part 13**, tarkov.dev claims minimum player level **39**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Needle in a Haystack**, tarkov.dev claims minimum player level **15**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
