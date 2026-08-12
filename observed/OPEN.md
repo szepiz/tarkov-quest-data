@@ -70,6 +70,7 @@ _The game prints a step only once the step it depends on is done, so an unfinish
 - **Cargo X** (Peacekeeper, active), game shows 1, tarkov.dev 2, wiki 2.
 - **Peacekeeping Mission** (Peacekeeper, active), game shows 4, tarkov.dev 6, wiki 4.
 - **TerraGroup Employee** (Peacekeeper, active), game shows 2, tarkov.dev 3, wiki 3.
+- **The Guide** (Peacekeeper, active), game shows 6, tarkov.dev 10, wiki 6.
 - **Capturing Outposts** (Prapor, active), game shows 1, tarkov.dev 3, wiki 1.
 - **Glory to CPSU** (Prapor, active), game shows 2, tarkov.dev 3, wiki 5.
 - **Special Comms** (Prapor, active), game shows 3, tarkov.dev 5, wiki 5.
@@ -122,7 +123,7 @@ _none_
 
 - **BTR Driver**, 1 record(s). CANNOT BE COMPLETED BY THIS METHOD, and that is a structural fact rather than a gap in effort. The BTR Driver has NO TRADER TAB, there is no quest list to page through, so only the quest currently in progress is visible anywhere. Past and completed BTR quests cannot be read off the screen at all. tarkov.dev publishes 19 for this trader; we can only ever confirm the one that happens to be active.
 - **Lightkeeper**, 0 record(s). ZERO QUESTS, AND THAT IS THE OBSERVATION, not a missing batch. The Lightkeeper is not unlocked on this profile at all, so no quest of his is visible on any screen. tarkov.dev publishes 14 for him and none can be confirmed or contradicted from this profile. Recorded as an empty document on purpose: without it, a later reader would see Lightkeeper absent from observed/ and have no way to tell whether nobody looked or there was nothing to see.
-- **Peacekeeper**, 32 record(s). NOT complete since 2026-08-11. LL1-LL3 and the essential group were captured in full while Peacekeeper LL4 was still unreached, and LL4 has since been reached: "Worst Job in the World" arrived from it. The rest of the LL4 tab has not been read yet, so anything still in the published-but-never-seen pile for this trader is a question about that tab, not about the sources.
+- **Peacekeeper**, 35 record(s). NOT complete since 2026-08-11. LL1-LL3 and the essential group were captured in full while Peacekeeper LL4 was still unreached, and LL4 has since been reached: "Worst Job in the World" arrived from it. The rest of the LL4 tab has not been read yet, so anything still in the published-but-never-seen pile for this trader is a question about that tab, not about the sources.
 - **Ragman**, 31 record(s). NOT complete, deliberately. LL1-LL3 and the essential group were all sent, but I have not reached Ragman LL4, the Collector unlock panel shows Ragman as one of two traders still short of LL4. Marking this complete would produce a straggler list accusing the sources of publishing quests that are simply not unlocked yet. It also means the two faction variants of 'Textile - Part 1', two of the three loyalty gates tarkov.dev publishes and the only ones left untested. CANNOT be settled from this profile until Ragman LL4 is reached.
 
 ## Removed from the game (tarkov.dev still publishes them)
@@ -197,7 +198,7 @@ has four explanations, and all four are in evidence:
 
 ## Level requirements nobody has had to meet
 
-300 observed quest(s) carry a tarkov.dev minimum player level that these
+303 observed quest(s) carry a tarkov.dev minimum player level that these
 observations can neither confirm nor deny, the profile was well above all of
 them, so reaching the quest proves nothing about the gate. Settling these needs
 a low-level profile, not more screenshots from this one.

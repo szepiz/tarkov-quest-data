@@ -868,6 +868,24 @@ _every source agrees_
 - **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
 - tarkov.dev also gates it behind: Wet Job - Part 5 [complete], not observed yet; Revision - Streets of Tarkov [complete], seen in game at LL2
 
+### The Guide
+> in game: **Peacekeeper LL4** · active · Any location
+`5c0d4e61d09282029f53920e` · matched on wiki title
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: Wet Job - Part 6 [complete], not observed yet
+
+### Counteraction
+> in game: **Peacekeeper LL4** · active · Lighthouse
+`6179b5eabca27a099552e052` · matched on wiki title
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: Fuel Shortage (tarkov.dev: Spa Tour - Part 3) [complete], seen in game at LL1
+
+### Special Equipment
+> in game: **Peacekeeper LL4** · active · Any location
+`60e71ce009d7c801eb0c0ec6` · matched on wiki title
+- **loyalty**, observed at LL4; tarkov.dev publishes no loyalty requirement
+- tarkov.dev also gates it behind: Trophies [complete], seen in game at LL4
+
 ## Prapor
 _observed 2026-08-10, game version 1.1.0_
 
@@ -1923,12 +1941,12 @@ mark against a source, it is a gap someone else has to fill.
 
 | source | right | wrong | silent | accuracy where it speaks |
 |---|---|---|---|---|
-| tarkov.dev | 905 | 128 | 155 | 88% |
-| overlay | 2 | 1 | 307 | 67% |
-| wiki | 704 | 33 | 147 | 96% |
-| SPT | 466 | 88 | 54 | 84% |
+| tarkov.dev | 912 | 128 | 158 | 88% |
+| overlay | 2 | 1 | 310 | 67% |
+| wiki | 711 | 33 | 147 | 96% |
+| SPT | 472 | 88 | 54 | 84% |
 
-309 observed quest(s) checked, 5 matched no source at all.
+312 observed quest(s) checked, 5 matched no source at all.
 
 ## Claims this batch cannot settle
 
@@ -2063,6 +2081,9 @@ mark against a source, it is a gap someone else has to fill.
 - **TerraGroup Employee**, tarkov.dev claims minimum player level **23**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Wet Job - Part 1**, tarkov.dev claims minimum player level **14**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Worst Job in the World**, tarkov.dev claims minimum player level **25**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **The Guide**, tarkov.dev claims minimum player level **32**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Counteraction**, tarkov.dev claims minimum player level **30**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
+- **Special Equipment**, tarkov.dev claims minimum player level **60**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Luxurious Life**, tarkov.dev claims minimum player level **1**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Shootout Picnic**, tarkov.dev claims minimum player level **3**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.
 - **Search Mission**, tarkov.dev claims minimum player level **5**. Not contradicted: the observation only proves the quest was reachable, and the profile was well above any of these levels.

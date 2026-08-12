@@ -295,7 +295,9 @@
         "Locate and neutralize Sanitar",
         "Hand over the found in raid Sanitar's bag"
       ],
-      "objectiveAdded": "The game has a second objective both sources lack: 'Hand over the found in raid Sanitar's bag'. tarkov.dev and the wiki publish the kill alone. Not progressive reveal in the usual direction — the card shows MORE than the sources, not fewer, so it cannot be explained by a step the game has not printed yet. Wording kept verbatim, the game's own phrasing."
+      "objectiveAdded": "The game has a second objective both sources lack: 'Hand over the found in raid Sanitar's bag'. tarkov.dev and the wiki publish the kill alone. Not progressive reveal in the usual direction — the card shows MORE than the sources, not fewer, so it cannot be explained by a step the game has not printed yet. Wording kept verbatim, the game's own phrasing.",
+      "crownIcon": true,
+      "crownIconNote": "See The Guide in peacekeeper.json."
     },
     {
       "name": "The Huntsman Path - Relentless",
@@ -313,7 +315,8 @@
         "Locate and neutralize Sanitar"
       ],
       "openQuestion": "OFFERED WHILE ONE OF ITS OWN PREREQUISITES IS STILL ACTIVE. tarkov.dev requires six Huntsman Path quests complete before this one, and one of them is Sadist — captured active in the same sitting as this card, not complete and not failed. Three more (Factory Chief, Eraser, Sellout) have never appeared on this profile at all. So either the requirement list is stale or the game does not enforce it; either way a tracker that locks on it hides a quest the game is offering right now. Same shape as the accept-not-complete finding, and the cleanest instance of it so far, because both cards were read minutes apart.",
-      "objectiveTypeNote": "The card carries the same top-right icon as Sadist and Hunting Trip in this batch, both of which tarkov.dev flags kappaRequired; it flags this one false. Recorded as seen, not resolved — the collection has no field for that flag."
+      "crownIcon": true,
+      "crownIconNote": "See The Guide in peacekeeper.json."
     },
     {
       "name": "Hunting Trip",
@@ -330,7 +333,9 @@
         "Sako TRG M10 .338 LM bolt-action sniper rifle",
         ".338 Lapua Magnum FMJ (30)"
       ],
-      "itemChanged": "THE WHOLE OBJECTIVE WAS REPLACED, and both sources still carry the old one. They publish a single step: kill Shturman with a headshot from over 40 metres using an M700 and a named scope. The game asks for twenty kills of ANY boss with ANY bolt-action rifle, and hands over an AXMC and a Sako TRG M10 to do it with. One target became twenty, one named weapon became a class, and the headshot and range conditions are gone. Anyone following the published text is doing a quest that no longer exists."
+      "itemChanged": "THE WHOLE OBJECTIVE WAS REPLACED, and both sources still carry the old one. They publish a single step: kill Shturman with a headshot from over 40 metres using an M700 and a named scope. The game asks for twenty kills of ANY boss with ANY bolt-action rifle, and hands over an AXMC and a Sako TRG M10 to do it with. One target became twenty, one named weapon became a class, and the headshot and range conditions are gone. Anyone following the published text is doing a quest that no longer exists.",
+      "crownIcon": true,
+      "crownIconNote": "See The Guide in peacekeeper.json."
     },
     {
       "name": "The Tarkov Shooter - Part 1",

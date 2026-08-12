@@ -139,7 +139,34 @@ function matchGameLines(objectives, gameLines) {
   if (gameLines.length > objectives.length) return null;   // more on screen than published: not this quest's list
   const taken = new Set();
   const hit = [];
+
+  // WHICH PAIRINGS ARE FORCED BEFORE ANY SCORING. A verb family with exactly one
+  // line on the card and exactly one published objective has only one possible
+  // assignment; the overlap floor and the margin are both about choosing between
+  // candidates, and here there is nothing to choose. Counteraction's kill step
+  // scores 0.333 against a floor of 0.5 purely because the game names five maps
+  // and tarkov.dev names one — and it is still the only eliminate step there is.
+  //
+  // Deliberately narrow: a line whose verb we cannot read (askedFor is null) is
+  // not forced, and neither is an objective that states no verb of its own.
+  const forced = new Map();
+  {
+    const lineVerbs = gameLines.map(askedFor);
+    for (const v of new Set(lineVerbs.filter(Boolean))) {
+      if (lineVerbs.filter((x) => x === v).length !== 1) continue;
+      const cands = objectives.map((o, i) => ({ o, i })).filter((c) => offers(c.o.description).has(v));
+      if (cands.length !== 1) continue;
+      forced.set(gameLines[lineVerbs.indexOf(v)], cands[0]);
+    }
+  }
+
   for (const line of gameLines) {
+    const f = forced.get(line);
+    if (f && !taken.has(f.i)) {
+      taken.add(f.i);
+      hit.push({ id: f.o.id, type: f.o.type, line });
+      continue;
+    }
     const want = askedFor(line);
     const scored = objectives.map((o, i) => ({ o, i, s: objOverlap(line, o.description) }))
       .filter((c) => !taken.has(c.i))
