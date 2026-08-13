@@ -384,7 +384,13 @@
         "Stash an AXMC sniper rifle in the trash bags at the chalet tennis court on Lighthouse",
         "Stash a Roler Submariner gold wrist watch in the trash bags at the chalet tennis court on Lighthouse",
         "Stash a Military flash drive in the trash bags at the chalet tennis court on Lighthouse"
-      ]
+      ],
+      "objectivePins": {
+        "5c0bc32986f7743e4d1002d2": "Stash an AXMC sniper rifle in the trash bags at the chalet tennis court on Lighthouse",
+        "5c0bc43e86f7744794440ba5": "Stash a Roler Submariner gold wrist watch in the trash bags at the chalet tennis court on Lighthouse",
+        "5c12320586f77437e44bcb15": "Stash a Military flash drive in the trash bags at the chalet tennis court on Lighthouse"
+      },
+      "objectivePinsReason": "THE MATCHER PICKS THE RIGHT OBJECTIVE FOR ALL THREE AND IS OVERRULED BY THE FLOOR. Each line beats its runner-up by about 3x (0.333 vs 0.100, 0.500 vs 0.091, 0.300 vs 0.111) and two of them fall under the 0.5 absolute bar only because 1.1.0 renamed the items and moved the place, leaving almost no shared words. Loosening the bar was tried and rejected: it also paired two unrelated steps on Glory to CPSU, whose card has a line tarkov.dev does not publish at all. The find step (5c50481c…) is deliberately unpinned — the game no longer shows it, and a leftover of a type the card is not showing is kept rather than declared gone."
     },
     {
       "name": "Chemical - Part 1",

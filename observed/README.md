@@ -72,6 +72,7 @@ The optional fields each exist because a real record needed one:
 | `questId` | the name alone is ambiguous. Setting it also stands the shuffle detector down for that record, since the pin is the answer it was looking for |
 | `questIdReason` | why that id and not the other. Printed straight into OPEN.md |
 | `objectivesHidden` | steps the game hasn't revealed yet, named where known |
+| `objectivePins` | a published objective id -> the exact card line it is, for the few the content matcher cannot reach safely. Checked on every build: the id must belong to the quest and the line must be one of this record's own objectives |
 | `loyaltyBadge` | the badge in the card's top-right corner, which IS the loyalty tab: `crown` at LL4, `three bars` at LL3, `lines` for Essential. A second reading of the tab, off the card rather than off the list it was opened from |
 | `unknownToEverySource` | no source has this quest, checked by name *and* by content |
 | `merged` / `lineShattered` | 1.1.0 restructured the line this belongs to |

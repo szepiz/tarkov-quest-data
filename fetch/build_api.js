@@ -473,6 +473,11 @@ let droppedLevels = 0;
 let failGated = 0;
 let objTextById = 0;
 let objTextAmbiguous = 0;
+let objTextPinned = 0;
+// Pin problems, collected here because `violations` is declared far below this
+// loop and pushing into it from inside would be a dead-zone error — thrown only
+// on a bad pin, i.e. only when someone needed the message.
+const pinViolations = [];
 let objTextForced = 0;
 let objGone = 0;
 // { id, titles, at } — resolved after the loop, when every published name is
@@ -614,7 +619,25 @@ for (const id of allIds) {
   // structured list rather than the flat one. `objectives` itself stays
   // tarkov.dev verbatim — the ids, zones, items and keys are theirs, and a
   // consumer that wants their text should still get it.
-  if (obsObjUsable && (dev.objectives || []).length) {
+  // AN EXPLICIT PIN BEATS THE MATCHER. `objectivePins` on an observation maps a
+  // published objective id to the exact card line it is, for the quests where
+  // content matching cannot get there safely — 1.1.0 rewrote some steps so
+  // thoroughly that almost no words survive, and loosening the matcher enough
+  // to catch them pairs unrelated steps elsewhere.
+  //
+  // Checked, not trusted: every line has to be one of the record's own
+  // objectives and every id has to be a published objective of this quest, or
+  // the build stops. A pin that has drifted from either side is worse than none.
+  if (obs && obs.objectivePins) {
+    const ids = new Set((dev.objectives || []).map((o) => o.id));
+    for (const [id, line] of Object.entries(obs.objectivePins)) {
+      if (!ids.has(id)) pinViolations.push(`${fields.name || id}: objectivePins names objective ${id}, which this quest does not have`);
+      if (!(obs.objectives || []).includes(line)) pinViolations.push(`${fields.name || id}: objectivePins line is not one of the record's objectives — "${line}"`);
+    }
+    put('objectiveTextById', src.obs('objectiveTextById', { ...obs.objectivePins }));
+    objTextById++;
+    objTextPinned++;
+  } else if (obsObjUsable && (dev.objectives || []).length) {
     // ONE LINE ON EACH SIDE NEEDS NO MARGIN. matchGameLines exists to stop a
     // sentence landing on the wrong pin, and it does that by demanding a clear
     // margin over the runner-up. With a single published objective and a single
@@ -947,6 +970,7 @@ for (const u of observed.unmatched) {
     + `; ${sibSets} quest(s) published once per arm`);
   console.log(`   ${objTextById} quest(s) carry the game's wording keyed by objective id`
     + `, ${objTextForced} of them the only line on each side`
+    + (objTextPinned ? `, ${objTextPinned} pinned by hand` : '')
     + `, ${objTextAmbiguous} left alone because the lines could not be told apart`);
   console.log(`   ${objGone} published objective(s) the game no longer shows`);
   if (unresolved.length) console.log(`   alternative(s) the wiki names that no source has: ${unresolved.join('; ')}`);
@@ -991,7 +1015,7 @@ const payload = {
 // a failure stops the write. The first run caught two, `Immunity` and
 // `Neuanfang` have a wiki index row but no stored page, and were being published
 // as `dating: "exact"` with no date on them.
-const violations = [];
+const violations = [...pinViolations];
 for (const q of quests) {
   for (const [f, p] of Object.entries(q.provenance || {})) {
     if (p.dating === 'none' && p.asOf) violations.push(`${q.name}.${f}: an undated source carries a date`);

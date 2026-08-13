@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-12T22:14:53.507Z",
+ "generatedAt": "2026-08-13T09:44:15.829Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -18394,6 +18394,11 @@
      "questItem": "Flash drive with fake info"
     }
    ],
+   "objectiveTextById": {
+    "5c0bc32986f7743e4d1002d2": "Stash an AXMC sniper rifle in the trash bags at the chalet tennis court on Lighthouse",
+    "5c0bc43e86f7744794440ba5": "Stash a Roler Submariner gold wrist watch in the trash bags at the chalet tennis court on Lighthouse",
+    "5c12320586f77437e44bcb15": "Stash a Military flash drive in the trash bags at the chalet tennis court on Lighthouse"
+   },
    "loyalty": [
     {
      "trader": "Skier",
@@ -18458,6 +18463,11 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "objectiveTextById": {
+     "src": "observed",
+     "asOf": "2026-08-10",
+     "dating": "exact"
     },
     "loyalty": {
      "src": "observed",
