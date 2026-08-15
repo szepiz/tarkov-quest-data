@@ -60,6 +60,17 @@ const overlay = J('overlay/dist.overlay.json');
 const sptCommits = J('spt/commits.json');
 const manifest = (() => { try { return J('MANIFEST.json'); } catch { return {}; } })();
 
+const TODAY = new Date().toISOString().slice(0, 10);
+
+// Objective positions last seen published, so a source going quiet does not
+// erase the map. Keyed by objective id, which survives renames and renumbering.
+const ZONES = path.join(__dirname, 'zones_last_known.json');
+const zoneStore = fs.existsSync(ZONES)
+  ? JSON.parse(fs.readFileSync(ZONES, 'utf8'))
+  : { note: 'see fetch/build_api.js', objectives: {} };
+let zonesFresh = 0, zonesCarried = 0;
+
+
 const wikiPage = (title) => {
   try { return fs.readFileSync(path.join(RAW, 'wiki', 'pages', String(title).replace(/[^\w.-]+/g, '_') + '.txt'), 'utf8'); }
   catch { return null; }
@@ -310,7 +321,21 @@ function loadMode(mode) {
     }
     const zones = (o.zones || []).map((z) => ({ map: MAPN(z.map), position: pos(z.position) }))
       .filter((z) => z.position || z.map);
-    if (zones.length) out.zones = zones;
+    if (zones.length) {
+      out.zones = zones;
+      zoneStore.objectives[o.id] = { zones, since: TODAY };
+      zonesFresh++;
+    } else {
+      // NOT PUBLISHED TODAY. Kept if it ever was, and stamped with the day it
+      // was last published rather than today's — the position is that old, and
+      // pretending otherwise is the exact lie the dating model exists to stop.
+      const kept = zoneStore.objectives[o.id];
+      if (kept && kept.zones && kept.zones.length) {
+        out.zones = kept.zones;
+        out.zonesLastPublished = kept.since;
+        zonesCarried++;
+      }
+    }
     if (o.count != null) out.count = o.count;
     if (o.foundInRaid) out.foundInRaid = true;
     if (Array.isArray(o.items) && o.items.length) out.items = o.items.map(ITN);
@@ -450,7 +475,6 @@ const DEVDATES = path.join(__dirname, 'devdates.json');
 const devJournal = fs.existsSync(DEVDATES)
   ? JSON.parse(fs.readFileSync(DEVDATES, 'utf8'))
   : { note: 'see fetch/build_api.js', quests: {} };
-const TODAY = new Date().toISOString().slice(0, 10);
 const devHash = (v) => crypto.createHash('sha1')
   .update(JSON.stringify(v === undefined ? null : v)).digest('hex').slice(0, 12);
 let devChanged = 0, devFirstSeen = 0;
@@ -1152,6 +1176,10 @@ fs.writeFileSync(file, JSON.stringify(payload, null, 1) + '\n', 'utf8');
 // invariant checks above, which exit non-zero: a refused build must not leave
 // today's date stamped on values it never published, or the next run would
 // compare against a snapshot that was never true.
+zoneStore.updatedAt = TODAY;
+fs.writeFileSync(ZONES, JSON.stringify(zoneStore, null, 1) + '\n', 'utf8');
+console.log(`   objective zones: ${zonesFresh} published today, ${zonesCarried} carried from an earlier build`);
+
 devJournal.updatedAt = TODAY;
 fs.writeFileSync(DEVDATES, JSON.stringify(devJournal, null, 1) + '\n', 'utf8');
 console.log(`   tarkov.dev journal: ${devChanged} value(s) changed today, ${devFirstSeen} seen for the first time`);
