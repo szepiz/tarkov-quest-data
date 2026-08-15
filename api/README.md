@@ -70,6 +70,8 @@ the whole record without reading further.
    Don't let an undated value overwrite a dated one, in either direction. It
    isn't old and it isn't new, it's unknown.
 3. **Newer wins.** Where both are dated, keep the later one.
+4. **Our own in-game readings outrank everything**, whatever date the others
+   carry. They are the only source that was read off the game itself.
 
 The same rules are embedded in the file as `mergeContract`, so they travel with
 the data instead of living only in a README nobody fetched.
@@ -82,12 +84,27 @@ the data instead of living only in a README nobody fetched.
 | `wiki` | **exact, per record** | that page's last revision timestamp |
 | `overlay` | per snapshot | one build date for the whole file |
 | `spt` | per snapshot | the last commit touching the quest JSON |
-| `tarkov.dev` | **none** | it publishes no date for a task at any granularity |
+| `tarkov.dev` | **none**, or `observed-change` | it publishes no date for a task at any granularity; see below |
 
-**tarkov.dev's `asOf` is `null` on purpose.** Stamping it with a download time
-would make the one source that can't date itself look like the freshest thing in
-the file, and invert the whole merge. `retrievedAt` on the source record says
-when it was downloaded, which is a fact about this repo and not about the data.
+**tarkov.dev's `asOf` is never the download time.** Stamping it with one would
+make the source that can't date itself look like the freshest thing in the file,
+and invert the whole merge. `retrievedAt` on the source record says when it was
+downloaded, which is a fact about this repo and not about the data.
+
+**It can still earn a date.** This repo stores the value of every tarkov.dev
+field on each build, so a value that changes between builds is dated the day the
+change was seen, as `"dating": "observed-change"`. Read that as *"at least this
+new"* — it is evidence, not a claim about when the game changed. A value that has
+never been seen to move stays `"dating": "none"`, because we know what it says
+and not how old it is.
+
+This matters because it replaced a fixed precedence of observed > wiki >
+tarkov.dev. That order was measured rather than assumed — 527 of 529 wiki quest
+pages had been edited on or after patch 1.1.0 while tarkov.dev was still
+pre-patch on about 91 names — and on 2026-08-15 tarkov.dev shipped its
+correction. Graded against 319 quests read off the game, it now scores **100%
+where it speaks against the wiki's 97%**. A fixed order cannot follow a change
+like that; dates can.
 
 ## Fields worth knowing about
 

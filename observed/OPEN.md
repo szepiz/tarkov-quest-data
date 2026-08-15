@@ -13,7 +13,7 @@ on every run. Each item is something the collection cannot currently settle.
 
 ## Quest lines where a name no longer identifies a record
 
-_none_
+- **the huntsman path - administrator**, "The Huntsman Path - Administrator" fits `The Huntsman Path - Administrator`. Map and objective count are not graded for any part of this line until the parts are pinned by id.
 
 ## Records pinned by hand with an explicit questId
 
@@ -51,47 +51,34 @@ _none_
 
 _The game prints a step only once the step it depends on is done, so an unfinished quest's list is a LOWER BOUND. None of these is graded. Re-capture any of them after completing it and the count becomes gradeable._
 
-- **The Huntsman Path - Trophy** (Jaeger, active), game shows 2, tarkov.dev 3, wiki 3.
+- **The Huntsman Path - Trophy** (Jaeger, active), game shows 2, tarkov.dev 2, wiki 3.
 - **The Huntsman Path - Woods Keeper** (Jaeger, active), game shows 2, tarkov.dev 3, wiki 3.
-- **The Huntsman Path - Big Game** (Jaeger, active), game shows 1, tarkov.dev 4, wiki 4.
+- **The Huntsman Path - Big Game** (Jaeger, active), game shows 1, tarkov.dev 1, wiki 4.
 - **Courtesy Visit** (Jaeger, active), game shows 3, tarkov.dev 4, wiki 4.
-- **The Huntsman Path - Crooked Cop** (Jaeger, active), game shows 2, tarkov.dev 3, wiki 2.
-- **The Huntsman Path - Administrator** (Jaeger, active), game shows 1, tarkov.dev 2, wiki 2.
 - **The Hermit** (Jaeger, active), game shows 1, tarkov.dev 3, wiki 3.
-- **Slaughterhouse** (Jaeger, active), game shows 6, tarkov.dev 9, wiki 9.
-- **Steady Signal** (Mechanic, active), game shows 1, tarkov.dev 5, wiki 1.
-- **The Courier** (Mechanic, active), game shows 1, tarkov.dev 2, wiki 1.
+- **Slaughterhouse** (Jaeger, active), game shows 6, tarkov.dev 6, wiki 9.
 - **Watching You** (Mechanic, active), game shows 1, tarkov.dev 3, wiki 3.
 - **The Secret to Productivity** (Mechanic, active), game shows 1, tarkov.dev 2, wiki 2.
 - **Surveillance** (Mechanic, active), game shows 1, tarkov.dev 2, wiki 2.
 - **The Door** (Mechanic, active), game shows 1, tarkov.dev 3, wiki 3.
-- **Psycho Sniper** (Mechanic, active), game shows 1, tarkov.dev 2, wiki 1.
-- **Shooter Born in Heaven** (Mechanic, active), game shows 4, tarkov.dev 8, wiki 4.
 - **Hidden Layer** (Mechanic, active), game shows 1, tarkov.dev 3, wiki 3, hidden: Find a way inside the Knossos LLC facility, (Optional) Locate and obtain the Knossos LLC facility key.
 - **Broadcast - Part 2** (Mechanic, active), game shows 1, tarkov.dev 2, wiki 2.
-- **Chemical Experiments** (Peacekeeper, active), game shows 1, tarkov.dev 8, wiki 1.
 - **I Need More Power** (Peacekeeper, active), game shows 3, tarkov.dev 3, wiki 4.
 - **Road Closed** (Peacekeeper, active), game shows 2, tarkov.dev 3, wiki 3.
 - **Cargo X** (Peacekeeper, active), game shows 1, tarkov.dev 2, wiki 2.
-- **Peacekeeping Mission** (Peacekeeper, active), game shows 4, tarkov.dev 6, wiki 4.
 - **TerraGroup Employee** (Peacekeeper, active), game shows 2, tarkov.dev 3, wiki 3.
-- **The Guide** (Peacekeeper, active), game shows 6, tarkov.dev 10, wiki 6.
-- **Capturing Outposts** (Prapor, active), game shows 1, tarkov.dev 3, wiki 1.
-- **Glory to CPSU** (Prapor, active), game shows 2, tarkov.dev 3, wiki 5.
-- **Special Comms** (Prapor, active), game shows 3, tarkov.dev 5, wiki 5.
-- **The Punisher - Part 1** (Prapor, active), game shows 1, tarkov.dev 1, wiki 3.
-- **Gratitude** (Ragman, active), game shows 2, tarkov.dev 4, wiki 4.
+- **Glory to CPSU** (Prapor, active), game shows 2, tarkov.dev 4, wiki 5.
+- **Special Comms** (Prapor, active), game shows 3, tarkov.dev 3, wiki 5.
+- **Gratitude** (Ragman, active), game shows 2, tarkov.dev 2, wiki 4.
 - **The Key to Success** (Ragman, active), game shows 2, tarkov.dev 4, wiki 4.
-- **Living High is Not a Crime** (Ragman, active), game shows 6, tarkov.dev 10, wiki 12.
+- **Living High is Not a Crime** (Ragman, active), game shows 6, tarkov.dev 6, wiki 12.
 - **Decisions, Decisions [PVE ZONE]** (Ref, failed), game shows 1, tarkov.dev 2, wiki 3.
-- **No Swiping** (Skier, active), game shows 1, tarkov.dev 2, wiki 1.
 - **Beyond the Red Meat** (Skier, active), game shows 1, tarkov.dev 2, wiki 2.
-- **Chumming** (Skier, active), game shows 2, tarkov.dev 4, wiki 4.
+- **Chumming** (Skier, active), game shows 2, tarkov.dev 2, wiki 4.
 - **The Secret Recipe** (Skier, active), game shows 1, tarkov.dev 2, wiki 2.
-- **Pyramid Scheme** (Skier, active), game shows 11, tarkov.dev 15, wiki 11.
-- **From Hand to Hand** (Skier, active), game shows 2, tarkov.dev 4, wiki 4.
-- **Silent Caliber** (Skier, active), game shows 1, tarkov.dev 2, wiki 2.
-- **Bullshit** (Skier, active), game shows 3, tarkov.dev 4, wiki 5.
+- **From Hand to Hand** (Skier, active), game shows 2, tarkov.dev 2, wiki 4.
+- **Silent Caliber** (Skier, active), game shows 1, tarkov.dev 1, wiki 2.
+- **Bullshit** (Skier, active), game shows 3, tarkov.dev 3, wiki 5.
 - **Thirsty - Delivery** (Skier, active), game shows 2, tarkov.dev 4, wiki 4.
 - **Supply Plans** (Therapist, failed), game shows 1, tarkov.dev 3, wiki 2, hidden: Hand over the folder.
 - **Paramedic** (Therapist, active), game shows 2, tarkov.dev 3, wiki 3, hidden: Hand over the smartphone.
@@ -152,6 +139,7 @@ _The wiki banners a removed quest's page with `{{Historical content}}` and keeps
 - **Insider** (Mechanic)
 - **Kind of Sabotage** (Skier)
 - **Loyalty Buyout** (Skier)
+- **Mall Cop (tarkov.dev: Gendarmerie - Mall Cop)** (Prapor)
 - **Perfect Mediator** (Prapor)
 - **Pets Won't Need It - Part 2** (Therapist)
 - **Private Clinic** (Therapist)
@@ -162,6 +150,7 @@ _The wiki banners a removed quest's page with `{{Historical content}}` and keeps
 - **Signal - Part 4** (Mechanic)
 - **The Bunker - Part 2** (Prapor)
 - **The Survivalist Path - Combat Medic** (Jaeger)
+- **Tickets, Please (tarkov.dev: Gendarmerie - Tickets, Please)** (Prapor)
 
 ## Event-map quests, invisible on a normal profile
 
@@ -192,20 +181,21 @@ has four explanations, and all four are in evidence:
    (owner, 2026-08-11), so a profile in good standing never sees them.
 
 - **Fence**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 11 more quest(s) under this trader: Compensation for Damage - Barkeep; Compensation for Damage - Collection; Compensation for Damage - Trust; Compensation for Damage - Wager; Compensation for Damage - Wergild; Friend Among Strangers; Immunity; Small Business - Part 1; Small Business - Part 2; Small Business - Part 3; The Choice.
-- **Jaeger**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 15 more quest(s) under this trader: Broadcast - Part 3; Broadcast - Part 4; Broadcast - Part 5; Claustrophobia; Forester's Duty; Nostalgia; The Huntsman Path - Factory Chief; The Huntsman Path - Forest Cleaning; The Huntsman Path - Justice; The Huntsman Path - Liberation (tarkov.dev: The Huntsman Path - Eraser - Part 2); The Huntsman Path - Sellout; The Survivalist Path - Eagle-Owl; The Survivalist Path - Junkie; The Tarkov Shooter - Part 5; The Tarkov Shooter - Part 7 (tarkov.dev: The Tarkov Shooter - Part 8).
+- **Jaeger**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 17 more quest(s) under this trader: Broadcast - Part 3; Broadcast - Part 4; Broadcast - Part 5; Claustrophobia; Forester's Duty; Nostalgia; The Huntsman Path - Administrator; The Huntsman Path - Controller; The Huntsman Path - Factory Chief; The Huntsman Path - Forest Cleaning; The Huntsman Path - Justice; The Huntsman Path - Liberation; The Huntsman Path - Sellout; The Survivalist Path - Eagle-Owl; The Survivalist Path - Junkie; The Tarkov Shooter - Part 5; The Tarkov Shooter - Part 7.
 - **Mechanic**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 24 more quest(s) under this trader: Airmail; Assessment - Part 1; Assessment - Part 2; Assessment - Part 3; Camera, Action!; Corporate Perks (tarkov.dev: Developer's Secrets - Part 1); Getting Acquainted; Goals and Means; Hobby Club; Hypotheses Testing; Key to the Tower; Knock-Knock; Make Amends; Make Amends; Make Amends; Make Amends - Buyout; Make Amends - Equipment; Make Amends - Quarantine; Make Amends - Security; Make Amends - Software; Make Amends - Sweep Up; Network Provider - Part 1; Network Provider - Part 2; Offensive Reconnaissance.
-- **Prapor**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 14 more quest(s) under this trader: Best Job in the World; Escort; Forge a Friendship; Half-Empty; Intimidator; Mall Cop (tarkov.dev: Gendarmerie - Mall Cop); Special Order (tarkov.dev: No Questions Asked); Stick in the Wheel; The Good Times - Part 2; The Punisher - Part 5; The Punisher - Part 6; Tickets, Please (tarkov.dev: Gendarmerie - Tickets, Please); Unique Experience (tarkov.dev: Test Drive - Part 6); Viewer.
+- **Prapor**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 12 more quest(s) under this trader: Best Job in the World; Escort; Forge a Friendship; Half-Empty; Intimidator; Special Order; Stick in the Wheel; The Good Times - Part 2; The Punisher - Part 5; The Punisher - Part 6; Unique Experience; Viewer.
 - **Ref**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 1 more quest(s) under this trader: Postponed Reward (tarkov.dev: Postponed Reward [PVE ZONE]).
 - **Skier**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 22 more quest(s) under this trader: A Life Lesson; Choose Your Friends Wisely; Connections Up North; Consolation Prize; Debtor; Fair Price - Part 1; Fair Price - Part 2; Get a Foothold; Hindsight 20/20; Indisputable Authority; Key Partner; Killer Argument; Minute of Fame; Never Too Late To Learn; Night Sweep; Profit Retention; Profitable Venture; Proper Comeback; Route Deviation; Safety Guarantee; Serious Allegations; The Higher They Fly.
-- **Therapist**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 4 more quest(s) under this trader: A Difficult Choice (tarkov.dev: Colleagues - Part 3); Thirsty - Echo; Thirsty - Secrets; This Tape Sucks.
+- **Therapist**, every quest VISIBLE to this profile was captured, yet tarkov.dev files 4 more quest(s) under this trader: A Difficult Choice; Thirsty - Echo; Thirsty - Secrets; This Tape Sucks.
 
 ## Not graded, and why
 
 - **Collector**. LOCKED, so the card shows unlock requirements instead of objectives. Nothing to grade until it unlocks.
+- **The Huntsman Path - Administrator**, objective count not graded: the record it was matched to (`The Huntsman Path - Administrator`) may be a different quest. See the entry above.
 
 ## Level requirements nobody has had to meet
 
-310 observed quest(s) carry a tarkov.dev minimum player level that these
+147 observed quest(s) carry a tarkov.dev minimum player level that these
 observations can neither confirm nor deny, the profile was well above all of
 them, so reaching the quest proves nothing about the gate. Settling these needs
 a low-level profile, not more screenshots from this one.

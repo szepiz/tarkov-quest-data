@@ -17,11 +17,27 @@
 //   SPT         per snapshot     , the last commit touching the quest JSON
 //   tarkov.dev  NONE             , publishes no per-task date of any kind
 //
-// tarkov.dev's `asOf` is therefore null, not the fetch time, and its `dating` is
-// "none". A merging consumer must never let an undated value overwrite a dated
-// one; that rule is what the whole file is for, and faking a date would break it.
+// tarkov.dev's `asOf` is therefore never the fetch time. Fetching a stale record
+// today does not make it current, and a merging consumer must never let an
+// undated value overwrite a dated one — that rule is what this whole file is for,
+// and faking a date would break it.
+//
+// It CAN still earn one. fetch/devdates.json records the value of every
+// tarkov.dev field each build, so a value that changes under us is dated the day
+// we watched it change: `dating: "observed-change"`. That is evidence, not a
+// claim about when BSG changed it. A value we have never seen move stays undated
+// — we know what it says, not how old it is — so a pre-1.1.0 value first seen on
+// the 11th can never outrank a wiki page edited on the 5th.
+//
+// This exists because the ranking it replaced expired. Believing the wiki over
+// tarkov.dev was measured, not assumed: 527 of 529 wiki quest pages were edited
+// on or after 1.1.0 while tarkov.dev was pre-patch on ~91 names. On 2026-08-15
+// tarkov.dev shipped its correction and now grades 100% against the game where
+// it speaks, against the wiki's 97%. A fixed order cannot follow that. Dates can,
+// and our own observations outrank both whatever the dates say.
 'use strict';
 const fs = require('fs');
+const crypto = require('crypto');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const RAW = path.join(ROOT, 'raw');
@@ -397,20 +413,54 @@ const SOURCES = {
   },
 };
 
-// ---- the believe-order, and the evidence for it
+// ---- who wins a field
 //
-// 1. observed , the game itself. Nothing outranks it.
-// 2. wiki     , 527 of its 529 dated quest pages were edited on or after patch
-//                1.1.0 (2026-08-03), so it is current almost everywhere.
-// 3. tarkov.dev, undated, and demonstrably pre-1.1.0 on about 91 names.
-// A field is taken from the first source that HAS it, and the record says which.
+// 1. observed — the game itself, read off the owner's own screen. NOTHING
+//    outranks it, whatever date the others carry.
+// 2. otherwise the MOST RECENTLY DATED source wins.
+// 3. a source with no date loses to any dated one, and ties keep the order the
+//    candidates were listed in.
+//
+// This replaced a fixed ranking of observed > wiki > tarkov.dev. That ranking
+// was evidence-based — 527 of 529 wiki quest pages were edited on or after
+// 1.1.0, while tarkov.dev was demonstrably pre-patch on ~91 names — and the
+// evidence changed: tarkov.dev shipped its 1.1.0 correction on 2026-08-15 and
+// now grades 100% against the game where it speaks, the wiki 97%. A ranking
+// cannot follow that; dates can.
 const pick = (candidates) => {
-  for (const c of candidates) {
-    if (c.value === undefined || c.value === null) continue;
-    if (Array.isArray(c.value) && !c.value.length) continue;
-    return c;
-  }
-  return null;
+  const live = candidates.filter((c) => {
+    if (!c || c.value === undefined || c.value === null) return false;
+    return !(Array.isArray(c.value) && !c.value.length);
+  });
+  if (!live.length) return null;
+  const own = live.find((c) => c.src === 'observed');
+  if (own) return own;
+  let best = live[0];
+  for (const c of live.slice(1)) if ((c.asOf || '') > (best.asOf || '')) best = c;
+  return best;
+};
+
+// WHEN TARKOV.DEV LAST CHANGED ITS MIND. It publishes no date for a task at any
+// granularity, so the only dating available for it is the one we can witness:
+// each build compares its values against the last build's and stamps the ones
+// that moved. A value we have never seen change stays UNDATED — we know what it
+// says, not how old it is, and a pre-1.1.0 value first seen on the 11th must not
+// outrank a wiki page edited on the 5th.
+const DEVDATES = path.join(__dirname, 'devdates.json');
+const devJournal = fs.existsSync(DEVDATES)
+  ? JSON.parse(fs.readFileSync(DEVDATES, 'utf8'))
+  : { note: 'see fetch/build_api.js', quests: {} };
+const TODAY = new Date().toISOString().slice(0, 10);
+const devHash = (v) => crypto.createHash('sha1')
+  .update(JSON.stringify(v === undefined ? null : v)).digest('hex').slice(0, 12);
+let devChanged = 0, devFirstSeen = 0;
+const devDate = (id, field, value) => {
+  const q = devJournal.quests[id] = devJournal.quests[id] || {};
+  const h = devHash(value);
+  const was = q[field];
+  if (!was) { q[field] = { h, since: TODAY, watched: false }; devFirstSeen++; }
+  else if (was.h !== h) { q[field] = { h, since: TODAY, watched: true }; devChanged++; }
+  return q[field].watched ? q[field].since : null;
 };
 
 // Every page title we actually hold, so a link can be checked before it is
@@ -467,6 +517,7 @@ const allIds = [...new Set(MODES.flatMap((m) => [...M[m].keys()]))];
 const quests = [];
 let removedCount = 0;
 let wikiGates = 0;
+let levelDropsRefused = 0;
 let obsGates = 0;
 let obsGatesDropped = 0;
 let droppedLevels = 0;
@@ -525,7 +576,17 @@ for (const id of allIds) {
   const src = {
     obs: (field, value) => ({ src: 'observed', asOf: obsAt, dating: 'exact', value }),
     wiki: (field, value) => ({ src: 'wiki', asOf: wikiAt, dating: 'exact', value }),
-    dev: (field, value) => ({ src: 'tarkov.dev', asOf: null, dating: 'none', value }),
+    dev: (field, value) => {
+      const when = devDate(id, field, value);
+      return { src: 'tarkov.dev', asOf: when, dating: when ? 'observed-change' : 'none', value };
+    },
+  };
+
+  // what the journal knows about this quest's tarkov.dev fields — null unless we
+  // have actually watched the value change, which is the only date it can earn
+  const devAsOfFor = (field) => {
+    const e = (devJournal.quests[id] || {})[field];
+    return e && e.watched ? e.since : null;
   };
 
   const fields = {};
@@ -756,12 +817,22 @@ for (const id of allIds) {
   // and silence there is silence, not a claim. Where a section exists, the wiki
   // keeps BOTH lines when both apply (Counteraction states a level AND a loyalty
   // level), so a missing level line inside a populated section is a statement.
+  //
+  // AND ONLY WHILE THE WIKI IS THE MORE CURRENT OF THE TWO. tarkov.dev corrected
+  // 290 level requirements on 2026-08-15; a page last edited before that is
+  // describing the state tarkov.dev has since fixed, and letting it null out the
+  // newer value reintroduces the very staleness this rule exists to remove.
+  const devLevelAt = devAsOfFor('minPlayerLevel');
   if ((dev.minPlayerLevel || 0) > 0 && wReq && wReq.length
       && !wReq.some((l) => /must be level\s*\d+/i.test(l))) {
-    fields.minPlayerLevel = null;
-    provenance.minPlayerLevel = { src: 'wiki', asOf: wikiAt, dating: 'exact',
-      note: `tarkov.dev requires level ${dev.minPlayerLevel}; the wiki's Requirements section lists no level.` };
-    droppedLevels++;
+    if (devLevelAt && !(wikiAt && wikiAt >= devLevelAt)) {
+      levelDropsRefused++;
+    } else {
+      fields.minPlayerLevel = null;
+      provenance.minPlayerLevel = { src: 'wiki', asOf: wikiAt, dating: 'exact',
+        note: `tarkov.dev requires level ${dev.minPlayerLevel}; the wiki's Requirements section lists no level.` };
+      droppedLevels++;
+    }
   }
 
   if (dev.failedBy.length) put('failedBy', pick([src.dev('failedBy', dev.failedBy)]));
@@ -993,7 +1064,14 @@ const payload = {
     rule: 'Compare dates per FIELD, not per quest. Keep whichever value is newer.',
     undated: 'dating:"none" means the source cannot say when the value was last true. '
       + 'Never let an undated value overwrite a dated one, in either direction.',
-    precedence: ['observed (the game itself)', 'wiki (dated per page)', 'tarkov.dev (undated)'],
+    precedence: ['observed (the game itself) outranks everything, whatever the dates say',
+      'otherwise the newer date wins, and a dated value beats an undated one'],
+    // A consumer that keyed off the old fixed precedence needs to know this
+    // changed, and why: it was measured, and the measurement moved.
+    devDating: 'tarkov.dev publishes no per-task date, so a value of its carries one ONLY when this '
+      + 'repo watched it change between builds: dating:"observed-change", asOf = the day it moved. '
+      + 'That is evidence it is at least that new, not a claim about when the game changed. A value '
+      + 'never seen to move stays dating:"none".',
     quickCheck: 'Each quest carries a top-level `asOf`, the newest of its field dates. '
       + 'If yours is newer than that, you can skip the whole record.',
   },
@@ -1015,12 +1093,34 @@ const payload = {
 // a failure stops the write. The first run caught two, `Immunity` and
 // `Neuanfang` have a wiki index row but no stored page, and were being published
 // as `dating: "exact"` with no date on them.
+// THE RECORD'S DATE IS THE NEWEST DATE ON IT, computed once every field is
+// attached. It used to be stamped when the record was pushed, while
+// `requiresAnyOf` (and the retry pass after it) attach provenance LATER — so a
+// page the wiki edited after the record's other wiki fields were dated left the
+// record claiming to be older than a field it carries. Four quests broke this
+// way the first time the wiki edited them mid-build: Aid Stations, Dragnet,
+// Ironclad Proof, Safe Corridor. Recomputing here makes the invariant below
+// something the shape guarantees rather than something the ordering has to.
+for (const q of quests) {
+  const ds = Object.values(q.provenance || {}).map((p) => p.asOf).filter(Boolean).sort();
+  q.asOf = ds[ds.length - 1] || null;
+}
+
 const violations = [...pinViolations];
 for (const q of quests) {
   for (const [f, p] of Object.entries(q.provenance || {})) {
     if (p.dating === 'none' && p.asOf) violations.push(`${q.name}.${f}: an undated source carries a date`);
+    if (!['exact', 'none', 'observed-change'].includes(p.dating)) violations.push(`${q.name}.${f}: unknown dating "${p.dating}"`);
     if (p.dating === 'exact' && !p.asOf) violations.push(`${q.name}.${f}: dating "exact" with no date`);
-    if (p.src === 'tarkov.dev' && p.asOf) violations.push(`${q.name}.${f}: tarkov.dev value was given a date`);
+    // tarkov.dev may only carry a date it EARNED by changing under us, never
+    // one borrowed from the fetch — the fetch time is when we looked, not when
+    // the value was set, and that distinction is the whole point of the journal.
+    if (p.src === 'tarkov.dev' && p.asOf && p.dating !== 'observed-change') {
+      violations.push(`${q.name}.${f}: tarkov.dev value was given a date it did not earn`);
+    }
+    if (p.dating === 'observed-change' && (p.src !== 'tarkov.dev' || !p.asOf)) {
+      violations.push(`${q.name}.${f}: "observed-change" is only for a dated tarkov.dev value`);
+    }
     if (q[f] === undefined) violations.push(`${q.name}.${f}: provenance for a field that is not published`);
   }
   const ds = Object.values(q.provenance || {}).map((p) => p.asOf).filter(Boolean).sort();
@@ -1048,6 +1148,14 @@ fs.mkdirSync(OUT, { recursive: true });
 const file = path.join(OUT, 'quests.json');
 fs.writeFileSync(file, JSON.stringify(payload, null, 1) + '\n', 'utf8');
 
+// THE JOURNAL IS ONLY WORTH WRITING IF THE BUILD SUCCEEDED. Written after the
+// invariant checks above, which exit non-zero: a refused build must not leave
+// today's date stamped on values it never published, or the next run would
+// compare against a snapshot that was never true.
+devJournal.updatedAt = TODAY;
+fs.writeFileSync(DEVDATES, JSON.stringify(devJournal, null, 1) + '\n', 'utf8');
+console.log(`   tarkov.dev journal: ${devChanged} value(s) changed today, ${devFirstSeen} seen for the first time`);
+
 const kb = (fs.statSync(file).size / 1024).toFixed(0);
 console.log(`api/quests.json, ${quests.length} quests, ${kb} KB`);
 const byField = {};
@@ -1064,4 +1172,5 @@ const tabs = {};
 for (const q of quests) if (q.traderTab !== undefined) tabs[q.traderTab] = (tabs[q.traderTab] || 0) + 1;
 console.log('   trader tabs: ' + Object.keys(tabs).sort()
   .map((k) => `${k === 'essential' ? 'essential' : 'LL' + k} ${tabs[k]}`).join(', '));
-console.log(`   ${obsGates} loyalty gate(s) read off the game screen, ${obsGatesDropped} the game says do not exist; ${wikiGates} added from the wiki, ${droppedLevels} stale level requirement(s) dropped`);
+console.log(`   ${obsGates} loyalty gate(s) read off the game screen, ${obsGatesDropped} the game says do not exist; ${wikiGates} added from the wiki, ${droppedLevels} stale level requirement(s) dropped`
+  + (levelDropsRefused ? `, ${levelDropsRefused} wiki drop(s) refused as older than tarkov.dev's own correction` : ''));
