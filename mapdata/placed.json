@@ -2,7 +2,7 @@
  "what": "Hand-placed map corrections and additions, made in the tracker's map editor.",
  "firstParty": true,
  "placedBy": "szepiz",
- "bakedAt": "2026-08-11",
+ "bakedAt": "2026-08-15",
  "license": "CC0-1.0",
  "note": "Coordinates are game units, matching tarkov.dev's coordinate space. `floor` is -1 when a map has no floors. Keys in the correction maps are \"<map>|<label>|<x>|<z>\" as the editor writes them.",
  "labels": {
@@ -497,6 +497,22 @@
   "Customs|5969fa4886f7741ddb481544|239|161": {
    "x": 239.3,
    "z": 160.2
+  },
+  "Factory|5ac7a4ba86f77409f3423628|68|-7": {
+   "x": 67.9,
+   "z": -7
+  },
+  "Factory|5a687a1c86f7745f2152168c|25|39": {
+   "x": 24.6,
+   "z": 41
+  },
+  "Factory|5a6879be86f774284429b1bb|25|39": {
+   "x": 24.6,
+   "z": 41
+  },
+  "Factory|66b38e144f2ab7cc530c3fe8|25|39": {
+   "x": 25.3,
+   "z": 39.2
   }
  },
  "transits": {
@@ -613,8 +629,7 @@
   "api|Factory|669fb1ffe34e78d618792b41|65|14": true,
   "api|Factory|5d26143c86f77469ef0f894c|22|42": true,
   "api|Factory|669fb1ffe34e78d618792b41|-51|14": true,
-  "api|Factory|669fb1ffe34e78d618792b41|20|-29": true,
-  "api|Factory|5ac7a4ba86f77409f3423628|68|-7": true
+  "api|Factory|669fb1ffe34e78d618792b41|20|-29": true
  },
  "extractFactions": {},
  "extractNotes": {},
@@ -2152,6 +2167,13 @@
    "z": 147.7,
    "text": "PC Cubicles",
    "floor": 0
+  },
+  {
+   "map": "Woods",
+   "x": -170.5,
+   "z": -233.9,
+   "text": "Secret Bunker",
+   "floor": -1
   }
  ],
  "mapTexts": [
@@ -2873,7 +2895,7 @@
  "counts": {
   "labels": 50,
   "extracts": 16,
-  "objectives": 56,
+  "objectives": 60,
   "transits": 5,
   "switches": 7,
   "objectiveFloors": 3,
@@ -2881,11 +2903,11 @@
   "labelFloors": 1,
   "transitFloors": 2,
   "switchFloors": 0,
-  "hidden": 39,
+  "hidden": 38,
   "extractFactions": 0,
   "extractNotes": 0,
   "extractSwitches": 0,
-  "newLabels": 219,
+  "newLabels": 220,
   "mapTexts": 87,
   "newExtracts": 2
  }
