@@ -1,0 +1,7455 @@
+{
+ "what": "Part of [object Object] quest data from https://github.com/szepiz/tarkov-quest-data",
+ "holds": "what has to be true before you can take it: player level, prerequisite quests, trader loyalty and reputation",
+ "schemaVersion": 2,
+ "generatedAt": "2026-08-16T11:15:23.674Z",
+ "rejoinOn": "id",
+ "whole": "api/quests.json",
+ "quests": [
+  {
+   "id": "5ae4493d86f7744b8e15aa8f",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "69c277f3ea6da9c23e07f8d2",
+   "requires": [
+    {
+     "task": "69c27158e350f01390049e77",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5edac34d0bb72a50635c2bfa",
+   "requires": [
+    {
+     "task": "5edab4b1218d181e29451435",
+     "status": [
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "608974d01a66564e74191fc0",
+   "minPlayerLevel": 27,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "669fa3910c828825de06d69f",
+   "requires": [
+    {
+     "task": "669fa38fad7f1eac2607ed46",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "669fa38fad7f1eac2607ed46"
+   ]
+  },
+  {
+   "id": "6752f6d83038f7df520c83e8"
+  },
+  {
+   "id": "67af4c1cc0e59d55e2010b97",
+   "minPlayerLevel": 50,
+   "requires": [
+    {
+     "task": "67af4c1a6c3ebfd8e6034916",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69ce1cfb298a6529b30d712b"
+  },
+  {
+   "id": "675c03d1f7da9792a405549a",
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5d24b81486f77439c92d6ba8",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "66058ccbc7f3584787181478",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cbd9f59e625462acc8e",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "697895b6c639962b2e0cf268",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6834233fecd5cf3a440d855b",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341c4babec72d95d0c1260",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "697878057aa1273126030fb0",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058ccde8e4f17985230807",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058ccbc7f3584787181478",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68342446a8d674b5740b31fc",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "6834233fecd5cf3a440d855b",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "59c9392986f7742f6923add2",
+   "minPlayerLevel": 5,
+   "requiresAnyOf": [
+    "597a0f5686f774273b74f676",
+    "597a171586f77405ba6887d3"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "666314b8312343839d032d24",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314b696a9349baa021bac",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa39ee749756c920d02c8",
+   "minPlayerLevel": 5,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "600302d73b897b11364cd161",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5d6fb2c086f77449da599c24",
+   "minPlayerLevel": 18,
+   "requires": [
+    {
+     "task": "5a68667486f7742607157d28",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5eda19f0edce541157209cee",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6740b60c60a98cad1b0e0aa0",
+   "requires": [
+    {
+     "task": "6740a02a69a58fceba0ff399",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "673f6027352b4da8e00322d2",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c1141f386f77430ff393792",
+   "minPlayerLevel": 42,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "697877e0c639962b2e0cf24f",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cb7c7f3584787181476",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "697878057aa1273126030fb0",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341846186efa3c5b07f989",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "674492b6909d2013670a347a",
+   "requires": [
+    {
+     "task": "6740b60c60a98cad1b0e0aa0",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "625d6ffcaa168e51321d69d7",
+   "requires": [
+    {
+     "task": "625d6ffaf7308432be1d44c5",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "625d6fff4149f1149b5b12c9",
+   "requires": [
+    {
+     "task": "625d6ffcaa168e51321d69d7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "625d7001c4874104f230c0c5",
+   "requires": [
+    {
+     "task": "625d6fff4149f1149b5b12c9",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0d0d5086f774363760aef2",
+   "minPlayerLevel": 30,
+   "requires": [
+    {
+     "task": "5a68667486f7742607157d28",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "639135bbc115f907b14700a6",
+   "minPlayerLevel": 27,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "638fcd23dc65553116701d33",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6089736efa70fc097863b8f6",
+   "minPlayerLevel": 26,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5936da9e86f7742d65037edf",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac3475486f7741d6224abd3",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5967530a86f77462ba22226b",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "66058cb7c7f3584787181476",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cb5ae4719735349b9e8",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68341846186efa3c5b07f989",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "6834158f2f0e2a7eb90b62c8",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058cb9e8e4f17985230805",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cb7c7f3584787181476",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68341a0b2f0e2a7eb90b62d4",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341846186efa3c5b07f989",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "639135a7e705511c8a4a1b78",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6744a728352b4da8e003eda9",
+   "requires": [
+    {
+     "task": "6740a3f4eca8acb2d2055159",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "requiresAnyOf": [
+    "6740a3f4eca8acb2d2055159",
+    "6744a4717e3818d5bb0680bb"
+   ],
+   "failedBy": [
+    "6744a9dfef61d56e020b5c4a"
+   ]
+  },
+  {
+   "id": "6744a9dfef61d56e020b5c4a",
+   "requires": [
+    {
+     "task": "6744a4717e3818d5bb0680bb",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "requiresAnyOf": [
+    "6740a3f4eca8acb2d2055159",
+    "6744a4717e3818d5bb0680bb"
+   ]
+  },
+  {
+   "id": "675c3507a06634b5110e3c18",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "66aba85403e0ee3101042877",
+   "minPlayerLevel": 37,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "63a9ae24009ffc6a551631a5",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "id": "66058ccf06ef1d50a60c1f48",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058ccde8e4f17985230807",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "66058cd19f59e625462acc90",
+    "67e993b1ac26bf29380a320b"
+   ]
+  },
+  {
+   "id": "683425dd8f5b18d29a05d9d1",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68342446a8d674b5740b31fc",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6834254f2f0e2a7eb90b62ef",
+    "683427418f5b18d29a05d9e3"
+   ]
+  },
+  {
+   "id": "64f5e20652fc01298e2c61e3",
+   "minPlayerLevel": 7,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "597a171586f77405ba6887d3",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "597a0f5686f774273b74f676",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "597a0f5686f774273b74f676",
+    "597a160786f77477531d39d2"
+   ]
+  },
+  {
+   "id": "5ae448e586f7744dcf0c2a67",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "69ce213a298a6529b30d7134",
+   "requires": [
+    {
+     "task": "69ce204c8702b378f9091e4b",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa39b91b0a8c9680fc467",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5968eb3186f7741dde183a4d",
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "60e71dc67fcf9c556f325056",
+   "minPlayerLevel": 27,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "675c085d59b0575973005f52",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "626bd75e47ea7f506e5493c5",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    },
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "63913715f8e5dd32bf4e3aaa",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "626bd75e47ea7f506e5493c5",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "63a511ea30d85e10e375b045",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "63913715f8e5dd32bf4e3aaa",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6391372c8ba6894d155e77d7",
+   "minPlayerLevel": 27,
+   "requires": [
+    {
+     "task": "63a511ea30d85e10e375b045",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64ee99639878a0569d6ec8c9",
+   "minPlayerLevel": 27,
+   "requires": [
+    {
+     "task": "6391372c8ba6894d155e77d7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "673f629c5b555b53460cf827",
+   "requires": [
+    {
+     "task": "6745fcded0fbbc74ca0f721d",
+     "status": [
+      "complete",
+      "failed"
+     ]
+    }
+   ],
+   "requiresAnyOf": [
+    "6745fcded0fbbc74ca0f721d",
+    "673f6027352b4da8e00322d2"
+   ]
+  },
+  {
+   "id": "5c0bbaa886f7746941031d82",
+   "minPlayerLevel": 38,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "657315e270bb0b8dba00cc48",
+   "minPlayerLevel": 1,
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "60e71d23c1bfa3050473b8e6",
+   "minPlayerLevel": 40,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "666314c10aa5c7436c00908c",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314bf1cd52e3d040a2e78",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa3a1c26f13bd04030f37",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "5ac345dc86f774288030817f",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "669fa394e0c9f9fafa082897",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60e71b9bbd90872cb85440f3",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "596a218586f77420d232807c",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5a27bb1e86f7741f27621b7e",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5a27bb5986f7741dfb660900",
+   "minPlayerLevel": 19,
+   "requires": [
+    {
+     "task": "5a27bb3d86f77411ea361a21",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "639136e84ed9512be67647db",
+   "minPlayerLevel": 9,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5ae4499a86f77449783815db",
+   "requires": [
+    {
+     "task": "5ae4497b86f7744cf402ed00",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "5ae448f286f77448d73c0131",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5969f90786f77420d2328015",
+   "minPlayerLevel": 18,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5979f9ba86f7740f6c3fe9f2"
+  },
+  {
+   "id": "597a0b2986f77426d66c0633",
+   "requires": [
+    {
+     "task": "5979f9ba86f7740f6c3fe9f2",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "597a0e5786f77426d66c0636",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "597a0b2986f77426d66c0633",
+     "status": [
+      "complete",
+      "active"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "597a0f5686f774273b74f676",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "597a0e5786f77426d66c0636",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "597a171586f77405ba6887d3",
+    "597a160786f77477531d39d2"
+   ]
+  },
+  {
+   "id": "5a27bafb86f7741c73584017",
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5f04886a3937dc337a6b8238",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "67460662d0fbbc74ca0f7229",
+   "requires": [
+    {
+     "task": "674605df60a98cad1b0ec799",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "6744aca8d3346c216702c583",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6744af0969a58fceba101fed",
+    "6745cbee909d2013670a4a55"
+   ]
+  },
+  {
+   "id": "5b4795fb86f7745876267770",
+   "minPlayerLevel": 7,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6663149f1d3ec95634095e75",
+   "minPlayerLevel": 42,
+   "requires": [
+    {
+     "task": "6663149cfd5ca9577902e037",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60896888e4a85c72ef3fa300",
+   "minPlayerLevel": 22,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "669fa3979b0ce3feae01a130"
+  },
+  {
+   "id": "675c04f4db8807b75d0f38e8",
+   "requires": [
+    {
+     "task": "675c047fa46173572a0bd878",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5edab736cc183c769d778bc2",
+   "minPlayerLevel": 18,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5c51aac186f77432ea65c552",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "5c0bde0986f77479cf22c2f8",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "5ae4497b86f7744cf402ed00",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "596760e186f7741e11214d58",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "597a0f5686f774273b74f676",
+     "status": [
+      "complete",
+      "failed"
+     ]
+    },
+    {
+     "task": "5bc480a686f7741af0342e29",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 4
+    },
+    {
+     "trader": "Prapor",
+     "level": 4
+    },
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    },
+    {
+     "trader": "Mechanic",
+     "level": 4
+    },
+    {
+     "trader": "Jaeger",
+     "level": 4
+    },
+    {
+     "trader": "Skier",
+     "level": 4
+    },
+    {
+     "trader": "Ragman",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "666314a31cd52e3d040a2e76",
+   "minPlayerLevel": 42,
+   "requires": [
+    {
+     "task": "666314a1920800278d0f6746",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "61e6e615eea2935bc018a2c5",
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": "<=",
+     "value": -1
+    }
+   ]
+  },
+  {
+   "id": "61e6e621bfeab00251576265",
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": "<=",
+     "value": -1
+    }
+   ]
+  },
+  {
+   "id": "61e6e5e0f5b9633f6719ed95",
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": "<",
+     "value": -1
+    }
+   ]
+  },
+  {
+   "id": "61e6e60223374d168a4576a6",
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": "<=",
+     "value": -1
+    }
+   ]
+  },
+  {
+   "id": "61e6e60c5ca3b3783662be27",
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": "<=",
+     "value": -3
+    }
+   ]
+  },
+  {
+   "id": "67a09724972c11a3f5077324",
+   "minPlayerLevel": 26,
+   "requires": [
+    {
+     "task": "67a0970744893b9f3f0d9b68",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6764174c86addd02bc033d68"
+  },
+  {
+   "id": "67af4c1d8c9482eca103e477",
+   "minPlayerLevel": 50,
+   "requires": [
+    {
+     "task": "67af4c1cc0e59d55e2010b97",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "65733403eefc2c312a759ddb",
+   "minPlayerLevel": 23,
+   "requires": [
+    {
+     "task": "639135e8c115f907b14700aa",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6179b3bdc7560e13d23eeb8d",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6179b5eabca27a099552e052",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5d25e48186f77443e625e386",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "66058cbd9f59e625462acc8e",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cbb06ef1d50a60c1f46",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68341c4babec72d95d0c1260",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341b407559f4e6d50bc0ce",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058cbf2f19c31a5a1337ec",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cbd9f59e625462acc8e",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68341d7d7559f4e6d50bc0db",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341c4babec72d95d0c1260",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60e71c48c1bfa3050473b8e5",
+   "minPlayerLevel": 38,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "65734c186dc1e402c80dc19e",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "671a59e43d73dac1360765cc",
+   "minPlayerLevel": 38,
+   "requires": [
+    {
+     "task": "671a49f77d49aea42c029b5f",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "63ab180c87413d64ae0ac20a",
+   "minPlayerLevel": 15,
+   "requires": [
+    {
+     "task": "596a0e1686f7741ddf17dbee",
+     "status": [
+      "complete",
+      "failed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "639dbaf17c898a131e1cffff",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "id": "5936d90786f7742b1420ba5b",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "66058cd19f59e625462acc90",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "66058ccf06ef1d50a60c1f48",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "66058ccf06ef1d50a60c1f48",
+    "67e993b1ac26bf29380a320b"
+   ]
+  },
+  {
+   "id": "6834254f2f0e2a7eb90b62ef",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "683425dd8f5b18d29a05d9d1",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "683425dd8f5b18d29a05d9d1",
+    "683427418f5b18d29a05d9e3"
+   ]
+  },
+  {
+   "id": "5c0d1c4cd0928202a02a6f5c",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "59674eb386f774539f14813a",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6a5cd2178fd7c2b201032f3f",
+   "minPlayerLevel": 19,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6744aca8d3346c216702c583",
+   "requires": [
+    {
+     "task": "6744ab1def61d56e020b5c56",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60896e28e4a85c72ef3fa301",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "64e7b9bffd30422ed03dad38",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "60896b7bfa70fc097863b8f5",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "669fa3a08b4a64b332041ff7",
+   "minPlayerLevel": 9,
+   "requiresAnyOf": [
+    "669fa38fad7f1eac2607ed46",
+    "669fa3910c828825de06d69f"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5ae4490786f7744ca822adcc",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "66151401efb0539ae10875ae",
+   "minPlayerLevel": 27,
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6613f3007f6666d56807c929",
+   "requires": [
+    {
+     "task": "5b478d0f86f7744d190d91b5",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6613f307fca4f2f386029409",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "65734c186dc1e402c80dc19e",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6615141bfda04449120269a7",
+   "minPlayerLevel": 42,
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "626bd75b05f287031503c7f6",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5a27b80086f774429a5d7e20",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6179ac7511973d018217d0b9",
+   "minPlayerLevel": 21,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6179acbdc760af5ad2053585",
+   "minPlayerLevel": 21,
+   "requires": [
+    {
+     "task": "6179ac7511973d018217d0b9",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058cb22cee99303f1ba067",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "657315e270bb0b8dba00cc48",
+     "status": [
+      "complete",
+      "failed",
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6834145ebc1f443d7603c8a7",
+   "minPlayerLevel": 10,
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "66058cb5ae4719735349b9e8",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cb22cee99303f1ba067",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6834158f2f0e2a7eb90b62c8",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "6834145ebc1f443d7603c8a7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa3a40c828825de06d6a1",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6179b3a12153c15e937d52bc",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "60e71b62a0beca400d69efc4",
+   "minPlayerLevel": 46
+  },
+  {
+   "id": "6672d9def1c88688a707d042",
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "id": "66b38e144f2ab7cc530c3fe7",
+   "minPlayerLevel": 9,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "669fa395c4c5c04798002497",
+   "minPlayerLevel": 7,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "68400926706e0a55e90b0007",
+   "minPlayerLevel": 45,
+   "requires": [
+    {
+     "task": "684009026ceedc792c09b2a7",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68400953506db3b4db0700e7",
+   "minPlayerLevel": 45,
+   "requires": [
+    {
+     "task": "68400926706e0a55e90b0007",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6a5424ae135497b9df0c68be",
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac3462b86f7741d6118b983",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac3460c86f7742880308185",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "5ac345dc86f774288030817f",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c1128e386f7746565181106",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5d25e46e86f77409453bce7c",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "657315ddab5a49b71f098853",
+   "minPlayerLevel": null,
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5a27b75b86f7742e97191958",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5d25e4b786f77408251c4bfc",
+   "minPlayerLevel": 17,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5c0bdb5286f774166e38eed4",
+   "minPlayerLevel": 35,
+   "requires": [
+    {
+     "task": "5b4795fb86f7745876267770",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "639670029113f06a7c3b2377",
+   "requires": [
+    {
+     "task": "63966ff54c3ef01b6f3ffad8",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66ab9da7eb102b9bcd08591c"
+  },
+  {
+   "id": "6740a15566e6a521aa051b15",
+   "requires": [
+    {
+     "task": "6745fcded0fbbc74ca0f721d",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "6740a02a69a58fceba0ff399",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa394e0c9f9fafa082897",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "669fa39b91b0a8c9680fc467",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69ce21e990144e437802b1e0"
+  },
+  {
+   "id": "66631489acf8442f8b05319f",
+   "requires": [
+    {
+     "task": "6672d9def1c88688a707d042",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a27c99a86f7747d2c6bdd8e",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5a27d2af86f7744e1115b323",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "5a27c99a86f7747d2c6bdd8e",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0d0f1886f77457b8210226",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ae448f286f77448d73c0131",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5a0327ba86f77456b9154236",
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "596a1e6c86f7741ddc2d3206",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "67af4c1991ee75c6d7060a16",
+   "minPlayerLevel": 50,
+   "requires": [
+    {
+     "task": "67af4c17f4f1fb58a907f8f6",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "625d700cc48e6c62a440fab5",
+   "requires": [
+    {
+     "task": "625d7005a4eb80027c4f2e09",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6574e0dedc0d635f633a5805",
+   "minPlayerLevel": 36,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "61958c366726521dd96828ec",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "id": "64f5aac4b63b74469b6c14c2",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "639135b04ed9512be67647d7",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "6391359b9444fb141f4e6ee6",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68db9c7557bc51a8c804c14b"
+  },
+  {
+   "id": "5979eee086f774311955e614",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ae449b386f77446d8741719",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "639136d68ba6894d155e77cf",
+   "minPlayerLevel": 20,
+   "requires": [
+    {
+     "task": "5a27bafb86f7741c73584017",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0d190cd09282029f5390d8",
+   "minPlayerLevel": 6,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5ae327c886f7745c7b3f2f3f",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ae3270f86f77445ba41d4dd",
+   "minPlayerLevel": 26,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ae3277186f7745973054106",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ac2426c86f774138762edfe",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ae3280386f7742a41359364",
+   "minPlayerLevel": 29,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ac2428686f77412450b42bf",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac244eb86f7741356335af1",
+   "minPlayerLevel": 26,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ae3267986f7742a413592fe",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5ac23c6186f7741247042bad",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5b47799d86f7746c5d6a5fd8",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "639872f9decada40426d3447",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "639872fa9b4fb827b200d8e5",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "639872fc93ae507d5858c3a6",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "639872fe8871e1272b10ccf6",
+   "minPlayerLevel": 40,
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "64f83bb69878a0569d6ecfbe",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "5b47825886f77468074618d3",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64f83bcdde58fc437700d8fa",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "64f83bb69878a0569d6ecfbe",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "676529af9c90953d090882e7",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "64f83bcdde58fc437700d8fa",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64f83bd983cfca080a362c82",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "676529af9c90953d090882e7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ac244c486f77413e12cf945",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "639872fe8871e1272b10ccf6",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ac242ab86f77412464f68b4",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "5ac244c486f77413e12cf945",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b47749f86f7746c5d6a5fd4",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "5ac242ab86f77412464f68b4",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b477b6f86f7747290681823",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "5b47749f86f7746c5d6a5fd4",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "639873003693c63d86328f25",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "5b477b6f86f7747290681823",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b477f7686f7744d1b23c4d2",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "639873003693c63d86328f25",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "63987301e11ec11ff5504036",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "5b477f7686f7744d1b23c4d2",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b47825886f77468074618d3",
+   "minPlayerLevel": 40,
+   "requires": [
+    {
+     "task": "63987301e11ec11ff5504036",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6740a2c17e3818d5bb0648b6",
+   "requires": [
+    {
+     "task": "6740a15566e6a521aa051b15",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69c2a2d004de49c8f0055a3d",
+   "requires": [
+    {
+     "task": "69c277f3ea6da9c23e07f8d2",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a68661a86f774500f48afb0"
+  },
+  {
+   "id": "5a68663e86f774501078f78a",
+   "minPlayerLevel": 5,
+   "requires": [
+    {
+     "task": "5a68661a86f774500f48afb0",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5a68665c86f774255929b4c7",
+   "minPlayerLevel": 5,
+   "requires": [
+    {
+     "task": "5a68663e86f774501078f78a",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a68667486f7742607157d28",
+   "minPlayerLevel": 18,
+   "requires": [
+    {
+     "task": "5a68665c86f774255929b4c7",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5a68669a86f774255929b4d4",
+   "minPlayerLevel": 18,
+   "requires": [
+    {
+     "task": "5a68667486f7742607157d28",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa3a3ad7f1eac2607ed48",
+   "minPlayerLevel": 37,
+   "requires": [
+    {
+     "task": "5a68669a86f774255929b4d4",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "666314b0acf8442f8b0531a1",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314b4d7f171c4c20226c3",
+     "status": [
+      "complete",
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "666314b2a9290f9e0806cca3",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314b0acf8442f8b0531a1",
+     "status": [
+      "complete",
+      "active"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "67a096577e86e067eb045733",
+   "requires": [
+    {
+     "task": "67a0964e972c11a3f507731b",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6a5c1578f2689567c30eb0f3",
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "674602307e3818d5bb069489",
+   "requires": [
+    {
+     "task": "674600a366e6a521aa05eb66",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6744af0969a58fceba101fed",
+    "6745cbee909d2013670a4a55"
+   ]
+  },
+  {
+   "id": "684009026ceedc792c09b2a7",
+   "minPlayerLevel": 45,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "697895b6c639962b2e0cf268",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "69789418b2187365e70bb947",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69789660b2187365e70bb94a",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "697895277d31587eab080266",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b478b1886f7744d1b23c57d",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "673f4e956f1b89c7bc0f56ef",
+   "requires": [
+    {
+     "task": "673f348dd3346c21670217e7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "673f5a4976553f78350bdac1",
+   "requires": [
+    {
+     "task": "673f4e956f1b89c7bc0f56ef",
+     "status": [
+      "failed"
+     ]
+    }
+   ],
+   "onlyAfterFailure": true
+  },
+  {
+   "id": "639135c3744e452011470807",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "639135cd8ba6894d155e77cb",
+   "minPlayerLevel": 33,
+   "requires": [
+    {
+     "task": "639135c3744e452011470807",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a27b87686f77460de0252a8",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5d25e4ca86f77409dd5cdf2c",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "67a0970f05d1611ed90be75d",
+   "minPlayerLevel": 26,
+   "requires": [
+    {
+     "task": "67a0970744893b9f3f0d9b68",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a03296886f774569778596a",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "59675d6c86f7740a842fc482",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5ac3467986f7741d6224abc2",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6663148ca9290f9e0806cca1",
+   "requires": [
+    {
+     "task": "66631489acf8442f8b05319f",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c139eb686f7747878361a6f",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "67a097379f2068e74603c6ac",
+   "minPlayerLevel": 26,
+   "requires": [
+    {
+     "task": "67a0970744893b9f3f0d9b68",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "673f6027352b4da8e00322d2",
+   "requires": [
+    {
+     "task": "673f5a4976553f78350bdac1",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "63966faeea19ac7ed845db2c",
+   "requires": [
+    {
+     "task": "625d7005a4eb80027c4f2e09",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b47926a86f7747ccc057c15",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac3479086f7742880308199",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "5ac3467986f7741d6224abc2",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "5ac2428686f77412450b42bf",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0bd01e86f7747cdd799e56"
+  },
+  {
+   "id": "60e71bb4e456d449cd47ca75"
+  },
+  {
+   "id": "5d2495a886f77425cd51e403"
+  },
+  {
+   "id": "5ae4493486f7744efa289417",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "59ca1a6286f774509a270942",
+   "requiresAnyOf": [
+    "597a0f5686f774273b74f676",
+    "597a160786f77477531d39d2"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "671a49f77d49aea42c029b5f",
+   "minPlayerLevel": 22,
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "66d9cbb67b491f9d5304f6e6",
+   "minPlayerLevel": 25,
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": ">=",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "id": "64f5deac39e45b527a7c4232",
+   "minPlayerLevel": 25,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "67a09761e720611a6a01f288",
+   "minPlayerLevel": 26,
+   "requires": [
+    {
+     "task": "67a096ed77dd677f600804ba",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "67a0970f05d1611ed90be75d",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "67d03be712fb5f8fd2096332",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "67a09724972c11a3f5077324",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "67a097379f2068e74603c6ac",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "67a0972e77dd677f600804bd",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6746053b5b555b53460d9896",
+   "requires": [
+    {
+     "task": "674602307e3818d5bb069489",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6744af0969a58fceba101fed",
+    "6745cbee909d2013670a4a55"
+   ]
+  },
+  {
+   "id": "666314c5a9290f9e0806cca5",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314c3acf8442f8b0531a3",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "625d70031ed3bb5bcc5bd9e5",
+   "requires": [
+    {
+     "task": "625d7001c4874104f230c0c5",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "674605df60a98cad1b0ec799",
+   "requires": [
+    {
+     "task": "6746053b5b555b53460d9896",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6744af0969a58fceba101fed",
+    "6745cbee909d2013670a4a55"
+   ]
+  },
+  {
+   "id": "596a101f86f7741ddb481582",
+   "requires": [
+    {
+     "task": "596a0e1686f7741ddf17dbee",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "596a0e1686f7741ddf17dbee"
+   ]
+  },
+  {
+   "id": "639136f086e646067c176a8b",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "625d7005a4eb80027c4f2e09",
+   "requires": [
+    {
+     "task": "625d70031ed3bb5bcc5bd9e5",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66aa61663aa37705c5024277",
+   "minPlayerLevel": 27,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5b47891f86f7744d1b23c571",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "60e71dc0a94be721b065bbfc",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "6193850f60b34236ee0483de",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6179afd0bca27a099552e040",
+   "minPlayerLevel": 18,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "59c93e8e86f7742a406989c4",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "597a0f5686f774273b74f676",
+     "status": [
+      "failed"
+     ]
+    }
+   ],
+   "onlyAfterFailure": true
+  },
+  {
+   "id": "657315e1dccd301f1301416a",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "6391d90f4ed9512be67647df",
+   "requires": [
+    {
+     "task": "6261482fa4eb80027c4f2e11",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "requiresAnyOf": [
+    "6261482fa4eb80027c4f2e11",
+    "62614836f7308432be1d44cc",
+    "6261483dc4874104f230c0cd"
+   ]
+  },
+  {
+   "id": "6391d912f8e5dd32bf4e3ab2",
+   "requires": [
+    {
+     "task": "62614836f7308432be1d44cc",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "requiresAnyOf": [
+    "6261482fa4eb80027c4f2e11",
+    "62614836f7308432be1d44cc",
+    "6261483dc4874104f230c0cd"
+   ]
+  },
+  {
+   "id": "6391d9144b15ca31f76bc323",
+   "requires": [
+    {
+     "task": "6261483dc4874104f230c0cd",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "requiresAnyOf": [
+    "6261482fa4eb80027c4f2e11",
+    "62614836f7308432be1d44cc",
+    "6261483dc4874104f230c0cd"
+   ]
+  },
+  {
+   "id": "626148251ed3bb5bcc5bd9ed",
+   "requires": [
+    {
+     "task": "625d700cc48e6c62a440fab5",
+     "status": [
+      "complete",
+      "failed"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Lightkeeper",
+     "kind": "reputation",
+     "compareMethod": "<=",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "id": "6261482fa4eb80027c4f2e11",
+   "requires": [
+    {
+     "task": "626148251ed3bb5bcc5bd9ed",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6261483dc4874104f230c0cd",
+   "requires": [
+    {
+     "task": "6261483ac48e6c62a440fab7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "626148334149f1149b5b12ca",
+   "requires": [
+    {
+     "task": "6391d90f4ed9512be67647df",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Lightkeeper",
+     "kind": "reputation",
+     "compareMethod": "<=",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "id": "6261483ac48e6c62a440fab7",
+   "requires": [
+    {
+     "task": "6391d912f8e5dd32bf4e3ab2",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Lightkeeper",
+     "kind": "reputation",
+     "compareMethod": "<=",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "id": "62614836f7308432be1d44cc",
+   "requires": [
+    {
+     "task": "626148334149f1149b5b12ca",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6396701b9113f06a7c3b2379",
+   "requires": [
+    {
+     "task": "6396700fea19ac7ed845db32",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ae448bf86f7744d733e55ee",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "64e7b99017ab941a6f7bf9d7",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "59ca2eb686f77445a80ed049",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a0449d586f77474e66227b7",
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5d6fbc2886f77449d825f9d3",
+   "minPlayerLevel": 37,
+   "requires": [
+    {
+     "task": "5a27bc6986f7741c7358402b",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b4794cb86f774598100d5d4",
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5b478d0f86f7744d190d91b5",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "666314bc1d3ec95634095e77",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314bafd5ca9577902e03a",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6179b4f16e9dd54ac275e407",
+   "minPlayerLevel": 22,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "63966fbeea19ac7ed845db2e",
+   "requires": [
+    {
+     "task": "63966faeea19ac7ed845db2c",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6740a02a69a58fceba0ff399",
+   "requires": [
+    {
+     "task": "673f629c5b555b53460cf827",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67a0964e972c11a3f507731b",
+   "requires": [
+    {
+     "task": "67a09636b8725511260bc421",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "625d6ff5ddc94657c21a1625",
+   "traderRequirements": [
+    {
+     "trader": "Fence",
+     "kind": "reputation",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ]
+  },
+  {
+   "id": "625d6ffaf7308432be1d44c5",
+   "requires": [
+    {
+     "task": "625d6ff5ddc94657c21a1625",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6761f28a022f60bb320f3e95",
+   "minPlayerLevel": 25
+  },
+  {
+   "id": "6761ff17cdc36bd66102e9d0",
+   "minPlayerLevel": 30
+  },
+  {
+   "id": "6848100b00afffa81f09e365",
+   "minPlayerLevel": 35
+  },
+  {
+   "id": "68481881f43abfdda2058369",
+   "minPlayerLevel": 40
+  },
+  {
+   "id": "67af4c17f4f1fb58a907f8f6",
+   "minPlayerLevel": 50,
+   "requires": [
+    {
+     "task": "67af4c1405c58dc6f7056667",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66aa58245ab22944110db6e9",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 1
+    }
+   ]
+  },
+  {
+   "id": "60e71c11d54b755a3b53eb65",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "id": "5ae449a586f7744bde357696",
+   "requires": [
+    {
+     "task": "5ae4498786f7744bde357695",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60896bca6ee58f38c417d4f2",
+   "minPlayerLevel": 21,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "658027799634223183395339",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5d25e4ad86f77443e625e387"
+  },
+  {
+   "id": "65802b627b44fa5e14638899",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "67a0970744893b9f3f0d9b68",
+   "minPlayerLevel": 26,
+   "requires": [
+    {
+     "task": "67a096577e86e067eb045733",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "69ce1de03e15cd80bd06f6c9"
+  },
+  {
+   "id": "59c124d686f774189b3c843f",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "666314a50aa5c7436c00908a",
+   "minPlayerLevel": 42,
+   "requires": [
+    {
+     "task": "666314a31cd52e3d040a2e76",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa38fad7f1eac2607ed46",
+   "failedBy": [
+    "669fa3910c828825de06d69f"
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5a03153686f77442d90e2171",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5ae448a386f7744d3730fff0",
+   "minPlayerLevel": 15
+  },
+  {
+   "id": "59689fbd86f7740d137ebfc4",
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "673f61a066e6a521aa04b62b",
+   "requires": [
+    {
+     "task": "673f6027352b4da8e00322d2",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6744a9dfef61d56e020b5c4a"
+   ]
+  },
+  {
+   "id": "6179b5b06e9dd54ac275e409",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "59ca29fb86f77445ab465c87",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "597a160786f77477531d39d2",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "597a0f5686f774273b74f676",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "597a0f5686f774273b74f676",
+    "597a171586f77405ba6887d3"
+   ]
+  },
+  {
+   "id": "6179aff8f57fb279792c60a1",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "64f3176921045e77405d63b5",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "675c1570526ff496850895d9",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ae449c386f7744bde357697",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "63966fd9ea19ac7ed845db30",
+   "requires": [
+    {
+     "task": "63966fe7ea74a47c2d3fc0e6",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69ce1f84ebbdbf36a200627c",
+   "requires": [
+    {
+     "task": "69ce1de03e15cd80bd06f6c9",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0d4c12d09282029f539173",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5c12452c86f7744b83469073",
+   "minPlayerLevel": 35,
+   "requires": [
+    {
+     "task": "5967725e86f774601a446662",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "608a768d82e40b3c727fd17d",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "64f731ab83cfca080a361e42",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6573387d0b26ed4fde798de3",
+   "requires": [
+    {
+     "task": "64f731ab83cfca080a361e42",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5969f9e986f7741dde183a50",
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac345dc86f774288030817f",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5979f8bb86f7743ec214c7a6",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "639135d89444fb141f4e6eea",
+   "minPlayerLevel": 5,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "669fa399033a3ce9870338a8",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "59675ea386f77414b32bded2",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "596760e186f7741e11214d58",
+   "requires": [
+    {
+     "task": "59675ea386f77414b32bded2",
+     "status": [
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67e993f5ed537409f009da75",
+   "minPlayerLevel": 35,
+   "requires": [
+    {
+     "task": "67e993b1ac26bf29380a320b",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6834287b7559f4e6d50bc0fa",
+   "minPlayerLevel": 35,
+   "requires": [
+    {
+     "task": "683427418f5b18d29a05d9e3",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "63a5cf262964a7488f5243ce",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5c0be5fc86f774467a116593",
+   "minPlayerLevel": 35,
+   "requires": [
+    {
+     "task": "5a68667486f7742607157d28",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "675c3582f6ddc329a90f9c6d",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "69788c2bac719606e40b4e77",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cb7c7f3584787181476",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69788d4e963f08d9140bce19",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "697878057aa1273126030fb0",
+     "status": [
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69788db3878a4385d10c0718",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "69788c2bac719606e40b4e77",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6978907718bd6d7cbd0e8b8e",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "69788d4e963f08d9140bce19",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67af4c1a6c3ebfd8e6034916",
+   "minPlayerLevel": 50,
+   "requires": [
+    {
+     "task": "67af4c1991ee75c6d7060a16",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67af4c1405c58dc6f7056667",
+   "minPlayerLevel": 50,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "666314c3acf8442f8b0531a3",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314c10aa5c7436c00908c",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6573397ef3f8344c4575cd87",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6744ab1def61d56e020b5c56",
+   "requires": [
+    {
+     "task": "6744a728352b4da8e003eda9",
+     "status": [
+      "complete",
+      "failed"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "675c15fbf7da9792a4059871",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cb5ae4719735349b9e8",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "63966ff54c3ef01b6f3ffad8",
+   "requires": [
+    {
+     "task": "63966fd9ea19ac7ed845db30",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0be13186f7746f016734aa",
+   "minPlayerLevel": 40,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "6572e876dc0d635f633a5714",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    },
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "666314b696a9349baa021bac",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314b4d7f171c4c20226c3",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ac346a886f7744e1b083d67",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "626bd75c71bd851e971b82a5",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5d4bec3486f7743cac246665",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5d25e4d586f77443e625e388",
+   "minPlayerLevel": 17,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "608974af4b05530f55550c21",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "63966fe7ea74a47c2d3fc0e6",
+   "requires": [
+    {
+     "task": "63966fccac6f8f3c677b9d89",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6179b4d1bca27a099552e04e",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6086c852c945025d41566124",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "639135f286e646067c176a87",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5edabd13218d181e29451442",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "675c1ec7a46173572a0bf20a",
+   "requires": [
+    {
+     "task": "675c1cf4a757ddd00404f0a3",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "639282134ed9512be67647ed",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "66b38c7bf85b8bf7250f9cb6",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "674600a366e6a521aa05eb66",
+   "requires": [
+    {
+     "task": "6745fae369a58fceba10343d",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6744af0969a58fceba101fed",
+    "6745cbee909d2013670a4a55"
+   ]
+  },
+  {
+   "id": "6089743983426423753cd58a",
+   "requiresAnyOf": [
+    "597a0f5686f774273b74f676",
+    "597a160786f77477531d39d2",
+    "597a171586f77405ba6887d3"
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "67af4c169d95ad16e004fd86",
+   "minPlayerLevel": 50,
+   "requires": [
+    {
+     "task": "67af4c1405c58dc6f7056667",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5edac020218d181e29451446",
+   "minPlayerLevel": 37,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "59689ee586f7740d1570bbd5",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "596a204686f774576d4c95de",
+   "minPlayerLevel": 8,
+   "requires": [
+    {
+     "task": "59689ee586f7740d1570bbd5",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69c27158e350f01390049e77",
+   "requires": [
+    {
+     "task": "69c26c07683c9831020018c7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "657315e4a6af4ab4b50f3459",
+   "minPlayerLevel": 1,
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5c112d7e86f7740d6f647486",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ac3477486f7741d651d6885",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5a27b7d686f77460d847e6a6",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5fd9fad9c1ce6b1a3b486d00",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "6179ad56c760af5ad2053587",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6a5ccda873f06065630d61b0",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "66aa74571e5e199ecd094f18",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "675c1d6d59b0575973008fc7",
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac3464c86f7741d651d6877",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "67a0967c003a9986cb0f5ac1",
+   "requires": [
+    {
+     "task": "67a096577e86e067eb045733",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67a096ed77dd677f600804ba",
+   "requires": [
+    {
+     "task": "67a0967c003a9986cb0f5ac1",
+     "status": [
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "666314bf1cd52e3d040a2e78",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314bd920800278d0f6748",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6942b44f891369fc790e385a",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    },
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5c1234c286f77406fa13baeb",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5ae4495086f77443c122bc40"
+  },
+  {
+   "id": "5ae4497b86f7744cf402ed00",
+   "requires": [
+    {
+     "task": "5ae4495086f77443c122bc40",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ae4495c86f7744e87761355",
+   "requires": [
+    {
+     "task": "5ae4497b86f7744cf402ed00",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ae4496986f774459e77beb6",
+   "requires": [
+    {
+     "task": "5ae4495c86f7744e87761355",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5d25e48d86f77408251c4bfb",
+   "minPlayerLevel": 20,
+   "requires": [
+    {
+     "task": "5979ed3886f77431307dc512",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "5d24b81486f77439c92d6ba8",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67a09636b8725511260bc421"
+  },
+  {
+   "id": "5967725e86f774601a446662",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "675c047fa46173572a0bd878",
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "673f348dd3346c21670217e7",
+   "requires": [
+    {
+     "task": "6752f6d83038f7df520c83e8",
+     "status": [
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "673f2cd5d3346c2167020484",
+   "requires": [
+    {
+     "task": "6752f6d83038f7df520c83e8",
+     "status": [
+      "active"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0bde0986f77479cf22c2f8",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "657315df034d76585f032e01",
+   "minPlayerLevel": 1,
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "59674cd986f7744ab26e32f2",
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5967733e86f774602332fc84",
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5ac346cf86f7741d63233a02",
+   "minPlayerLevel": 15,
+   "requires": [
+    {
+     "task": "5ac346a886f7744e1b083d67",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ac346e886f7741d6118b99b",
+   "minPlayerLevel": 15,
+   "requires": [
+    {
+     "task": "5ac346cf86f7741d63233a02",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0bc91486f7746ab41857a2",
+   "minPlayerLevel": 38,
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "6745fdddd3346c216702e0bf",
+   "requires": [
+    {
+     "task": "6745fcded0fbbc74ca0f721d",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6744ab1def61d56e020b5c56"
+   ]
+  },
+  {
+   "id": "63a9b36cc31b00242d28a99f",
+   "minPlayerLevel": 33,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "6663148ed7f171c4c20226c1",
+   "requires": [
+    {
+     "task": "6663148ca9290f9e0806cca1",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6663149196a9349baa021baa",
+   "requires": [
+    {
+     "task": "6663148ed7f171c4c20226c1",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66631493312343839d032d22",
+   "requires": [
+    {
+     "task": "6663149196a9349baa021baa",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c10f94386f774227172c572",
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "63966fccac6f8f3c677b9d89",
+   "requires": [
+    {
+     "task": "63966fbeea19ac7ed845db2e",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a03173786f77451cb427172",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "5a03153686f77442d90e2171",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a27ba9586f7741b543d8e85",
+   "minPlayerLevel": 12,
+   "requires": [
+    {
+     "task": "5a0449d586f77474e66227b7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66ab970848ddbe9d4a0c49a8",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "60e71ce009d7c801eb0c0ec6",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "666314a1920800278d0f6746",
+   "minPlayerLevel": 42,
+   "requires": [
+    {
+     "task": "6663149f1d3ec95634095e75",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68ee1c18b4e5bc9a68018cd7",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ]
+  },
+  {
+   "id": "6396700fea19ac7ed845db32",
+   "requires": [
+    {
+     "task": "639670029113f06a7c3b2377",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6744a4717e3818d5bb0680bb",
+   "requires": [
+    {
+     "task": "674492b6909d2013670a347a",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6578ec473dbd035d04531a8d",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "6740a3f4eca8acb2d2055159",
+   "requires": [
+    {
+     "task": "6740a2c17e3818d5bb0648b6",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69c26c07683c9831020018c7"
+  },
+  {
+   "id": "596b455186f77457cb50eccb",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "626bdcc3a371ee3a7a3514c5",
+   "minPlayerLevel": 33,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5ae449d986f774453a54a7e1",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5b478ff486f7744d184ecbbf",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "596b36c586f77450d6045ad2",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "596a0e1686f7741ddf17dbee",
+   "failedBy": [
+    "596a101f86f7741ddb481582"
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "6089732b59b92115597ad789",
+   "minPlayerLevel": 26,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "66058cbb06ef1d50a60c1f46",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cb9e8e4f17985230805",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68341b407559f4e6d50bc0ce",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341a0b2f0e2a7eb90b62d4",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67e993b1ac26bf29380a320b",
+   "minPlayerLevel": 35,
+   "requires": [
+    {
+     "task": "66058ccf06ef1d50a60c1f48",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "66058cd19f59e625462acc90",
+    "66058ccf06ef1d50a60c1f48"
+   ]
+  },
+  {
+   "id": "683427418f5b18d29a05d9e3",
+   "minPlayerLevel": 35,
+   "requires": [
+    {
+     "task": "683425dd8f5b18d29a05d9d1",
+     "status": [
+      "active"
+     ]
+    }
+   ],
+   "failedBy": [
+    "6834254f2f0e2a7eb90b62ef",
+    "683425dd8f5b18d29a05d9d1"
+   ]
+  },
+  {
+   "id": "639135e8c115f907b14700aa",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "60e729cf5698ee7b05057439",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "6745fcded0fbbc74ca0f721d",
+   "requires": [
+    {
+     "task": "673f4e956f1b89c7bc0f56ef",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "673f6027352b4da8e00322d2"
+   ]
+  },
+  {
+   "id": "5edaba7c0c502106f869bc02",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5edac63b930f5454f51e128b",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5e381b0286f77420e3417a74",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "5ae4497b86f7744cf402ed00",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5e383a6386f77465910ce1f3",
+   "minPlayerLevel": null,
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5e4d4ac186f774264f758336",
+   "minPlayerLevel": 42,
+   "requires": [
+    {
+     "task": "5e381b0286f77420e3417a74",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5e4d515e86f77438b2195244",
+   "minPlayerLevel": 42,
+   "requires": [
+    {
+     "task": "5e383a6386f77465910ce1f3",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67b45467814ab0ffa000c7e7",
+   "minPlayerLevel": 36,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5b47876e86f7744d1c353205",
+   "minPlayerLevel": 23,
+   "requires": [
+    {
+     "task": "5ae448f286f77448d73c0131",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "5ae4495086f77443c122bc40",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5ede55112c95834b583f052a",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5ede567cfa6dc072ce15d6e3",
+   "minPlayerLevel": 21,
+   "requires": [
+    {
+     "task": "5ede55112c95834b583f052a",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60effd818b669d08a35bfad5",
+   "minPlayerLevel": 50,
+   "requires": [
+    {
+     "task": "59ca2eb686f77445a80ed049",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "60e71c9ad54b755a3b53eb66",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "id": "60e71d6d7fcf9c556f325055",
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5a27b9de86f77464e5044585",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "63a88045abf76d719f42d715",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "64ee9df4496db64f9b7a4432",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "596b43fb86f77457ca186186",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "666314b4d7f171c4c20226c3",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    },
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    },
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    },
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    },
+    {
+     "trader": "Mechanic",
+     "level": 2
+    },
+    {
+     "trader": "Therapist",
+     "level": 2
+    },
+    {
+     "trader": "Skier",
+     "level": 2
+    },
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "666314bafd5ca9577902e03a",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314b8312343839d032d24",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5c0d4e61d09282029f53920e",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "61904daa7d0d857927447b9c",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5d25cf2686f77443e75488d4",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6745fae369a58fceba10343d",
+   "requires": [
+    {
+     "task": "673f629c5b555b53460cf827",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ],
+   "requiresAnyOf": [
+    "6745fcded0fbbc74ca0f721d",
+    "673f6027352b4da8e00322d2"
+   ],
+   "failedBy": [
+    "6744af0969a58fceba101fed",
+    "6745cbee909d2013670a4a55"
+   ]
+  },
+  {
+   "id": "639136df4b15ca31f76bc31f",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6a45208043b8d7604d00b8d5",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5d25e44386f77409453bce7b",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "64e7b971f9d6fa49d6769b44",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6a4532e48e82d8ffea0c3eae",
+   "minPlayerLevel": 33,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5d25e2d886f77442734d335e",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5d25cf2686f77443e75488d4",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "6578eb36e5020875d64645cd",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5d25e44f86f77443e625e385",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "60c0c018f7afb4354815096a"
+  },
+  {
+   "id": "5d25e2cc86f77443e47ae019",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ]
+  },
+  {
+   "id": "5d25e43786f7740a212217fa"
+  },
+  {
+   "id": "5d25e45e86f77408251c4bfa"
+  },
+  {
+   "id": "6179ad0a6e9dd54ac275e3f2"
+  },
+  {
+   "id": "60e71e8ed54b755a3b53eb67",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5edab4b1218d181e29451435",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "failedBy": [
+    "5edac34d0bb72a50635c2bfa"
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5d25e2b486f77409de05bba0",
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5d25e2e286f77444001e2e48"
+  },
+  {
+   "id": "5d25e2c386f77443e7549029",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "5d25e2ee86f77443e35162ea",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "6663149cfd5ca9577902e037",
+   "minPlayerLevel": 42,
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5ae4498786f7744bde357695",
+   "traderRequirements": [
+    {
+     "trader": "Ragman",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Ragman",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6744af0969a58fceba101fed",
+   "requires": [
+    {
+     "task": "6744a728352b4da8e003eda9",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "6744aca8d3346c216702c583",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "67460662d0fbbc74ca0f7229"
+   ]
+  },
+  {
+   "id": "6745cbee909d2013670a4a55",
+   "requires": [
+    {
+     "task": "6744a9dfef61d56e020b5c4a",
+     "status": [
+      "complete"
+     ]
+    },
+    {
+     "task": "6744aca8d3346c216702c583",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "failedBy": [
+    "67460662d0fbbc74ca0f7229"
+   ]
+  },
+  {
+   "id": "59c512ad86f7741f0d09de9b"
+  },
+  {
+   "id": "59c50a9e86f7745fef66f4ff",
+   "requires": [
+    {
+     "task": "59c512ad86f7741f0d09de9b",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "59c50c8886f7745fed3193bf",
+   "minPlayerLevel": 21,
+   "requires": [
+    {
+     "task": "59c50a9e86f7745fef66f4ff",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "59ca264786f77445a80ed044",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "59c50c8886f7745fed3193bf",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "59ca29fb86f77445ab465c87",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "59ca264786f77445a80ed044",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "59ca2eb686f77445a80ed049",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "59ca29fb86f77445ab465c87",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64f6aafd67e11a7c6206e0d0",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "6573382e557ff128bf3da536",
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5d25d2c186f77443e35162e5",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5d25e2d886f77442734d335e",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5d25e2a986f77409dd5cdf2a",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5d25e29d86f7740a22516326",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5d25e29d86f7740a22516326",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5d25d2c186f77443e35162e5",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5eaaaa7c93afa0558f3b5a1c",
+   "minPlayerLevel": 33,
+   "requires": [
+    {
+     "task": "5d25e29d86f7740a22516326",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Jaeger",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5d25b6be86f77444001e1b89",
+   "minPlayerLevel": 9,
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5d25cf2686f77443e75488d4",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "5d25c81b86f77443e625dd71",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5d25aed386f77442734d25d2",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "5d25bfd086f77442734d3007",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5d25c81b86f77443e625dd71",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "5d25aed386f77442734d25d2",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5d25bfd086f77442734d3007",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "5d25b6be86f77444001e1b89",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67a09673972c11a3f507731d",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5c0bd94186f7747a727f09b2",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5bc4776586f774512d07cf05"
+  },
+  {
+   "id": "5bc479e586f7747f376c7da3",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "5bc4776586f774512d07cf05",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5bc47dbf86f7741ee74e93b9",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "5bc479e586f7747f376c7da3",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5bc480a686f7741af0342e29",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5bc47dbf86f7741ee74e93b9",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5bc4826c86f774106d22d88b",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5bc480a686f7741af0342e29",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5bc4836986f7740c0152911c",
+   "minPlayerLevel": 17,
+   "requires": [
+    {
+     "task": "5bc480a686f7741af0342e29",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5bc4856986f77454c317bea7",
+   "minPlayerLevel": 33,
+   "requires": [
+    {
+     "task": "5bc4836986f7740c0152911c",
+     "status": [
+      "active",
+      "complete"
+     ]
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5bc4893c86f774626f5ebf3e",
+   "minPlayerLevel": 33,
+   "requires": [
+    {
+     "task": "5bc4856986f77454c317bea7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "669fa39c64ea11e84c0642a6",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "665eec1f5e47a79f8605565a",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "665eeacf5d86b6c8aa03c79b",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "665eec4a4dfc83b0ed0a9dca",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "665eec1f5e47a79f8605565a",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "665eeca45d86b6c8aa03c79d",
+   "minPlayerLevel": 9,
+   "requires": [
+    {
+     "task": "665eec4a4dfc83b0ed0a9dca",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "665eeacf5d86b6c8aa03c79b",
+   "minPlayerLevel": 9,
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    },
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 2
+    },
+    {
+     "trader": "Therapist",
+     "level": 2
+    },
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "665eeca92f7aedcc900b0437",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "665eeca45d86b6c8aa03c79d",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "67a0972e77dd677f600804bd",
+   "minPlayerLevel": 26,
+   "requires": [
+    {
+     "task": "67a0970744893b9f3f0d9b68",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64e7b9a4aac4cd0a726562cb",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "64e7b99017ab941a6f7bf9d7",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a27b7a786f774579c3eb376",
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "66058cc1da30b620a34e6e86",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "69788db3878a4385d10c0718",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68341eb25619c8e2a9031501",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "6978907718bd6d7cbd0e8b8e",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058cc208308761cf390993",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cc1da30b620a34e6e86",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68341f6fe2e7ef70a3060a0a",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341eb25619c8e2a9031501",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058cc5bb83da7ba474aba9",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cc208308761cf390993",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "6834202a186efa3c5b07f9a2",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68341f6fe2e7ef70a3060a0a",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058cc72cee99303f1ba069",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cc5bb83da7ba474aba9",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "683421515619c8e2a9031511",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "6834202a186efa3c5b07f9a2",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "66058cc9ae4719735349b9ea",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cc72cee99303f1ba069",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "68342265a8d674b5740b31f0",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "683421515619c8e2a9031511",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "69789418b2187365e70bb947",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "66058cc9ae4719735349b9ea",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "697895277d31587eab080266",
+   "minPlayerLevel": 10,
+   "requires": [
+    {
+     "task": "68342265a8d674b5740b31f0",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "626bd75d5bef5d7d590bd415",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5a27bb3d86f77411ea361a21",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "60e71ccb5688f6424c7bfec4",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "63967028c4a91c5cb76abd81",
+   "requires": [
+    {
+     "task": "6396701b9113f06a7c3b2379",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "675c1ff1a757ddd00404f0aa",
+   "minPlayerLevel": 35
+  },
+  {
+   "id": "639135e0fa894f0a866afde6",
+   "traderRequirements": [
+    {
+     "trader": "Therapist",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Therapist",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "67d03be712fb5f8fd2096332",
+   "minPlayerLevel": 26,
+   "requires": [
+    {
+     "task": "67a0970744893b9f3f0d9b68",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "666314bd920800278d0f6748",
+   "minPlayerLevel": null,
+   "requires": [
+    {
+     "task": "666314bc1d3ec95634095e77",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5b478eca86f7744642012254",
+   "traderRequirements": [
+    {
+     "trader": "Skier",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "69ce204c8702b378f9091e4b"
+  },
+  {
+   "id": "639136fa9444fb141f4e6eee",
+   "minPlayerLevel": 12,
+   "traderRequirements": [
+    {
+     "trader": "Mechanic",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Mechanic",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5a27ba1c86f77461ea5a3c56",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5a27bb8386f7741c770d2d0a",
+   "minPlayerLevel": 8,
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "5a27bbf886f774333a418eeb",
+   "minPlayerLevel": 8,
+   "requires": [
+    {
+     "task": "5a27bb8386f7741c770d2d0a",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a27bc1586f7741f6d40fa2f",
+   "minPlayerLevel": 19,
+   "requires": [
+    {
+     "task": "5a27bbf886f774333a418eeb",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 3
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "5a27bc3686f7741c73584026",
+   "minPlayerLevel": 19,
+   "requires": [
+    {
+     "task": "5a27bc1586f7741f6d40fa2f",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5a27bc6986f7741c7358402b",
+   "minPlayerLevel": 37,
+   "requires": [
+    {
+     "task": "5a27bc3686f7741c73584026",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "5a27bc8586f7741b543d8ea4",
+   "minPlayerLevel": 37,
+   "requires": [
+    {
+     "task": "5a27bc6986f7741c7358402b",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "5979ed3886f77431307dc512",
+   "loyalty": [
+    {
+     "trader": "Skier",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "69e5583240c3e6c8ba0edbd5",
+   "requires": [
+    {
+     "task": "69ce1f84ebbdbf36a200627c",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "675c1cf4a757ddd00404f0a3",
+   "loyalty": [
+    {
+     "trader": "Jaeger",
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "63a9b229813bba58a50c9ee5",
+   "minPlayerLevel": null,
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 4
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 4
+    }
+   ]
+  },
+  {
+   "id": "6391359b9444fb141f4e6ee6",
+   "traderRequirements": [
+    {
+     "trader": "Prapor",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Prapor",
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "639135534b15ca31f76bc317",
+   "traderRequirements": [
+    {
+     "trader": "Peacekeeper",
+     "kind": "loyalty",
+     "compareMethod": ">=",
+     "value": 2
+    }
+   ],
+   "loyalty": [
+    {
+     "trader": "Peacekeeper",
+     "level": 2
+    }
+   ]
+  }
+ ]
+}

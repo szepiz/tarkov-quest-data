@@ -2,7 +2,7 @@
  "what": "Hand-placed map corrections and additions, made in the tracker's map editor.",
  "firstParty": true,
  "placedBy": "szepiz",
- "bakedAt": "2026-08-15",
+ "bakedAt": "2026-08-16",
  "license": "CC0-1.0",
  "note": "Coordinates are game units, matching tarkov.dev's coordinate space. `floor` is -1 when a map has no floors. Keys in the correction maps are \"<map>|<label>|<x>|<z>\" as the editor writes them.",
  "labels": {
@@ -205,6 +205,18 @@
   "Interchange|OLI|-28|140": {
    "x": 3.4,
    "z": 136.2
+  },
+  "Interchange|Bizarro|-65|-103": {
+   "x": -63,
+   "z": -99.2
+  },
+  "Interchange|Pretty Lights|-34|-20": {
+   "x": -31.1,
+   "z": -32.3
+  },
+  "Interchange|Kiba|-18|-25": {
+   "x": -19,
+   "z": -22.7
   }
  },
  "extracts": {
@@ -938,8 +950,8 @@
   },
   {
    "map": "The Labyrinth",
-   "x": -22.4,
-   "z": 20.7,
+   "x": 20.1,
+   "z": 18.9,
    "text": "Shrine of the Minotaur",
    "floor": -1
   },
@@ -2174,6 +2186,27 @@
    "z": -233.9,
    "text": "Secret Bunker",
    "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": -13.6,
+   "z": 49.7,
+   "text": "Dead Scientist #4",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": -8.4,
+   "z": 29.8,
+   "text": "Assembly Room",
+   "floor": -1
+  },
+  {
+   "map": "The Labyrinth",
+   "x": 10.9,
+   "z": 33,
+   "text": "Dead Scientist #3",
+   "floor": -1
   }
  ],
  "mapTexts": [
@@ -2893,7 +2926,7 @@
   }
  ],
  "counts": {
-  "labels": 50,
+  "labels": 53,
   "extracts": 16,
   "objectives": 60,
   "transits": 5,
@@ -2907,7 +2940,7 @@
   "extractFactions": 0,
   "extractNotes": 0,
   "extractSwitches": 0,
-  "newLabels": 220,
+  "newLabels": 223,
   "mapTexts": 87,
   "newExtracts": 2
  }

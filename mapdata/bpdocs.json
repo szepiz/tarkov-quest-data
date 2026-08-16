@@ -1,7 +1,7 @@
 {
  "what": "Season 1 \"KORD BREACH\" BattlePass documents: which maps each is found on, plus hand-placed pins.",
  "firstParty": true,
- "bakedAt": "2026-08-15",
+ "bakedAt": "2026-08-16",
  "license": "CC0-1.0",
  "note": "No published source carries positions for these. Every pin here was placed by hand.",
  "documents": [
@@ -90,20 +90,20 @@
     ],
     "Interchange": [
      {
-      "x": -67.35,
+      "x": -68.17,
       "z": -157.55,
       "floor": 0,
       "spot": null
      },
      {
-      "x": 5.31,
-      "z": -231.38,
+      "x": 3.33,
+      "z": -232.75,
       "floor": 0,
       "spot": null
      },
      {
-      "x": -67.25,
-      "z": 53.81,
+      "x": -67.84,
+      "z": 54.12,
       "floor": 0,
       "spot": null
      },
@@ -117,6 +117,140 @@
       "x": 35.6,
       "z": 149.21,
       "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -79.64,
+      "z": -146.27,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": 60.67,
+      "z": -25.48,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -64.52,
+      "z": -99.52,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": 2.06,
+      "z": -290.43,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": 85.21,
+      "z": 100.42,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -79.11,
+      "z": 43.99,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -84.55,
+      "z": 113.35,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": 95.84,
+      "z": -84.09,
+      "floor": 0,
+      "spot": null
+     }
+    ],
+    "The Labyrinth": [
+     {
+      "x": -16.38,
+      "z": 8.72,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 9.73,
+      "z": 2.48,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -14.63,
+      "z": 51.89,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -11.07,
+      "z": 26.68,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -7.23,
+      "z": 35.96,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -8.41,
+      "z": 22.97,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 17.08,
+      "z": 7.88,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 12.7,
+      "z": 4.51,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 3.61,
+      "z": 28.84,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 8.44,
+      "z": -11.01,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 1.15,
+      "z": 54.36,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 12.23,
+      "z": 31.39,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -27.2,
+      "z": 35.88,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 19.22,
+      "z": 4.61,
+      "floor": -1,
       "spot": null
      }
     ]
@@ -214,6 +348,84 @@
      {
       "x": 420.91,
       "z": 176.8,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 86.34,
+      "z": 104.33,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -206.98,
+      "z": -356.84,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 41.34,
+      "z": -223.7,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": 15.96,
+      "z": -134.3,
+      "floor": 1,
+      "spot": null
+     },
+     {
+      "x": -12.46,
+      "z": -96.33,
+      "floor": 1,
+      "spot": null
+     },
+     {
+      "x": -200.3,
+      "z": -353.79,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 130.63,
+      "z": 267.12,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 21.78,
+      "z": -133.15,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -65.71,
+      "z": 54.11,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -67.08,
+      "z": 41.75,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -61.22,
+      "z": -47.48,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": 79.46,
+      "z": -208.41,
+      "floor": 0,
+      "spot": null
+     },
+     {
+      "x": -64.97,
+      "z": -158.68,
       "floor": 0,
       "spot": null
      }
@@ -228,6 +440,12 @@
      {
       "x": 59.92,
       "z": -60.86,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 57.11,
+      "z": -70.91,
       "floor": -1,
       "spot": null
      }
@@ -358,6 +576,98 @@
       "x": -233.62,
       "z": -312.18,
       "floor": 0,
+      "spot": null
+     }
+    ],
+    "The Labyrinth": [
+     {
+      "x": 12.95,
+      "z": 9.43,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -0.28,
+      "z": 55.06,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -17.15,
+      "z": 35.21,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -7.4,
+      "z": 30.78,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 7.41,
+      "z": -10.78,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 12.2,
+      "z": 33.69,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 14.8,
+      "z": 16.63,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -5.39,
+      "z": 10.15,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 12.31,
+      "z": 18.79,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -9.32,
+      "z": 30.44,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -6.11,
+      "z": 28.17,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -0.9,
+      "z": 35.83,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 8.95,
+      "z": 5.21,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -25.1,
+      "z": 40.4,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -26.62,
+      "z": 9.17,
+      "floor": -1,
       "spot": null
      }
     ]
@@ -974,8 +1284,8 @@
     ],
     "Streets of Tarkov": [
      {
-      "x": 59.4,
-      "z": -71.36,
+      "x": 59.54,
+      "z": -70.89,
       "floor": -1,
       "spot": 1
      },
@@ -1013,6 +1323,42 @@
       "x": -24.51,
       "z": -32.79,
       "floor": 1,
+      "spot": null
+     },
+     {
+      "x": 135.09,
+      "z": 5.32,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 139.8,
+      "z": 378.4,
+      "floor": 1,
+      "spot": null
+     },
+     {
+      "x": 152.25,
+      "z": 345.24,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": 49,
+      "z": 34.42,
+      "floor": -1,
+      "spot": null
+     },
+     {
+      "x": -67.75,
+      "z": 49.89,
+      "floor": 1,
+      "spot": null
+     },
+     {
+      "x": -53.16,
+      "z": 62.13,
+      "floor": -1,
       "spot": null
      }
     ],

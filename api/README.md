@@ -1,7 +1,45 @@
 # api/
 
-`quests.json` is the file to use. Every value in it carries the date it was last
-known to be true, and says which source it came from.
+Every value here carries the date it was last known to be true, and says which
+source it came from.
+
+**Take only what you need.** `index.json` lists every file with its size and what
+it holds, so you can choose without downloading anything first.
+
+| file | size | what it is |
+|---|---|---|
+| `quests.json` | ~2.1 MB | everything, in one file. Start here if you are not sure. |
+| `quests/core.json` | ~210 KB | what a quest IS: name, trader, map, mode, loyalty tab, flags |
+| `quests/requirements.json` | ~110 KB | level, prerequisite quests, trader loyalty and reputation |
+| `quests/objectives.json` | ~1.1 MB | the structured objectives, with ids, zones and coordinates |
+| `quests/wording.json` | ~190 KB | the game's own objective wording, keyed by objective id |
+| `quests/provenance.json` | ~480 KB | which source each field came from, and when |
+| `maps.json` | ~250 KB | the map side: features, extracts, hazards, corrections applied |
+| **`firstparty/quests.json`** | ~210 KB | **quests read off the game screen. Ours. CC0.** |
+| **`firstparty/mapdata.json`** | ~75 KB | **positions placed by hand and checked in game. Ours. CC0.** |
+
+The files under `quests/` are the SAME data as `quests.json`, cut by subject.
+Rejoin them on `id` and you get the whole record back — the build checks that on
+every run and refuses to publish a split that does not reassemble. Take the whole
+file or take slices, not both.
+
+## firstparty/ — the part that exists nowhere else
+
+Everything else in this repo is collected from other projects and merged. These
+two files are not: they are quests transcribed from the owner's own screen, and
+map positions placed by hand and checked in the game.
+
+They are **CC0-1.0**, they carry no third-party data, and they stand alone — you
+can consume them without touching `quests.json` at all. `questId` on each reading
+is tarkov.dev's id, so you can join them onto whatever you already have.
+
+Both say what they cannot tell you, which matters more than the readings: the
+game reveals objectives progressively, so an unfinished quest shows fewer lines
+than it has, and `objectivesComplete` is what says whether a list is the whole
+list. `lineSuspect` marks a record whose quest line was renumbered by patch
+1.1.0, where matching by name alone can pair the wrong records.
+
+`quests.json` remains the file to use if you want one file and no decisions.
 
 Fetch it directly. No clone, no key, no signup.
 
@@ -22,12 +60,12 @@ application and has served a stale copy long after a push.
 It's one static file behind a CDN, so it's fast and it can't go down on its own.
 It's also about 1.9 MB, so cache it rather than pulling it on every page load.
 
-There is a second file here, **`maps.json`** (about 245 KB): BattlePass
-document pins, corrected marker positions, 219 added labels, 87 map texts,
-hazards and the story campaign. Almost all of it is first-party and exists
-nowhere else. It is separate so that a consumer who only wants quest names and
-objectives does not download a few hundred KB of pins. The two join by quest id
-and by map name, and `maps.json` carries the same per-section dating.
+**`maps.json`** (about 250 KB) is the map side: BattlePass document pins,
+corrected marker positions, added labels and map texts, hazards and the story
+campaign. It joins to the quests by quest id and by map name, and carries the
+same per-section dating. Most of it is first-party; the hand-placed part of it,
+without the story campaign that belongs to tarkov-data-overlay, is also
+published on its own as `firstparty/mapdata.json`.
 
 This is the only folder meant for consumption. `raw/` is a local cache of the
 upstream sources, `observed/` is the in-game record they get graded against,
