@@ -1,5 +1,5 @@
 {
- "what": "Part of [object Object] quest data from https://github.com/szepiz/tarkov-quest-data",
+ "what": "Part of [object Object] quest data from blended-tarky-api, https://github.com/szepiz/tarkov-quest-data",
  "holds": "what the quest IS: name, trader, map, mode, the loyalty tab it sits under, and the flags",
  "schemaVersion": 2,
  "generatedAt": "2026-08-16T11:15:23.674Z",

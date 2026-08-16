@@ -1,4 +1,8 @@
-# tarkov-quest-data
+# blended-tarky-api
+
+<sub>The repository is still called `tarkov-quest-data`, and stays that way on purpose:
+renaming it would move the published URLs, and apps already installed fetch from
+them. Every address below is the one to use.</sub>
 
 ### [Open the quest trees →](https://szepiz.github.io/tarkov-quest-data/view/tree.html)
 

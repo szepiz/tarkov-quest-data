@@ -31,7 +31,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const RAW = path.join(ROOT, 'raw');
-const UA = 'tarkov-quest-data collector (+https://github.com/szepiz/tarkov-quest-data)';
+const UA = 'blended-tarky-api collector (+https://github.com/szepiz/tarkov-quest-data)';
 
 const only = (process.argv.find((a) => a.startsWith('--only=')) || '').slice(7).split(',').filter(Boolean);
 const want = (name) => !only.length || only.includes(name);

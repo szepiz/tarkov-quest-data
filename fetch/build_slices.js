@@ -67,7 +67,7 @@ const HOLDS = {
 }
 
 const meta = (name, holds, extra = {}) => ({
-  what: `Part of ${full.game || 'Escape from Tarkov'} quest data from ${'https://github.com/szepiz/tarkov-quest-data'}`,
+  what: `Part of ${full.game || 'Escape from Tarkov'} quest data from blended-tarky-api, https://github.com/szepiz/tarkov-quest-data`,
   holds,
   schemaVersion: full.schemaVersion,
   generatedAt: full.generatedAt,
@@ -301,7 +301,7 @@ for (const [name, fields] of Object.entries(SLICES)) {
   ];
   const p = 'api/index.json';
   fs.writeFileSync(path.join(ROOT, p), JSON.stringify({
-    what: 'Every file this repo publishes, so a consumer can take only what it needs.',
+    what: 'Every file blended-tarky-api publishes, so a consumer can take only what it needs.',
     generatedAt: TODAY,
     base: 'https://szepiz.github.io/tarkov-quest-data/',
     alternateBase: 'https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/',
