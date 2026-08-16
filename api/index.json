@@ -59,8 +59,20 @@
   },
   {
    "path": "api/firstparty/mapdata.json",
-   "bytes": 76096,
-   "holds": "positions placed by hand, checked in game",
+   "bytes": 54661,
+   "holds": "corrections, labels, map text, hazards, interactables",
+   "firstParty": true
+  },
+  {
+   "path": "api/firstparty/battlepass.json",
+   "bytes": 22311,
+   "holds": "BattlePass document spots, placed by hand",
+   "firstParty": true
+  },
+  {
+   "path": "api/firstparty/story-marks.json",
+   "bytes": 62520,
+   "holds": "story objective positions, placed by hand",
    "firstParty": true
   }
  ]

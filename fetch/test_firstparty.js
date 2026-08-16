@@ -18,9 +18,11 @@ const ok = (c, l) => { if (!c) { fails++; console.log('FAIL  ' + l); } else cons
 
 const q = read('api/firstparty/quests.json');
 const m = read('api/firstparty/mapdata.json');
+const bp = read('api/firstparty/battlepass.json');
+const sm = read('api/firstparty/story-marks.json');
 
 // ---- they say what they are -------------------------------------------------
-for (const [name, f] of [['quests', q], ['mapdata', m]]) {
+for (const [name, f] of [['quests', q], ['mapdata', m], ['battlepass', bp], ['story-marks', sm]]) {
   ok(f.firstParty === true, `${name}: declares itself first-party`);
   ok(f.license === 'CC0-1.0', `${name}: carries its licence (${f.license})`);
   ok(!!f.generatedAt, `${name}: says when it was built`);
@@ -46,13 +48,16 @@ const withoutProse = (v) => {
   const out = {};
   for (const [k, val] of Object.entries(v)) {
     if (PROSE.test(k)) continue;
+    // an identifier may name where it came from — `wiki-boreas-r4c5j1` is a join
+    // key for an objective synthesized from wiki content, not wiki content
+    if (/(^|[a-z])[Ii]d$|^id$|ids$/.test(k)) continue;
     // a long free-text string is prose wherever it sits
     if (typeof val === 'string' && val.length > 120) continue;
     out[k] = withoutProse(val);
   }
   return out;
 };
-for (const [name, f] of [['quests', q], ['mapdata', m]]) {
+for (const [name, f] of [['quests', q], ['mapdata', m], ['battlepass', bp], ['story-marks', sm]]) {
   const text = JSON.stringify(f).toLowerCase();
   const body = { ...f };
   for (const k of ['what', 'holds', 'caveats', 'coordinates', 'excluded', 'note', 'howToChoose']) delete body[k];
@@ -74,11 +79,46 @@ ok(pinned >= 0, `${pinned} reading(s) have their id pinned by hand rather than m
 
 // ---- the map work is whole --------------------------------------------------
 const c = m.counts || {};
-ok((c.battlePassPins || 0) > 150, `${c.battlePassPins} hand-placed BattlePass document pins`);
+ok((bp.counts || {}).pins > 150, `${(bp.counts || {}).pins} hand-placed BattlePass document pins`);
+ok((bp.documents || []).length === 9, `${(bp.documents || []).length} document types`);
+ok((sm.counts || {}).groups > 100, `${(sm.counts || {}).groups} story mark group(s) across ${(sm.counts || {}).objectives} objectives`);
+ok((sm.counts || {}).markers > 0 && (sm.counts || {}).areas > 0,
+  `both kinds of story mark are present: ${(sm.counts || {}).markers} markers, ${(sm.counts || {}).areas} areas`);
+
+// NOTHING WAS LOST ON THE WAY OUT. The two files were carved out of mapdata.json,
+// so the counts have to match what the source bakes still hold — a "separate"
+// file that quietly dropped half its pins looks exactly like a smaller one.
+{
+  const src = read('mapdata/bpdocs.json');
+  const docs = src.documents || src;
+  const srcPins = docs.reduce((n, d) => n + Object.values(d.pins || {}).reduce((x, a) => x + a.length, 0), 0);
+  ok(srcPins === (bp.counts || {}).pins, `every BattlePass pin survived the split (${srcPins} in, ${(bp.counts || {}).pins} out)`);
+  const story = read('mapdata/story.json');
+  let srcGroups = 0;
+  for (const ch of story.chapters || []) for (const o of ch.objectives || []) srcGroups += (o.points || []).length;
+  ok(srcGroups === (sm.counts || {}).groups, `every story mark survived the split (${srcGroups} in, ${(sm.counts || {}).groups} out)`);
+}
+
+// and mapdata.json says where they went rather than just losing them
+ok(!!(m.movedOut && m.movedOut.battlePassDocuments && m.movedOut.storyMarks),
+  'mapdata.json points at the files that took its marks');
+ok(m.battlePassDocuments === undefined, 'mapdata.json no longer carries the documents twice');
 ok(Object.keys(m.corrections.labels || {}).length > 0, 'position corrections are present');
 ok((m.added.labels || []).length > 100, `${(m.added.labels || []).length} labels the map does not print`);
 ok(Array.isArray(m.added.hazards) && Array.isArray(m.added.interactables),
   'hand-placed hazards and interactables are present');
+// THE WORDING IS NOT OURS TO RELICENSE. Chapter names and objective descriptions
+// come from the project that publishes the campaign; the marks carry ids and
+// coordinates so they can be joined to it instead of copying it.
+{
+  const text = JSON.stringify(sm);
+  ok(!/"description"/.test(text) && !/"name"/.test(text),
+    'story marks carry no chapter name or objective description');
+  ok((sm.marks || []).every((x) => x.objectiveId && Array.isArray(x.points)),
+    'every story mark has an id to join on and points to draw');
+  ok(!!sm.joinOn, 'and says what to join it against');
+}
+
 // story chapters belong to the overlay and must NOT be here
 ok(m.chapters === undefined && !JSON.stringify(m).includes('chaptersFrom'),
   "the overlay's story chapters are not in the first-party file");

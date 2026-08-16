@@ -88,7 +88,9 @@ choose before downloading anything.
 | `api/quests/provenance.json` | ~480 KB | which source each field came from, and when |
 | `api/maps.json` | ~250 KB | the map side, with hand-placed corrections applied |
 | **`api/firstparty/quests.json`** | ~210 KB | **quests read off the game screen. CC0.** |
-| **`api/firstparty/mapdata.json`** | ~75 KB | **positions placed by hand, checked in game. CC0.** |
+| **`api/firstparty/mapdata.json`** | ~55 KB | **corrections, added labels and map text, hazards, interactables. CC0.** |
+| **`api/firstparty/battlepass.json`** | ~22 KB | **216 BattlePass document spots. CC0.** |
+| **`api/firstparty/story-marks.json`** | ~61 KB | **137 story objective positions. CC0.** |
 
 The files under `api/quests/` are the same data as `quests.json`, cut by subject.
 Rejoin them on `id` and the whole record comes back — the build verifies that on
@@ -102,11 +104,19 @@ publish a position it's often wrong by enough to send a player to the wrong door
 
 ### api/firstparty/ — the part that isn't a copy of anything
 
-Everything else here is collected from other projects and merged. These two files
-aren't: quests transcribed from the in-game trader screen, and map positions
+Everything else here is collected from other projects and merged. These four
+files aren't: quests transcribed from the in-game trader screen, and positions
 placed by hand and checked in the game. **CC0-1.0**, no third-party data in them,
 and usable without touching `quests.json` at all — each reading carries
 `questId`, tarkov.dev's id, so it joins onto whatever you already have.
+
+The BattlePass spots and the story marks are split out because they are the two
+most likely to be wanted alone: no source publishes a position for either, and
+someone building a map layer for one of them shouldn't have to take label
+corrections with it. **Story marks carry ids and coordinates, not wording** —
+the chapter names and objective descriptions belong to the project that
+publishes the campaign, so join on `objectiveId` against `api/maps.json` for
+those rather than finding them relicensed here.
 
 They also state what they can't tell you, which matters more than the readings:
 the game reveals objectives progressively, so an unfinished quest shows fewer

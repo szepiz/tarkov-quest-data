@@ -1,0 +1,3972 @@
+{
+ "what": "Where story campaign objectives happen, placed by hand on the map.",
+ "firstParty": true,
+ "license": "CC0-1.0",
+ "placedBy": "szepiz",
+ "generatedAt": "2026-08-16",
+ "holds": "The story campaign is published without a single coordinate anywhere. Every position here was placed in the map editor and checked in game.",
+ "joinOn": "objectiveId, against story.chapters[].objectives[].id in api/maps.json",
+ "caveats": [
+  "IDS AND COORDINATES ONLY. The chapter names and objective descriptions belong to the project that publishes the campaign, so they are not republished here under a licence that is not theirs to give. Join on objectiveId for the wording.",
+  "A group holding one point is a marker; a group holding several is an area, and the points are its outline.",
+  "`floor` is the storey chosen at placement, not derived from a height."
+ ],
+ "counts": {
+  "objectives": 116,
+  "groups": 137,
+  "markers": 77,
+  "areas": 60
+ },
+ "marks": [
+  {
+   "objectiveId": "68c6a5ed545269faf1c4b157",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6a4ece3e3d7f69d0a5bd9",
+   "maps": [
+    "Terminal",
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -916.92,
+       "z": 265.62
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68dd032d41e6616f5303a146",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6a4ece3e3d7f69d0a5bd9",
+   "maps": [
+    "Terminal",
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -917.03,
+       "z": 265.62
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68de73eb5084448b61a168df",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6a4ece3e3d7f69d0a5bd9",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -917.35,
+       "z": 265.83
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68c7e87321acda56046a7f4f",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6aa0e2f0a1d31380ad618",
+   "maps": [
+    "Factory"
+   ],
+   "points": [
+    {
+     "map": "Factory",
+     "floor": 2,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -26.51,
+       "z": -30.02
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68c7e86ff945792cfd97edfe",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6aa0e2f0a1d31380ad618",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 212.02,
+       "z": 83.49
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68c6aa469b0217ce22d6fb0b",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6aa0e2f0a1d31380ad618",
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -181.17,
+       "z": -368.2
+      },
+      {
+       "x": -180.58,
+       "z": -355.16
+      },
+      {
+       "x": -161.96,
+       "z": -355.16
+      },
+      {
+       "x": -161.96,
+       "z": -368.91
+      },
+      {
+       "x": -180.97,
+       "z": -368.38
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68c6aa43498b4da977128b3c",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6aa0e2f0a1d31380ad618",
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -139.63,
+       "z": -329.71
+      },
+      {
+       "x": -113.9,
+       "z": -329.5
+      },
+      {
+       "x": -114.36,
+       "z": -289.16
+      },
+      {
+       "x": -139.18,
+       "z": -288.95
+      },
+      {
+       "x": -139.41,
+       "z": -329.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68c6aa4040bb6d7ff66c0abb",
+   "chapterId": "tour",
+   "sourceQuestId": "68c6aa0e2f0a1d31380ad618",
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": 1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -131.08,
+       "z": -273.23
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "678f6eae2ed26c2110cb9909",
+   "chapterId": "falling-skies",
+   "sourceQuestId": "678f6bd1e8d46e40ff021605",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 336.57,
+       "z": 317.87
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "678f6edd6b76b693d0f62654",
+   "chapterId": "falling-skies",
+   "sourceQuestId": "678f6bd1e8d46e40ff021605",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 336.58,
+       "z": 317.88
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "678fa00a09dd512f7d493bd0",
+   "chapterId": "falling-skies",
+   "sourceQuestId": "678f9df57252f8f0ae02f2d6",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -248.18,
+       "z": -21.98
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "678fa01c06932e11d6741b80",
+   "chapterId": "falling-skies",
+   "sourceQuestId": "678f9df57252f8f0ae02f2d6",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 242.75,
+       "z": 427.24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68fd39472a6fa09d4555bdc8",
+   "chapterId": "falling-skies",
+   "sourceQuestId": "679cdd71af268e67ff086be8",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 401.74,
+       "z": -44.32
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "679cde2cf433587bbd608420",
+   "chapterId": "falling-skies",
+   "sourceQuestId": "679cdd71af268e67ff086be8",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 401.76,
+       "z": -42.14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "679cdee4ce3a208fee0ad65a",
+   "chapterId": "falling-skies",
+   "sourceQuestId": "679cdee4ce3a208fee0ad657",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -247.29,
+       "z": -21.26
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68dea804e88b45b0ecefa10d",
+   "chapterId": "batya",
+   "sourceQuestId": "68d6894a05ab6c954c01f65e",
+   "maps": [
+    "Customs",
+    "Woods",
+    "Shoreline",
+    "Reserve"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 196.93,
+       "z": -159.48
+      },
+      {
+       "x": 219.97,
+       "z": -155.12
+      },
+      {
+       "x": 208.45,
+       "z": -95.77
+      },
+      {
+       "x": 186.13,
+       "z": -100.13
+      },
+      {
+       "x": 196.93,
+       "z": -158.52
+      }
+     ]
+    },
+    {
+     "map": "Reserve",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 2.93,
+       "z": 163.83
+      },
+      {
+       "x": -17.8,
+       "z": 165.13
+      },
+      {
+       "x": -18.44,
+       "z": 185.26
+      },
+      {
+       "x": 3.58,
+       "z": 182.88
+      },
+      {
+       "x": 2.28,
+       "z": 163.4
+      }
+     ]
+    },
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -147.97,
+       "z": -308.23
+      },
+      {
+       "x": -161.12,
+       "z": -305.33
+      },
+      {
+       "x": -159.18,
+       "z": -292.76
+      },
+      {
+       "x": -146.23,
+       "z": -295.08
+      },
+      {
+       "x": -147.58,
+       "z": -307.84
+      }
+     ]
+    },
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 297.83,
+       "z": -474.91
+      },
+      {
+       "x": 224.7,
+       "z": -456.18
+      },
+      {
+       "x": 253.45,
+       "z": -407.47
+      },
+      {
+       "x": 307.21,
+       "z": -429.32
+      },
+      {
+       "x": 292.21,
+       "z": -474.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cad2c2abcd16d97906a2d2",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba2ae86db94cdc051418",
+   "maps": [
+    "Customs",
+    "Woods",
+    "Reserve",
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 502.66,
+       "z": 94.83
+      }
+     ]
+    },
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 197.1,
+       "z": -603.11
+      }
+     ]
+    },
+    {
+     "map": "Reserve",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -48.28,
+       "z": 29.33
+      }
+     ]
+    },
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 78,
+       "z": 164.47
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cd75f985759834cdb8077e",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba33f193c0b4fb01cc2d",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 37.96,
+       "z": -323.49
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cad2e086e6f96ff175b95d",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba2ae86db94cdc051418",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 40.38,
+       "z": -319.52
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cd76423e506353c08a0b71",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba33f193c0b4fb01cc2d",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 91.53,
+       "z": -304.92
+      },
+      {
+       "x": 47.51,
+       "z": -305.22
+      },
+      {
+       "x": 48.1,
+       "z": -283.9
+      },
+      {
+       "x": 91.82,
+       "z": -283.01
+      },
+      {
+       "x": 91.53,
+       "z": -304.63
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f9ef8a1dbc7a9f81001a94",
+   "chapterId": "batya",
+   "sourceQuestId": "68f9ef8a1dbc7a9f81001a87",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 92.12,
+       "z": -304.63
+      },
+      {
+       "x": 46.63,
+       "z": -304.63
+      },
+      {
+       "x": 47.22,
+       "z": -284.19
+      },
+      {
+       "x": 92.71,
+       "z": -283.6
+      },
+      {
+       "x": 93,
+       "z": -305.22
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f9ef8a1dbc7a9f81001a92",
+   "chapterId": "batya",
+   "sourceQuestId": "68f9ef8a1dbc7a9f81001a87",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 92.13,
+       "z": -283.42
+      },
+      {
+       "x": 91.81,
+       "z": -304.82
+      },
+      {
+       "x": 47.13,
+       "z": -304.82
+      },
+      {
+       "x": 47.72,
+       "z": -284.13
+      },
+      {
+       "x": 92.1,
+       "z": -283.33
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cad2ddd5ccb3a7be444363",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba2ae86db94cdc051418",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 92.15,
+       "z": -304.77
+      },
+      {
+       "x": 47.01,
+       "z": -304.9
+      },
+      {
+       "x": 47.55,
+       "z": -284.09
+      },
+      {
+       "x": 92.27,
+       "z": -283.29
+      },
+      {
+       "x": 92.1,
+       "z": -304.94
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f9eed31dbc7a9f81001a43",
+   "chapterId": "batya",
+   "sourceQuestId": "68f9eed31dbc7a9f81001a3a",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 92.31,
+       "z": -305.15
+      },
+      {
+       "x": 47.09,
+       "z": -305.24
+      },
+      {
+       "x": 47.64,
+       "z": -284.04
+      },
+      {
+       "x": 92.61,
+       "z": -283.45
+      },
+      {
+       "x": 92.4,
+       "z": -305.32
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f9ef8a1dbc7a9f81001a98",
+   "chapterId": "batya",
+   "sourceQuestId": "68f9ef8a1dbc7a9f81001a87",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 92.52,
+       "z": -305.14
+      },
+      {
+       "x": 46.95,
+       "z": -304.69
+      },
+      {
+       "x": 47.64,
+       "z": -284.01
+      },
+      {
+       "x": 92.41,
+       "z": -283.36
+      },
+      {
+       "x": 92.58,
+       "z": -305.13
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cad2e142b4aa16844f4544",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba2ae86db94cdc051418",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 92.67,
+       "z": -305.15
+      },
+      {
+       "x": 91.94,
+       "z": -283.22
+      },
+      {
+       "x": 47.5,
+       "z": -284.1
+      },
+      {
+       "x": 46.88,
+       "z": -304.8
+      },
+      {
+       "x": 92.68,
+       "z": -305.18
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cd423a99a8769285aa4a30",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba2cc567ca20cc01c775",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -327.09,
+       "z": -71.96
+      },
+      {
+       "x": -320.32,
+       "z": -67.72
+      },
+      {
+       "x": -314.86,
+       "z": -61.06
+      },
+      {
+       "x": -313.12,
+       "z": -53.09
+      },
+      {
+       "x": -315.35,
+       "z": -46.36
+      },
+      {
+       "x": -318.77,
+       "z": -39.95
+      },
+      {
+       "x": -327.16,
+       "z": -31.92
+      },
+      {
+       "x": -335.73,
+       "z": -29.99
+      },
+      {
+       "x": -347.09,
+       "z": -32.1
+      },
+      {
+       "x": -355.42,
+       "z": -43.19
+      },
+      {
+       "x": -356.04,
+       "z": -54.4
+      },
+      {
+       "x": -351.07,
+       "z": -63.37
+      },
+      {
+       "x": -340.57,
+       "z": -70.4
+      },
+      {
+       "x": -330.82,
+       "z": -71.9
+      },
+      {
+       "x": -326.72,
+       "z": -72.33
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "6915bb41efc107ce960110de",
+   "chapterId": "batya",
+   "sourceQuestId": "6915bb41efc107ce960110d9",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -312.35,
+       "z": -53.15
+      },
+      {
+       "x": -317.11,
+       "z": -65.08
+      },
+      {
+       "x": -323.03,
+       "z": -70.37
+      },
+      {
+       "x": -334,
+       "z": -72.17
+      },
+      {
+       "x": -345.76,
+       "z": -67.98
+      },
+      {
+       "x": -353.85,
+       "z": -59.51
+      },
+      {
+       "x": -356.23,
+       "z": -48.73
+      },
+      {
+       "x": -351.32,
+       "z": -36.51
+      },
+      {
+       "x": -340.86,
+       "z": -30.57
+      },
+      {
+       "x": -330.25,
+       "z": -30.5
+      },
+      {
+       "x": -322.24,
+       "z": -35.42
+      },
+      {
+       "x": -315.09,
+       "z": -45.19
+      },
+      {
+       "x": -312.13,
+       "z": -52.86
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68cd71414bff4d23910fa1f7",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba2d7d1e2d4df2032efe",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -449.55,
+       "z": -64.55
+      },
+      {
+       "x": -417.66,
+       "z": -63.07
+      },
+      {
+       "x": -391.39,
+       "z": -53.63
+      },
+      {
+       "x": -393.75,
+       "z": -30.92
+      },
+      {
+       "x": -402.9,
+       "z": -9.38
+      },
+      {
+       "x": -412.94,
+       "z": -0.24
+      },
+      {
+       "x": -451.61,
+       "z": 4.19
+      },
+      {
+       "x": -462.24,
+       "z": -4.37
+      },
+      {
+       "x": -466.08,
+       "z": -30.92
+      },
+      {
+       "x": -459.58,
+       "z": -54.22
+      },
+      {
+       "x": -451.32,
+       "z": -66.91
+      },
+      {
+       "x": -448.96,
+       "z": -65.43
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "692eb9b4ad4cf9794040bc68",
+   "chapterId": "batya",
+   "sourceQuestId": "68fab1c73754850d130f5c61",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 445.93,
+       "z": 462.74
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69245fe39a65440680728ddb",
+   "chapterId": "batya",
+   "sourceQuestId": "68fab1c73754850d130f5c61",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 444.44,
+       "z": 462.95
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68dbed2b5268b9d311f2d2d2",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba3da331c68e8209b55a",
+   "maps": [
+    "Reserve"
+   ],
+   "points": [
+    {
+     "map": "Reserve",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -88.35,
+       "z": 45.31
+      },
+      {
+       "x": -101.22,
+       "z": 1.87
+      },
+      {
+       "x": -159.46,
+       "z": 17.14
+      },
+      {
+       "x": -149.3,
+       "z": 62.96
+      },
+      {
+       "x": -87.68,
+       "z": 48.03
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68dbed28d01c49f4ed397cea",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba3da331c68e8209b55a",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 81.76,
+       "z": 161.91
+      },
+      {
+       "x": 79.51,
+       "z": 167.25
+      },
+      {
+       "x": 76.6,
+       "z": 166.97
+      },
+      {
+       "x": 75.38,
+       "z": 164.81
+      },
+      {
+       "x": 76.97,
+       "z": 160.78
+      },
+      {
+       "x": 79.22,
+       "z": 159.94
+      },
+      {
+       "x": 81.66,
+       "z": 161.91
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68dbed24038b894e38a30aa1",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba3da331c68e8209b55a",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -325.38,
+       "z": -71.57
+      },
+      {
+       "x": -348.23,
+       "z": -66.38
+      },
+      {
+       "x": -355.21,
+       "z": -57.57
+      },
+      {
+       "x": -353.38,
+       "z": -39.33
+      },
+      {
+       "x": -333.62,
+       "z": -30.04
+      },
+      {
+       "x": -317.54,
+       "z": -41.09
+      },
+      {
+       "x": -313.4,
+       "z": -57.52
+      },
+      {
+       "x": -325.04,
+       "z": -71.65
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68fac653495c7aedaef6cd69",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba3fcc16a93b26096721",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 249.44,
+       "z": 422.08
+      },
+      {
+       "x": 241.51,
+       "z": 420.92
+      },
+      {
+       "x": 238.42,
+       "z": 437.36
+      },
+      {
+       "x": 247.32,
+       "z": 438.71
+      },
+      {
+       "x": 249.44,
+       "z": 422.66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68dc05109075f2e13953ebec",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba3fcc16a93b26096721",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 198.05,
+       "z": -7.69
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "690f8a20c616b5a85666d054",
+   "chapterId": "batya",
+   "sourceQuestId": "68caba3fcc16a93b26096721",
+   "maps": [
+    "Customs"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": 2,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 171.86,
+       "z": 188.76
+      },
+      {
+       "x": 187.67,
+       "z": 186.63
+      },
+      {
+       "x": 185.3,
+       "z": 171.34
+      },
+      {
+       "x": 169.88,
+       "z": 173.47
+      },
+      {
+       "x": 171.73,
+       "z": 188.36
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68faaab4615a04b8ee0be802",
+   "chapterId": "batya",
+   "sourceQuestId": "68faaab4615a04b8ee0be7ff",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 445.06,
+       "z": 462.9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ec51edb0e734a60d7544bd",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "68ec5135459f4ca1d60c601d",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 69.68,
+       "z": -77.98
+      },
+      {
+       "x": 39.92,
+       "z": -78.74
+      },
+      {
+       "x": 39.54,
+       "z": -44.46
+      },
+      {
+       "x": 68.15,
+       "z": -44.85
+      },
+      {
+       "x": 70.06,
+       "z": -77.98
+      }
+     ]
+    },
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -25.7,
+       "z": -121.02
+      },
+      {
+       "x": -48.21,
+       "z": -120.26
+      },
+      {
+       "x": -48.59,
+       "z": -108.83
+      },
+      {
+       "x": -25.32,
+       "z": -107.31
+      },
+      {
+       "x": -25.32,
+       "z": -120.26
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ec56e7fdf6af65ee217461",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced00eceefc356a10fd405",
+   "maps": [
+    "Ground Zero"
+   ],
+   "points": [
+    {
+     "map": "Ground Zero",
+     "floor": 1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -20.1,
+       "z": 57.77
+      },
+      {
+       "x": -19.19,
+       "z": 38.96
+      },
+      {
+       "x": -9.8,
+       "z": 38.65
+      },
+      {
+       "x": -4.04,
+       "z": 59.28
+      },
+      {
+       "x": -20.7,
+       "z": 57.77
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ec571087d1dcf9407e2439",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced00eceefc356a10fd405",
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -165.91,
+       "z": -377.17
+      },
+      {
+       "x": -166.11,
+       "z": -371.84
+      },
+      {
+       "x": -154.66,
+       "z": -371.31
+      },
+      {
+       "x": -154.26,
+       "z": -376.63
+      },
+      {
+       "x": -165.91,
+       "z": -377.34
+      }
+     ]
+    },
+    {
+     "map": "The Lab",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -160.19,
+       "z": -411.43
+      },
+      {
+       "x": -159.99,
+       "z": -391.9
+      },
+      {
+       "x": -140.84,
+       "z": -392.08
+      },
+      {
+       "x": -140.84,
+       "z": -410.54
+      },
+      {
+       "x": -160.58,
+       "z": -410.9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ec579e6fee9c2b91240914",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced00fd47d32692302aca6",
+   "maps": [
+    "Factory"
+   ],
+   "points": [
+    {
+     "map": "Factory",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -12.71,
+       "z": -5.86
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "67e560b517db48126aa3489b",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced012152372f12708b7b6",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 21.33,
+       "z": 356.24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ec664b7c14902b2619508d",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced014c43709665f0fbe46",
+   "maps": [
+    "Factory"
+   ],
+   "points": [
+    {
+     "map": "Factory",
+     "floor": 2,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -17.54,
+       "z": 49.61
+      },
+      {
+       "x": -17.54,
+       "z": 43.77
+      },
+      {
+       "x": -25.14,
+       "z": 43.77
+      },
+      {
+       "x": -25.14,
+       "z": 49.41
+      },
+      {
+       "x": -17.49,
+       "z": 49.66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ec674cb90b000b931f25c6",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced0157844ea90d80fd6a5",
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -220.56,
+       "z": -311.24
+      },
+      {
+       "x": -220.29,
+       "z": -297.82
+      },
+      {
+       "x": -200.57,
+       "z": -298.29
+      },
+      {
+       "x": -200.3,
+       "z": -311
+      },
+      {
+       "x": -220.56,
+       "z": -311.47
+      }
+     ]
+    },
+    {
+     "map": "The Lab",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -160.43,
+       "z": -411.25
+      },
+      {
+       "x": -160.05,
+       "z": -391.5
+      },
+      {
+       "x": -140.79,
+       "z": -391.97
+      },
+      {
+       "x": -140.78,
+       "z": -411.02
+      },
+      {
+       "x": -160.44,
+       "z": -411.25
+      }
+     ]
+    },
+    {
+     "map": "The Lab",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -272.52,
+       "z": -371.35
+      },
+      {
+       "x": -272.43,
+       "z": -358.93
+      },
+      {
+       "x": -249.12,
+       "z": -359.02
+      },
+      {
+       "x": -249.03,
+       "z": -371.18
+      },
+      {
+       "x": -272.71,
+       "z": -371.51
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "67e561c8975a2620b00b388f",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced017029b9dbe190f3c77",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": 2,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -268.75,
+       "z": -105.83
+      },
+      {
+       "x": -299.8,
+       "z": -105.49
+      },
+      {
+       "x": -299.97,
+       "z": -92.2
+      },
+      {
+       "x": -306.87,
+       "z": -93.24
+      },
+      {
+       "x": -363.62,
+       "z": -93.41
+      },
+      {
+       "x": -363.62,
+       "z": -72.36
+      },
+      {
+       "x": -299.8,
+       "z": -72.36
+      },
+      {
+       "x": -299.8,
+       "z": -84.27
+      },
+      {
+       "x": -268.41,
+       "z": -84.96
+      },
+      {
+       "x": -268.23,
+       "z": -105.83
+      }
+     ]
+    },
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -188.29,
+       "z": -92.91
+      },
+      {
+       "x": -204.9,
+       "z": -93.17
+      },
+      {
+       "x": -204.52,
+       "z": -72.85
+      },
+      {
+       "x": -187.01,
+       "z": -72.72
+      },
+      {
+       "x": -187.91,
+       "z": -93.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "67e562960f167ed6145e0c93",
+   "chapterId": "the-unheard",
+   "sourceQuestId": "67ced01bc23108bd9e031725",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": 1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 133.79,
+       "z": -15.36
+      },
+      {
+       "x": 139.92,
+       "z": -41.86
+      },
+      {
+       "x": 147.41,
+       "z": -50.69
+      },
+      {
+       "x": 147.07,
+       "z": -60.2
+      },
+      {
+       "x": 142.64,
+       "z": -69.37
+      },
+      {
+       "x": 138.56,
+       "z": -71.07
+      },
+      {
+       "x": 123.93,
+       "z": -63.94
+      },
+      {
+       "x": 106.57,
+       "z": -45.25
+      },
+      {
+       "x": 100.45,
+       "z": -28.27
+      },
+      {
+       "x": 101.13,
+       "z": -14
+      },
+      {
+       "x": 133.79,
+       "z": -14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e79075869625375c90c382",
+   "chapterId": "blue-fire",
+   "sourceQuestId": "67b892b338076c36e50abfb5",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": 1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 70.51,
+       "z": 301.77
+      },
+      {
+       "x": 60.71,
+       "z": 301.61
+      },
+      {
+       "x": 60.55,
+       "z": 325.52
+      },
+      {
+       "x": 70.19,
+       "z": 325.52
+      },
+      {
+       "x": 70.49,
+       "z": 301.89
+      }
+     ]
+    },
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 190.3,
+       "z": 224.13
+      },
+      {
+       "x": 185.59,
+       "z": 224.23
+      },
+      {
+       "x": 185.69,
+       "z": 230.27
+      },
+      {
+       "x": 190.3,
+       "z": 230.06
+      },
+      {
+       "x": 190.51,
+       "z": 224.33
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "67dc0086b21e6bd940578ced",
+   "chapterId": "blue-fire",
+   "sourceQuestId": "67b892b6b4c09aae5309c275",
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -121.9,
+       "z": -328.97
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e8d7b563fa6ade0f6327e5",
+   "chapterId": "blue-fire",
+   "sourceQuestId": "67b892bb1c013f0fcb058246",
+   "maps": [
+    "Ground Zero",
+    "Lighthouse",
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": 0,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -140.61,
+       "z": -410.92
+      },
+      {
+       "x": -160.53,
+       "z": -411.13
+      },
+      {
+       "x": -160.04,
+       "z": -391.47
+      },
+      {
+       "x": -140.79,
+       "z": -391.96
+      },
+      {
+       "x": -140.64,
+       "z": -410.92
+      }
+     ]
+    },
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -73.15,
+       "z": -98.98
+      },
+      {
+       "x": -92.01,
+       "z": -98.1
+      },
+      {
+       "x": -91.57,
+       "z": -44.19
+      },
+      {
+       "x": -72.72,
+       "z": -45.5
+      },
+      {
+       "x": -71.4,
+       "z": -100.29
+      }
+     ]
+    },
+    {
+     "map": "Ground Zero",
+     "floor": 1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -20.01,
+       "z": 58.72
+      },
+      {
+       "x": -3.13,
+       "z": 58.36
+      },
+      {
+       "x": -8.31,
+       "z": 39.29
+      },
+      {
+       "x": -20.01,
+       "z": 39.6
+      },
+      {
+       "x": -20.1,
+       "z": 58.65
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e8d86c4164b921197ef0af",
+   "chapterId": "blue-fire",
+   "sourceQuestId": "67b892bd55eaf7b06d011436",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 42.83,
+       "z": 127.15
+      },
+      {
+       "x": 42.95,
+       "z": 105.51
+      },
+      {
+       "x": 32.35,
+       "z": 105.16
+      },
+      {
+       "x": 32.71,
+       "z": 127.03
+      },
+      {
+       "x": 43.07,
+       "z": 126.79
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e8d8c79a957773413b115f",
+   "chapterId": "blue-fire",
+   "sourceQuestId": "67b892bd55eaf7b06d011436",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 25.2,
+       "z": 111.22
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc19ad0be47ffe301db8a0",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ec88b0cb7b6f80f9339",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -303.88,
+       "z": -317.04
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc344f639c10be50558d6a",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588eca1d2ea426e9085c29",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -58.42,
+       "z": -146.59
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc4228fb3735a6fc5897dc",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588eca1d2ea426e9085c29",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -303.76,
+       "z": -315.56
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e2f41bf02c52291042a3aa",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588eca1d2ea426e9085c29",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -59.22,
+       "z": -146.19
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e2f43f658e1944967717d6",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588eca1d2ea426e9085c29",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -48.69,
+       "z": -152.73
+      },
+      {
+       "x": -69.55,
+       "z": -152.32
+      },
+      {
+       "x": -69.55,
+       "z": -141.33
+      },
+      {
+       "x": -49,
+       "z": -141.44
+      },
+      {
+       "x": -48.69,
+       "z": -153.15
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e2f412da3da7800550bcca",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588eca1d2ea426e9085c29",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -48.99,
+       "z": -141.41
+      },
+      {
+       "x": -48.72,
+       "z": -152.81
+      },
+      {
+       "x": -69.63,
+       "z": -152.55
+      },
+      {
+       "x": -69.65,
+       "z": -141.28
+      },
+      {
+       "x": -49.01,
+       "z": -141.32
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc6bb66bdc2ed0e15d1762",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ed5c7a9b3b530005ec8",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -71.37,
+       "z": -97.93
+      },
+      {
+       "x": -91.33,
+       "z": -98.51
+      },
+      {
+       "x": -91.48,
+       "z": -44.02
+      },
+      {
+       "x": -71.29,
+       "z": -44.46
+      },
+      {
+       "x": -71.29,
+       "z": -98
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc6cda0fd9f69c1c860815",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ed5c7a9b3b530005ec8",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -71.2,
+       "z": -97.89
+      },
+      {
+       "x": -91.54,
+       "z": -98.34
+      },
+      {
+       "x": -91.39,
+       "z": -43.95
+      },
+      {
+       "x": -71.15,
+       "z": -44.46
+      },
+      {
+       "x": -71.11,
+       "z": -97.98
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc6e5e79239e9ac6b14897",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ed5c7a9b3b530005ec8",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -93.56,
+       "z": -10.54
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc683e2e2cb4ecf0c534e8",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ed4257202ddee073e07",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -129.78,
+       "z": -688.43
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc4e7c6152f6fbaa4f1201",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ed4257202ddee073e07",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -706.93,
+       "z": 98.59
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e3bb8a6e6d760057339232",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ed4257202ddee073e07",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -709.42,
+       "z": 103.66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc5954ea85c1ca2df2c19c",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588ed4257202ddee073e07",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -708.64,
+       "z": 99.22
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "690413d50750895a590a3bc0",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "690413d50750895a590a3bbd",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -93.53,
+       "z": -10.16
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68bc7db61eac78aabb22522c",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588edb1dbd9790be0f5ee9",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -140.08,
+       "z": -363.61
+      },
+      {
+       "x": -233.09,
+       "z": -363.3
+      },
+      {
+       "x": -233.4,
+       "z": -339.37
+      },
+      {
+       "x": -140.39,
+       "z": -338.44
+      },
+      {
+       "x": -139.46,
+       "z": -364.55
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e57f11020d1274f717efaf",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588edb1dbd9790be0f5ee9",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -141.09,
+       "z": -365.57
+      },
+      {
+       "x": -235.89,
+       "z": -366.05
+      },
+      {
+       "x": -236.09,
+       "z": -343.19
+      },
+      {
+       "x": -141.89,
+       "z": -341.77
+      },
+      {
+       "x": -141.02,
+       "z": -365.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "690420e9f34c0074532b1aa2",
+   "chapterId": "they-are-already-here",
+   "sourceQuestId": "68588edf975681ee130def28",
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -137.62,
+       "z": -337.14
+      },
+      {
+       "x": -137.49,
+       "z": -362.92
+      },
+      {
+       "x": -231.27,
+       "z": -361.65
+      },
+      {
+       "x": -231.27,
+       "z": -338.28
+      },
+      {
+       "x": -137.49,
+       "z": -337.39
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f0f7d9a3fa68269236e047",
+   "chapterId": "accidental-witness",
+   "sourceQuestId": "68f0f54bdae477041501acfc",
+   "maps": [
+    "Customs"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 236.1,
+       "z": 126.27
+      },
+      {
+       "x": 220,
+       "z": 128.67
+      },
+      {
+       "x": 225.78,
+       "z": 169.98
+      },
+      {
+       "x": 241.65,
+       "z": 167.35
+      },
+      {
+       "x": 236.1,
+       "z": 126.49
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f117d2c52671056c769396",
+   "chapterId": "accidental-witness",
+   "sourceQuestId": "68f0f5516871d33422038cd2",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 100.3,
+       "z": 143.63
+      },
+      {
+       "x": 95.09,
+       "z": 132.25
+      },
+      {
+       "x": 107.46,
+       "z": 126.56
+      },
+      {
+       "x": 112.02,
+       "z": 139.08
+      },
+      {
+       "x": 100.79,
+       "z": 143.79
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f3c0bd71c8131919a831b9",
+   "chapterId": "accidental-witness",
+   "sourceQuestId": "68f0f556dae477041501acfe",
+   "maps": [
+    "Streets of Tarkov"
+   ],
+   "points": [
+    {
+     "map": "Streets of Tarkov",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 243.57,
+       "z": 222.49
+      },
+      {
+       "x": 208.83,
+       "z": 222.77
+      },
+      {
+       "x": 209.53,
+       "z": 239.28
+      },
+      {
+       "x": 244.41,
+       "z": 238.86
+      },
+      {
+       "x": 244.13,
+       "z": 221.93
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f3c1a2c82e41734e534113",
+   "chapterId": "accidental-witness",
+   "sourceQuestId": "68f0f557ac6ab778470752ad",
+   "maps": [
+    "Customs"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 267.99,
+       "z": 123.26
+      },
+      {
+       "x": 245.47,
+       "z": 129.1
+      },
+      {
+       "x": 252.91,
+       "z": 160.38
+      },
+      {
+       "x": 277.7,
+       "z": 153.29
+      },
+      {
+       "x": 268.82,
+       "z": 123.47
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f3c3b9840a2e65ebc7fee1",
+   "chapterId": "accidental-witness",
+   "sourceQuestId": "68f0f55b6310272fc402e2dc",
+   "maps": [
+    "Customs"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 110.16,
+       "z": -130.85
+      },
+      {
+       "x": 64.79,
+       "z": -141.27
+      },
+      {
+       "x": 62.39,
+       "z": -110.5
+      },
+      {
+       "x": 66.23,
+       "z": -102.5
+      },
+      {
+       "x": 88.32,
+       "z": -100.56
+      },
+      {
+       "x": 107.52,
+       "z": -107.35
+      },
+      {
+       "x": 109.2,
+       "z": -131.09
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f3c5703dba2961fcf0fa76",
+   "chapterId": "accidental-witness",
+   "sourceQuestId": "68f0f55ea607c91a6006cebb",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 298.6,
+       "z": 119.96
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68f3c5983d4d0d0bb462815c",
+   "chapterId": "accidental-witness",
+   "sourceQuestId": "68f0f55ea607c91a6006cebb",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 291.83,
+       "z": 116.65
+      }
+     ]
+    },
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 298.93,
+       "z": 117.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e4dc6ce8f4a928b9c97683",
+   "chapterId": "the-labyrinth",
+   "sourceQuestId": "68e3a3d2ff05916c250a898b",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -199.98,
+       "z": -86.71
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e4e3eca3ce127ce890ec2f",
+   "chapterId": "the-labyrinth",
+   "sourceQuestId": "68e3a3d2ff05916c250a898b",
+   "maps": [
+    "The Labyrinth"
+   ],
+   "points": [
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -15.52,
+       "z": -21.46
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e4e506dbb7abb1bc047018",
+   "chapterId": "the-labyrinth",
+   "sourceQuestId": "68e3a3d2ff05916c250a898b",
+   "maps": [
+    "The Labyrinth"
+   ],
+   "points": [
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -12.3,
+       "z": 20.88
+      },
+      {
+       "x": -12.3,
+       "z": 37.16
+      },
+      {
+       "x": -3.5,
+       "z": 37.22
+      },
+      {
+       "x": -3.38,
+       "z": 26.41
+      },
+      {
+       "x": -8.97,
+       "z": 20.82
+      },
+      {
+       "x": -12.24,
+       "z": 20.82
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e4e5235f8c749cfca48679",
+   "chapterId": "the-labyrinth",
+   "sourceQuestId": "68e3a3d2ff05916c250a898b",
+   "maps": [
+    "The Labyrinth"
+   ],
+   "points": [
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 17.82,
+       "z": 3.87
+      },
+      {
+       "x": 17.82,
+       "z": 9.28
+      },
+      {
+       "x": 23.8,
+       "z": 9.28
+      },
+      {
+       "x": 23.8,
+       "z": 3.91
+      },
+      {
+       "x": 17.91,
+       "z": 3.87
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ffe508dcb52296aa8a4006",
+   "chapterId": "the-labyrinth",
+   "sourceQuestId": "68e3a3d2ff05916c250a898b",
+   "maps": [
+    "The Labyrinth"
+   ],
+   "points": [
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -7.04,
+       "z": 30.91
+      }
+     ]
+    },
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -13.38,
+       "z": 51.56
+      }
+     ]
+    },
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 12.12,
+       "z": 32.89
+      }
+     ]
+    },
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 6.35,
+       "z": 1.57
+      },
+      {
+       "x": 6.35,
+       "z": 7.58
+      },
+      {
+       "x": 13.46,
+       "z": 7.64
+      },
+      {
+       "x": 13.53,
+       "z": 1.5
+      },
+      {
+       "x": 6.28,
+       "z": 1.5
+      }
+     ]
+    },
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -5.69,
+       "z": 9.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68e4e8b45fae2c907a1c4343",
+   "chapterId": "the-labyrinth",
+   "sourceQuestId": "68e3a3d2ff05916c250a898b",
+   "maps": [
+    "The Labyrinth"
+   ],
+   "points": [
+    {
+     "map": "The Labyrinth",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 8.91,
+       "z": 7.79
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "68ffd68b52fa44fe7cb35762",
+   "chapterId": "the-labyrinth",
+   "sourceQuestId": "68e3a3e51edf1ca810009a99",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -275.94,
+       "z": 474.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "the-ticket-opt-1",
+   "chapterId": "the-ticket",
+   "sourceQuestId": null,
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 78.06,
+       "z": 164.55
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "the-ticket-opt-4",
+   "chapterId": "the-ticket",
+   "sourceQuestId": null,
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 444.33,
+       "z": 463.68
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "the-ticket-main-29",
+   "chapterId": "the-ticket",
+   "sourceQuestId": null,
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 445.45,
+       "z": 463.96
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "the-ticket-opt-9",
+   "chapterId": "the-ticket",
+   "sourceQuestId": null,
+   "maps": [
+    "Interchange"
+   ],
+   "points": [
+    {
+     "map": "Interchange",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 190.85,
+       "z": 187.6
+      },
+      {
+       "x": 120.86,
+       "z": 190.69
+      },
+      {
+       "x": 120.86,
+       "z": -297.37
+      },
+      {
+       "x": 188.79,
+       "z": -297.37
+      },
+      {
+       "x": 188.79,
+       "z": 182.44
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "the-ticket-main-7",
+   "chapterId": "the-ticket",
+   "sourceQuestId": null,
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -93.4,
+       "z": -432.71
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69e7706fa8d4414fc6625f92",
+   "chapterId": "boreas",
+   "sourceQuestId": "69a9bc08babf5c053607fef7",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 224.55,
+       "z": -703.76
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69e7713495d0cd5e8bea7be6",
+   "chapterId": "boreas",
+   "sourceQuestId": "69a9bc08babf5c053607fef7",
+   "maps": [
+    "Woods"
+   ],
+   "points": [
+    {
+     "map": "Woods",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 224.6,
+       "z": -703.76
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69aaf8f00bd9f1f0803617c6",
+   "chapterId": "boreas",
+   "sourceQuestId": "69aaecdf174ff467ef0acc38",
+   "maps": [
+    "Lighthouse"
+   ],
+   "points": [
+    {
+     "map": "Lighthouse",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 24.97,
+       "z": -876.02
+      },
+      {
+       "x": 25.29,
+       "z": -825.69
+      },
+      {
+       "x": 58.11,
+       "z": -825.69
+      },
+      {
+       "x": 58.11,
+       "z": -875.37
+      },
+      {
+       "x": 24.32,
+       "z": -876.02
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69b2b143b6449f7050b302ed",
+   "chapterId": "boreas",
+   "sourceQuestId": "69b2b0cc0a7db6b331031267",
+   "maps": [
+    "Reserve"
+   ],
+   "points": [
+    {
+     "map": "Reserve",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -170.72,
+       "z": 6.93
+      },
+      {
+       "x": -105.22,
+       "z": -11.84
+      },
+      {
+       "x": -111.45,
+       "z": -35.29
+      },
+      {
+       "x": -177.22,
+       "z": -16.79
+      },
+      {
+       "x": -171.5,
+       "z": 6.67
+      }
+     ]
+    },
+    {
+     "map": "Reserve",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -125.15,
+       "z": 36.33
+      }
+     ]
+    },
+    {
+     "map": "Reserve",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -118.85,
+       "z": 49.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "wiki-boreas-r4c5j1",
+   "chapterId": "boreas",
+   "sourceQuestId": null,
+   "maps": [
+    "Customs"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 128.97,
+       "z": -153.08
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "wiki-boreas-1f52l8y",
+   "chapterId": "boreas",
+   "sourceQuestId": null,
+   "maps": [
+    "Customs"
+   ],
+   "points": [
+    {
+     "map": "Customs",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 204.87,
+       "z": -121.16
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "wiki-boreas-7w3mam",
+   "chapterId": "boreas",
+   "sourceQuestId": null,
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -618.4,
+       "z": -261.24
+      },
+      {
+       "x": -585.76,
+       "z": -170.74
+      },
+      {
+       "x": -632.15,
+       "z": -155.28
+      },
+      {
+       "x": -665.36,
+       "z": -244.63
+      },
+      {
+       "x": -618.98,
+       "z": -262.96
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69ba8d651b499fbada0cd5ae",
+   "chapterId": "boreas",
+   "sourceQuestId": "69ba8cd91c440c14bb09a955",
+   "maps": [
+    "Shoreline"
+   ],
+   "points": [
+    {
+     "map": "Shoreline",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -309.83,
+       "z": 530.87
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69d4f17c837544d785bbd4ac",
+   "chapterId": "boreas",
+   "sourceQuestId": "69ba8cd91c440c14bb09a955",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 5,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 7.41,
+       "z": 32.05
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69ba8dfa4d29dbfc39cac747",
+   "chapterId": "boreas",
+   "sourceQuestId": "69ba8cd91c440c14bb09a955",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 4,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 6.26,
+       "z": 15.6
+      },
+      {
+       "x": 2.59,
+       "z": 15.58
+      },
+      {
+       "x": 2.54,
+       "z": 22.44
+      },
+      {
+       "x": 6.21,
+       "z": 22.44
+      },
+      {
+       "x": 6.28,
+       "z": 15.71
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69ba8edc64dd474d456ab839",
+   "chapterId": "boreas",
+   "sourceQuestId": "69ba8cd91c440c14bb09a955",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 5,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -2.47,
+       "z": 19.24
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bab4f68c85b53b8e473911",
+   "chapterId": "boreas",
+   "sourceQuestId": "69baaaae8f45d6b3fa020ade",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 4,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 6.48,
+       "z": 21.02
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69ba8ef59b8dfa643e494308",
+   "chapterId": "boreas",
+   "sourceQuestId": "69ba8cd91c440c14bb09a955",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 7,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -9.43,
+       "z": 15.59
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bab557f31c7fb31a72591e",
+   "chapterId": "boreas",
+   "sourceQuestId": "69baaaae8f45d6b3fa020ade",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 7,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -9.46,
+       "z": 15.57
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69c6abd4808c26f357532e2a",
+   "chapterId": "boreas",
+   "sourceQuestId": "69baaaae8f45d6b3fa020ade",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 5,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 7.43,
+       "z": 32.08
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbd7d580a1ca5ec83a0da5",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbd63fcc93b653fd061f39",
+   "maps": [
+    "The Lab"
+   ],
+   "points": [
+    {
+     "map": "The Lab",
+     "floor": -1,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -121.89,
+       "z": -328.89
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbfae89ce356593c0e2f41",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 4,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 6.43,
+       "z": 21
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bab5121a15490f84594dcb",
+   "chapterId": "boreas",
+   "sourceQuestId": "69baaaae8f45d6b3fa020ade",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 5,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -2.46,
+       "z": 19.23
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbfae89ce356593c0e2f47",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 7,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -9.45,
+       "z": 15.58
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbfae89ce356593c0e2f4c",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 9,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -6.37,
+       "z": 17.61
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbfd1f4a8e7c1bc4896ea2",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 11,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -5.49,
+       "z": 22.93
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bc0278fe211e2c70fe4a6c",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 13,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -4.65,
+       "z": 30.45
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbfeb12980c03df915aa69",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 14,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -2.62,
+       "z": 28.14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbfe997ac0792bddc9e8f8",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 7,
+     "kind": "area",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 2.41,
+       "z": 31.92
+      },
+      {
+       "x": -5.42,
+       "z": 31.95
+      },
+      {
+       "x": -5.36,
+       "z": 34.42
+      },
+      {
+       "x": 2.38,
+       "z": 34.48
+      },
+      {
+       "x": 2.41,
+       "z": 32.07
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69c15087c6efee6666c3b4a9",
+   "chapterId": "boreas",
+   "sourceQuestId": "69c14feae2c5125aa504e9d7",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 13,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -4.32,
+       "z": 30.87
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69bbfe405997a15939caf7c4",
+   "chapterId": "boreas",
+   "sourceQuestId": "69bbfae89ce356593c0e2f35",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 11,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": -5.54,
+       "z": 22.94
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "69ca6719ce155703cfb50cd7",
+   "chapterId": "boreas",
+   "sourceQuestId": "69c14feae2c5125aa504e9d7",
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 5,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 7.43,
+       "z": 32.08
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "objectiveId": "wiki-boreas-5zmovy",
+   "chapterId": "boreas",
+   "sourceQuestId": null,
+   "maps": [
+    "Icebreaker"
+   ],
+   "points": [
+    {
+     "map": "Icebreaker",
+     "floor": 5,
+     "kind": "pin",
+     "color": "blue",
+     "pts": [
+      {
+       "x": 7.4,
+       "z": 32.07
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

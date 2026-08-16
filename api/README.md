@@ -16,7 +16,9 @@ it holds, so you can choose without downloading anything first.
 | `quests/provenance.json` | ~480 KB | which source each field came from, and when |
 | `maps.json` | ~250 KB | the map side: features, extracts, hazards, corrections applied |
 | **`firstparty/quests.json`** | ~210 KB | **quests read off the game screen. Ours. CC0.** |
-| **`firstparty/mapdata.json`** | ~75 KB | **positions placed by hand and checked in game. Ours. CC0.** |
+| **`firstparty/mapdata.json`** | ~55 KB | **corrections, labels, map text, hazards, interactables. Ours. CC0.** |
+| **`firstparty/battlepass.json`** | ~22 KB | **216 BattlePass document spots. Ours. CC0.** |
+| **`firstparty/story-marks.json`** | ~61 KB | **137 story objective positions. Ours. CC0.** |
 
 The files under `quests/` are the SAME data as `quests.json`, cut by subject.
 Rejoin them on `id` and you get the whole record back — the build checks that on
@@ -26,8 +28,15 @@ file or take slices, not both.
 ## firstparty/ — the part that exists nowhere else
 
 Everything else in this repo is collected from other projects and merged. These
-two files are not: they are quests transcribed from the owner's own screen, and
-map positions placed by hand and checked in the game.
+four files are not: quests transcribed from the in-game trader screen, and
+positions placed by hand and checked in the game. The BattlePass spots and the
+story marks stand apart from the other map work because they are the two most
+likely to be wanted on their own.
+
+`story-marks.json` carries **ids and coordinates only**. The chapter names and
+objective descriptions belong to the project that publishes the campaign, so
+join on `objectiveId` against `maps.json` for the wording instead of finding it
+relicensed here.
 
 They are **CC0-1.0**, they carry no third-party data, and they stand alone — you
 can consume them without touching `quests.json` at all. `questId` on each reading

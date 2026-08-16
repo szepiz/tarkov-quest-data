@@ -204,9 +204,87 @@ for (const [name, fields] of Object.entries(SLICES)) {
       hazards: story.hazards || [], interactables: story.interactables || [],
     },
     extractDetail: { factions: placed.extractFactions, notes: placed.extractNotes, switches: placed.extractSwitches },
-    battlePassDocuments: bpdocs.documents || bpdocs,
+    // BattlePass documents and story marks were here. They are the two kinds of
+    // mark someone is most likely to want on their own — nobody else publishes a
+    // position for either — so each has its own file now.
+    movedOut: {
+      battlePassDocuments: 'api/firstparty/battlepass.json',
+      storyMarks: 'api/firstparty/story-marks.json',
+    },
   }, null, 1) + '\n', 'utf8');
-  note(p, 'positions placed by hand, checked in game', true);
+  note(p, 'corrections, labels, map text, hazards, interactables', true);
+}
+
+// ---- first party: where the BattlePass documents are ------------------------
+{
+  const bpdocs = read(path.join(ROOT, 'mapdata', 'bpdocs.json'));
+  const documents = bpdocs.documents || bpdocs;
+  const pins = documents.reduce((n, d) =>
+    n + Object.values(d.pins || {}).reduce((m, a) => m + a.length, 0), 0);
+  const maps = new Set();
+  for (const d of documents) for (const m of Object.keys(d.pins || {})) maps.add(m);
+  const p = 'api/firstparty/battlepass.json';
+  fs.writeFileSync(path.join(ROOT, p), JSON.stringify({
+    what: 'Where BattlePass documents are found, placed by hand on the map.',
+    firstParty: true,
+    license: 'CC0-1.0',
+    placedBy: 'szepiz',
+    generatedAt: TODAY,
+    holds: 'The documents exist as items, and no source publishes a position for a single one of '
+      + 'them. Each type lists the maps it is found on, and every pin under it was placed in the map '
+      + 'editor and checked in game.',
+    caveats: [
+      'A pin is a place a document HAS been found, not a guaranteed spawn.',
+      'Coordinates are game units in the same space the map data uses; `floor` is -1 on a map with no floors.',
+      '`spots` names the described location a pin belongs to where one is known, and is null otherwise.',
+    ],
+    counts: { documents: documents.length, pins, maps: maps.size },
+    documents,
+  }, null, 1) + '\n', 'utf8');
+  note(p, 'BattlePass document spots, placed by hand', true);
+}
+
+// ---- first party: the story marks -------------------------------------------
+{
+  const story = read(path.join(ROOT, 'mapdata', 'story.json'));
+  const marks = [];
+  let groups = 0, pinCount = 0, areaCount = 0;
+  for (const c of story.chapters || []) {
+    for (const o of c.objectives || []) {
+      if (!(o.points || []).length) continue;
+      groups += o.points.length;
+      for (const g of o.points) ((g.pts || []).length > 1 ? areaCount++ : pinCount++);
+      marks.push({
+        objectiveId: o.id,
+        chapterId: c.id,
+        sourceQuestId: o.sourceQuestId || null,
+        maps: o.maps || [],
+        points: o.points,
+      });
+    }
+  }
+  const p = 'api/firstparty/story-marks.json';
+  fs.writeFileSync(path.join(ROOT, p), JSON.stringify({
+    what: 'Where story campaign objectives happen, placed by hand on the map.',
+    firstParty: true,
+    license: 'CC0-1.0',
+    placedBy: 'szepiz',
+    generatedAt: TODAY,
+    holds: 'The story campaign is published without a single coordinate anywhere. Every position here '
+      + 'was placed in the map editor and checked in game.',
+    joinOn: 'objectiveId, against story.chapters[].objectives[].id in api/maps.json',
+    caveats: [
+      'IDS AND COORDINATES ONLY. The chapter names and objective descriptions belong to the project '
+        + 'that publishes the campaign, so they are not republished here under a licence that is not '
+        + 'theirs to give. Join on objectiveId for the wording.',
+      'A group holding one point is a marker; a group holding several is an area, and the points are '
+        + 'its outline.',
+      '`floor` is the storey chosen at placement, not derived from a height.',
+    ],
+    counts: { objectives: marks.length, groups, markers: pinCount, areas: areaCount },
+    marks,
+  }, null, 1) + '\n', 'utf8');
+  note(p, 'story objective positions, placed by hand', true);
 }
 
 // ---- the index, so a consumer can see what exists without guessing ---------
