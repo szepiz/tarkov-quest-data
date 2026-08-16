@@ -297,6 +297,11 @@ the merges, the trader moves, the loyalty gates that turned out wrong, and the
 traps worth knowing about if you build something similar. It is long, and it is
 there for anyone who wants the evidence behind the summaries above.
 
+## A note on the writing
+
+English is not my first language. AI was used to translate text from Hungarian
+to English, and to summarise it and make the overall text easier to read.
+
 ## Licensing
 
 Full detail in [LICENSE.md](LICENSE.md). Short version:
