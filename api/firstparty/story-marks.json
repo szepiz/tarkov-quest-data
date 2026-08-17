@@ -3,7 +3,7 @@
  "firstParty": true,
  "license": "CC0-1.0",
  "placedBy": "szepiz",
- "generatedAt": "2026-08-16",
+ "generatedAt": "2026-08-17",
  "holds": "The story campaign is published without a single coordinate anywhere. Every position here was placed in the map editor and checked in game.",
  "joinOn": "objectiveId, against story.chapters[].objectives[].id in api/maps.json",
  "caveats": [

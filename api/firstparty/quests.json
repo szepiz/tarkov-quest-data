@@ -3,7 +3,7 @@
  "firstParty": true,
  "license": "CC0-1.0",
  "readBy": "szepiz",
- "generatedAt": "2026-08-16",
+ "generatedAt": "2026-08-17",
  "holds": "The one thing in this repo that is not a copy of someone else's work. Each record is a card the owner actually saw: the trader, the loyalty tab it sat under, the objective lines as the game wrote them, and the day it was read. Nothing here is inferred.",
  "caveats": [
   "The game reveals objectives progressively, so an unfinished quest shows fewer lines than it has. `objectivesComplete` says whether the list is the whole list.",

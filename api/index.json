@@ -1,6 +1,6 @@
 {
  "what": "Every file blended-tarky-api publishes, so a consumer can take only what it needs.",
- "generatedAt": "2026-08-16",
+ "generatedAt": "2026-08-17",
  "base": "https://szepiz.github.io/tarkov-quest-data/",
  "alternateBase": "https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/",
  "howToChoose": [
@@ -17,7 +17,7 @@
   },
   {
    "path": "api/maps.json",
-   "bytes": 256574,
+   "bytes": 256575,
    "holds": "the map side: features, extracts, hazards and hand-placed corrections applied",
    "firstParty": false
   },
@@ -65,7 +65,7 @@
   },
   {
    "path": "api/firstparty/battlepass.json",
-   "bytes": 22311,
+   "bytes": 22312,
    "holds": "BattlePass document spots, placed by hand",
    "firstParty": true
   },

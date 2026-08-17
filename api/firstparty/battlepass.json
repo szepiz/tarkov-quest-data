@@ -3,7 +3,7 @@
  "firstParty": true,
  "license": "CC0-1.0",
  "placedBy": "szepiz",
- "generatedAt": "2026-08-16",
+ "generatedAt": "2026-08-17",
  "holds": "The documents exist as items, and no source publishes a position for a single one of them. Each type lists the maps it is found on, and every pin under it was placed in the map editor and checked in game.",
  "caveats": [
   "A pin is a place a document HAS been found, not a guaranteed spawn.",
@@ -904,8 +904,8 @@
       "spot": null
      },
      {
-      "x": 40.39,
-      "z": -36.19,
+      "x": 41.48,
+      "z": -15.36,
       "floor": -1,
       "spot": null
      },
@@ -928,8 +928,8 @@
       "spot": null
      },
      {
-      "x": 26.4,
-      "z": -19.02,
+      "x": 26.34,
+      "z": -18.96,
       "floor": 0,
       "spot": null
      }
