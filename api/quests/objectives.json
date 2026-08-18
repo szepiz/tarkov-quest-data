@@ -2,7 +2,7 @@
  "what": "Part of [object Object] quest data from blended-tarky-api, https://github.com/szepiz/tarkov-quest-data",
  "holds": "tarkov.dev's structured objectives, with their ids, zones and coordinates — the big one",
  "schemaVersion": 2,
- "generatedAt": "2026-08-16T11:15:23.674Z",
+ "generatedAt": "2026-08-18T09:51:41.276Z",
  "rejoinOn": "id",
  "whole": "api/quests.json",
  "quests": [
@@ -1926,32 +1926,32 @@
      "description": "Eliminate Scavs while using a Steyr AUG on any location",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 5
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ]
   },
   {
@@ -3061,11 +3061,11 @@
      "description": "Locate and neutralize Priest",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Factory",
       "Ground Zero",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Factory"
      ],
      "count": 1
     },
@@ -3123,11 +3123,11 @@
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Factory",
     "Ground Zero",
     "Shoreline",
+    "Customs",
+    "Factory",
     "Streets of Tarkov"
    ]
   },
@@ -19410,6 +19410,62 @@
    ]
   },
   {
+   "id": "64e7b99017ab941a6f7bf9d7",
+   "objectives": [
+    {
+     "id": "64e7bc2c5e6d3e61ca2ca097",
+     "type": "shoot",
+     "description": "Eliminate any target at the stylobate building while using Pistols on Streets of Tarkov",
+     "optional": false,
+     "maps": [
+      "Streets of Tarkov"
+     ],
+     "zones": [
+      {
+       "map": "Streets of Tarkov",
+       "position": {
+        "x": -102.900009,
+        "y": 8.6,
+        "z": -25.59999
+       }
+      }
+     ],
+     "count": 15
+    }
+   ],
+   "objectiveMaps": [
+    "Streets of Tarkov"
+   ]
+  },
+  {
+   "id": "64e7b9a4aac4cd0a726562cb",
+   "objectives": [
+    {
+     "id": "64e7bd0c6393886f74119f41",
+     "type": "shoot",
+     "description": "Eliminate any target at the Rodina cinema while using SMGs on Streets of Tarkov",
+     "optional": false,
+     "maps": [
+      "Streets of Tarkov"
+     ],
+     "zones": [
+      {
+       "map": "Streets of Tarkov",
+       "position": {
+        "x": -180.399963,
+        "y": 16.5,
+        "z": 400.7
+       }
+      }
+     ],
+     "count": 25
+    }
+   ],
+   "objectiveMaps": [
+    "Streets of Tarkov"
+   ]
+  },
+  {
    "id": "596a1e6c86f7741ddc2d3206",
    "objectives": [
     {
@@ -20978,21 +21034,21 @@
      "description": "Eliminate the hooded men with the double barrel shotgun",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Factory",
       "Ground Zero",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Factory"
      ],
      "count": 2
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Factory",
     "Ground Zero",
-    "Shoreline"
+    "Shoreline",
+    "Customs",
+    "Factory"
    ]
   },
   {
@@ -22490,32 +22546,32 @@
      "description": "Eliminate Scavs with headshots",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 40
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ]
   },
   {
@@ -28039,7 +28095,7 @@
        }
       }
      ],
-     "zonesLastPublished": "2026-08-16"
+     "zonesLastPublished": "2026-08-18"
     }
    ],
    "objectiveMaps": [
@@ -28220,7 +28276,7 @@
        }
       }
      ],
-     "zonesLastPublished": "2026-08-16"
+     "zonesLastPublished": "2026-08-18"
     }
    ],
    "objectiveMaps": [
@@ -28472,34 +28528,6 @@
    ],
    "objectiveMaps": [
     "Interchange"
-   ]
-  },
-  {
-   "id": "64e7b99017ab941a6f7bf9d7",
-   "objectives": [
-    {
-     "id": "64e7bc2c5e6d3e61ca2ca097",
-     "type": "shoot",
-     "description": "Eliminate any target at the stylobate building while using Pistols on Streets of Tarkov",
-     "optional": false,
-     "maps": [
-      "Streets of Tarkov"
-     ],
-     "zones": [
-      {
-       "map": "Streets of Tarkov",
-       "position": {
-        "x": -102.900009,
-        "y": 8.6,
-        "z": -25.59999
-       }
-      }
-     ],
-     "count": 15
-    }
-   ],
-   "objectiveMaps": [
-    "Streets of Tarkov"
    ]
   },
   {
@@ -29884,21 +29912,21 @@
      "description": "Locate and neutralize the hooded men",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Factory",
       "Ground Zero",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Factory"
      ],
      "count": 5
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Factory",
     "Ground Zero",
-    "Shoreline"
+    "Shoreline",
+    "Customs",
+    "Factory"
    ]
   },
   {
@@ -37595,20 +37623,20 @@
      "description": "Eliminate Rogues",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Lighthouse",
       "Shoreline",
+      "Customs",
+      "Lighthouse",
       "Icebreaker"
      ],
      "count": 30
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Lighthouse",
     "Shoreline",
+    "Customs",
+    "Lighthouse",
     "Icebreaker"
    ]
   },
@@ -37640,11 +37668,11 @@
      "description": "Locate and neutralize Knight (in one raid)",
      "optional": false,
      "maps": [
-      "Customs",
       "Icebreaker",
       "Woods",
-      "Lighthouse",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Lighthouse"
      ],
      "count": 1
     },
@@ -37654,10 +37682,10 @@
      "description": "Locate and neutralize Big Pipe (in one raid)",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Lighthouse",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Lighthouse"
      ],
      "count": 1
     },
@@ -37667,20 +37695,20 @@
      "description": "Locate and neutralize Birdeye (in one raid)",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Lighthouse",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Lighthouse"
      ],
      "count": 1
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Icebreaker",
     "Woods",
-    "Lighthouse",
-    "Shoreline"
+    "Shoreline",
+    "Customs",
+    "Lighthouse"
    ]
   },
   {
@@ -41023,32 +41051,32 @@
      "description": "Eliminate Scavs with Light machine guns",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 20
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ]
   },
   {
@@ -41081,8 +41109,8 @@
       "Reserve",
       "Interchange",
       "Woods",
-      "Lighthouse",
       "Shoreline",
+      "Lighthouse",
       "Factory",
       "Factory",
       "The Lab (Dark)"
@@ -41489,32 +41517,32 @@
      "description": "Eliminate Scavs while suffering from the Pain status effect",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 3
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ]
   },
   {
@@ -41667,31 +41695,31 @@
      "optional": false,
      "maps": [
       "Streets of Tarkov",
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline"
+      "Lighthouse"
      ],
      "count": 5
     }
    ],
    "objectiveMaps": [
     "Streets of Tarkov",
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline"
+    "Lighthouse"
    ]
   },
   {
@@ -42259,34 +42287,6 @@
    ],
    "objectiveMaps": [
     "The Labyrinth"
-   ]
-  },
-  {
-   "id": "64e7b9a4aac4cd0a726562cb",
-   "objectives": [
-    {
-     "id": "64e7bd0c6393886f74119f41",
-     "type": "shoot",
-     "description": "Eliminate any target at the Rodina cinema while using SMGs on Streets of Tarkov",
-     "optional": false,
-     "maps": [
-      "Streets of Tarkov"
-     ],
-     "zones": [
-      {
-       "map": "Streets of Tarkov",
-       "position": {
-        "x": -180.399963,
-        "y": 16.5,
-        "z": 400.7
-       }
-      }
-     ],
-     "count": 25
-    }
-   ],
-   "objectiveMaps": [
-    "Streets of Tarkov"
    ]
   },
   {

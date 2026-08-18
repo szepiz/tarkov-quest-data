@@ -2,7 +2,7 @@
  "what": "Part of [object Object] quest data from blended-tarky-api, https://github.com/szepiz/tarkov-quest-data",
  "holds": "what has to be true before you can take it: player level, prerequisite quests, trader loyalty and reputation",
  "schemaVersion": 2,
- "generatedAt": "2026-08-16T11:15:23.674Z",
+ "generatedAt": "2026-08-18T09:51:41.276Z",
  "rejoinOn": "id",
  "whole": "api/quests.json",
  "quests": [
@@ -847,7 +847,7 @@
   },
   {
    "id": "5c0bbaa886f7746941031d82",
-   "minPlayerLevel": 38,
+   "minPlayerLevel": null,
    "traderRequirements": [
     {
      "trader": "Skier",
@@ -1430,6 +1430,10 @@
       "complete"
      ]
     }
+   ],
+   "requiresAnyOf": [
+    "67af4c1cc0e59d55e2010b97",
+    "67af4c1991ee75c6d7060a16"
    ]
   },
   {
@@ -2307,6 +2311,30 @@
     {
      "trader": "Peacekeeper",
      "level": 1
+    }
+   ]
+  },
+  {
+   "id": "64e7b99017ab941a6f7bf9d7",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "59ca2eb686f77445a80ed049",
+     "status": [
+      "complete"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64e7b9a4aac4cd0a726562cb",
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "64e7b99017ab941a6f7bf9d7",
+     "status": [
+      "complete"
+     ]
     }
    ]
   },
@@ -3755,18 +3783,6 @@
     {
      "trader": "Ragman",
      "level": 1
-    }
-   ]
-  },
-  {
-   "id": "64e7b99017ab941a6f7bf9d7",
-   "minPlayerLevel": 36,
-   "requires": [
-    {
-     "task": "59ca2eb686f77445a80ed049",
-     "status": [
-      "complete"
-     ]
     }
    ]
   },
@@ -6938,18 +6954,6 @@
    "requires": [
     {
      "task": "67a0970744893b9f3f0d9b68",
-     "status": [
-      "complete"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "64e7b9a4aac4cd0a726562cb",
-   "minPlayerLevel": 36,
-   "requires": [
-    {
-     "task": "64e7b99017ab941a6f7bf9d7",
      "status": [
       "complete"
      ]

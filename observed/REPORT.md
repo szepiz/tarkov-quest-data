@@ -680,9 +680,8 @@ _every source agrees_
 > in game: **Peacekeeper LL3** · completed · Lighthouse
 
 ### Revision - Reserve
+_every source agrees_
 > in game: **Peacekeeper LL3** · completed · Reserve
-`6086c852c945025d41566124` · matched on wiki title
-- **objective count (wiki)**, game shows 8, wiki has 12
 
 ### Overpopulation
 > in game: **Peacekeeper LL3** · active · Lighthouse
@@ -1329,9 +1328,8 @@ _every source agrees_
 > in game: **Skier LL4** · active · Any location
 
 ### Bullshit
+_every source agrees_
 > in game: **Skier LL4** · active · Lighthouse
-`5c0bbaa886f7746941031d82` · matched on wiki title
-- **map (wiki)**, wiki objectives name `Customs`, game says `Lighthouse`
 
 ### Chemical - Part 1
 _every source agrees_
@@ -1565,7 +1563,7 @@ mark against a source, it is a gap someone else has to fill.
 |---|---|---|---|---|
 | tarkov.dev | 1135 | 0 | 100 | 100% |
 | overlay | 83 | 1 | 473 | 99% |
-| wiki | 746 | 20 | 150 | 97% |
+| wiki | 752 | 18 | 146 | 98% |
 | SPT | 484 | 88 | 66 | 85% |
 
 319 observed quest(s) checked, 0 matched no source at all.

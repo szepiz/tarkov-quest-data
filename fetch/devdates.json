@@ -1917,8 +1917,8 @@
   },
   "68341846186efa3c5b07f989": {
    "objectives": {
-    "h": "aa2dcd6b6f3e",
-    "since": "2026-08-15",
+    "h": "162b68f6f5f1",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -1957,9 +1957,9 @@
     "watched": false
    },
    "objectiveMaps": {
-    "h": "3c4582d00182",
-    "since": "2026-08-15",
-    "watched": false
+    "h": "7fc30bae0dc8",
+    "since": "2026-08-18",
+    "watched": true
    },
    "traderRequirements": {
     "h": "97d170e1550e",
@@ -3168,8 +3168,8 @@
     "watched": false
    },
    "objectives": {
-    "h": "f858116fa1ab",
-    "since": "2026-08-15",
+    "h": "131cc125209d",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -3183,8 +3183,8 @@
     "watched": false
    },
    "objectiveMaps": {
-    "h": "69abc30c2130",
-    "since": "2026-08-15",
+    "h": "93804b90cd88",
+    "since": "2026-08-18",
     "watched": true
    },
    "name": {
@@ -10917,8 +10917,8 @@
   },
   "666314b2a9290f9e0806cca3": {
    "objectives": {
-    "h": "e455c2a14c86",
-    "since": "2026-08-15",
+    "h": "7ab0bb0d7cf1",
+    "since": "2026-08-18",
     "watched": true
    },
    "requires": {
@@ -10927,8 +10927,8 @@
     "watched": true
    },
    "objectiveMaps": {
-    "h": "7a6dfa00b216",
-    "since": "2026-08-15",
+    "h": "42925fa99f6f",
+    "since": "2026-08-18",
     "watched": true
    },
    "name": {
@@ -12227,8 +12227,8 @@
     "watched": false
    },
    "objectives": {
-    "h": "d278710dffea",
-    "since": "2026-08-15",
+    "h": "0a4edbe17d09",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -12262,9 +12262,9 @@
     "watched": false
    },
    "objectiveMaps": {
-    "h": "3c4582d00182",
-    "since": "2026-08-15",
-    "watched": false
+    "h": "7fc30bae0dc8",
+    "since": "2026-08-18",
+    "watched": true
    },
    "traderRequirements": {
     "h": "97d170e1550e",
@@ -13453,8 +13453,8 @@
     "watched": false
    },
    "objectives": {
-    "h": "6f2367a03361",
-    "since": "2026-08-16",
+    "h": "803222d66b65",
+    "since": "2026-08-18",
     "watched": true
    },
    "requires": {
@@ -13505,8 +13505,8 @@
     "watched": false
    },
    "objectives": {
-    "h": "6f2367a03361",
-    "since": "2026-08-16",
+    "h": "803222d66b65",
+    "since": "2026-08-18",
     "watched": true
    },
    "requires": {
@@ -14894,8 +14894,8 @@
     "watched": false
    },
    "objectives": {
-    "h": "7258b39c513a",
-    "since": "2026-08-15",
+    "h": "72dfc4c0dcb0",
+    "since": "2026-08-18",
     "watched": true
    },
    "requires": {
@@ -14929,9 +14929,9 @@
     "watched": false
    },
    "objectiveMaps": {
-    "h": "7a6dfa00b216",
-    "since": "2026-08-15",
-    "watched": false
+    "h": "42925fa99f6f",
+    "since": "2026-08-18",
+    "watched": true
    }
   },
   "5ae449a586f7744bde357696": {
@@ -21268,13 +21268,13 @@
     "watched": false
    },
    "objectives": {
-    "h": "d9cffe49a7f7",
-    "since": "2026-08-15",
+    "h": "b8acd09d9e23",
+    "since": "2026-08-18",
     "watched": true
    },
    "objectiveMaps": {
-    "h": "2e138ee744ae",
-    "since": "2026-08-15",
+    "h": "adf40bef3b84",
+    "since": "2026-08-18",
     "watched": true
    },
    "name": {
@@ -21367,8 +21367,8 @@
   },
   "626bdcc3a371ee3a7a3514c5": {
    "objectives": {
-    "h": "bdb2641c3054",
-    "since": "2026-08-15",
+    "h": "851439fc3698",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -21382,8 +21382,8 @@
     "watched": true
    },
    "objectiveMaps": {
-    "h": "faf9ab99daff",
-    "since": "2026-08-15",
+    "h": "de3fc1f4a099",
+    "since": "2026-08-18",
     "watched": true
    },
    "name": {
@@ -24557,8 +24557,8 @@
     "watched": false
    },
    "objectives": {
-    "h": "db7ad3c4089c",
-    "since": "2026-08-15",
+    "h": "2e5669b4bac3",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -24592,9 +24592,9 @@
     "watched": false
    },
    "objectiveMaps": {
-    "h": "3c4582d00182",
-    "since": "2026-08-15",
-    "watched": false
+    "h": "7fc30bae0dc8",
+    "since": "2026-08-18",
+    "watched": true
    },
    "traderRequirements": {
     "h": "97d170e1550e",
@@ -24609,8 +24609,8 @@
     "watched": false
    },
    "objectives": {
-    "h": "58e9be291982",
-    "since": "2026-08-15",
+    "h": "b04224278d6c",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -25134,8 +25134,8 @@
   },
   "5d25c81b86f77443e625dd71": {
    "objectives": {
-    "h": "dbad28a07c4a",
-    "since": "2026-08-15",
+    "h": "bf42084b781d",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -25174,9 +25174,9 @@
     "watched": false
    },
    "objectiveMaps": {
-    "h": "3c4582d00182",
-    "since": "2026-08-15",
-    "watched": false
+    "h": "7fc30bae0dc8",
+    "since": "2026-08-18",
+    "watched": true
    },
    "traderRequirements": {
     "h": "97d170e1550e",
@@ -25290,8 +25290,8 @@
   },
   "5bc4776586f774512d07cf05": {
    "objectives": {
-    "h": "373bedfe6c3b",
-    "since": "2026-08-15",
+    "h": "c4970d0ec28d",
+    "since": "2026-08-18",
     "watched": true
    },
    "minPlayerLevel": {
@@ -25330,9 +25330,9 @@
     "watched": false
    },
    "objectiveMaps": {
-    "h": "7edda5c44f80",
-    "since": "2026-08-15",
-    "watched": false
+    "h": "9c148199c309",
+    "since": "2026-08-18",
+    "watched": true
    },
    "traderRequirements": {
     "h": "97d170e1550e",
@@ -28444,5 +28444,5 @@
    }
   }
  },
- "updatedAt": "2026-08-16"
+ "updatedAt": "2026-08-18"
 }

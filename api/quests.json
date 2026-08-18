@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-08-16T11:15:23.674Z",
+ "generatedAt": "2026-08-18T09:51:41.276Z",
  "game": {
   "version": "1.1.0",
   "modes": [
@@ -37,7 +37,7 @@
    "what": "escapefromtarkov.fandom.com, one page per quest.",
    "dating": "exact",
    "datingNote": "The page's last revision timestamp, per quest.",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "coverage": "498 pages",
    "license": "CC BY-SA 3.0, attribution and share-alike apply to anything derived from it.",
    "attribution": "Escape from Tarkov Wiki contributors, https://escapefromtarkov.fandom.com"
@@ -54,7 +54,7 @@
    "dating": "none",
    "datingNote": "PUBLISHES NO DATE FOR A TASK, at any granularity. `asOf` is null on purpose: the fetch time says when we downloaded it, not when the record was last true. Never let an undated value overwrite a dated one.",
    "asOf": null,
-   "retrievedAt": "2026-08-15"
+   "retrievedAt": "2026-08-18"
   },
   "spt": {
    "what": "SPT-AKI quest JSON, kept as a schema reference.",
@@ -901,12 +901,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Life_Lesson",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -916,7 +916,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -4529,17 +4529,17 @@
      "description": "Eliminate Scavs while using a Steyr AUG on any location",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 5
     }
@@ -4557,16 +4557,16 @@
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ],
    "modes": [
     "pve"
@@ -4575,7 +4575,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_1",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": true,
    "traderTab": "essential",
    "provenance": {
@@ -4596,7 +4596,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -4616,8 +4616,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -7457,11 +7457,11 @@
      "description": "Locate and neutralize Priest",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Factory",
       "Ground Zero",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Factory"
      ],
      "count": 1
     },
@@ -7528,11 +7528,11 @@
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Factory",
     "Ground Zero",
     "Shoreline",
+    "Customs",
+    "Factory",
     "Streets of Tarkov"
    ],
    "modes": [
@@ -7544,7 +7544,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Broadcast_-_Part_5",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -7564,7 +7564,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "minPlayerLevel": {
@@ -7579,7 +7579,7 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     }
    }
@@ -17986,7 +17986,7 @@
      "level": 4
     }
    ],
-   "minPlayerLevel": 38,
+   "minPlayerLevel": null,
    "objectiveMaps": [
     "Lighthouse"
    ],
@@ -18007,7 +18007,7 @@
    "lightkeeperRequired": false,
    "restartable": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bullshit",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-16",
    "confirmedInGame": true,
    "traderTab": 4,
    "provenance": {
@@ -18030,7 +18030,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 5 elsewhere."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -18048,9 +18048,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": "2026-08-15",
-     "dating": "observed-change"
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 38; the wiki's Requirements section lists no level."
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
@@ -22771,12 +22772,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Consolation_Prize",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -22791,7 +22792,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -22813,8 +22814,18 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-17",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: A Life Lesson, Get a Foothold. tarkov.dev's `requires` cannot express a choice and names 1 of them."
     }
-   }
+   },
+   "requiresAnyOf": [
+    "67af4c1cc0e59d55e2010b97",
+    "67af4c1991ee75c6d7060a16"
+   ]
   },
   {
    "id": "65733403eefc2c312a759ddb",
@@ -24855,7 +24866,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decontamination_Service",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-16",
    "confirmedInGame": true,
    "traderTab": 4,
    "provenance": {
@@ -24897,7 +24908,7 @@
     },
     "minPlayerLevel": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-16",
      "dating": "exact",
      "note": "tarkov.dev requires level 37; the wiki's Requirements section lists no level."
     },
@@ -31318,6 +31329,202 @@
    }
   },
   {
+   "id": "64e7b99017ab941a6f7bf9d7",
+   "name": "Gendarmerie - Mall Cop",
+   "trader": "Prapor",
+   "map": "Streets of Tarkov",
+   "objectiveText": [
+    "Eliminate any 15 targets at the Stylobate building while using Pistols on Streets of Tarkov"
+   ],
+   "objectives": [
+    {
+     "id": "64e7bc2c5e6d3e61ca2ca097",
+     "type": "shoot",
+     "description": "Eliminate any target at the stylobate building while using Pistols on Streets of Tarkov",
+     "optional": false,
+     "maps": [
+      "Streets of Tarkov"
+     ],
+     "zones": [
+      {
+       "map": "Streets of Tarkov",
+       "position": {
+        "x": -102.900009,
+        "y": 8.6,
+        "z": -25.59999
+       }
+      }
+     ],
+     "count": 15
+    }
+   ],
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "59ca2eb686f77445a80ed049",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "objectiveMaps": [
+    "Streets of Tarkov"
+   ],
+   "modes": [
+    "pvp",
+    "pve",
+    "seasonal"
+   ],
+   "kappaRequired": false,
+   "lightkeeperRequired": false,
+   "restartable": false,
+   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gendarmerie_-_Mall_Cop",
+   "asOf": "2026-08-16",
+   "confirmedInGame": false,
+   "removedFromGame": true,
+   "removedSaysWiki": "2026-08-16",
+   "provenance": {
+    "name": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "trader": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "map": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveText": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "objectives": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "minPlayerLevel": {
+     "src": "tarkov.dev",
+     "asOf": "2026-08-15",
+     "dating": "observed-change"
+    },
+    "requires": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveMaps": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    }
+   }
+  },
+  {
+   "id": "64e7b9a4aac4cd0a726562cb",
+   "name": "Gendarmerie - Tickets, Please",
+   "trader": "Prapor",
+   "map": "Streets of Tarkov",
+   "objectiveText": [
+    "Eliminate any 25 targets at the Rodina cinema while using SMGs on Streets of Tarkov"
+   ],
+   "objectives": [
+    {
+     "id": "64e7bd0c6393886f74119f41",
+     "type": "shoot",
+     "description": "Eliminate any target at the Rodina cinema while using SMGs on Streets of Tarkov",
+     "optional": false,
+     "maps": [
+      "Streets of Tarkov"
+     ],
+     "zones": [
+      {
+       "map": "Streets of Tarkov",
+       "position": {
+        "x": -180.399963,
+        "y": 16.5,
+        "z": 400.7
+       }
+      }
+     ],
+     "count": 25
+    }
+   ],
+   "minPlayerLevel": 36,
+   "requires": [
+    {
+     "task": "64e7b99017ab941a6f7bf9d7",
+     "status": [
+      "complete"
+     ]
+    }
+   ],
+   "objectiveMaps": [
+    "Streets of Tarkov"
+   ],
+   "modes": [
+    "pvp",
+    "pve",
+    "seasonal"
+   ],
+   "kappaRequired": false,
+   "lightkeeperRequired": false,
+   "restartable": false,
+   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gendarmerie_-_Tickets%2C_Please",
+   "asOf": "2026-08-16",
+   "confirmedInGame": false,
+   "removedFromGame": true,
+   "removedSaysWiki": "2026-08-16",
+   "provenance": {
+    "name": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "trader": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "map": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveText": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "objectives": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "minPlayerLevel": {
+     "src": "tarkov.dev",
+     "asOf": "2026-08-15",
+     "dating": "observed-change"
+    },
+    "requires": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveMaps": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    }
+   }
+  },
+  {
    "id": "596a1e6c86f7741ddc2d3206",
    "name": "General Wares",
    "trader": "Therapist",
@@ -31543,12 +31750,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Get_a_Foothold",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -31558,7 +31765,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -36179,11 +36386,11 @@
      "description": "Eliminate the hooded men with the double barrel shotgun",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Factory",
       "Ground Zero",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Factory"
      ],
      "count": 2
     }
@@ -36208,11 +36415,11 @@
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Factory",
     "Ground Zero",
-    "Shoreline"
+    "Shoreline",
+    "Customs",
+    "Factory"
    ],
    "modes": [
     "pvp",
@@ -36223,7 +36430,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hell_on_Earth_-_Part_2",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": true,
    "traderTab": "essential",
    "provenance": {
@@ -36245,7 +36452,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -36271,7 +36478,7 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     }
    }
@@ -39543,32 +39750,32 @@
      "description": "Eliminate Scavs with headshots",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 40
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ],
    "modes": [
     "pvp",
@@ -39579,7 +39786,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Intimidator",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -39599,13 +39806,13 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -46854,7 +47061,7 @@
        }
       }
      ],
-     "zonesLastPublished": "2026-08-16"
+     "zonesLastPublished": "2026-08-18"
     }
    ],
    "requires": [
@@ -46877,7 +47084,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-   "asOf": "2026-08-16",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -46897,7 +47104,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-16",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "requires": {
@@ -47115,7 +47322,7 @@
        }
       }
      ],
-     "zonesLastPublished": "2026-08-16"
+     "zonesLastPublished": "2026-08-18"
     }
    ],
    "requires": [
@@ -47138,7 +47345,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-   "asOf": "2026-08-16",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -47158,7 +47365,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-16",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "requires": {
@@ -47941,104 +48148,6 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact"
-    },
-    "objectiveMaps": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    }
-   }
-  },
-  {
-   "id": "64e7b99017ab941a6f7bf9d7",
-   "name": "Mall Cop",
-   "trader": "Prapor",
-   "map": "Streets of Tarkov",
-   "objectiveText": [
-    "Eliminate any 15 targets at the Stylobate building while using Pistols on Streets of Tarkov"
-   ],
-   "objectives": [
-    {
-     "id": "64e7bc2c5e6d3e61ca2ca097",
-     "type": "shoot",
-     "description": "Eliminate any target at the stylobate building while using Pistols on Streets of Tarkov",
-     "optional": false,
-     "maps": [
-      "Streets of Tarkov"
-     ],
-     "zones": [
-      {
-       "map": "Streets of Tarkov",
-       "position": {
-        "x": -102.900009,
-        "y": 8.6,
-        "z": -25.59999
-       }
-      }
-     ],
-     "count": 15
-    }
-   ],
-   "minPlayerLevel": 36,
-   "requires": [
-    {
-     "task": "59ca2eb686f77445a80ed049",
-     "status": [
-      "complete"
-     ]
-    }
-   ],
-   "objectiveMaps": [
-    "Streets of Tarkov"
-   ],
-   "modes": [
-    "pvp",
-    "pve",
-    "seasonal"
-   ],
-   "kappaRequired": false,
-   "lightkeeperRequired": false,
-   "restartable": false,
-   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mall_Cop",
-   "asOf": "2026-08-15",
-   "confirmedInGame": false,
-   "removedFromGame": true,
-   "removedSaysWiki": "2026-08-15",
-   "provenance": {
-    "name": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "objectives": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": "2026-08-15",
-     "dating": "observed-change"
-    },
-    "requires": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
@@ -50343,12 +50452,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Never_Too_Late_To_Learn",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -50358,7 +50467,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -50552,21 +50661,21 @@
      "description": "Locate and neutralize the hooded men",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Factory",
       "Ground Zero",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Factory"
      ],
      "count": 5
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Factory",
     "Ground Zero",
-    "Shoreline"
+    "Shoreline",
+    "Customs",
+    "Factory"
    ],
    "traderRequirements": [
     {
@@ -50585,7 +50694,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Night_Sweep",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -50605,13 +50714,13 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     },
     "traderRequirements": {
      "src": "wiki",
@@ -52679,7 +52788,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
+     "note": "Seen under Therapist's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -55695,12 +55804,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Profit_Retention",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -55710,7 +55819,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -55774,12 +55883,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Profitable_Venture",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -55789,7 +55898,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -57918,7 +58027,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active, and recorded as the whole card (7 objective(s)) with nothing noted as withheld. 6 elsewhere."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (7 objective(s)) with nothing noted as withheld. 7 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -57944,7 +58053,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
+     "note": "Seen under Ragman's loyalty level 3 tab in game; the sources published LL3."
     }
    }
   },
@@ -59705,12 +59814,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Safety_Guarantee",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-17",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -59720,7 +59829,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -67104,20 +67213,20 @@
      "description": "Eliminate Rogues",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Lighthouse",
       "Shoreline",
+      "Customs",
+      "Lighthouse",
       "Icebreaker"
      ],
      "count": 30
     }
    ],
    "objectiveMaps": [
-    "Customs",
     "Woods",
-    "Lighthouse",
     "Shoreline",
+    "Customs",
+    "Lighthouse",
     "Icebreaker"
    ],
    "modes": [
@@ -67129,7 +67238,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stick_to_It",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -67149,12 +67258,12 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     }
    }
@@ -67277,11 +67386,11 @@
      "description": "Locate and neutralize Knight (in one raid)",
      "optional": false,
      "maps": [
-      "Customs",
       "Icebreaker",
       "Woods",
-      "Lighthouse",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Lighthouse"
      ],
      "count": 1
     },
@@ -67291,10 +67400,10 @@
      "description": "Locate and neutralize Big Pipe (in one raid)",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Lighthouse",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Lighthouse"
      ],
      "count": 1
     },
@@ -67304,10 +67413,10 @@
      "description": "Locate and neutralize Birdeye (in one raid)",
      "optional": false,
      "maps": [
-      "Customs",
       "Woods",
-      "Lighthouse",
-      "Shoreline"
+      "Shoreline",
+      "Customs",
+      "Lighthouse"
      ],
      "count": 1
     }
@@ -67325,11 +67434,11 @@
    ],
    "minPlayerLevel": 33,
    "objectiveMaps": [
-    "Customs",
     "Icebreaker",
     "Woods",
-    "Lighthouse",
-    "Shoreline"
+    "Shoreline",
+    "Customs",
+    "Lighthouse"
    ],
    "traderRequirements": [
     {
@@ -67348,7 +67457,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stray_Dogs",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": true,
    "traderTab": 4,
    "provenance": {
@@ -67370,7 +67479,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -67390,7 +67499,7 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "traderRequirements": {
@@ -75414,17 +75523,17 @@
      "description": "Eliminate Scavs with Light machine guns",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 20
     }
@@ -75439,16 +75548,16 @@
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ],
    "modes": [
     "pvp",
@@ -75459,7 +75568,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_5",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -75479,7 +75588,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "minPlayerLevel": {
@@ -75494,8 +75603,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -75536,8 +75645,8 @@
       "Reserve",
       "Interchange",
       "Woods",
-      "Lighthouse",
       "Shoreline",
+      "Lighthouse",
       "Factory",
       "Factory",
       "The Lab (Dark)"
@@ -75632,7 +75741,7 @@
    "lightkeeperRequired": false,
    "restartable": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_6",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": false,
    "provenance": {
     "name": {
@@ -75652,7 +75761,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "minPlayerLevel": {
@@ -76679,17 +76788,17 @@
      "description": "Eliminate Scavs while suffering from the Pain status effect",
      "optional": false,
      "maps": [
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
+      "Streets of Tarkov",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline",
-      "Streets of Tarkov"
+      "Lighthouse"
      ],
      "count": 3
     }
@@ -76707,16 +76816,16 @@
     }
    ],
    "objectiveMaps": [
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
+    "Streets of Tarkov",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline",
-    "Streets of Tarkov"
+    "Lighthouse"
    ],
    "modes": [
     "pvp",
@@ -76727,7 +76836,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Wounded_Beast",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": true,
    "traderTab": "essential",
    "provenance": {
@@ -76748,7 +76857,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -76768,8 +76877,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -77158,16 +77267,16 @@
      "optional": false,
      "maps": [
       "Streets of Tarkov",
+      "Icebreaker",
+      "Woods",
+      "Ground Zero Tutorial",
+      "Shoreline",
       "Factory",
       "Interchange",
       "Reserve",
       "Customs",
-      "Icebreaker",
-      "Woods",
       "Factory",
-      "Ground Zero Tutorial",
-      "Lighthouse",
-      "Shoreline"
+      "Lighthouse"
      ],
      "count": 5
     }
@@ -77177,15 +77286,15 @@
    },
    "objectiveMaps": [
     "Streets of Tarkov",
+    "Icebreaker",
+    "Woods",
+    "Ground Zero Tutorial",
+    "Shoreline",
     "Factory",
     "Interchange",
     "Reserve",
     "Customs",
-    "Icebreaker",
-    "Woods",
-    "Ground Zero Tutorial",
-    "Lighthouse",
-    "Shoreline"
+    "Lighthouse"
    ],
    "modes": [
     "pvp",
@@ -77196,7 +77305,7 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_1",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-18",
    "confirmedInGame": true,
    "traderTab": "essential",
    "provenance": {
@@ -77217,7 +77326,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -77227,8 +77336,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -78787,104 +78896,6 @@
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/This_Tape_Sucks",
    "asOf": "2026-08-15",
    "confirmedInGame": false,
-   "provenance": {
-    "name": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "objectives": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": "2026-08-15",
-     "dating": "observed-change"
-    },
-    "requires": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "objectiveMaps": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    }
-   }
-  },
-  {
-   "id": "64e7b9a4aac4cd0a726562cb",
-   "name": "Tickets, Please",
-   "trader": "Prapor",
-   "map": "Streets of Tarkov",
-   "objectiveText": [
-    "Eliminate any 25 targets at the Rodina cinema while using SMGs on Streets of Tarkov"
-   ],
-   "objectives": [
-    {
-     "id": "64e7bd0c6393886f74119f41",
-     "type": "shoot",
-     "description": "Eliminate any target at the Rodina cinema while using SMGs on Streets of Tarkov",
-     "optional": false,
-     "maps": [
-      "Streets of Tarkov"
-     ],
-     "zones": [
-      {
-       "map": "Streets of Tarkov",
-       "position": {
-        "x": -180.399963,
-        "y": 16.5,
-        "z": 400.7
-       }
-      }
-     ],
-     "count": 25
-    }
-   ],
-   "minPlayerLevel": 36,
-   "requires": [
-    {
-     "task": "64e7b99017ab941a6f7bf9d7",
-     "status": [
-      "complete"
-     ]
-    }
-   ],
-   "objectiveMaps": [
-    "Streets of Tarkov"
-   ],
-   "modes": [
-    "pvp",
-    "pve",
-    "seasonal"
-   ],
-   "kappaRequired": false,
-   "lightkeeperRequired": false,
-   "restartable": false,
-   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tickets%2C_Please",
-   "asOf": "2026-08-15",
-   "confirmedInGame": false,
-   "removedFromGame": true,
-   "removedSaysWiki": "2026-08-15",
    "provenance": {
     "name": {
      "src": "wiki",
@@ -82216,12 +82227,12 @@
    "lightkeeperRequired": false,
    "restartable": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_6",
-   "asOf": "2026-08-15",
+   "asOf": "2026-08-16",
    "confirmedInGame": false,
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-16",
      "dating": "exact"
     },
     "trader": {
@@ -82231,7 +82242,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-16",
      "dating": "exact"
     },
     "objectives": {

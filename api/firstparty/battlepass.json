@@ -3,7 +3,7 @@
  "firstParty": true,
  "license": "CC0-1.0",
  "placedBy": "szepiz",
- "generatedAt": "2026-08-17",
+ "generatedAt": "2026-08-18",
  "holds": "The documents exist as items, and no source publishes a position for a single one of them. Each type lists the maps it is found on, and every pin under it was placed in the map editor and checked in game.",
  "caveats": [
   "A pin is a place a document HAS been found, not a guaranteed spawn.",

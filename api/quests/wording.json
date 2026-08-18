@@ -2,7 +2,7 @@
  "what": "Part of [object Object] quest data from blended-tarky-api, https://github.com/szepiz/tarkov-quest-data",
  "holds": "the game's own objective wording, keyed by objective id where it could be matched",
  "schemaVersion": 2,
- "generatedAt": "2026-08-16T11:15:23.674Z",
+ "generatedAt": "2026-08-18T09:51:41.276Z",
  "rejoinOn": "id",
  "whole": "api/quests.json",
  "quests": [
@@ -1636,6 +1636,18 @@
    }
   },
   {
+   "id": "64e7b99017ab941a6f7bf9d7",
+   "objectiveText": [
+    "Eliminate any 15 targets at the Stylobate building while using Pistols on Streets of Tarkov"
+   ]
+  },
+  {
+   "id": "64e7b9a4aac4cd0a726562cb",
+   "objectiveText": [
+    "Eliminate any 25 targets at the Rodina cinema while using SMGs on Streets of Tarkov"
+   ]
+  },
+  {
    "id": "596a1e6c86f7741ddc2d3206",
    "objectiveText": [
     "Find the item in raid: Can of beef stew (Small) (15)",
@@ -2697,12 +2709,6 @@
    "objectiveTextById": {
     "5ae44ecd86f77414a13c970e": "Eliminate any target on Interchange (10)"
    }
-  },
-  {
-   "id": "64e7b99017ab941a6f7bf9d7",
-   "objectiveText": [
-    "Eliminate any 15 targets at the Stylobate building while using Pistols on Streets of Tarkov"
-   ]
   },
   {
    "id": "5a0449d586f77474e66227b7",
@@ -5089,12 +5095,6 @@
     "Locate the torture room inside The Labyrinth",
     "Locate and obtain any evidence of torture",
     "Hand over the found information"
-   ]
-  },
-  {
-   "id": "64e7b9a4aac4cd0a726562cb",
-   "objectiveText": [
-    "Eliminate any 25 targets at the Rodina cinema while using SMGs on Streets of Tarkov"
    ]
   },
   {

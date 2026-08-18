@@ -78,7 +78,7 @@ _The game prints a step only once the step it depends on is done, so an unfinish
 - **The Secret Recipe** (Skier, active), game shows 1, tarkov.dev 2, wiki 2.
 - **From Hand to Hand** (Skier, active), game shows 2, tarkov.dev 2, wiki 4.
 - **Silent Caliber** (Skier, active), game shows 1, tarkov.dev 1, wiki 2.
-- **Bullshit** (Skier, active), game shows 3, tarkov.dev 3, wiki 5.
+- **Bullshit** (Skier, active), game shows 3, tarkov.dev 3, wiki 4.
 - **Thirsty - Delivery** (Skier, active), game shows 2, tarkov.dev 4, wiki 4.
 - **Supply Plans** (Therapist, failed), game shows 1, tarkov.dev 3, wiki 2, hidden: Hand over the folder.
 - **Paramedic** (Therapist, active), game shows 2, tarkov.dev 3, wiki 3, hidden: Hand over the smartphone.
@@ -134,12 +134,13 @@ _The wiki banners a removed quest's page with `{{Historical content}}` and keeps
 - **Flint** (Skier)
 - **Forklift Certified** (Mechanic)
 - **Friend From the West - Part 2** (Skier)
+- **Gendarmerie - Mall Cop** (Prapor)
+- **Gendarmerie - Tickets, Please** (Prapor)
 - **Glory to CPSU - Part 1** (Prapor)
 - **House Arrest - Part 2** (Skier)
 - **Insider** (Mechanic)
 - **Kind of Sabotage** (Skier)
 - **Loyalty Buyout** (Skier)
-- **Mall Cop (tarkov.dev: Gendarmerie - Mall Cop)** (Prapor)
 - **Perfect Mediator** (Prapor)
 - **Pets Won't Need It - Part 2** (Therapist)
 - **Private Clinic** (Therapist)
@@ -150,7 +151,6 @@ _The wiki banners a removed quest's page with `{{Historical content}}` and keeps
 - **Signal - Part 4** (Mechanic)
 - **The Bunker - Part 2** (Prapor)
 - **The Survivalist Path - Combat Medic** (Jaeger)
-- **Tickets, Please (tarkov.dev: Gendarmerie - Tickets, Please)** (Prapor)
 
 ## Event-map quests, invisible on a normal profile
 

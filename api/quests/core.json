@@ -2,7 +2,7 @@
  "what": "Part of [object Object] quest data from blended-tarky-api, https://github.com/szepiz/tarkov-quest-data",
  "holds": "what the quest IS: name, trader, map, mode, the loyalty tab it sits under, and the flags",
  "schemaVersion": 2,
- "generatedAt": "2026-08-16T11:15:23.674Z",
+ "generatedAt": "2026-08-18T09:51:41.276Z",
  "rejoinOn": "id",
  "whole": "api/quests.json",
  "quests": [
@@ -123,7 +123,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Life_Lesson",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-17"
   },
   {
    "id": "69ce1cfb298a6529b30d712b",
@@ -624,7 +624,7 @@
    "restartable": false,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Balancing_-_Part_1",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "66058cb9e8e4f17985230805",
@@ -1019,7 +1019,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Broadcast_-_Part_5",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "673f629c5b555b53460cf827",
@@ -1053,7 +1053,7 @@
    "restartable": true,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bullshit",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-16"
   },
   {
    "id": "657315e270bb0b8dba00cc48",
@@ -1640,7 +1640,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Consolation_Prize",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-17"
   },
   {
    "id": "65733403eefc2c312a759ddb",
@@ -1926,7 +1926,7 @@
    "restartable": false,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decontamination_Service",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-16"
   },
   {
    "id": "59674eb386f774539f14813a",
@@ -2755,6 +2755,44 @@
    "asOf": "2026-08-15"
   },
   {
+   "id": "64e7b99017ab941a6f7bf9d7",
+   "name": "Gendarmerie - Mall Cop",
+   "trader": "Prapor",
+   "map": "Streets of Tarkov",
+   "modes": [
+    "pvp",
+    "pve",
+    "seasonal"
+   ],
+   "kappaRequired": false,
+   "lightkeeperRequired": false,
+   "restartable": false,
+   "confirmedInGame": false,
+   "removedFromGame": true,
+   "removedSaysWiki": "2026-08-16",
+   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gendarmerie_-_Mall_Cop",
+   "asOf": "2026-08-16"
+  },
+  {
+   "id": "64e7b9a4aac4cd0a726562cb",
+   "name": "Gendarmerie - Tickets, Please",
+   "trader": "Prapor",
+   "map": "Streets of Tarkov",
+   "modes": [
+    "pvp",
+    "pve",
+    "seasonal"
+   ],
+   "kappaRequired": false,
+   "lightkeeperRequired": false,
+   "restartable": false,
+   "confirmedInGame": false,
+   "removedFromGame": true,
+   "removedSaysWiki": "2026-08-16",
+   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gendarmerie_-_Tickets%2C_Please",
+   "asOf": "2026-08-16"
+  },
+  {
    "id": "596a1e6c86f7741ddc2d3206",
    "name": "General Wares",
    "trader": "Therapist",
@@ -2785,7 +2823,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Get_a_Foothold",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-17"
   },
   {
    "id": "625d700cc48e6c62a440fab5",
@@ -3575,7 +3613,7 @@
    "restartable": false,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hell_on_Earth_-_Part_2",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "67a096577e86e067eb045733",
@@ -4016,7 +4054,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Intimidator",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "5d2495a886f77425cd51e403",
@@ -4422,7 +4460,7 @@
     "6391d9144b15ca31f76bc323"
    ],
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-   "asOf": "2026-08-16"
+   "asOf": "2026-08-18"
   },
   {
    "id": "6391d9144b15ca31f76bc323",
@@ -4442,7 +4480,7 @@
     "6391d912f8e5dd32bf4e3ab2"
    ],
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
-   "asOf": "2026-08-16"
+   "asOf": "2026-08-18"
   },
   {
    "id": "626148251ed3bb5bcc5bd9ed",
@@ -4575,25 +4613,6 @@
    "restartable": false,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Make_ULTRA_Great_Again",
-   "asOf": "2026-08-15"
-  },
-  {
-   "id": "64e7b99017ab941a6f7bf9d7",
-   "name": "Mall Cop",
-   "trader": "Prapor",
-   "map": "Streets of Tarkov",
-   "modes": [
-    "pvp",
-    "pve",
-    "seasonal"
-   ],
-   "kappaRequired": false,
-   "lightkeeperRequired": false,
-   "restartable": false,
-   "confirmedInGame": false,
-   "removedFromGame": true,
-   "removedSaysWiki": "2026-08-15",
-   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mall_Cop",
    "asOf": "2026-08-15"
   },
   {
@@ -4859,7 +4878,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Never_Too_Late_To_Learn",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-17"
   },
   {
    "id": "66aa58245ab22944110db6e9",
@@ -4891,7 +4910,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Night_Sweep",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "5ae449a586f7744bde357696",
@@ -5645,7 +5664,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Profit_Retention",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-17"
   },
   {
    "id": "67af4c1405c58dc6f7056667",
@@ -5661,7 +5680,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Profitable_Venture",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-17"
   },
   {
    "id": "666314c3acf8442f8b0531a3",
@@ -6093,7 +6112,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Safety_Guarantee",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-17"
   },
   {
    "id": "5edac020218d181e29451446",
@@ -7020,7 +7039,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stick_to_It",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "596b455186f77457cb50eccb",
@@ -7055,7 +7074,7 @@
    "restartable": false,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stray_Dogs",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "5ae449d986f774453a54a7e1",
@@ -8123,7 +8142,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_5",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "59ca2eb686f77445a80ed049",
@@ -8139,7 +8158,7 @@
    "restartable": true,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_6",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "64f6aafd67e11a7c6206e0d0",
@@ -8313,7 +8332,7 @@
    "restartable": false,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Wounded_Beast",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "5d25bfd086f77442734d3007",
@@ -8381,7 +8400,7 @@
    "restartable": false,
    "confirmedInGame": true,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_1",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-18"
   },
   {
    "id": "5bc479e586f7747f376c7da3",
@@ -8619,25 +8638,6 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/This_Tape_Sucks",
-   "asOf": "2026-08-15"
-  },
-  {
-   "id": "64e7b9a4aac4cd0a726562cb",
-   "name": "Tickets, Please",
-   "trader": "Prapor",
-   "map": "Streets of Tarkov",
-   "modes": [
-    "pvp",
-    "pve",
-    "seasonal"
-   ],
-   "kappaRequired": false,
-   "lightkeeperRequired": false,
-   "restartable": false,
-   "confirmedInGame": false,
-   "removedFromGame": true,
-   "removedSaysWiki": "2026-08-15",
-   "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tickets%2C_Please",
    "asOf": "2026-08-15"
   },
   {
@@ -9138,7 +9138,7 @@
    "restartable": false,
    "confirmedInGame": false,
    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_6",
-   "asOf": "2026-08-15"
+   "asOf": "2026-08-16"
   },
   {
    "id": "5979ed3886f77431307dc512",

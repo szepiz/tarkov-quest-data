@@ -1,6 +1,6 @@
 {
  "what": "Every file blended-tarky-api publishes, so a consumer can take only what it needs.",
- "generatedAt": "2026-08-17",
+ "generatedAt": "2026-08-18",
  "base": "https://szepiz.github.io/tarkov-quest-data/",
  "alternateBase": "https://raw.githubusercontent.com/szepiz/tarkov-quest-data/main/",
  "howToChoose": [
@@ -11,7 +11,7 @@
  "endpoints": [
   {
    "path": "api/quests.json",
-   "bytes": 2112279,
+   "bytes": 2112837,
    "holds": "every quest field in one file, merged from every source, with per-field provenance",
    "firstParty": false
   },
@@ -23,13 +23,13 @@
   },
   {
    "path": "api/quests/core.json",
-   "bytes": 217223,
+   "bytes": 217279,
    "holds": "what the quest IS: name, trader, map, mode, the loyalty tab it sits under, and the flags",
    "firstParty": false
   },
   {
    "path": "api/quests/requirements.json",
-   "bytes": 115399,
+   "bytes": 115492,
    "holds": "what has to be true before you can take it: player level, prerequisite quests, trader loyalty and reputation",
    "firstParty": false
   },
@@ -47,7 +47,7 @@
   },
   {
    "path": "api/quests/provenance.json",
-   "bytes": 487558,
+   "bytes": 487967,
    "holds": "which source each field came from and the date it was last known true",
    "firstParty": false
   },

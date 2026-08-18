@@ -847,7 +847,15 @@ for (const id of allIds) {
   // describing the state tarkov.dev has since fixed, and letting it null out the
   // newer value reintroduces the very staleness this rule exists to remove.
   const devLevelAt = devAsOfFor('minPlayerLevel');
-  if ((dev.minPlayerLevel || 0) > 0 && wReq && wReq.length
+  // A SECTION THAT ONLY STATES THE FACTION SAYS NOTHING ABOUT LEVELS. On
+  // 2026-08-18 six faction-locked quests gained a Requirements section holding
+  // one line — "only obtainable by BEAR PMCs" — and this rule read that as the
+  // wiki denying a level gate, dropping level 50 on all six. One of the pages
+  // had a duplicated Requirements heading, so it was mid-edit at the time.
+  // Silence about levels is not a statement about levels.
+  const besidesFaction = (wReq || [])
+    .some((l) => !/only obtainable by|(BEAR|USEC)[^.]*PMC/i.test(l));
+  if ((dev.minPlayerLevel || 0) > 0 && wReq && wReq.length && besidesFaction
       && !wReq.some((l) => /must be level\s*\d+/i.test(l))) {
     if (devLevelAt && !(wikiAt && wikiAt >= devLevelAt)) {
       levelDropsRefused++;

@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-08-17T11:47:45.193Z",
+ "generatedAt": "2026-08-18T09:51:48.236Z",
  "what": "Map-side data for Escape from Tarkov: hand-placed corrections and additions, BattlePass document locations, and the story campaign.",
  "pairsWith": "api/quests.json, joined by quest id and by map name.",
  "mergeContract": {

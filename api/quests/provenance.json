@@ -2,7 +2,7 @@
  "what": "Part of [object Object] quest data from blended-tarky-api, https://github.com/szepiz/tarkov-quest-data",
  "holds": "which source each field came from and the date it was last known true",
  "schemaVersion": 2,
- "generatedAt": "2026-08-16T11:15:23.674Z",
+ "generatedAt": "2026-08-18T09:51:41.276Z",
  "rejoinOn": "id",
  "whole": "api/quests.json",
  "quests": [
@@ -253,7 +253,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -263,7 +263,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -1542,7 +1542,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -1562,8 +1562,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -2641,7 +2641,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "minPlayerLevel": {
@@ -2656,7 +2656,7 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     }
    }
@@ -2719,7 +2719,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 5 elsewhere."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (3 objective(s)) with nothing noted as withheld. 4 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -2737,9 +2737,10 @@
      "dating": "exact"
     },
     "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": "2026-08-15",
-     "dating": "observed-change"
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact",
+     "note": "tarkov.dev requires level 38; the wiki's Requirements section lists no level."
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
@@ -4164,7 +4165,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -4179,7 +4180,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -4201,6 +4202,12 @@
      "src": "tarkov.dev",
      "asOf": null,
      "dating": "none"
+    },
+    "requiresAnyOf": {
+     "src": "wiki",
+     "asOf": "2026-08-17",
+     "dating": "exact",
+     "note": "Any ONE of these opens it: A Life Lesson, Get a Foothold. tarkov.dev's `requires` cannot express a choice and names 1 of them."
     }
    }
   },
@@ -5003,7 +5010,7 @@
     },
     "minPlayerLevel": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-16",
      "dating": "exact",
      "note": "tarkov.dev requires level 37; the wiki's Requirements section lists no level."
     },
@@ -7102,6 +7109,96 @@
    }
   },
   {
+   "id": "64e7b99017ab941a6f7bf9d7",
+   "provenance": {
+    "name": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "trader": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "map": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveText": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "objectives": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "minPlayerLevel": {
+     "src": "tarkov.dev",
+     "asOf": "2026-08-15",
+     "dating": "observed-change"
+    },
+    "requires": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveMaps": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    }
+   }
+  },
+  {
+   "id": "64e7b9a4aac4cd0a726562cb",
+   "provenance": {
+    "name": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "trader": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "map": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveText": {
+     "src": "wiki",
+     "asOf": "2026-08-16",
+     "dating": "exact"
+    },
+    "objectives": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "minPlayerLevel": {
+     "src": "tarkov.dev",
+     "asOf": "2026-08-15",
+     "dating": "observed-change"
+    },
+    "requires": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    },
+    "objectiveMaps": {
+     "src": "tarkov.dev",
+     "asOf": null,
+     "dating": "none"
+    }
+   }
+  },
+  {
    "id": "596a1e6c86f7741ddc2d3206",
    "provenance": {
     "name": {
@@ -7148,7 +7245,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -7158,7 +7255,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -9098,7 +9195,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -9124,7 +9221,7 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     }
    }
@@ -10210,13 +10307,13 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -11227,7 +11324,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-16",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "requires": {
@@ -11274,7 +11371,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-16",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "requires": {
@@ -11598,51 +11695,6 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact"
-    },
-    "objectiveMaps": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    }
-   }
-  },
-  {
-   "id": "64e7b99017ab941a6f7bf9d7",
-   "provenance": {
-    "name": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "objectives": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": "2026-08-15",
-     "dating": "observed-change"
-    },
-    "requires": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
@@ -12270,7 +12322,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -12280,7 +12332,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -12356,13 +12408,13 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     },
     "traderRequirements": {
      "src": "wiki",
@@ -13176,7 +13228,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Seen under Therapist's loyalty level 2 tab in game; no source states a gate for this quest."
+     "note": "Seen under Therapist's loyalty level 2 tab in game; the sources published LL2."
     }
    }
   },
@@ -14251,7 +14303,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -14261,7 +14313,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -14286,7 +14338,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -14296,7 +14348,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -14897,7 +14949,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Read off the screen while the quest was active, and recorded as the whole card (7 objective(s)) with nothing noted as withheld. 6 elsewhere."
+     "note": "Read off the screen while the quest was active, and recorded as the whole card (7 objective(s)) with nothing noted as withheld. 7 elsewhere."
     },
     "objectives": {
      "src": "tarkov.dev",
@@ -14923,7 +14975,7 @@
      "src": "observed",
      "asOf": "2026-08-10",
      "dating": "exact",
-     "note": "Seen under Ragman's loyalty level 3 tab in game; no source states a gate for this quest."
+     "note": "Seen under Ragman's loyalty level 3 tab in game; the sources published LL3."
     }
    }
   },
@@ -15428,7 +15480,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "trader": {
@@ -15438,7 +15490,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-17",
      "dating": "exact"
     },
     "objectives": {
@@ -17637,12 +17689,12 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     }
    }
@@ -17719,7 +17771,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -17739,7 +17791,7 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "traderRequirements": {
@@ -20582,7 +20634,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "minPlayerLevel": {
@@ -20597,8 +20649,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -20622,7 +20674,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "minPlayerLevel": {
@@ -21078,7 +21130,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -21098,8 +21150,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -21261,7 +21313,7 @@
     },
     "objectives": {
      "src": "tarkov.dev",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-18",
      "dating": "observed-change"
     },
     "objectiveTextById": {
@@ -21271,8 +21323,8 @@
     },
     "objectiveMaps": {
      "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
+     "asOf": "2026-08-18",
+     "dating": "observed-change"
     }
    }
   },
@@ -21854,51 +21906,6 @@
   },
   {
    "id": "67a0972e77dd677f600804bd",
-   "provenance": {
-    "name": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "trader": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "map": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "objectiveText": {
-     "src": "wiki",
-     "asOf": "2026-08-15",
-     "dating": "exact"
-    },
-    "objectives": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "minPlayerLevel": {
-     "src": "tarkov.dev",
-     "asOf": "2026-08-15",
-     "dating": "observed-change"
-    },
-    "requires": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    },
-    "objectiveMaps": {
-     "src": "tarkov.dev",
-     "asOf": null,
-     "dating": "none"
-    }
-   }
-  },
-  {
-   "id": "64e7b9a4aac4cd0a726562cb",
    "provenance": {
     "name": {
      "src": "wiki",
@@ -23222,7 +23229,7 @@
    "provenance": {
     "name": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-16",
      "dating": "exact"
     },
     "trader": {
@@ -23232,7 +23239,7 @@
     },
     "objectiveText": {
      "src": "wiki",
-     "asOf": "2026-08-15",
+     "asOf": "2026-08-16",
      "dating": "exact"
     },
     "objectives": {

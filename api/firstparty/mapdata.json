@@ -3,7 +3,7 @@
  "firstParty": true,
  "license": "CC0-1.0",
  "placedBy": "szepiz",
- "generatedAt": "2026-08-17",
+ "generatedAt": "2026-08-18",
  "holds": "Coordinates nobody else publishes: BattlePass document spots, room numbers and landmark names the map does not print, hazards, interactables, extracts a source forgot — plus corrections to positions that are published but wrong.",
  "coordinates": "Coordinates are game units, matching tarkov.dev's coordinate space. `floor` is -1 when a map has no floors. Keys in the correction maps are \"<map>|<label>|<x>|<z>\" as the editor writes them.",
  "excluded": "Story chapters are third-party (tarkov-data-overlay) and are in api/maps.json, not here.",
